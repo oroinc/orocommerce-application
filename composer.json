@@ -1,0 +1,93 @@
+{
+    "name": "oro/b2b-dev",
+    "description": "The \"Oro B2B Development Edition\" distribution",
+    "autoload": {
+        "psr-0": {
+            "Oro\\Component": "src/Oro/src",
+            "Oro\\Bundle": ["src/Oro/src", "src/OroPackages/src"],
+            "OroB2B\\Component": "src/OroB2B/src",
+            "OroB2B\\Bundle": ["src/OroB2B/src"],
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.9",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "ext-xml": "*",
+        "symfony/symfony": "2.3.*",
+        "twig/twig": "<=1.16.0",
+        "doctrine/orm": "2.4.6",
+        "doctrine/doctrine-bundle": "1.2.0",
+        "doctrine/dbal": "2.4.*",
+        "doctrine/data-fixtures": "1.0.0",
+        "doctrine/doctrine-fixtures-bundle": "2.2.0",
+        "twig/extensions": "1.0.1",
+        "symfony/assetic-bundle": "2.3.0",
+        "symfony/icu": "~1.1",
+        "symfony/swiftmailer-bundle": "2.3.*",
+        "symfony/monolog-bundle": "2.3.0",
+        "sensio/distribution-bundle": "2.3.4",
+        "sensio/framework-extra-bundle": "2.3.4",
+        "sensio/generator-bundle": "2.3.4",
+        "incenteev/composer-parameter-handler": "2.1.0",
+        "jms/job-queue-bundle": "1.1.*",
+        "jms/serializer": "0.14.0",
+        "jms/serializer-bundle": "0.13.0",
+        "kriswallsmith/assetic": "1.1.2",
+        "knplabs/knp-menu": "2.0.0-alpha2",
+        "knplabs/knp-menu-bundle": "2.0.0-alpha2",
+        "friendsofsymfony/rest-bundle": "1.5.0-RC2",
+        "friendsofsymfony/jsrouting-bundle": "1.5.0",
+        "nelmio/api-doc-bundle": "2.7.0",
+        "ass/xmlsecurity": "1.0.0",
+        "besimple/soap": "0.2.2",
+        "stof/doctrine-extensions-bundle": "1.1.0",
+        "escapestudios/wsse-authentication-bundle": "1.0.2",
+        "liip/imagine-bundle": "0.17.*",
+        "leafo/lessphp": "0.4.0",
+        "genemu/form-bundle": "2.2.1",
+        "zendframework/zend-mail": "2.1.5",
+        "a2lix/translation-form-bundle": "1.2",
+        "mtdowling/cron-expression": "1.0.*",
+        "jdare/clank-bundle": "0.1.*",
+        "guzzle/http": "3.7.*",
+        "lexik/maintenance-bundle": "v1.0.3",
+        "sylius/flow-bundle": "0.6.*",
+        "composer/composer": "1.0.0-alpha8",
+        "nesbot/Carbon": "1.8.*",
+        "akeneo/batch-bundle": "~0.3",
+        "monolog/monolog": "1.7.*",
+        "ocramius/proxy-manager": "0.4.*",
+        "knplabs/knp-gaufrette-bundle": "0.1.*",
+        "rhumsaa/uuid": "2.7.*",
+        "oro/doctrine-extensions": "1.0.*",
+        "tinymce/tinymce": "4.1.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
+    }
+}

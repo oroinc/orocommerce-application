@@ -1,0 +1,24 @@
+imports:
+    - { resource: config_prod.yml }
+    - { resource: parameters_test.yml }
+    - { resource: security_test.yml }
+
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    csrf_protection: true
+    profiler:
+        enabled: false
+
+services:
+    twig.extension.debug:
+        class: Twig_Extensions_Extension_Debug
+        tags:
+            - { name: twig.extension }
+
+swiftmailer:
+    disable_delivery: true
+
+oro_require_js:
+    js_engine: ~

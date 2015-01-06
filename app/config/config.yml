@@ -1,0 +1,225 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+
+framework:
+    #esi:             ~
+    translator:      { fallback: en }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: "%kernel.debug%"
+    form:            true
+    csrf_protection: true
+    validation:      { enable_annotations: true }
+    templating:      { engines: ['twig', 'php'] } #assets_version: SomeVersionScheme
+    default_locale:           "%locale%"
+    trusted_proxies:          ~
+    session:
+        name:                 BAPID
+        handler_id:           %session_handler%
+        save_path:            %kernel.root_dir%/cache/sessions
+        gc_maxlifetime:       3600
+        cookie_httponly:      true
+    fragments:
+        enabled:              true
+        path:                 /_fragment # used for controller action in template
+    serializer:
+        enabled:              true
+
+# Twig Configuration
+twig:
+    debug:                    "%kernel.debug%"
+    strict_variables:         "%kernel.debug%"
+    exception_controller:     "FOS\RestBundle\Controller\ExceptionController::showAction"
+    globals:
+        bap:
+            layout:           ::base.html.twig  # default layout across all Oro bundles
+        ws:
+            port:             "%websocket_port%"
+            host:             "%websocket_host%"
+
+# Assetic Configuration
+assetic:
+    debug:                    false
+    use_controller:           false
+    filters:
+        cssrewrite: ~
+        lessphp:
+            file: %kernel.root_dir%/../vendor/leafo/lessphp/lessc.inc.php
+            apply_to: "\.less$"
+        cssmin:
+            file: %kernel.root_dir%/Resources/php/cssmin-v3.0.1.php
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        default_connection:   default
+        connections:
+            default:
+                driver:       "%database_driver%"
+                host:         "%database_host%"
+                port:         "%database_port%"
+                dbname:       "%database_name%"
+                user:         "%database_user%"
+                password:     "%database_password%"
+                charset:      UTF8
+            report_source:
+                driver:       "%database_driver%"
+                host:         "%database_host%"
+                port:         "%database_port%"
+                dbname:       "%database_name%"
+                user:         "%database_user%"
+                password:     "%database_password%"
+                charset:      UTF8
+            report_target:
+                driver:       "%database_driver%"
+                host:         "%database_host%"
+                port:         "%database_port%"
+                dbname:       "%database_name%"
+                user:         "%database_user%"
+                password:     "%database_password%"
+                charset:      UTF8
+    orm:
+        auto_generate_proxy_classes: "%kernel.debug%"
+        auto_mapping:         true
+        class_metadata_factory_name: Oro\Bundle\EntityExtendBundle\Mapping\ExtendClassMetadataFactory
+        resolve_target_entities:
+            Symfony\Component\Security\Core\User\UserInterface: Oro\Bundle\UserBundle\Entity\User
+        mappings:
+            OroDistributionBundle:
+                mapping:   false
+                is_bundle: true
+        metadata_cache_driver:
+            type: service
+            id: doctrine.metadata.cache
+
+# Swiftmailer Configuration
+swiftmailer:
+    transport:                "%mailer_transport%"
+    host:                     "%mailer_host%"
+    port:                     "%mailer_port%"
+    encryption:               "%mailer_encryption%"
+    username:                 "%mailer_user%"
+    password:                 "%mailer_password%"
+    spool:                    { type: memory }
+
+fos_rest:
+    body_listener:
+        decoders:
+            json: fos_rest.decoder.json
+    view:
+        failed_validation:    HTTP_BAD_REQUEST
+        default_engine:       php
+        formats:
+            json:             true
+            xml:              false
+    format_listener:
+        rules:
+            - { path: '^/api/rest', priorities: [ json ], fallback_format: json, prefer_extension: false }
+            - { path: '^/api/soap', stop: true }
+            - { path: '^/', stop: true }
+    routing_loader:
+        default_format:       json
+
+fos_js_routing:
+    routes_to_expose:         [oro_*]
+
+be_simple_soap:
+    cache:
+        type:                 disk
+        lifetime:             86400
+        limit:                5
+    services:
+        soap:
+            namespace:        urn:OroPlatform
+            binding:          rpc-literal
+            resource:         .
+            resource_type:    oro_soap
+
+stof_doctrine_extensions:
+    default_locale: en
+    translation_fallback: true
+    orm:
+        default:
+            translatable:     true
+            tree:             true
+
+services:
+    twig.extension.intl:
+         class:               Twig_Extensions_Extension_Intl
+         tags:
+             - { name: twig.extension }
+    doctrine.dbal.default.wrapped_connection:
+        factory_service:      doctrine.dbal.default_connection
+        factory_method:       getWrappedConnection
+        class:                PDO
+    doctrine.metadata.cache:
+        parent: oro.cache.abstract
+        calls:
+            - [ setNamespace, [ "doctrine.metadata.cache" ] ]
+    session.handler.pdo:
+        class:                Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler
+        arguments:
+            - "@doctrine.dbal.default.wrapped_connection"
+            -
+              db_table:       oro_session
+              db_id_col:      id
+
+escape_wsse_authentication:
+    authentication_provider_class: Oro\Bundle\UserBundle\Security\WsseAuthProvider
+    authentication_listener_class: Oro\Bundle\UserBundle\Security\WsseAuthListener
+
+genemu_form:
+    select2: ~
+    autocomplete: ~
+
+clank:
+    web_socket_server:
+        port:                 %websocket_port%                # The port the socket server will listen on
+        host:                 %websocket_host%                # (optional) The host ip to bind to
+    session_handler:          session.handler.pdo
+    periodic:
+        -
+            service:          "oro_wamp.db_ping"
+            time:             60000                           # the time in milliseconds between the "tick" function being called
+
+a2lix_translation_form:
+    locales: [en, fr]
+    templating: "OroUIBundle:Form:translatable.html.twig"
+
+lexik_maintenance:
+    authorized:
+        path:                 "maintenance|.*\.js"             # "maintenance" is only for demo purposes, remove in production!
+#        ips:                  ["127.0.0.1"]                   # Optional. Authorized ip addresses
+    driver:
+        class:                Lexik\Bundle\MaintenanceBundle\Drivers\FileDriver
+        options:
+            file_path:        %kernel.root_dir%/cache/maintenance_lock
+
+#
+# ORO Bundles config
+#
+oro_distribution:
+    entry_point: ~
+
+oro_require_js:
+    build_path:               "js/oro.min.js"
+    building_timeout:         3600
+    build:
+        preserveLicenseComments: true
+
+oro_help:
+    defaults:
+        server: http://help.orocrm.com/
+        prefix: Third_Party
+    vendors:
+        Oro:
+            prefix: ~
+            alias: Platform
+    routes:
+        oro_default:
+            uri: Platform/OroDashboardBundle
+
+oro_theme:
+    active_theme: oro
