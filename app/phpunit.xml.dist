@@ -18,6 +18,8 @@
     </logging>
 
     <testsuites>
+
+        <!-- Project level test suites -->
         <testsuite name="Project Test Suite">
             <directory suffix="Test.php">../src/*/src/*/Component/*/Tests/Unit</directory>
             <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Unit</directory>
@@ -34,15 +36,27 @@
             <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">../src/*/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="Project B2B Functional Tests">
-            <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*Bundle/Tests/Functional</directory>
-        </testsuite>
         <testsuite name="Project Selenium Tests">
             <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Selenium</directory>
         </testsuite>
         <testsuite name="Project Behat Tests">
             <directory suffix="Test.php">../src/Oro*/src/Oro*/Bundle/*Bundle/Tests/Behat</directory>
         </testsuite>
+
+        <!-- Test suites for individual components -->
+        <testsuite name="OroB2B Unit Tests">
+            <directory suffix="Test.php">../src/OroB2B/src/*/*/*/Tests/Unit</directory>
+        </testsuite>
+        <testsuite name="OroB2B Functional Tests">
+            <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*/Tests/Functional</directory>
+        </testsuite>
+        <testsuite name="OroB2B Selenium Tests">
+            <directory suffix="Test.php">../src/*/src/*/Bundle/*/Tests/Selenium</directory>
+        </testsuite>
+        <testsuite name="OroB2B Behat Tests">
+            <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*/Tests/Behat</directory>
+        </testsuite>
+
     </testsuites>
 
     <!--
@@ -68,7 +82,7 @@
         <const name="PHPUNIT_TESTSUITE_EXTENSION_SELENIUM_PASS" value="admin"/>
     </php>
     <listeners>
-        <listener class="TestListener" file="src/Oro/src/Oro/Bundle/TestFrameworkBundle/Test/TestListener.php">
+        <listener class="TestListener" file="../src/Oro/src/Oro/Bundle/TestFrameworkBundle/Test/TestListener.php">
             <arguments>
                 <string>app/logs</string>
             </arguments>
