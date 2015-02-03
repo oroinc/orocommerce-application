@@ -8,6 +8,9 @@
             "OroB2B\\Component": "src/OroB2B/src",
             "OroB2B\\Bundle": ["src/OroB2B/src"],
             "": "src/"
+        },
+        "psr-4": {
+            "Oro\\Component\\Testing\\": "src/OroB2B/src/Oro/Component/Testing/"
         }
     },
     "require": {
