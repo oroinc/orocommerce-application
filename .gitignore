@@ -7,6 +7,7 @@
 composer.lock
 /build/logs/*
 /vendor
+node_modules/
 /cov
 /web/bundles
 /web/css
@@ -14,6 +15,8 @@ composer.lock
 /web/uploads/users/*
 /web/media/cache
 /web/build.js
+/app/phpunit.xml
+/app/karma.conf.js
 /app/config/parameters.yml
 /app/config/parameters_test.yml
 *~
