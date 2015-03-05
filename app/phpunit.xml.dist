@@ -51,7 +51,7 @@
             <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*/Tests/Functional</directory>
         </testsuite>
         <testsuite name="OroB2B Selenium Tests">
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*/Tests/Selenium</directory>
+            <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*/Tests/Selenium</directory>
         </testsuite>
         <testsuite name="OroB2B Behat Tests">
             <directory suffix="Test.php">../src/OroB2B/src/*/Bundle/*/Tests/Behat</directory>
