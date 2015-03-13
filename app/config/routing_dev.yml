@@ -10,6 +10,5 @@ _profiler:
     options:
         expose: true
 
-
 _main:
     resource: routing.yml
