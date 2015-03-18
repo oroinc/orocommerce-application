@@ -10,7 +10,8 @@
             "": "src/"
         },
         "psr-4": {
-            "Oro\\Component\\Testing\\": "src/OroB2B/src/Oro/Component/Testing/"
+            "Oro\\Component\\Testing\\": "src/OroB2B/src/Oro/Component/Testing/",
+            "Oro\\Bundle\\SearchBundle\\Test\\Functional\\": "src/OroB2B/src/Oro/Bundle/SearchBundle/Test/Functional/"
         }
     },
     "require": {
