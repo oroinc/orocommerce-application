@@ -71,7 +71,8 @@
         "ezyang/htmlpurifier": "4.6.0",
         "components/jquery": "2.1.*",
         "components/underscore": "1.7.*",
-        "components/backbone": "1.1.*"
+        "components/backbone": "1.1.*",
+        "hwi/oauth-bundle": "~0.3"
     },
     "config": {
         "component-dir": "web/bundles/components"
