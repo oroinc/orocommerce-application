@@ -22,3 +22,8 @@ parameters:
     locale:                 en
     secret:                 ThisTokenIsNotSoSecretChangeIt
     installed:              ~
+
+    application_host.admin:     ~
+    application_host.frontend:  ~
+    application_host.installer: ~
+    application_host.tracking:  ~
