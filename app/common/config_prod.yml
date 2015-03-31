@@ -1,6 +1,3 @@
-imports:
-    - { resource: config.yml }
-
 #doctrine:
 #    orm:
 #        metadata_cache_driver: apc
@@ -15,5 +12,5 @@ monolog:
             handler:      nested
         nested:
             type:  stream
-            path:  "%kernel.logs_dir%/%kernel.environment%.log"
+            path:  "%kernel.logs_dir%/%kernel.application%_%kernel.environment%.log"
             level: debug
