@@ -15,7 +15,8 @@ $loader->register(true);
 require_once __DIR__.'/../app/AppKernel.php';
 //require_once __DIR__.'/../app/AppCache.php';
 
-$kernel = new AppKernel('admin', 'prod', false);
+$kernel = new AppKernel('prod', false);
+$kernel->setApplication('admin');
 $kernel->loadClassCache();
 //$kernel = new AppCache($kernel);
 $request = Request::createFromGlobals();

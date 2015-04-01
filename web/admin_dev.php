@@ -21,12 +21,12 @@ use Symfony\Component\HttpFoundation\Request;
 }
 */
 
-//$loader = require_once __DIR__.'/../app/bootstrap.php.cache';
-$loader = require_once __DIR__.'/../app/autoload.php';
+$loader = require_once __DIR__.'/../app/bootstrap.php.cache';
 require_once __DIR__.'/../app/AppKernel.php';
 
-$kernel = new AppKernel('admin', 'dev', true);
-//$kernel->loadClassCache();
+$kernel = new AppKernel('dev', true);
+$kernel->setApplication('admin');
+$kernel->loadClassCache();
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();

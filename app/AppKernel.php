@@ -13,14 +13,12 @@ class AppKernel extends OroKernel
     protected $application;
 
     /**
-     * @param string $application
      * @param string $environment
      * @param bool $debug
      */
-    public function __construct($application, $environment, $debug)
+    public function __construct($environment, $debug)
     {
         parent::__construct($environment, $debug);
-        $this->application = $application;
     }
 
     public function registerBundles()
@@ -53,6 +51,14 @@ class AppKernel extends OroKernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__.'/'.$this->getApplication().'/config/config_'.$this->getEnvironment().'.yml');
+    }
+
+    /**
+     * @param string $application
+     */
+    public function setApplication($application)
+    {
+        $this->application = $application;
     }
 
     protected function initializeContainer()
@@ -128,7 +134,7 @@ class AppKernel extends OroKernel
      */
     protected function getKernelParameters()
     {
-        return array_merge(parent::getKernelParameters(), ['kernel.application' => $this->application]);
+        return array_merge(parent::getKernelParameters(), ['kernel.application' => $this->getApplication()]);
     }
 
     /**
@@ -136,7 +142,7 @@ class AppKernel extends OroKernel
      */
     public function getCacheDir()
     {
-        return $this->rootDir.'/../var/cache/'.$this->application.'_'.$this->environment;
+        return $this->getRootDir().'/../var/cache/'.$this->getApplication().'_'.$this->getEnvironment();
     }
 
     /**
@@ -144,6 +150,6 @@ class AppKernel extends OroKernel
      */
     public function getLogDir()
     {
-        return $this->rootDir.'/../var/logs';
+        return $this->getRootDir().'/../var/logs';
     }
 }
