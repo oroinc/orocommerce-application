@@ -10,16 +10,7 @@ class AppKernel extends OroKernel
     /**
      * @var string
      */
-    protected $application;
-
-    /**
-     * @param string $environment
-     * @param bool $debug
-     */
-    public function __construct($environment, $debug)
-    {
-        parent::__construct($environment, $debug);
-    }
+    protected $application = 'admin';
 
     public function registerBundles()
     {
