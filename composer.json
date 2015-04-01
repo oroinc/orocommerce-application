@@ -4,7 +4,7 @@
     "autoload": {
         "psr-0": {
             "Oro\\Component": "src/Oro/src",
-            "Oro\\Bundle": ["src/Oro/src", "src/OroPackages/src"],
+            "Oro\\Bundle": ["src/Oro/src", "src/OroPackages/src", "src/OroB2B/src"],
             "OroB2B\\Component": "src/OroB2B/src",
             "OroB2B\\Bundle": ["src/OroB2B/src"],
             "": "src/"
