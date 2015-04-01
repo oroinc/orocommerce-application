@@ -19,7 +19,8 @@ $env = $input->getParameterOption(array('--env', '-e'), getenv('SYMFONY_ENV') ?:
 $app = $input->getParameterOption(array('--app', '-a'), getenv('SYMFONY_APP') ?: 'admin');
 $debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(array('--no-debug', '')) && $env !== 'prod';
 
-$kernel = new AppKernel($app, $env, $debug);
+$kernel = new AppKernel($env, $debug);
+$kernel->setApplication($app);
 $application = new Application($kernel);
 $application->getDefinition()->addOption(
     new InputOption('--app', '-a', InputOption::VALUE_REQUIRED, 'The Application name.', $kernel->getApplication())
