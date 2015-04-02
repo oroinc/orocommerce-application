@@ -1,0 +1,39 @@
+parameters:
+    console.application.class: Symfony\Bundle\FrameworkBundle\Console\Application
+framework:
+    #esi:             ~
+    translator:      { fallback: en }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/%kernel.application%/config/routing.yml"
+        strict_requirements: "%kernel.debug%"
+    session:
+        name:                 B2BID
+        handler_id:           %session_handler%
+        save_path:            %kernel.root_dir%/../var/sessions/%kernel.application%
+        gc_maxlifetime:       3600
+        cookie_httponly:      true
+    form:            true
+    csrf_protection: true
+    validation:      { enable_annotations: true }
+    templating:      { engines: ['twig', 'php'] } #assets_version: SomeVersionScheme
+    default_locale:           "%locale%"
+    trusted_hosts:   ~
+    trusted_proxies:          ~
+    fragments:
+        enabled:              true
+        path:                 /_fragment # used for controller action in template
+
+# Assetic Configuration
+assetic:
+    debug:                    false
+    use_controller:           false
+    filters:
+        cssrewrite: ~
+
+services:
+    file_locator:
+        class: %file_locator.class%
+        arguments:
+            - "@kernel"
+            - %kernel.root_dir%/%kernel.application%/Resources
