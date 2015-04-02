@@ -4,7 +4,7 @@
  * KISS.
  */
 
-$trackingFolder = '../app/logs/tracking';
+$trackingFolder = '../var/logs/tracking';
 $settingsFile   = $trackingFolder . DIRECTORY_SEPARATOR . 'settings.ser';
 $settings       = [
     'dynamic_tracking_enabled'  => true,
@@ -87,7 +87,8 @@ function passDataToApplication($url)
 
     require_once __DIR__ . '/../app/bootstrap.php.cache';
     require_once __DIR__ . '/../app/AppKernel.php';
-    $kernel = new AppKernel('prod', false);
+    $kernel = new AppKernel('prod', true);
+    $kernel->setApplication('tracking');
     $kernel->loadClassCache();
     $request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
 
