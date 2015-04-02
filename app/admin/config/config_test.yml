@@ -1,6 +1,6 @@
 imports:
     - { resource: config_prod.yml }
-    - { resource: parameters_test.yml }
+    - { resource: ../../common/parameters_test.yml }
     - { resource: security_test.yml }
 
 framework:
