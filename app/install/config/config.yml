@@ -1,41 +1,23 @@
 imports:
     - { resource: @OroDistributionBundle/Resources/config/security.yml }
-    - { resource: ../parameters.yml }
+    - { resource: ../../common/parameters.yml }
+    - { resource: ../../common/config.yml }
+
+parameters:
+    console.application.class: Symfony\Bundle\FrameworkBundle\Console\Application
 
 framework:
-    #esi:             ~
-    translator:      { fallback: en }
-    secret:          "%secret%"
-    router:
-        resource: "%kernel.root_dir%/config/dist/routing.yml"
-        strict_requirements: "%kernel.debug%"
-    form:            true
-    csrf_protection: true
-    validation:      { enable_annotations: true }
-    templating:      { engines: ['twig', 'php'] } #assets_version: SomeVersionScheme
-    default_locale:           "%locale%"
-    trusted_proxies:          ~
     session:
         name:                 BAPID_DIST
-        handler_id:           %session_handler%
-        save_path:            %kernel.root_dir%/cache/sessions
-        gc_maxlifetime:       3600
-        cookie_httponly:      true
-    fragments:
-        enabled:              true
-        path:                 /_fragment # used for controller action in template
 
 # Assetic Configuration
 assetic:
-    debug:                    false
-    use_controller:           false
     filters:
-        cssrewrite: ~
         lessphp:
             file: %kernel.root_dir%/../vendor/leafo/lessphp/lessc.inc.php
             apply_to: "\.less$"
         cssmin:
-            file: %kernel.root_dir%/Resources/php/cssmin-v3.0.1.php
+            file: %kernel.root_dir%/%kernel.application%/Resources/php/cssmin-v3.0.1.php
 
 # Doctrine Configuration
 doctrine:
@@ -69,7 +51,7 @@ services:
     oro.cache.abstract:
         abstract:             true
         class:                Doctrine\Common\Cache\PhpFileCache
-        arguments:            [%kernel.cache_dir%/dist]
+        arguments:            [%kernel.cache_dir%]
     twig.extension.intl:
          class:               Twig_Extensions_Extension_Intl
          tags:
@@ -88,5 +70,8 @@ monolog:
     handlers:
         oro_distribution:
             type: stream
-            path: %kernel.logs_dir%/%kernel.environment%.distribution.log
+            path: "%kernel.logs_dir%/%kernel.application%_%kernel.environment%.log"
             channels: oro_distribution
+
+oro_distribution:
+    composer_cache_home: "%kernel.root_dir%/../var/cache/composer"

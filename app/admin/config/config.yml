@@ -5,8 +5,10 @@ imports:
 parameters:
     console.application.class: JMS\JobQueueBundle\Console\Application
 framework:
+    session:
+        name:    B2BID
     serializer:
-        enabled:              true
+        enabled: true
 
 # Twig Configuration
 twig:

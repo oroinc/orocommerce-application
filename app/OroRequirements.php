@@ -24,6 +24,11 @@ class OroRequirements extends SymfonyRequirements
     {
         parent::__construct();
 
+        /*
+         * Directory structure was changed for multiple aplication possibility.
+         * Now it differs from the standard Symfony2 framework structure.
+         */
+        $this->fixStructureRequirements();
         $phpVersion  = phpversion();
         $gdVersion   = defined('GD_VERSION') ? GD_VERSION : null;
         $curlVersion = function_exists('curl_version') ? curl_version() : null;
@@ -153,7 +158,7 @@ class OroRequirements extends SymfonyRequirements
             'Change the permissions of the "<strong>web/bundles/</strong>" directory so that the web server can write into it.'
         );
         $this->addOroRequirement(
-            is_writable($baseDir . '/app/attachment'),
+            is_writable($baseDir . '/var/attachment'),
             'app/attachment/ directory must be writable',
             'Change the permissions of the "<strong>app/attachment/</strong>" directory so that the web server can write into it.'
         );
@@ -369,6 +374,26 @@ class OroRequirements extends SymfonyRequirements
         );
 
         return shell_exec($command);
+    }
+
+    protected function fixStructureRequirements()
+    {
+        $baseDir = basename(__DIR__);
+        $requirements = $this->getIterator();
+        $unactualStructureRequirements = [
+            "$baseDir/logs/ directory must be writable",
+            "$baseDir/cache/ directory must be writable"
+        ];
+        /** @var Requirement[]|ArrayIterator $requirements */
+        foreach ($requirements as $key => $requirement) {
+            if (in_array($requirement->getTestMessage(), $unactualStructureRequirements)) {
+                $requirements->offsetUnset($key);
+            }
+        }
+
+        $prop = new \ReflectionProperty('RequirementCollection', 'requirements');
+        $prop->setAccessible(true);
+        $prop->setValue($this, $requirements);
     }
 }
 
