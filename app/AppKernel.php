@@ -7,10 +7,15 @@ use Symfony\Component\Yaml\Yaml;
 
 class AppKernel extends OroKernel
 {
+    const APPLICATION_ADMIN    = 'admin';
+    const APPLICATION_FRONTEND = 'frontend';
+    const APPLICATION_INSTALL  = 'install';
+    const APPLICATION_TRACKING = 'tracking';
+
     /**
      * @var string
      */
-    protected $application = 'admin';
+    protected $application = self::APPLICATION_ADMIN;
 
     public function registerBundles()
     {
@@ -95,8 +100,7 @@ class AppKernel extends OroKernel
         $bundles = array();
         $exclusions = array();
 
-        $bundlesNode = $this->getApplication() == 'admin' ? 'bundles' : 'bundles_'.$this->getApplication();
-        $exclusionsNode = $this->getApplication() == 'admin' ? 'exclusions' : 'exclusions_'.$this->getApplication();
+        list($bundlesNode, $exclusionsNode) = $this->getNodes();
 
         foreach ($files as $file) {
             $import = Yaml::parse($file);
@@ -118,6 +122,24 @@ class AppKernel extends OroKernel
         $bundles = array_diff_key($bundles, $exclusions);
         uasort($bundles, array($this, 'compareBundles'));
         return $bundles;
+    }
+
+    /**
+     * @return array
+     */
+    protected function getNodes()
+    {
+        $suffix = '';
+        $apps = [self::APPLICATION_ADMIN, self::APPLICATION_TRACKING];
+
+        if (!in_array($this->getApplication(), $apps)) {
+            $suffix = '_' . $this->getApplication();
+        }
+
+        return [
+            'bundles' . $suffix,
+            'exclusions' . $suffix
+        ];
     }
 
     /**
