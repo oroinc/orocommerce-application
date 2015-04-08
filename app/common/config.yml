@@ -36,9 +36,10 @@ services:
         arguments:
             - "@kernel"
             - %kernel.root_dir%/%kernel.application%/Resources
+
     oro_installer.yaml_persister:
         class: Oro\Bundle\InstallerBundle\Persister\YamlPersister
         arguments:
             - %kernel.root_dir%/common
-            - %kernel.environment% - %kernel.root_dir%/%kernel.application%/Resources
+            - %kernel.environment%
 
