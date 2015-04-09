@@ -4,7 +4,7 @@
     "autoload": {
         "psr-0": {
             "Oro\\Component": "src/Oro/src",
-            "Oro\\Bundle": ["src/Oro/src", "src/OroPackages/src"],
+            "Oro\\Bundle": ["src/Oro/src", "src/OroPackages/src", "src/OroB2B/src"],
             "OroB2B\\Component": "src/OroB2B/src",
             "OroB2B\\Bundle": ["src/OroB2B/src"],
             "": "src/"
@@ -84,15 +84,15 @@
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
         ]
     },
     "minimum-stability": "dev",
@@ -101,7 +101,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
+            "file": "app/common/parameters.yml"
         }
     }
 }

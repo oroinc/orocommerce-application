@@ -1,0 +1,30 @@
+parameters:
+    database_driver:        pdo_mysql
+    database_host:          127.0.0.1
+    database_port:          ~
+    database_name:          b2b_dev_test
+    database_user:          root
+    database_password:      root
+
+    mailer_transport:       smtp
+    mailer_host:            127.0.0.1
+    mailer_port:            ~
+    mailer_encryption:      ~
+    mailer_user:            ~
+    mailer_password:        ~
+
+    # WebSocket server config
+    websocket_host:         "127.0.0.1"
+    websocket_port:         8080
+
+    session_handler:        ~
+
+    locale:                 en
+    secret:                 ThisTokenIsNotSoSecretChangeIt
+    installed:              ~
+
+    # Hosts must be defined as full URL strings (f.e. http://host/admin.php)
+    application_host.admin:     ~
+    application_host.frontend:  ~
+    application_host.installer: ~
+    application_host.tracking:  ~
