@@ -43,6 +43,14 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+# FOS User Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: OroB2B\Bundle\UserBundle\Entity\User
+    group:
+        group_class: OroB2B\Bundle\UserBundle\Entity\Group
+
 services:
     oro_distribution.routing_loader:
         class: Oro\Bundle\DistributionBundle\Routing\OroAutoLoader
