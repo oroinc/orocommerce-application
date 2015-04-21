@@ -37,11 +37,13 @@ doctrine:
 
 # Swiftmailer Configuration
 swiftmailer:
-    transport: "%mailer_transport%"
-    host:      "%mailer_host%"
-    username:  "%mailer_user%"
-    password:  "%mailer_password%"
-    spool:     { type: memory }
+    transport:  "%mailer_transport%"
+    host:       "%mailer_host%"
+    port:       "%mailer_port%"
+    encryption: "%mailer_encryption%"
+    username:   "%mailer_user%"
+    password:   "%mailer_password%"
+    spool:      { type: memory }
 
 # FOS User Configuration
 fos_user:
@@ -50,7 +52,16 @@ fos_user:
     user_class: OroB2B\Bundle\UserBundle\Entity\User
     group:
         group_class: OroB2B\Bundle\UserBundle\Entity\Group
-
+    service:
+        mailer: orob2b_user.mailer
+    registration:
+        confirmation:
+            enabled: true
+        form:
+            type: orob2b_user_registration
+    profile:
+        form:
+            type: orob2b_user_profile
 services:
     oro_distribution.routing_loader:
         class: Oro\Bundle\DistributionBundle\Routing\OroAutoLoader
