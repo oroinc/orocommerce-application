@@ -165,4 +165,16 @@ class AppKernel extends OroKernel
     {
         return $this->getRootDir().'/../var/logs';
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getContainerClass()
+    {
+        return $this->name
+             . ucfirst($this->environment)
+             . ucfirst($this->application)
+             . ($this->debug ? 'Debug' : '')
+             . 'ProjectContainer';
+    }
 }
