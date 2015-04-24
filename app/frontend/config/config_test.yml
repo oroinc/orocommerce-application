@@ -7,8 +7,7 @@ framework:
     session:
         storage_id: session.storage.mock_file
     csrf_protection: true
-    profiler:
-        enabled: false
+    profiler: { only_exceptions: false }
 
 services:
     twig.extension.debug:

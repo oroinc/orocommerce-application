@@ -44,6 +44,7 @@ swiftmailer:
     username:   "%mailer_user%"
     password:   "%mailer_password%"
     spool:      { type: memory }
+    logging:    true
 
 services:
     oro_distribution.routing_loader:
