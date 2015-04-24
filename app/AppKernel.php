@@ -17,19 +17,24 @@ class AppKernel extends OroKernel
      */
     protected $application = self::APPLICATION_ADMIN;
 
+    /**
+     * {@inheritdoc}
+     */
     public function registerBundles()
     {
-        $bundles = array(
-        // bundles
-        );
+        $bundles = [
+            // bundles
+        ];
 
-        if (in_array($this->getEnvironment(), array('dev'))) {
+        if (in_array($this->getEnvironment(), ['dev'])) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
         }
 
-        if (in_array($this->getEnvironment(), array('test')) && $this->getApplication() !== 'install') {
+        if (in_array($this->getEnvironment(), ['test']) &&
+            in_array($this->getApplication(), [self::APPLICATION_ADMIN])
+        ) {
             $bundles[] = new Oro\Bundle\TestFrameworkBundle\OroTestFrameworkBundle();
         }
 
@@ -44,9 +49,12 @@ class AppKernel extends OroKernel
         return $this->application;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
-        $loader->load(__DIR__.'/'.$this->getApplication().'/config/config_'.$this->getEnvironment().'.yml');
+        $loader->load(__DIR__ . '/' . $this->getApplication() . '/config/config_' . $this->getEnvironment() . '.yml');
     }
 
     /**
@@ -57,6 +65,9 @@ class AppKernel extends OroKernel
         $this->application = $application;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     protected function initializeContainer()
     {
         static $first = true;
@@ -92,13 +103,14 @@ class AppKernel extends OroKernel
     protected function collectBundles()
     {
         $files = $this->findBundles(
-            array(
+            [
                 $this->getRootDir() . '/../src',
                 $this->getRootDir() . '/../vendor'
-            )
+            ]
         );
-        $bundles = array();
-        $exclusions = array();
+
+        $bundles    = [];
+        $exclusions = [];
 
         list($bundlesNode, $exclusionsNode) = $this->getNodes();
 
@@ -119,8 +131,11 @@ class AppKernel extends OroKernel
                 }
             }
         }
+
         $bundles = array_diff_key($bundles, $exclusions);
-        uasort($bundles, array($this, 'compareBundles'));
+
+        uasort($bundles, [$this, 'compareBundles']);
+
         return $bundles;
     }
 
@@ -155,7 +170,7 @@ class AppKernel extends OroKernel
      */
     public function getCacheDir()
     {
-        return $this->getRootDir().'/../var/cache/'.$this->getApplication().'_'.$this->getEnvironment();
+        return $this->getRootDir() . '/../var/cache/' . $this->getApplication() . '_' . $this->getEnvironment();
     }
 
     /**
@@ -163,7 +178,7 @@ class AppKernel extends OroKernel
      */
     public function getLogDir()
     {
-        return $this->getRootDir().'/../var/logs';
+        return $this->getRootDir() . '/../var/logs';
     }
 
     /**
