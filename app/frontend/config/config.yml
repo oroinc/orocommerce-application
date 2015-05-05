@@ -24,6 +24,11 @@ doctrine:
         user:     "%database_user%"
         password: "%database_password%"
         charset:  UTF8
+        types:
+            percent: Oro\DBAL\Types\PercentType
+            money:   Oro\DBAL\Types\MoneyType
+            object:  Oro\DBAL\Types\ObjectType
+            array:   Oro\DBAL\Types\ArrayType
         # if using pdo_sqlite as your database driver:
         #   1. add the path in parameters.yml
         #     e.g. database_path: "%kernel.root_dir%/data/data.db3"
