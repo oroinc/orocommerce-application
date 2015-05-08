@@ -39,7 +39,6 @@
         "jms/job-queue-bundle": "1.1.*",
         "jms/serializer": "0.14.0",
         "jms/serializer-bundle": "0.13.0",
-        "jms/serializer-bundle": "0.13.0",
         "jms/security-extra-bundle": "1.5.1",
         "friendsofsymfony/user-bundle": "~1.3",
         "kriswallsmith/assetic": "1.1.2",
