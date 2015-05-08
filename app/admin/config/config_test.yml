@@ -8,8 +8,7 @@ framework:
     session:
         storage_id: session.storage.mock_file
     csrf_protection: true
-    profiler:
-        enabled: false
+    profiler: { only_exceptions: false }
 
 services:
     twig.extension.debug:
@@ -18,6 +17,7 @@ services:
             - { name: twig.extension }
 
 swiftmailer:
+    logging: true
     disable_delivery: true
 
 oro_require_js:

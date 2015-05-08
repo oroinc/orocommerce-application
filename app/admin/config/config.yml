@@ -105,6 +105,14 @@ fos_rest:
 fos_js_routing:
     routes_to_expose:         [oro_*]
 
+# FOS User Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: OroB2B\Bundle\UserAdminBundle\Entity\User
+    group:
+        group_class: OroB2B\Bundle\UserAdminBundle\Entity\Group
+
 be_simple_soap:
     cache:
         type:                 disk
