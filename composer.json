@@ -76,7 +76,8 @@
         "components/backbone": "1.1.*",
         "hwi/oauth-bundle": "~0.3",
         "components/font-awesome": "~4.3.0",
-        "piwik/device-detector": "~3.0"
+        "piwik/device-detector": "~3.0",
+        "oro/jsplumb": "~1.7"
     },
     "config": {
         "component-dir": "web/bundles/components"
