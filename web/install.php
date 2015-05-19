@@ -13,7 +13,7 @@ require_once __DIR__ . '/../app/OroRequirements.php';
 require_once __DIR__ . '/../app/autoload.php';
 
 // check for installed system
-$paramFile = __DIR__ . '/../app/common/parameters.yml';
+$paramFile = __DIR__ . '/../app/config/parameters.yml';
 
 if (file_exists($paramFile)) {
     $data = Yaml::parse($paramFile);
@@ -23,10 +23,9 @@ if (file_exists($paramFile)) {
         && isset($data['parameters']['installed'])
         && false != $data['parameters']['installed']
     ) {
-        require_once __DIR__.'/../app/AppKernel.php';
+        require_once __DIR__.'/../app/DistributionKernel.php';
 
-        $kernel = new AppKernel('prod', false);
-        $kernel->setApplication('install');
+        $kernel = new DistributionKernel('prod', false);
         $kernel->loadClassCache();
         $request = Request::createFromGlobals();
         $response = $kernel->handle($request);
@@ -47,7 +46,7 @@ $majorProblems    = $collection->getFailedRequirements();
 $minorProblems    = $collection->getFailedRecommendations();
 
 $translator->addLoader('yml', new YamlFileLoader());
-$translator->addResource('yml', __DIR__ . '/../app/admin/Resources/translations/install.' . $locale . '.yml', $locale);
+$translator->addResource('yml', __DIR__ . '/../app/Resources/translations/install.' . $locale . '.yml', $locale);
 
 function iterateRequirements(array $collection)
 {
@@ -111,7 +110,7 @@ function iterateRequirements(array $collection)
 
             <?php if (!count($majorProblems)) : ?>
             // initiate application in background
-            $.get('admin.php/installer/flow/oro_installer/configure');
+            $.get('installer/flow/oro_installer/configure');
             <?php endif; ?>
         });
     </script>
@@ -213,7 +212,7 @@ function iterateRequirements(array $collection)
                         <span><?php echo $translator->trans('process.button.refresh'); ?></span>
                     </a>
                     <?php endif; ?>
-                    <a href="<?php echo count($majorProblems) ? 'javascript: void(0);' : 'admin.php/installer'; ?>" class="button next <?php echo count($majorProblems) ? 'disabled' : 'primary'; ?>">
+                    <a href="<?php echo count($majorProblems) ? 'javascript: void(0);' : 'app.php/installer'; ?>" class="button next <?php echo count($majorProblems) ? 'disabled' : 'primary'; ?>">
                         <span><?php echo $translator->trans('process.button.next'); ?></span>
                     </a>
                 </div>

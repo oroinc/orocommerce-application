@@ -88,15 +88,15 @@
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
         ]
     },
     "minimum-stability": "dev",
@@ -105,7 +105,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
-            "file": "app/common/parameters.yml"
+            "file": "app/config/parameters.yml"
         }
     }
 }
