@@ -58,6 +58,7 @@ php composer.phar install --prefer-dist
 ```bash  
 php app/console oro:install --env prod
 ```
+**Note:** If the installation process times out, add the `--timeout=0` argument to the command.
 
 - Enable WebSockets messaging
 
