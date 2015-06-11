@@ -51,23 +51,6 @@ swiftmailer:
     spool:      { type: memory }
     logging:    true
 
-# FOS User Configuration
-fos_user:
-    db_driver: orm
-    firewall_name: main
-    user_class: OroB2B\Bundle\UserBundle\Entity\User
-    group:
-        group_class: OroB2B\Bundle\UserBundle\Entity\Group
-    service:
-        mailer: orob2b_user.mailer
-    registration:
-        confirmation:
-            enabled: true
-        form:
-            type: orob2b_user_registration
-    profile:
-        form:
-            type: orob2b_user_profile
 services:
     oro_distribution.routing_loader:
         class: Oro\Bundle\DistributionBundle\Routing\OroAutoLoader
