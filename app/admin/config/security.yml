@@ -77,6 +77,6 @@ security:
                 httponly:                   true
             anonymous:                      false
 
-#    access_control:
-#        - { path: ^/admin/, role: ROLE_ADMIN }
-#        - { path: ^/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
+    access_control:
+        - { path: ^%backend_prefix%/, role: ROLE_ADMIN }
+        - { path: ^%backend_prefix%/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
