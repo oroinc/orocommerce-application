@@ -16,7 +16,7 @@ _imagine:
 # ORO routes
 #
 oro_default:
-    pattern:  /%backend_prefix%/
+    pattern:  /
     defaults:
         _controller: OroDashboardBundle:Dashboard:view
 

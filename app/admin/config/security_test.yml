@@ -7,7 +7,7 @@ security:
 
     firewalls:
         main:
-            pattern: ^%backend_prefix%/
+            pattern: ^/
             organization-http-basic:
                 realm: "Secured REST Area"
             provider: oro_user
