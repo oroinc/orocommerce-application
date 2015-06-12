@@ -34,7 +34,7 @@ security:
             anonymous:                      true
 
         wsse_secured:
-            pattern:                        ^/api/(rest|soap).*
+            pattern:                        ^%backend_prefix%/api/(rest|soap).*
             wsse:
                 lifetime:                   3600
                 realm:                      "Secured API"
@@ -42,27 +42,27 @@ security:
             context:                        main
 
         login:
-            pattern:                        ^/user/(login|reset-request|send-email|check-email)$
+            pattern:                        ^%backend_prefix%/user/(login|reset-request|send-email|check-email)$
             provider:                       chain_provider
             anonymous:                      true
 
         reset_password:
-            pattern:                        ^/user/reset/*
+            pattern:                        ^%backend_prefix%/user/reset/*
             provider:                       chain_provider
             anonymous:                      true
 
         embedded_form:
-            pattern:                        ^/embedded-form/(submit|success)
+            pattern:                        ^%backend_prefix%/embedded-form/(submit|success)
             provider:                       chain_provider
             anonymous:                      true
 
         tracking_data:
-            pattern:                        ^/tracking/data/create
+            pattern:                        ^%backend_prefix%/tracking/data/create
             provider:                       chain_provider
             anonymous:                      true
 
         main:
-            pattern:                        ^/
+            pattern:                        ^%backend_prefix%/
             provider:                       chain_provider
             organization-form-login:
                 csrf_provider:              form.csrf_provider
@@ -78,5 +78,5 @@ security:
             anonymous:                      false
 
     access_control:
-        - { path: ^/admin/, role: ROLE_ADMIN }
-        - { path: ^/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
+        - { path: ^%backend_prefix%/, role: ROLE_ADMIN }
+        - { path: ^%backend_prefix%/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
