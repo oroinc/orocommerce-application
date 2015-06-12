@@ -32,6 +32,3 @@ parameters:
     application_host.frontend:  http://localhost/
     application_host.install:   http://localhost/install.php
     application_host.tracking:  http://localhost/tracking.php
-
-    # Used to hide backend under specified prefix, should be started with "/", for instance "/admin"
-    backend_prefix:         '/admin'
