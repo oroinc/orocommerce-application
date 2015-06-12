@@ -76,7 +76,3 @@ security:
                 lifetime:                   1209600   # stay logged for two weeks
                 httponly:                   true
             anonymous:                      false
-
-    access_control:
-        - { path: ^%backend_prefix%/, role: ROLE_ADMINISTRATOR }
-        - { path: ^%backend_prefix%/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
