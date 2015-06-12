@@ -78,5 +78,5 @@ security:
             anonymous:                      false
 
     access_control:
-        - { path: ^/, role: ROLE_ADMINISTRATOR }
+        - { path: ^/admin/, role: ROLE_ADMINISTRATOR }
         - { path: ^/api/rest/(latest|v1)/pinbars, role: ROLE_USER }
