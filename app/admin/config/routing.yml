@@ -16,10 +16,14 @@ _imagine:
 # ORO routes
 #
 oro_default:
-    pattern:  /
+    pattern:  /%backend_prefix%/
     defaults:
         _controller: OroDashboardBundle:Dashboard:view
 
 oro_auto_routing:
     resource: .
     type:     oro_auto
+
+oro_expose:
+    resource: .
+    type:     oro_expose
