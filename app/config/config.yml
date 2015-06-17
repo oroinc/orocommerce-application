@@ -185,14 +185,6 @@ lexik_maintenance:
         options:
             file_path:        %kernel.root_dir%/cache/maintenance_lock
 
-# FOS User Configuration
-fos_user:
-    db_driver: orm
-    firewall_name: main
-    user_class: OroB2B\Bundle\UserAdminBundle\Entity\User
-    group:
-        group_class: OroB2B\Bundle\UserAdminBundle\Entity\Group
-
 #
 # ORO Bundles config
 #
