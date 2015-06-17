@@ -23,7 +23,7 @@ security:
         Symfony\Component\Security\Core\User\User: plaintext
 
     firewalls:
-        dev:
+        assets:
             pattern:                        ^/(_(profiler|wdt)|css|images|js)/
             security:                       false
 
