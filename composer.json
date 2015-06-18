@@ -60,7 +60,7 @@
         "guzzle/guzzle": "3.7.*",
         "lexik/maintenance-bundle": "v1.0.3",
         "sylius/flow-bundle": "0.6.*",
-        "composer/composer": "1.0.0-alpha9",
+        "composer/composer": "1.0.0-p1",
         "nesbot/Carbon": "1.8.*",
         "akeneo/batch-bundle": "~0.3",
         "monolog/monolog": "1.7.*",
@@ -106,5 +106,11 @@
         "incenteev-parameters": {
             "file": "app/common/parameters.yml"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.orocrm.com"
+        }
+    ]
 }
