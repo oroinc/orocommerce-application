@@ -24,7 +24,7 @@ security:
 
     firewalls:
         assets:
-            pattern:                        ^/css|images|js)/
+            pattern:                        ^/(css|images|js)/
             security:                       false
 
         install:
