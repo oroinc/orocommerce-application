@@ -23,7 +23,7 @@ if (file_exists($paramFile)) {
         && isset($data['parameters']['installed'])
         && false != $data['parameters']['installed']
     ) {
-        require_once __DIR__.'/../app/DistributionKernel.php';
+        require_once __DIR__ . '/../app/DistributionKernel.php';
 
         $kernel = new DistributionKernel('prod', false);
         $kernel->loadClassCache();

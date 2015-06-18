@@ -49,7 +49,7 @@ class DistributionKernel extends Kernel
      */
     public function getLogDir()
     {
-        return $this->rootDir.'/logs/dist';
+        return $this->rootDir . '/logs/dist';
     }
 
 
