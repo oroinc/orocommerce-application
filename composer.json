@@ -106,5 +106,11 @@
         "incenteev-parameters": {
             "file": "app/common/parameters.yml"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.orocrm.com"
+        }
+    ]
 }
