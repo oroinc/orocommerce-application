@@ -39,7 +39,6 @@
         "jms/job-queue-bundle": "1.1.*",
         "jms/serializer": "0.14.0",
         "jms/serializer-bundle": "0.13.0",
-        "jms/security-extra-bundle": "1.5.1",
         "kriswallsmith/assetic": "1.1.2",
         "knplabs/knp-menu": "2.0.0-alpha2",
         "knplabs/knp-menu-bundle": "2.0.0-alpha2",
@@ -87,15 +86,15 @@
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\ApplicationBundle\\Composer\\ScriptHandler::installAssets"
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
         ]
     },
     "minimum-stability": "dev",
@@ -104,7 +103,7 @@
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
         "incenteev-parameters": {
-            "file": "app/common/parameters.yml"
+            "file": "app/config/parameters.yml"
         }
     },
     "repositories": [
