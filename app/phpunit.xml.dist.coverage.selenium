@@ -63,7 +63,7 @@
     <listeners>
         <listener class="TestListener" file="src/Oro/src/Oro/Bundle/TestFrameworkBundle/Test/TestListener.php">
             <arguments>
-                <string>var/logs</string>
+                <string>app/logs</string>
             </arguments>
         </listener>
     </listeners>
