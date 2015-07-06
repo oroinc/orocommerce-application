@@ -69,6 +69,7 @@ security:
                 login_path:                 oro_user_security_login
             logout:
                 path:                       oro_user_security_logout
+                invalidate_session:         false
             organization-remember-me:
                 key:                        %secret%
                 name:                       BAPRM
