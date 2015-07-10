@@ -1,0 +1,24 @@
+{
+  "name": "orocrm-dev",
+  "description": "The \"OroCRM Development Edition\" distribution",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laboro/crm-enterprise-dev"
+  },
+  "devDependencies": {
+    "karma": "0.12",
+    "karma-requirejs": "0.2",
+    "karma-junit-reporter": "0.2",
+    "karma-phantomjs-launcher": "0.1",
+    "karma-chrome-launcher": "0.2",
+    "karma-chrome-launcher": "0.2.0",
+    "karma-firefox-launcher": "0.1.6",
+    "karma-coverage": "0.2.7",
+    "karma-jasmine": "2_0",
+    "karma-coverage": "0.2",
+    "karma-requirejs-exposure": "git://github.com/laboro/karma-requirejs-exposure#master",
+    "jscs": "1.13.1",
+    "jshint": "2.8.0",
+    "jshint-junit-reporter": "0.2.2"
+  }
+}
