@@ -1,9 +1,9 @@
 {
-  "name": "orocrm-dev",
-  "description": "The \"OroCRM Development Edition\" distribution",
+  "name": "b2b-dev",
+  "description": "The \"Oro Commerce\" distribution",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laboro/crm-enterprise-dev"
+    "url": "https://github.com/laboro/b2b-dev"
   },
   "devDependencies": {
     "karma": "0.12",
