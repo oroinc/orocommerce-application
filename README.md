@@ -44,7 +44,7 @@ curl -s https://getcomposer.org/installer | php
 git clone https://github.com/orocrm/orocommerce-application.git
 ```
 
-- Open the project directory and initialize Git submodules:
+- Go to the application folder and initialize Git submodules:
 
 ```bash
 cd orocommerce-application
@@ -54,7 +54,7 @@ git submodule update --init
 - Make sure that you have [NodeJS][2] installed
 
 - Install project dependencies with composer. If installation process seems too slow you can use "--prefer-dist" option.
-  Go to b2b-application folder and run composer installation:
+  Run composer installation:
 
 ```bash
 php composer.phar install --prefer-dist

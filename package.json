@@ -3,7 +3,7 @@
   "description": "OroCommerce - an open-source Business to Business Commerce application.\\nThis package contains JavaScript library dependencies for development.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/laboro/b2b-dev"
+    "url": "https://github.com/orocrm/orocommerce-application"
   },
   "devDependencies": {
     "karma": "0.12",
