@@ -3,7 +3,8 @@
   "excludeFiles": [
     "node_modules/**",
     "vendor/**",
-    "**/public/lib/**"
+    "**/public/lib/**",
+    "**/*.min.js"
   ],
   "validateIndentation": 4,
   "maximumLineLength": 120,

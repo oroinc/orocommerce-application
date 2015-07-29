@@ -1,13 +1,15 @@
-Oro B2B Empty Application
+OroCommerce Sample Application
 ==============================
 
-An example of an empty application using the Oro Platform and Oro B2B package.
+What is OroCommerce?
+--------------------
 
-This repository contains application configuration settings and depends on Oro B2B package and Oro Platform.
+OroCommerce is an open-source Business to Business Commerce application built with flexibility in mind.
+OroCommerce can be customized and extended to fit any B2B commerce needs.
 
 ## Requirements
 
-Oro Platform is a Symfony 2 based application with the following requirements:
+OroCommerce is a Symfony 2 based application with the following requirements:
 
 * PHP 5.4.9 or above
 * PHP 5.4.9 or above with command line interface
@@ -27,25 +29,32 @@ Oro Platform is a Symfony 2 based application with the following requirements:
 
 ### Using Composer
 
-The Oro B2B application uses [Composer][1] to manage its dependencies, this is the recommended way to install the application.
+This OroCommerce application uses both [Composer][1] and [Git Submodules][5] to manage its dependencies, this is the recommended way to install the application.
 
  - If you don't have Composer yet, download it and follow the instructions on
 http://getcomposer.org/ or just run the following command:
 
 ```bash
-    curl -s https://getcomposer.org/installer | php
+curl -s https://getcomposer.org/installer | php
 ```
 
-- Clone https://github.com/orocrm/b2b-application.git Oro B2B Application project with
+- Clone https://github.com/orocrm/orocommerce-application.git repository with
 
 ```bash
-    git clone https://github.com/laboro/b2b-application.git
+git clone https://github.com/orocrm/orocommerce-application.git
+```
+
+- Go to the application folder and initialize Git submodules:
+
+```bash
+cd orocommerce-application
+git submodule update --init
 ```
 
 - Make sure that you have [NodeJS][2] installed
 
 - Install project dependencies with composer. If installation process seems too slow you can use "--prefer-dist" option.
-  Go to b2b-application folder and run composer installation:
+  Run composer installation:
 
 ```bash
 php composer.phar install --prefer-dist
@@ -55,7 +64,7 @@ php composer.phar install --prefer-dist
 
 - Install application and admin user with Installation Wizard by opening install.php in the browser or from CLI:
 
-```bash  
+```bash
 php app/console oro:install --env prod
 ```
 **Note:** If the installation process times out, add the `--timeout=0` argument to the command.
@@ -71,7 +80,7 @@ php app/console clank:server --env prod
 ```bash
 php app/console oro:cron --env prod
 ```
- 
+
 **Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration or if you running console command from other location.
 
 ## Installation notes
@@ -103,9 +112,10 @@ CREATE EXTENSION "uuid-ossp";
 
 ## Web Server Configuration
 
-The Oro B2B application is based on the Symfony standard application so web server configuration recommendations are the [same][4].
+The OroCommerce sample application is based on the Symfony standard application so web server configuration recommendations are the [same][4].
 
-[1]:  http://getcomposer.org/
-[2]:  https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-[3]:  http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
-[4]:  http://symfony.com/doc/2.3/cookbook/configuration/web_server_configuration.html
+[1]: http://getcomposer.org/
+[2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+[3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
+[4]: http://symfony.com/doc/2.3/cookbook/configuration/web_server_configuration.html
+[5]: https://git-scm.com/book/en/v2/Git-Tools-Submodules

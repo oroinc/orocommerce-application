@@ -1,6 +1,6 @@
 {
-    "name": "oro/b2b-dev",
-    "description": "The \"Oro B2B Development Edition\" distribution",
+    "name": "oro/commerce-dev",
+    "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
     "autoload": {
         "psr-0": {
             "Oro\\Component": "src/Oro/src",
