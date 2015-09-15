@@ -67,6 +67,7 @@ security:
                 csrf_provider:              form.csrf_provider
                 check_path:                 oro_user_security_check
                 login_path:                 oro_user_security_login
+                default_target_path:        oro_default
             logout:
                 path:                       oro_user_security_logout
                 invalidate_session:         false
