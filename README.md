@@ -41,14 +41,7 @@ curl -s https://getcomposer.org/installer | php
 - Clone https://github.com/orocrm/orocommerce-application.git repository with
 
 ```bash
-git clone https://github.com/orocrm/orocommerce-application.git
-```
-
-- Go to the application folder and initialize Git submodules:
-
-```bash
-cd orocommerce-application
-git submodule update --init
+git clone --recursive https://github.com/orocrm/orocommerce-application.git
 ```
 
 - Make sure that you have [NodeJS][2] installed
