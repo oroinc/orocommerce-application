@@ -10,8 +10,6 @@ composer.lock
 node_modules/
 /cov
 /web/bundles
-/web/css
-/web/js
 /web/uploads/users/*
 /web/media/cache
 /web/build.js
