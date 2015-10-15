@@ -33,7 +33,7 @@ security:
             anonymous:                      true
 
         wsse_secured:
-            pattern:                        ^%backend_prefix%/api/(rest|soap).*
+            pattern:                        ^%web_backend_prefix%/api/(rest|soap).*
             wsse:
                 lifetime:                   3600
                 realm:                      "Secured API"
@@ -41,27 +41,27 @@ security:
             context:                        main
 
         login:
-            pattern:                        ^%backend_prefix%/user/(login|reset-request|send-email|check-email)$
+            pattern:                        ^%web_backend_prefix%/user/(login|reset-request|send-email|check-email)$
             provider:                       chain_provider
             anonymous:                      true
 
         reset_password:
-            pattern:                        ^%backend_prefix%/user/reset/*
+            pattern:                        ^%web_backend_prefix%/user/reset/*
             provider:                       chain_provider
             anonymous:                      true
 
         embedded_form:
-            pattern:                        ^%backend_prefix%/embedded-form/(submit|success)
+            pattern:                        ^%web_backend_prefix%/embedded-form/(submit|success)
             provider:                       chain_provider
             anonymous:                      true
 
         tracking_data:
-            pattern:                        ^%backend_prefix%/tracking/data/create
+            pattern:                        ^%web_backend_prefix%/tracking/data/create
             provider:                       chain_provider
             anonymous:                      true
 
         main:
-            pattern:                        ^%backend_prefix%/
+            pattern:                        ^%web_backend_prefix%/
             provider:                       chain_provider
             organization-form-login:
                 csrf_provider:              form.csrf_provider

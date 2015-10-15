@@ -14,7 +14,6 @@ require_once __DIR__ . '/../app/autoload.php';
 
 // check for installed system
 $paramFile = __DIR__ . '/../app/config/parameters.yml';
-$backendPrefix = '';
 
 if (file_exists($paramFile)) {
     $data = Yaml::parse($paramFile);
@@ -34,13 +33,6 @@ if (file_exists($paramFile)) {
         $kernel->terminate($request, $response);
 
         exit;
-    }
-
-    if (is_array($data)
-        && isset($data['parameters'])
-        && isset($data['parameters']['backend_prefix'])
-    ) {
-        $backendPrefix = $data['parameters']['backend_prefix'];
     }
 }
 
@@ -200,7 +192,7 @@ function iterateRequirements(array $collection)
                         <span><?php echo $translator->trans('process.button.refresh'); ?></span>
                     </a>
                     <?php endif; ?>
-                    <a href="<?php echo count($majorProblems) ? 'javascript: void(0);' : 'app.php' . $backendPrefix . '/installer'; ?>" class="button next <?php echo count($majorProblems) ? 'disabled' : 'primary'; ?>">
+                    <a href="<?php echo count($majorProblems) ? 'javascript: void(0);' : 'app.php/installer'; ?>" class="button next <?php echo count($majorProblems) ? 'disabled' : 'primary'; ?>">
                         <span><?php echo $translator->trans('process.button.next'); ?></span>
                     </a>
                 </div>
