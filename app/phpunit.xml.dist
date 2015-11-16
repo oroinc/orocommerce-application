@@ -102,10 +102,16 @@
                 <directory>../src/*/Bundle/*Bundle/Resources</directory>
                 <directory>../src/*/Bundle/*Bundle/Tests</directory>
                 <directory>../src/*/Bundle/*Bundle/vendor</directory>
+                <directory>../src/*/Bundle/*Bundle/Entity/Repository</directory>
+                <directory>../src/*/Bundle/*Bundle/Controller</directory>
+                <directory>../src/*/Bundle/*Bundle/Migrations</directory>
                 <directory>../src/*/src/*/Bundle/*Bundle/DataFixtures</directory>
                 <directory>../src/*/src/*/Bundle/*Bundle/Resources</directory>
                 <directory>../src/*/src/*/Bundle/*Bundle/Tests</directory>
                 <directory>../src/*/src/*/Bundle/*Bundle/vendor</directory>
+                <directory>../src/*/src/*/Bundle/*Bundle/Entity/Repository</directory>
+                <directory>../src/*/src/*/Bundle/*Bundle/Controller</directory>
+                <directory>../src/*/src/*/Bundle/*Bundle/Migrations</directory>
                 <directory suffix="Bundle.php">../src/*/src/*/Bundle/*Bundle</directory>
                 <directory suffix="Bundle.php">../src/*/Bundle/*Bundle</directory>
             </exclude>
