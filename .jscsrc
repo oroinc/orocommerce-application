@@ -7,7 +7,12 @@
     "**/*.min.js"
   ],
   "validateIndentation": 4,
-  "maximumLineLength": 120,
+  "maximumLineLength": {
+	 "value": 120,
+	 "tabSize": 4,
+	 "allowComments": true,
+	 "allowRegex": true
+  },
   "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
   "disallowSpaceAfterObjectKeys": true,
   "requireSpaceBeforeObjectValues": true,
