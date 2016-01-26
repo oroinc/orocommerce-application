@@ -38,10 +38,10 @@ http://getcomposer.org/ or just run the following command:
 curl -s https://getcomposer.org/installer | php
 ```
 
-- Clone https://github.com/orocrm/orocommerce-application.git repository with
+- Clone https://github.com/orocommerce/orocommerce-application.git repository with
 
 ```bash
-git clone --recursive https://github.com/orocrm/orocommerce-application.git
+git clone --recursive https://github.com/orocommerce/orocommerce-application.git
 ```
 
 - Make sure that you have [NodeJS][2] installed
