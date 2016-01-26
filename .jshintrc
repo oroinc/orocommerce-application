@@ -18,7 +18,6 @@
     "maxdepth": 5,
     "maxstatements": 35,
     "quotmark": "single",
-    "maxlen": 120,
     "browser": true,
     "white": true,
 
