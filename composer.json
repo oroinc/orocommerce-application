@@ -76,7 +76,8 @@
         "oro/jsplumb": "~1.7",
         "oro/moment-timezone": "0.3.*",
         "vakata/jstree": "^3.2",
-        "box/spout": "2.3.*"
+        "box/spout": "2.3.*",
+        "nicholas-eden/math": "0.6.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
@@ -115,6 +116,10 @@
         {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/nicholas-eden/math.git"
         }
     ]
 }
