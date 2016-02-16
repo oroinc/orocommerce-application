@@ -6,4 +6,4 @@
 	url = git@github.com:laboro/OroEntitySerializedFieldsBundle.git
 [submodule "src/OroB2B"]
 	path = src/OroB2B
-	url = git@github.com:laboro/b2b.git
+	url = git@github.com:laboro/commerce.git
