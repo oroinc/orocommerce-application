@@ -1,0 +1,57 @@
+{
+  "name": "oro/commerce-application",
+  "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "oro/commerce": "dev-master",
+    "oro/platform": "dev-master"
+  },
+  "require-dev": {
+    "sensio/generator-bundle": "2.5.3"
+  },
+  "config": {
+    "component-dir": "web/bundles/components"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+    ],
+    "post-update-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "symfony-app-dir": "app",
+    "symfony-web-dir": "web",
+    "incenteev-parameters": {
+      "file": "app/config/parameters.yml"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packagist.orocrm.com"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/nicholas-eden/math.git"
+    }
+  ]
+}
