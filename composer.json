@@ -1,6 +1,14 @@
 {
-    "name": "oro/commerce-dev",
-    "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
+    "name": "oro/commerce-application",
+    "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains a sample OroCommerce application.",
+    "homepage": "https://github.com/orocommerce/orocommerce-application",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Oro, Inc",
+            "homepage": "http://www.orocommerce.com"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Oro\\Component": "src/Oro/src",
