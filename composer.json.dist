@@ -1,13 +1,20 @@
 {
   "name": "oro/commerce-application",
   "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
-  "license": "MIT",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Oro, Inc",
+      "homepage": "http://www.orocommerce.com"
+    }
+  ],
   "autoload": {
     "psr-0": {
       "": "src/"
     }
   },
   "require": {
+    "php": ">=5.4.9",
     "oro/commerce": "dev-master",
     "oro/platform": "dev-master"
   },
