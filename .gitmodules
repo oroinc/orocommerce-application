@@ -1,9 +1,9 @@
 [submodule "src/Oro"]
 	path = src/Oro
-	url = git@github.com:orocrm/platform.git
+	url = git@github.com:laboro/platform.git
 [submodule "src/OroPackages/src/Oro/Bundle/EntitySerializedFieldsBundle"]
 	path = src/OroPackages/src/Oro/Bundle/EntitySerializedFieldsBundle
-	url = git@github.com:orocrm/OroEntitySerializedFieldsBundle.git
+	url = git@github.com:laboro/OroEntitySerializedFieldsBundle.git
 [submodule "src/OroB2B"]
 	path = src/OroB2B
-	url = git@github.com:orocommerce/orocommerce.git
+	url = git@github.com:laboro/b2b.git
