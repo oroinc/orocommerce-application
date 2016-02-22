@@ -1,6 +1,14 @@
 {
-    "name": "oro/commerce-dev",
-    "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
+    "name": "oro/commerce-application",
+    "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains a sample OroCommerce application.",
+    "homepage": "https://github.com/orocommerce/orocommerce-application",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Oro, Inc",
+            "homepage": "http://www.orocommerce.com"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Oro\\Component": "src/Oro/src",
@@ -75,7 +83,9 @@
         "piwik/device-detector": "~3.0",
         "oro/jsplumb": "~1.7",
         "oro/moment-timezone": "0.3.*",
-        "vakata/jstree": "^3.2"
+        "vakata/jstree": "^3.2",
+        "box/spout": "2.3.*",
+        "nicholas-eden/math": "0.6.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
@@ -114,6 +124,10 @@
         {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/nicholas-eden/math.git"
         }
     ]
 }
