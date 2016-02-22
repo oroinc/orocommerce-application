@@ -15,8 +15,7 @@
   },
   "require": {
     "php": ">=5.4.9",
-    "oro/commerce": "placeholder_b2b_tag",
-    "oro/platform": "placeholder_platform_tag"
+    "oro/commerce": "placeholder_b2b_tag"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
