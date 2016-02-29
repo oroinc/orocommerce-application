@@ -85,7 +85,8 @@
         "oro/moment-timezone": "0.3.*",
         "vakata/jstree": "^3.2",
         "box/spout": "2.3.*",
-        "nicholas-eden/math": "0.6.*"
+        "nicholas-eden/math": "0.6.*",
+        "myclabs/deep-copy": "1.5.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
