@@ -18,7 +18,7 @@
     "karma-coverage": "0.2",
     "karma-requirejs-exposure": "git://github.com/laboro/karma-requirejs-exposure#master",
     "jscs": "1.13.1",
-    "jshint": "2.8.0",
+    "jshint": "2.9.*",
     "jshint-junit-reporter": "0.2.2"
   }
 }
