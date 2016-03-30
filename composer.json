@@ -31,7 +31,7 @@
         "symfony/symfony": "2.7.*",
         "twig/twig": "1.20.0",
         "doctrine/orm": "2.5.1",
-        "doctrine/doctrine-bundle": "1.4.0",
+        "doctrine/doctrine-bundle": "1.6.2",
         "doctrine/dbal": "2.5.1",
         "doctrine/data-fixtures": "1.1.1",
         "doctrine/doctrine-fixtures-bundle": "2.2.0",
@@ -85,7 +85,8 @@
         "oro/moment-timezone": "0.3.*",
         "vakata/jstree": "^3.2",
         "box/spout": "2.3.*",
-        "nicholas-eden/math": "0.6.*"
+        "nicholas-eden/math": "0.6.*",
+        "myclabs/deep-copy": "1.5.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
@@ -123,7 +124,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packagist.orocrm.com"
+            "url": "https://packagist.orocrm.com"
         },
         {
             "type": "git",
