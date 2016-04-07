@@ -51,7 +51,7 @@
     }
   },
   "repositories": [
-    placeholder_vcs
+    {"type": "vcs","url": "placeholder_vcs"},
     {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
