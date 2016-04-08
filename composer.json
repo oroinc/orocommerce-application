@@ -89,7 +89,8 @@
         "myclabs/deep-copy": "1.5.*"
     },
     "require-dev": {
-        "sensio/generator-bundle": "2.5.3"
+        "sensio/generator-bundle": "2.5.3",
+        "phpunit/phpunit": "~4.8"
     },
     "config": {
         "component-dir": "web/bundles/components"
