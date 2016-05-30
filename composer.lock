@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a3417693f30bbb998f801d447f1ce8be",
-    "content-hash": "5775a430637b1e9870bb9257467b4da6",
+    "hash": "2bc39c7cbc435d7fb54a9f0c63b0b5c2",
+    "content-hash": "c27f0db69420c9ea0c2acdbe77cb1c3f",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3995,29 +3995,29 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.0.0-beta.1",
+            "version": "1.0.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocommerce/orocommerce.git",
-                "reference": "53f243cedee7115163272c1c0ee45e00d607907d"
+                "reference": "02be6a4684c1434235fe24afb6dfa9c8f67d9c4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/53f243cedee7115163272c1c0ee45e00d607907d",
-                "reference": "53f243cedee7115163272c1c0ee45e00d607907d",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/02be6a4684c1434235fe24afb6dfa9c8f67d9c4f",
+                "reference": "02be6a4684c1434235fe24afb6dfa9c8f67d9c4f",
                 "shasum": ""
             },
             "require": {
                 "box/spout": "2.3.*",
                 "myclabs/deep-copy": "1.5.*",
                 "nicholas-eden/math": "0.6.*",
-                "oro/platform": "1.10.0-beta.1",
-                "oro/platform-serialised-fields": "1.5.0-beta.1"
+                "oro/platform": "1.10.0-beta.2",
+                "oro/platform-serialised-fields": "1.5.0-beta.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -4040,7 +4040,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2016-04-11 08:12:24"
+            "time": "2016-05-30 05:08:03"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4200,16 +4200,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.10.0-beta.1",
+            "version": "1.10.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "1045a7bc419c1b94158cf4baa05eb3225fd9581f"
+                "reference": "3285072583d59fdc369880ff693731bb8a7c11f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/1045a7bc419c1b94158cf4baa05eb3225fd9581f",
-                "reference": "1045a7bc419c1b94158cf4baa05eb3225fd9581f",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/3285072583d59fdc369880ff693731bb8a7c11f2",
+                "reference": "3285072583d59fdc369880ff693731bb8a7c11f2",
                 "shasum": ""
             },
             "require": {
@@ -4260,13 +4260,13 @@
                 "oro/moment-timezone": "0.3.*",
                 "php": ">=5.4.9",
                 "piwik/device-detector": "~3.0",
-                "sensio/distribution-bundle": "4.0.3",
+                "sensio/distribution-bundle": "4.0.*",
                 "sensio/framework-extra-bundle": "2.3.4",
                 "stof/doctrine-extensions-bundle": "1.1.0",
                 "sylius/flow-bundle": "0.6.*",
                 "symfony/assetic-bundle": "2.3.0",
-                "symfony/icu": "~1.1",
                 "symfony/monolog-bundle": "2.7.*",
+                "symfony/polyfill-php70": "1.*",
                 "symfony/swiftmailer-bundle": "2.3.*",
                 "symfony/symfony": "2.7.*",
                 "tinymce/tinymce": "4.1.*",
@@ -4302,21 +4302,21 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2016-04-08 17:07:25"
+            "time": "2016-05-23 11:00:45"
         },
         {
             "name": "oro/platform-serialised-fields",
-            "version": "1.5.0-beta.1",
+            "version": "1.5.0-beta.2",
             "target-dir": "src/Oro/Bundle/EntitySerializedFieldsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/OroEntitySerializedFieldsBundle.git",
-                "reference": "d455ed14e5f544cb0715daff727dc8636b62f2e5"
+                "reference": "40d91b82bcf60f1ac69828a62aaef765844ce0af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroEntitySerializedFieldsBundle/zipball/d455ed14e5f544cb0715daff727dc8636b62f2e5",
-                "reference": "d455ed14e5f544cb0715daff727dc8636b62f2e5",
+                "url": "https://api.github.com/repos/orocrm/OroEntitySerializedFieldsBundle/zipball/40d91b82bcf60f1ac69828a62aaef765844ce0af",
+                "reference": "40d91b82bcf60f1ac69828a62aaef765844ce0af",
                 "shasum": ""
             },
             "require": {
@@ -4352,7 +4352,55 @@
                 "entity",
                 "fields"
             ],
-            "time": "2016-04-06 12:32:40"
+            "time": "2016-05-30 05:58:13"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2016-04-03 06:00:07"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4769,17 +4817,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.3",
+            "version": "v4.0.6",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "2d061c01e708c83ede4720e2551d9449bf606c0a"
+                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/2d061c01e708c83ede4720e2551d9449bf606c0a",
-                "reference": "2d061c01e708c83ede4720e2551d9449bf606c0a",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/181a47c527a04d2d03986a0b3e9c1b86eaacab40",
+                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40",
                 "shasum": ""
             },
             "require": {
@@ -4825,7 +4873,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-10-27 18:48:08"
+            "time": "2016-04-25 20:49:44"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -5161,55 +5209,6 @@
             "time": "2013-05-16 05:32:23"
         },
         {
-            "name": "symfony/icu",
-            "version": "v1.2.2",
-            "target-dir": "Symfony/Component/Icu",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/icu.git",
-                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/icu/zipball/d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
-                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-intl": "*",
-                "lib-icu": ">=4.4",
-                "php": ">=5.3.3",
-                "symfony/intl": "~2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Icu\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@gmail.com"
-                }
-            ],
-            "description": "Contains an excerpt of the ICU data and classes to load it.",
-            "homepage": "http://symfony.com",
-            "keywords": [
-                "icu",
-                "intl"
-            ],
-            "time": "2014-07-25 09:58:17"
-        },
-        {
             "name": "symfony/monolog-bundle",
             "version": "v2.7.1",
             "source": {
@@ -5267,6 +5266,65 @@
                 "logging"
             ],
             "time": "2015-01-04 20:21:17"
+        },
+        {
+            "name": "symfony/polyfill-php70",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php70.git",
+                "reference": "a42f4b6b05ed458910f8af4c4e1121b0101b2d85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/a42f4b6b05ed458910f8af4c4e1121b0101b2d85",
+                "reference": "a42f4b6b05ed458910f8af4c4e1121b0101b2d85",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "~1.0|~2.0",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-05-18 14:26:46"
         },
         {
             "name": "symfony/swiftmailer-bundle",
