@@ -156,35 +156,20 @@ class OroRequirements extends SymfonyRequirements
             'Change the permissions of the "<strong>web/bundles/</strong>" directory so that the web server can write into it.'
         );
         $this->addOroRequirement(
+            is_writable($baseDir . '/web/css'),
+            'web/css/ directory must be writable',
+            'Change the permissions of the "<strong>web/css/</strong>" directory so that the web server can write into it.'
+        );
+        $this->addOroRequirement(
+            is_writable($baseDir . '/web/js'),
+            'web/js/ directory must be writable',
+            'Change the permissions of the "<strong>web/js/</strong>" directory so that the web server can write into it.'
+        );
+        $this->addOroRequirement(
             is_writable($baseDir . '/app/attachment'),
             'app/attachment/ directory must be writable',
             'Change the permissions of the "<strong>app/attachment/</strong>" directory so that the web server can write into it.'
         );
-
-       
-        if (is_dir($baseDir . '/web/js')) {
-            $this->addOroRequirement(
-                is_writable($baseDir . '/web/js'),
-                'web/js directory must be writable',
-                'Change the permissions of the "<strong>web/js</strong>" directory so that the web server can write into it.'
-            );
-        }
-
-        if (is_dir($baseDir . '/web/css')) {
-            $this->addOroRequirement(
-                is_writable($baseDir . '/web/css'),
-                'web/css directory must be writable',
-                'Change the permissions of the "<strong>web/css</strong>" directory so that the web server can write into it.'
-            );
-        }
-
-        if (!is_dir($baseDir . '/web/css') || !is_dir($baseDir . '/web/js')) {
-            $this->addOroRequirement(
-                is_writable($baseDir . '/web'),
-                'web directory must be writable',
-                'Change the permissions of the "<strong>web</strong>" directory so that the web server can write into it.'
-            );
-        }
 
         if (is_file($baseDir . '/app/config/parameters.yml')) {
             $this->addOroRequirement(
