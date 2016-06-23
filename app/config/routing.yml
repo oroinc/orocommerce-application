@@ -1,0 +1,29 @@
+#
+# 3rd party routes
+#
+nelmio_api_doc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+_imagine:
+    resource: .
+    type:     imagine
+
+#
+# ORO routes
+#
+oro_default:
+    pattern:  %web_backend_prefix%/
+    defaults:
+        _controller: OroDashboardBundle:Dashboard:view
+
+oro_auto_routing:
+    resource: .
+    type:     oro_auto
+
+oro_expose:
+    resource: .
+    type:     oro_expose
