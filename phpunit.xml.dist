@@ -39,8 +39,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/X*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/ConfigTranslationTest.php</file>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/SchemaTest.php</file>
+            <directory suffix="Test.php">vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-3-of-4">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Q*Bundle/Tests/Functional</directory>
@@ -92,86 +91,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/ConfigTranslationTest.php</file>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/SchemaTest.php</file>
-        </testsuite>
-        <testsuite name="functional-1-of-4">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/A*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/B*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/C*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/D*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/E*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/F*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/G*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/H*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/I*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/J*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/K*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/L*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-2-of-4">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/M*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/N*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/P*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/W*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/X*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/ConfigTranslationTest.php</file>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/SchemaTest.php</file>
-        </testsuite>
-        <testsuite name="functional-3-of-4">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Q*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/R*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/S*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-4-of-4">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/T*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/U*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/V*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-1-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/A*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-2-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-3-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/P*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-4-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/S*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-5-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/T*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="functional-6-of-6">
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/B*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/C*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/D*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/E*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/F*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/G*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/H*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/I*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/J*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/K*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/L*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/M*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/N*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Q*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/R*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/U*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/V*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/W*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/X*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/ConfigTranslationTest.php</file>
-            <file>vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional/SchemaTest.php</file>
+            <directory suffix="Test.php">vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional</directory>
         </testsuite>
     </testsuites>
     <php>
@@ -209,7 +129,6 @@
         <listener class="JohnKary\PHPUnit\Listener\SpeedTrapListener"/>
         <listener class="MyBuilder\PhpunitAccelerator\TestListener"/>
     </listeners>
-
     <php>
         <server name="KERNEL_DIR" value="app/"/>
     </php>
