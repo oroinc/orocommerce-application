@@ -15,7 +15,7 @@
   },
   "require": {
     "php": ">=5.5.9",
-    "oro/commerce": "self.version"
+    "oro/commerce": "1.0.0-beta.3"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3",
