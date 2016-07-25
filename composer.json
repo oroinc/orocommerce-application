@@ -14,11 +14,19 @@
     }
   },
   "require": {
-    "php": ">=5.4.9",
-    "oro/commerce": "1.0.0-beta.2"
+    "php": ">=5.5.9",
+    "oro/commerce": "1.0.0-beta.3"
   },
   "require-dev": {
-    "sensio/generator-bundle": "2.5.3"
+    "sensio/generator-bundle": "2.5.3",
+    "behat/behat": "3.1.0",
+    "behat/mink-extension": "^2.0",
+    "behat/mink-selenium2-driver": "1.*",
+    "behat/symfony2-extension": "2.1.1",
+    "nelmio/alice": "^2.1",
+    "phpunit/phpunit": "4.8.*",
+    "johnkary/phpunit-speedtrap": "1.0.*",
+    "mybuilder/phpunit-accelerator": "1.1.*"
   },
   "config": {
     "component-dir": "web/bundles/components"
@@ -51,7 +59,6 @@
     }
   },
   "repositories": [
-    
     {
       "type": "composer",
       "url": "https://packagist.orocrm.com"

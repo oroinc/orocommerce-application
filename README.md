@@ -11,8 +11,8 @@ OroCommerce can be customized and extended to fit any B2B commerce needs.
 
 OroCommerce is a Symfony 2 based application with the following requirements:
 
-* PHP 5.4.9 or above
-* PHP 5.4.9 or above with command line interface
+* PHP 5.5.9 or above
+* PHP 5.5.9 or above with command line interface
 * PHP Extensions
     * GD
     * Mcrypt
