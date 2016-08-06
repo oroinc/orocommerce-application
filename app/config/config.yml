@@ -49,10 +49,6 @@ assetic:
             file: %kernel.root_dir%/../vendor/leafo/lessphp/lessc.inc.php
             apply_to: "\.less$"
             paths: ["%kernel.root_dir%/../web/bundles"]
-        scssphp:
-            file: %kernel.root_dir%/../vendor/leafo/scssphp/scss.inc.php
-            apply_to: "\.scss$"
-            import_paths: ["%kernel.root_dir%/../web/bundles"]
         cssmin:
             file: %kernel.root_dir%/Resources/php/cssmin-v3.0.1.php
 
@@ -161,3 +157,9 @@ oro_help:
 
 oro_theme:
     active_theme: oro
+
+oro_message_queue:
+    transport:
+        default: '%message_queue_transport%'
+        '%message_queue_transport%': '%message_queue_transport_config%'
+    client: ~

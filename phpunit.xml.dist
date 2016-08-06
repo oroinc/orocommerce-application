@@ -10,6 +10,7 @@
     <groups>
         <exclude>
             <group>soap</group>
+            <group>segfault</group>
         </exclude>
     </groups>
     <testsuites>
@@ -58,24 +59,23 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/V*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-1-of-6">
+        <testsuite name="functional-1-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/A*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-2-of-6">
+        <testsuite name="functional-2-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-3-of-6">
+        <testsuite name="functional-3-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/P*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-4-of-6">
+        <testsuite name="functional-4-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/S*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-5-of-6">
+        <testsuite name="functional-5-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/T*Bundle/Tests/Functional</directory>
         </testsuite>
-        <testsuite name="functional-6-of-6">
+        <testsuite name="functional-6-of-7">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/B*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/C*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/D*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/E*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/F*Bundle/Tests/Functional</directory>
@@ -97,6 +97,9 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional</directory>
+        </testsuite>
+        <testsuite name="functional-7-of-7">
+            <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/C*Bundle/Tests/Functional</directory>
         </testsuite>
     </testsuites>
     <php>
