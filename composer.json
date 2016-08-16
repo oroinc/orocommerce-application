@@ -65,10 +65,6 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/orocrm/TranslationFormBundle.git"
-    },
-    {
-      "type": "git",
       "url": "https://github.com/nicholas-eden/math.git"
     }
   ]
