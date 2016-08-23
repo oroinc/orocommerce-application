@@ -6,6 +6,7 @@ default: &default
         Behat\MinkExtension:
             base_url: 'http://dev-commerce.local/'
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
+            reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
             application_suites:
                 - OroApplicationBundle
 
