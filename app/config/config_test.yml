@@ -1,0 +1,34 @@
+imports:
+    - { resource: config_prod.yml }
+    - { resource: parameters_test.yml }
+    - { resource: security_test.yml }
+
+parameters:
+    doctrine.dbal.connection_factory.class: 'Oro\Component\Testing\Doctrine\PersistentConnectionFactory'
+
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    csrf_protection: true
+    profiler:
+        enabled: false
+
+services:
+    twig.extension.debug:
+        class: Twig_Extensions_Extension_Debug
+        tags:
+            - { name: twig.extension }
+
+    oro_message_queue.test.message_collector:
+        class: Oro\Bundle\MessageQueueBundle\Test\Functional\MessageCollector
+        decorates: oro_message_queue.client.message_producer
+        arguments:
+            - '@oro_message_queue.test.message_collector.inner'
+
+swiftmailer:
+    logging: true
+    disable_delivery: true
+
+oro_require_js:
+    js_engine: ~
