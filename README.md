@@ -11,8 +11,8 @@ OroCommerce can be customized and extended to fit any B2B commerce needs.
 
 OroCommerce is a Symfony 2 based application with the following requirements:
 
-* PHP 5.4.9 or above
-* PHP 5.4.9 or above with command line interface
+* PHP 5.5.9 or above
+* PHP 5.5.9 or above with command line interface
 * PHP Extensions
     * GD
     * Mcrypt
@@ -74,6 +74,12 @@ php app/console clank:server --env prod
 php app/console oro:cron --env prod
 ```
 
+- Launch message queue consumption:
+
+```bash
+php app/console oro:message-queue:consume --env prod
+```
+
 **Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration or if you running console command from other location.
 
 ## Installation notes
@@ -110,5 +116,5 @@ The OroCommerce sample application is based on the Symfony standard application 
 [1]: http://getcomposer.org/
 [2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
-[4]: http://symfony.com/doc/2.3/cookbook/configuration/web_server_configuration.html
+[4]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
 [5]: https://git-scm.com/book/en/v2/Git-Tools-Submodules

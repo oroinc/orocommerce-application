@@ -13,7 +13,7 @@ use Oro\Bundle\RequireJSBundle\DependencyInjection\Configuration as RequireJSCon
  */
 class OroRequirements extends SymfonyRequirements
 {
-    const REQUIRED_PHP_VERSION  = '5.4.9';
+    const REQUIRED_PHP_VERSION  = '5.5.9';
     const REQUIRED_GD_VERSION   = '2.0';
     const REQUIRED_CURL_VERSION = '7.0';
     const REQUIRED_ICU_VERSION  = '3.8';
@@ -75,6 +75,12 @@ class OroRequirements extends SymfonyRequirements
             class_exists('SoapClient'),
             'SOAP extension should be installed (API calls)',
             'Install and enable the <strong>SOAP</strong> extension.'
+        );
+
+        $this->addRecommendation(
+            extension_loaded('tidy'),
+            'Tidy extension should be installed to make sure that any HTML is correctly converted into a text representation.',
+            'Install and enable the <strong>Tidy</strong> extension.'
         );
 
         // Windows specific checks

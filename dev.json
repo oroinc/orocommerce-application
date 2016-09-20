@@ -60,6 +60,10 @@
   },
   "repositories": [
     {
+      "type": "path",
+      "url": "../../package/*"
+    },
+    {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
     },
