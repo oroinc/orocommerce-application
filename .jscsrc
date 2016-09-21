@@ -1,0 +1,21 @@
+{
+  "preset": "google",
+  "excludeFiles": [
+    "node_modules/**",
+    "vendor/**",
+    "**/public/lib/**",
+    "**/*.min.js"
+  ],
+  "validateIndentation": 4,
+  "maximumLineLength": {
+	 "value": 120,
+	 "tabSize": 4,
+	 "allowComments": true,
+	 "allowRegex": true
+  },
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "disallowSpaceAfterObjectKeys": true,
+  "requireSpaceBeforeObjectValues": true,
+  "validateLineBreaks": "LF",
+  "validateParameterSeparator": ", "
+}
