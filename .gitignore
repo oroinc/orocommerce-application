@@ -5,6 +5,7 @@
 /node_modules
 /composer.phar
 composer.lock
+behat.yml
 /build/logs/*
 /vendor
 node_modules/
@@ -12,6 +13,7 @@ node_modules/
 /web/bundles
 /web/css
 /web/js
+/web/images
 /web/uploads/users/*
 /web/media/cache
 /web/build.js
