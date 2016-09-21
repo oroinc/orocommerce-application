@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c6dcb9c0638c105c398441c5b9690fe",
-    "content-hash": "c109d53017f9889d15f1c42dc5241066",
+    "hash": "f0b72e5d20c283b9161f38f169073e09",
+    "content-hash": "2ab86e729a99de43fb1a433a05172399",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4630,6 +4630,7 @@
                 "genemu/form-bundle": "2.2.1",
                 "guzzle/guzzle": "3.7.*",
                 "hwi/oauth-bundle": "~0.3",
+                "imagine/imagine": "v0.6.3",
                 "incenteev/composer-parameter-handler": "2.1.0",
                 "jdare/clank-bundle": "0.1.*",
                 "jms/job-queue-bundle": "1.2.*",
