@@ -14,6 +14,13 @@ framework:
     profiler:
         enabled: false
 
+swiftmailer:
+    logging: true
+    disable_delivery: true
+
+oro_require_js:
+    js_engine: ~
+
 services:
     twig.extension.debug:
         class: Twig_Extensions_Extension_Debug
@@ -25,10 +32,3 @@ services:
         decorates: oro_message_queue.client.message_producer
         arguments:
             - '@oro_message_queue.test.message_collector.inner'
-
-swiftmailer:
-    logging: true
-    disable_delivery: true
-
-oro_require_js:
-    js_engine: ~
