@@ -1,0 +1,23 @@
+imports:
+  - ../../package/platform/src/Oro/Bundle/TestFrameworkBundle/Resources/config/behat.yml.dist
+
+default: &default
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://dev-commerce-crm.local/'
+        Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
+            reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
+            application_suites:
+                - OroApplicationBundle
+                - OroUserBundle
+                - OroCRMBundle
+                - OroNavigationBundle
+                - OroCRMContactBundle
+                - OroCRMAccountBundle
+                - OroCRMTaskBundle
+
+selenium2:
+    <<: *default
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://dev-commerce-crm.local/'
