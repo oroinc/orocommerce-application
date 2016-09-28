@@ -4444,7 +4444,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle": "src/",
+                    "Oro\\Bundle": "src/",
                     "Oro": "src/"
                 }
             },
