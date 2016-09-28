@@ -4621,7 +4621,7 @@
         {
             "name": "oro/crm-magento-embedded-contact-us",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/MagentoContactUsBundle",
+            "target-dir": "src/Oro/Bundle/MagentoContactUsBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
@@ -4640,7 +4640,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\MagentoContactUsBundle": "src/"
+                    "Oro\\Bundle\\MagentoContactUsBundle": "src/"
                 }
             },
             "license": [
