@@ -4463,7 +4463,7 @@
         {
             "name": "oro/crm-abandoned-cart",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/AbandonedCartBundle",
+            "target-dir": "src/Oro/Bundle/AbandonedCartBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
@@ -4483,7 +4483,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\AbandonedCartBundle": "src/"
+                    "Oro\\Bundle\\AbandonedCartBundle": "src/"
                 }
             },
             "license": [
