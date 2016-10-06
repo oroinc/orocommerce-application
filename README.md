@@ -82,6 +82,19 @@ php app/console oro:message-queue:consume --env prod
 
 **Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration or if you running console command from other location.
 
+## Upgrading
+
+If you're upgrading from existing, older beta versions please issue the following commands in the `application/commerce` folder:
+
+```bash
+composer install
+app/console oro:platform:update --force
+```
+
+The database will be migrated into the latest state.
+
+Note that if you want to preserve images from the old version, you need to copy the `app/attachments` folder from the previous installation.
+
 ## Installation notes
 
 Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs)
