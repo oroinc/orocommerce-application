@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b0d7c909770695425c028babed084830",
-    "content-hash": "9035036a246a54dc34737c9e988c7767",
+    "hash": "9a5a91c38ff1e64a2ca07a2707219141",
+    "content-hash": "e2423d8d2b0e3c7a90642f0904ecd601",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4407,16 +4407,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "dev-master",
+            "version": "1.0.0-beta.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocommerce/orocommerce.git",
-                "reference": "da10147527a15614b8416fd14a70037e23b1fd31"
+                "reference": "8f05255d5f0633d2816168489535028e77adace7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/da10147527a15614b8416fd14a70037e23b1fd31",
-                "reference": "da10147527a15614b8416fd14a70037e23b1fd31",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/8f05255d5f0633d2816168489535028e77adace7",
+                "reference": "8f05255d5f0633d2816168489535028e77adace7",
                 "shasum": ""
             },
             "require": {
@@ -4424,7 +4424,7 @@
                 "leafo/scssphp": "0.6.3",
                 "myclabs/deep-copy": "1.5.*",
                 "nicholas-eden/math": "0.6.*",
-                "oro/platform": "1.x-dev"
+                "oro/platform": "1.10.6-beta.4"
             },
             "type": "library",
             "extra": {
@@ -4450,7 +4450,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2016-10-11 20:36:34"
+            "time": "2016-10-11 20:35:57"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4610,7 +4610,7 @@
         },
         {
             "name": "oro/platform",
-            "version": "dev-master",
+            "version": "1.10.6-beta.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
@@ -4722,25 +4722,25 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2016-10-12 06:02:32"
+            "time": "2016-10-11 15:17:36"
         },
         {
             "name": "oro/platform-serialised-fields",
-            "version": "dev-master",
+            "version": "1.5.1-beta.4",
             "target-dir": "src/Oro/Bundle/EntitySerializedFieldsBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/OroEntitySerializedFieldsBundle.git",
-                "reference": "2fc83cd9ebaf07e6fb50733c7cf72858fb36e6bb"
+                "reference": "02e37e73b319e736e4d583c097ca83efff7dae69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroEntitySerializedFieldsBundle/zipball/2fc83cd9ebaf07e6fb50733c7cf72858fb36e6bb",
-                "reference": "2fc83cd9ebaf07e6fb50733c7cf72858fb36e6bb",
+                "url": "https://api.github.com/repos/orocrm/OroEntitySerializedFieldsBundle/zipball/02e37e73b319e736e4d583c097ca83efff7dae69",
+                "reference": "02e37e73b319e736e4d583c097ca83efff7dae69",
                 "shasum": ""
             },
             "require": {
-                "oro/platform": "1.x-dev",
+                "oro/platform": "1.10.6-beta.4",
                 "php": ">=5.5.9"
             },
             "type": "library",
@@ -4772,7 +4772,7 @@
                 "entity",
                 "fields"
             ],
-            "time": "2016-10-11 16:59:49"
+            "time": "2016-10-11 16:53:23"
         },
         {
             "name": "paragonie/random_compat",
@@ -9142,10 +9142,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "oro/commerce": 20,
-        "oro/platform-serialised-fields": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
