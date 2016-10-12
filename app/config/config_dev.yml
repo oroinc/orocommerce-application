@@ -1,6 +1,5 @@
 imports:
     - { resource: config.yml }
-    - { resource: security_dev.yml }
 
 framework:
     router:   { resource: "%kernel.root_dir%/config/routing_dev.yml" }
@@ -26,6 +25,10 @@ monolog:
 oro_assetic:
     css_debug:      ~
     css_debug_all:  false
+
+oro_message_queue:
+    client:
+        traceable_producer: true
 
 #swiftmailer:
 #    delivery_address: me@example.com

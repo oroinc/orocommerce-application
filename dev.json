@@ -15,8 +15,7 @@
   },
   "require": {
     "php": ">=5.5.9",
-    "oro/commerce": "1.x-dev",
-    "oro/platform-serialised-fields": "1.x-dev"
+    "oro/commerce": "1.x-dev"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3",
@@ -60,6 +59,10 @@
     }
   },
   "repositories": [
+    {
+      "type": "path",
+      "url": "../../package/*"
+    },
     {
       "type": "composer",
       "url": "https://packagist.orocrm.com"

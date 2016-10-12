@@ -74,7 +74,26 @@ php app/console clank:server --env prod
 php app/console oro:cron --env prod
 ```
 
+- Launch message queue consumption:
+
+```bash
+php app/console oro:message-queue:consume --env prod
+```
+
 **Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration or if you running console command from other location.
+
+## Upgrading
+
+If you're upgrading from existing, older beta versions please issue the following commands in the `application/commerce` folder:
+
+```bash
+composer install
+app/console oro:platform:update --force
+```
+
+The database will be migrated into the latest state.
+
+Note that if you want to preserve images from the old version, you need to copy the `app/attachments` folder from the previous installation.
 
 ## Installation notes
 
@@ -110,5 +129,5 @@ The OroCommerce sample application is based on the Symfony standard application 
 [1]: http://getcomposer.org/
 [2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
-[4]: http://symfony.com/doc/2.3/cookbook/configuration/web_server_configuration.html
+[4]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
 [5]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
