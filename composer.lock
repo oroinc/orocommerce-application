@@ -4614,12 +4614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "a65e0c2a4e2b8dd050def423f3364898ac7927a8"
+                "reference": "d2819d29e016cf15cb7b27e395c86a736c8a883d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/a65e0c2a4e2b8dd050def423f3364898ac7927a8",
-                "reference": "a65e0c2a4e2b8dd050def423f3364898ac7927a8",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/d2819d29e016cf15cb7b27e395c86a736c8a883d",
+                "reference": "d2819d29e016cf15cb7b27e395c86a736c8a883d",
                 "shasum": ""
             },
             "require": {
