@@ -8,6 +8,8 @@ default: &default
         Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
+            shared_contexts:
+                - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
             application_suites:
                 - OroApplicationBundle
                 - OroUserBundle
