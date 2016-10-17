@@ -11,7 +11,15 @@ default: &default
             shared_contexts:
                 - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
             application_suites:
+                - OroEmailBundle
+                - OroUserBundle
+                - OroHelpBundle
+                - OroSearchBundle
+                - OroDashboardBundle
                 - OroApplicationBundle
+                - OroNavigationBundle
+                - OroShippingBundle
+
 
 selenium2:
     <<: *default
