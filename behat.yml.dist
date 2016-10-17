@@ -23,7 +23,8 @@ default: &default
                 - OroSearchBundle
                 - OroDashboardBundle
                 - OroApplicationBundle
-                - OroShippingBundle
+#                @todo Uncomment after resolve BB-4971
+#                - OroShippingBundle
 
 selenium2:
     <<: *default
