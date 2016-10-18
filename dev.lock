@@ -4468,7 +4468,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle": "src/",
+                    "Oro\\Bundle": "src/",
                     "Oro": "src/"
                 }
             },
@@ -4487,7 +4487,7 @@
         {
             "name": "oro/crm-abandoned-cart",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/AbandonedCartBundle",
+            "target-dir": "src/Oro/Bundle/AbandonedCartBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
@@ -4507,7 +4507,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\AbandonedCartBundle": "src/"
+                    "Oro\\Bundle\\AbandonedCartBundle": "src/"
                 }
             },
             "license": [
@@ -4524,7 +4524,7 @@
         {
             "name": "oro/crm-call-bundle",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/CallBundle",
+            "target-dir": "src/Oro/Bundle/CallBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
@@ -4543,7 +4543,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\CallBundle": "src/"
+                    "Oro\\Bundle\\CallBundle": "src/"
                 }
             },
             "license": [
@@ -4564,7 +4564,7 @@
         {
             "name": "oro/crm-dotmailer",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/DotmailerBundle",
+            "target-dir": "src/Oro/Bundle/DotmailerBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
@@ -4584,7 +4584,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\DotmailerBundle": "src/"
+                    "Oro\\Bundle\\DotmailerBundle": "src/"
                 }
             },
             "license": [
@@ -4602,7 +4602,7 @@
         {
             "name": "oro/crm-hangouts-call-bundle",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/HangoutsCallBundle",
+            "target-dir": "src/Oro/Bundle/HangoutsCallBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
@@ -4622,7 +4622,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\HangoutsCallBundle": "src/"
+                    "Oro\\Bundle\\HangoutsCallBundle": "src/"
                 }
             },
             "license": [
@@ -4645,7 +4645,7 @@
         {
             "name": "oro/crm-magento-embedded-contact-us",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/MagentoContactUsBundle",
+            "target-dir": "src/Oro/Bundle/MagentoContactUsBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
@@ -4664,7 +4664,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\MagentoContactUsBundle": "src/"
+                    "Oro\\Bundle\\MagentoContactUsBundle": "src/"
                 }
             },
             "license": [
@@ -4682,7 +4682,7 @@
         {
             "name": "oro/crm-mail-chimp",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/MailChimpBundle",
+            "target-dir": "src/Oro/Bundle/MailChimpBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
@@ -4702,7 +4702,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\MailChimpBundle": "src/"
+                    "Oro\\Bundle\\MailChimpBundle": "src/"
                 }
             },
             "license": [
@@ -4720,7 +4720,7 @@
         {
             "name": "oro/crm-task-bundle",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/TaskBundle",
+            "target-dir": "src/Oro/Bundle/TaskBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
@@ -4739,7 +4739,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\TaskBundle": "src/"
+                    "Oro\\Bundle\\TaskBundle": "src/"
                 }
             },
             "license": [
@@ -4760,7 +4760,7 @@
         {
             "name": "oro/crm-zendesk",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/ZendeskBundle",
+            "target-dir": "src/Oro/Bundle/ZendeskBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
@@ -4779,7 +4779,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\ZendeskBundle": "src/"
+                    "Oro\\Bundle\\ZendeskBundle": "src/"
                 }
             },
             "license": [
