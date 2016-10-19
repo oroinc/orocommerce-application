@@ -5,13 +5,21 @@ default: &default
     extensions:
         Behat\MinkExtension:
             base_url: 'http://dev-commerce.local/'
+        Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
+            shared_contexts:
+                - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
             application_suites:
+                - OroEmailBundle
+                - OroUserBundle
+                - OroHelpBundle
+                - OroSearchBundle
+                - OroDashboardBundle
                 - OroApplicationBundle
+                - OroNavigationBundle
+                - OroShippingBundle
+
 
 selenium2:
     <<: *default
-    extensions:
-        Behat\MinkExtension:
-            base_url: 'http://dev-commerce.local/'
