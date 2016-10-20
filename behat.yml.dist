@@ -5,19 +5,26 @@ default: &default
     extensions:
         Behat\MinkExtension:
             base_url: 'http://dev-commerce-crm.local/'
+        Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
+            shared_contexts:
+                - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
             application_suites:
                 - OroApplicationBundle
                 - OroUserBundle
                 - OroCRMBundle
                 - OroNavigationBundle
-                - OroCRMContactBundle
-                - OroCRMAccountBundle
-                - OroCRMTaskBundle
+                - OroContactBundle
+                - OroAccountBundle
+                - OroTaskBundle
+                - OroEmailBundle
+                - OroHelpBundle
+                - OroSearchBundle
+                - OroDashboardBundle
+                - OroApplicationBundle
+#                @todo Uncomment after resolve BB-4971
+#                - OroShippingBundle
 
 selenium2:
     <<: *default
-    extensions:
-        Behat\MinkExtension:
-            base_url: 'http://dev-commerce-crm.local/'
