@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "08bfc7752d6ddccd59750e006e0354b1",
-    "content-hash": "93f3c0fefc4a70db10c2ffe13f4c711d",
+    "hash": "3c6a00f74196b7c6d841e3eac2e49aac",
+    "content-hash": "3944dcd3816fce99a97f7d5efe67275e",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -793,16 +793,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "88c26372b1afac36d8db601cdf04ad8716f53d88"
+                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/88c26372b1afac36d8db601cdf04ad8716f53d88",
-                "reference": "88c26372b1afac36d8db601cdf04ad8716f53d88",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/96c6a07b05b716e89a44529d060bc7f5c263cb13",
+                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13",
                 "shasum": ""
             },
             "require": {
@@ -850,7 +850,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2016-05-04 12:27:30"
+            "time": "2016-09-28 07:17:45"
         },
         {
             "name": "doctrine/annotations",
@@ -3329,25 +3329,27 @@
         },
         {
             "name": "knplabs/knp-menu",
-            "version": "v2.0.0-alpha2",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenu.git",
-                "reference": "de645e813ddca4a1243db48bce5eaee8adb346a2"
+                "reference": "9917b999a3c3d3901386d60c4888b07679291031"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/de645e813ddca4a1243db48bce5eaee8adb346a2",
-                "reference": "de645e813ddca4a1243db48bce5eaee8adb346a2",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenu/zipball/9917b999a3c3d3901386d60c4888b07679291031",
+                "reference": "9917b999a3c3d3901386d60c4888b07679291031",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "pimple/pimple": "1.0.*",
-                "silex/silex": "1.0.*",
-                "twig/twig": ">=1.2,<2.0-dev"
+                "pimple/pimple": "~1.0",
+                "silex/silex": "~1.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/routing": "~2.3|~3.0",
+                "twig/twig": "~1.16|~2.0"
             },
             "suggest": {
                 "pimple/pimple": "for the built-in implementations of the menu provider and renderer provider",
@@ -3357,12 +3359,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Knp\\Menu\\": "src/"
+                "psr-4": {
+                    "Knp\\Menu\\": "src/Knp/Menu"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3389,36 +3391,39 @@
                 "menu",
                 "tree"
             ],
-            "time": "2014-05-01 19:50:28"
+            "time": "2016-01-08 15:42:54"
         },
         {
             "name": "knplabs/knp-menu-bundle",
-            "version": "v2.0.0-alpha2",
-            "target-dir": "Knp/Bundle/MenuBundle",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "d7da4383a20e725a2df99fd9913a076b463c1670"
+                "reference": "42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/d7da4383a20e725a2df99fd9913a076b463c1670",
-                "reference": "d7da4383a20e725a2df99fd9913a076b463c1670",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca",
+                "reference": "42ff1953c3a79d0b31aba2ece8c03fbd70e7f1ca",
                 "shasum": ""
             },
             "require": {
-                "knplabs/knp-menu": "~2.0, >=2.0.0-alpha2",
-                "symfony/framework-bundle": "~2.0"
+                "knplabs/knp-menu": "~2.1",
+                "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Knp\\Bundle\\MenuBundle": ""
+                "psr-4": {
+                    "Knp\\Bundle\\MenuBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3431,7 +3436,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3443,7 +3448,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2014-06-06 09:54:22"
+            "time": "2016-06-21 06:53:03"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -4411,7 +4416,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": null,
+                "reference": "c07c2675d58c73460aa85ea4fd79e608a2b0bfbd",
                 "shasum": null
             },
             "require": {
@@ -4451,7 +4456,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": null,
+                "reference": "2442eef17e5d28ee522b3f6ecfdc436c5df9615f",
                 "shasum": null
             },
             "require": {
@@ -4468,7 +4473,6 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Oro\\Bundle": "src/",
                     "Oro": "src/"
                 }
             },
@@ -4491,7 +4495,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": null,
+                "reference": "774ec1c2ae2b87607b8d97951cff25c85b6ce0de",
                 "shasum": null
             },
             "require": {
@@ -4519,7 +4523,7 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "OroCRM Abandoned Cart"
+            "description": "Oro Abandoned Cart"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -4528,7 +4532,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": null,
+                "reference": "934220df7f50bc1137625ceaa4561ffca51ada1b",
                 "shasum": null
             },
             "require": {
@@ -4555,10 +4559,10 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "OroCRM Call Bundle",
+            "description": "Oro Call Bundle",
             "keywords": [
                 "Call",
-                "OroCRM"
+                "Oro"
             ]
         },
         {
@@ -4568,7 +4572,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": null,
+                "reference": "16532e13c5c95f390b4fed8735ad22ea3205f2fd",
                 "shasum": null
             },
             "require": {
@@ -4596,7 +4600,7 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "OroCRM Dotmailer integration",
+            "description": "Oro Dotmailer integration",
             "homepage": "https://github.com/orocrm/OroCRMDotmailerBundle.git"
         },
         {
@@ -4606,7 +4610,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": null,
+                "reference": "8f0cd8b04322c5eef3cd2f31e2d450508c922f79",
                 "shasum": null
             },
             "require": {
@@ -4634,11 +4638,11 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "OroCRM Google Hangouts integration",
+            "description": "Oro Google Hangouts integration",
             "homepage": "https://github.com/orocrm/OroCRMHangoutsCallBundle.git",
             "keywords": [
                 "Google Hangouts",
-                "OroCRM",
+                "Oro",
                 "integration"
             ]
         },
@@ -4649,7 +4653,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": null,
+                "reference": "5953a3b22a215a8512de07750720007927dfde43",
                 "shasum": null
             },
             "require": {
@@ -4686,7 +4690,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": null,
+                "reference": "7d1aa8c704a4983ab6a37b6931d418cbe7b9bf3d",
                 "shasum": null
             },
             "require": {
@@ -4724,7 +4728,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": null,
+                "reference": "9fa53f7592c5a559be8cdcc8a7e3e693e21062fb",
                 "shasum": null
             },
             "require": {
@@ -4751,9 +4755,9 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "OroCRM Task Bundle",
+            "description": "Oro Task Bundle",
             "keywords": [
-                "OroCRM",
+                "Oro",
                 "Task"
             ]
         },
@@ -4764,7 +4768,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": null,
+                "reference": "2288f8f156a7298aae6ee0701ff78fdfe1cfe133",
                 "shasum": null
             },
             "require": {
@@ -4792,10 +4796,10 @@
                 }
             ],
             "description": "OroCRM Zendesk Integration",
-            "homepage": "https://github.com/orocrm/OroCRMZendeskBundle.git",
+            "homepage": "https://github.com/orocrm/OroZendeskBundle.git",
             "keywords": [
                 "Integration",
-                "OroCRM",
+                "Oro",
                 "Zendesk"
             ]
         },
@@ -4961,7 +4965,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": null,
+                "reference": "de3de33eefbcb66a286686222ccc27179be48b2d",
                 "shasum": null
             },
             "require": {
@@ -4984,6 +4988,7 @@
                 "ext-intl": "*",
                 "ext-mbstring": "*",
                 "ext-xml": "*",
+                "ext-zip": "*",
                 "ezyang/htmlpurifier": "4.6.0",
                 "friendsofsymfony/jsrouting-bundle": "1.5.4",
                 "friendsofsymfony/rest-bundle": "1.7.1",
@@ -4996,8 +5001,8 @@
                 "jms/serializer": "0.14.0",
                 "jms/serializer-bundle": "0.13.0",
                 "knplabs/knp-gaufrette-bundle": "0.1.*",
-                "knplabs/knp-menu": "2.0.0-alpha2",
-                "knplabs/knp-menu-bundle": "2.0.0-alpha2",
+                "knplabs/knp-menu": "2.1.*",
+                "knplabs/knp-menu-bundle": "2.1.*",
                 "kriswallsmith/assetic": "1.3.1",
                 "leafo/lessphp": "0.4.0",
                 "lexik/maintenance-bundle": "v1.0.3",
@@ -5068,7 +5073,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": null,
+                "reference": "3dd4f7f6cc09f65c73cb83a63cb35c64df7f725d",
                 "shasum": null
             },
             "require": {
@@ -5106,16 +5111,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
                 "shasum": ""
             },
             "require": {
@@ -5150,7 +5155,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-04-03 06:00:07"
+            "time": "2016-10-17 15:23:22"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -5362,16 +5367,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -5405,7 +5410,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-19 16:02:08"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "react/event-loop",
@@ -5819,17 +5824,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.10",
+            "version": "v4.0.11",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "b74cf0c0a95fd10421523c1f06df5ee77294e170"
+                "reference": "65c42bd37fca8d64321be5a340058bcbde0f2700"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/b74cf0c0a95fd10421523c1f06df5ee77294e170",
-                "reference": "b74cf0c0a95fd10421523c1f06df5ee77294e170",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/65c42bd37fca8d64321be5a340058bcbde0f2700",
+                "reference": "65c42bd37fca8d64321be5a340058bcbde0f2700",
                 "shasum": ""
             },
             "require": {
@@ -5875,7 +5880,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-09-14 20:23:57"
+            "time": "2016-10-08 18:48:07"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -8620,16 +8625,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -8661,7 +8666,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
