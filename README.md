@@ -38,6 +38,12 @@ http://getcomposer.org/ or just run the following command:
 curl -s https://getcomposer.org/installer | php
 ```
 
+OroCommerce uses [fxpio/composer-asset-plugin][10] to manage dependency on third-party asset libraries. The plugin have to be installed globally (per user):
+ 
+```bash
+    composer global require "fxp/composer-asset-plugin:~1.2"
+```
+
 - Clone https://github.com/orocommerce/orocommerce-application.git repository with
 
 ```bash
@@ -165,3 +171,4 @@ The OroCommerce sample application is based on the Symfony standard application 
 [7]:  http://symfony.com/doc/current/doctrine.html#configuring-the-database
 [8]:  http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
 [9]:  https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
+[10]:  https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
