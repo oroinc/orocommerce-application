@@ -26,8 +26,7 @@
     "nelmio/alice": "~2.1.4",
     "phpunit/phpunit": "4.8.*",
     "johnkary/phpunit-speedtrap": "1.0.*",
-    "mybuilder/phpunit-accelerator": "1.1.*",
-    "oro/calendar-bundle": "1.x-dev"
+    "mybuilder/phpunit-accelerator": "1.1.*"
   },
   "config": {
     "component-dir": "web/bundles/components"
