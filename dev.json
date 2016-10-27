@@ -26,7 +26,8 @@
     "nelmio/alice": "~2.1.4",
     "phpunit/phpunit": "4.8.*",
     "johnkary/phpunit-speedtrap": "1.0.*",
-    "mybuilder/phpunit-accelerator": "1.1.*"
+    "mybuilder/phpunit-accelerator": "1.1.*",
+    "oro/calendar-bundle": "1.x-dev"
   },
   "config": {
     "component-dir": "web/bundles/components"
@@ -56,6 +57,10 @@
     "symfony-web-dir": "web",
     "incenteev-parameters": {
       "file": "app/config/parameters.yml"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "web/bundles/npmassets",
+      "bower-asset-library": "web/bundles/bowerassets"
     }
   },
   "repositories": [
