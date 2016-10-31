@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72d531d3635ea3cc20a1af4e9c71f888",
-    "content-hash": "35601117416eec8f7d52272a00566c56",
+    "hash": "604712d592d26120a92bd8cd5f80ec88",
+    "content-hash": "5af4f191f5b9e9fbaafcb106e52b62ef",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -1697,16 +1697,16 @@
         },
         {
             "name": "components/jquery",
-            "version": "2.1.4",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c"
+                "reference": "09a1658378bc1f818856086396ebeab7d0ec2276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/7b1d1104656a092423fbfba13c5920e9bbba290c",
-                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c",
+                "url": "https://api.github.com/repos/components/jquery/zipball/09a1658378bc1f818856086396ebeab7d0ec2276",
+                "reference": "09a1658378bc1f818856086396ebeab7d0ec2276",
                 "shasum": ""
             },
             "type": "component",
@@ -1717,9 +1717,7 @@
                     ],
                     "files": [
                         "jquery.min.js",
-                        "jquery.min.map",
-                        "jquery-migrate.js",
-                        "jquery-migrate.min.js"
+                        "jquery.min.map"
                     ]
                 }
             },
@@ -1735,20 +1733,20 @@
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2015-05-08 05:04:47"
+            "time": "2016-09-23 06:06:29"
         },
         {
             "name": "components/jqueryui",
-            "version": "1.11.2",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jqueryui.git",
-                "reference": "396781474d936959061271505f506b78398fe6a2"
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/396781474d936959061271505f506b78398fe6a2",
-                "reference": "396781474d936959061271505f506b78398fe6a2",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/44ecf3794cc56b65954cc19737234a3119d036cc",
+                "reference": "44ecf3794cc56b65954cc19737234a3119d036cc",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1818,7 @@
                 }
             ],
             "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.",
-            "time": "2014-10-17 06:40:12"
+            "time": "2016-09-16 05:47:55"
         },
         {
             "name": "components/underscore",
@@ -5790,12 +5788,47 @@
             "time": "2014-09-28 14:18:11"
         },
         {
+            "name": "oro/calendar-bundle",
+            "version": "dev-master",
+            "target-dir": "Oro/Bundle/CalendarBundle",
+            "dist": {
+                "type": "path",
+                "url": "../../package/calendar",
+                "reference": "4ea835c2b108e0355aa6d4bd1249fd9fa601913d",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/fullcalendar": "2.2.3",
+                "oro/platform": "1.x-dev",
+                "php": ">=5.5.9"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Oro\\Bundle\\CalendarBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "BAP Calendar Bundle",
+            "keywords": [
+                "BAP",
+                "Calendar"
+            ]
+        },
+        {
             "name": "oro/commerce",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "695894f61afaf75a41c1240a0a2703472c572083",
+                "reference": "125a781434dd78349b9daa721739d978db11ef01",
                 "shasum": null
             },
             "require": {
@@ -5805,6 +5838,7 @@
                 "leafo/scssphp": "0.6.3",
                 "myclabs/deep-copy": "1.5.*",
                 "nicholas-eden/math": "0.6.*",
+                "oro/calendar-bundle": "1.x-dev",
                 "oro/platform": "1.x-dev"
             },
             "type": "library",
@@ -5890,7 +5924,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": null,
+                "reference": "7faf8f60153e568e136f7dd6688cffb3306c6c63",
                 "shasum": null
             },
             "require": {
@@ -5933,8 +5967,8 @@
                 "bower-asset/when": "2.4.0",
                 "components/backbone": "1.1.*",
                 "components/font-awesome": "~4.3.0",
-                "components/jquery": "2.1.*",
-                "components/jqueryui": "1.11.2",
+                "components/jquery": "3.1.*",
+                "components/jqueryui": "1.12.*",
                 "components/underscore": "1.7.*",
                 "composer/composer": "1.2.*",
                 "doctrine/annotations": "~1.2.7",
@@ -9344,41 +9378,6 @@
             "time": "2016-01-07 14:44:47"
         },
         {
-                "name": "oro/calendar-bundle",
-                "version": "dev-master",
-                "target-dir": "Oro/Bundle/CalendarBundle",
-                "dist": {
-                    "type": "path",
-                    "url": "../../package/calendar",
-                    "reference": "4ea835c2b108e0355aa6d4bd1249fd9fa601913d",
-                    "shasum": null
-                },
-                "require": {
-                    "bower-asset/fullcalendar": "2.2.3",
-                    "oro/platform": "1.x-dev",
-                    "php": ">=5.5.9"
-                },
-                "type": "symfony-bundle",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Oro\\Bundle\\CalendarBundle": ""
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "description": "BAP Calendar Bundle",
-                "keywords": [
-                    "BAP",
-                    "Calendar"
-                ]
-            },
-        {
             "name": "phpdocumentor/reflection-common",
             "version": "1.0",
             "source": {
@@ -10431,8 +10430,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "oro/commerce": 20,
-        "oro/calendar-bundle": 20
+        "oro/commerce": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
