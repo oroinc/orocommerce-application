@@ -15,6 +15,7 @@
   },
   "require": {
     "php": ">=5.5.9",
+    "robloach/component-installer" : "0.2.*",
     "oro/commerce": "1.x-dev"
   },
   "require-dev": {
