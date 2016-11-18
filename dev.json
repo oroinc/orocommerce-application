@@ -17,6 +17,7 @@
     "php": ">=5.5.9",
     "oro/commerce": "1.x-dev",
     "oro/crm": "1.x-dev",
+    "oro/commerce-crm": "1.x-dev",
     "oro/platform-serialised-fields": "1.x-dev",
     "oro/crm-hangouts-call-bundle": "1.x-dev",
     "oro/crm-abandoned-cart": "1.x-dev",
