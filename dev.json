@@ -51,7 +51,7 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion",
-      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::symlinkTrackingScript"
+      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::copyTrackingScript"
     ],
     "post-update-cmd": [
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
@@ -61,7 +61,7 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion",
-      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::symlinkTrackingScript"
+      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::copyTrackingScript"
     ]
   },
   "minimum-stability": "dev",
