@@ -17,6 +17,7 @@ node_modules/
 /web/uploads/users/*
 /web/media/cache
 /web/build.js
+/web/tracking.php
 /app/phpunit.xml
 /app/karma.conf.js
 /app/config/parameters.yml

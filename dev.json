@@ -50,7 +50,8 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion",
+      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::symlinkTrackingScript"
     ],
     "post-update-cmd": [
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
@@ -59,7 +60,8 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion",
+      "Oro\\Bundle\\TrackingBundle\\Composer\\TrackingInstaller::symlinkTrackingScript"
     ]
   },
   "minimum-stability": "dev",
