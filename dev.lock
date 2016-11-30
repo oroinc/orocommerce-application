@@ -1293,16 +1293,16 @@
         },
         {
             "name": "bower-asset/moment-timezone",
-            "version": "0.5.9",
+            "version": "0.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment-timezone.git",
-                "reference": "1800e6bee258842a5f6deee0d9bd885b0fe5f283"
+                "reference": "3e9abbf0e817134c6d03b4cb541f96471238d96c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/1800e6bee258842a5f6deee0d9bd885b0fe5f283",
-                "reference": "1800e6bee258842a5f6deee0d9bd885b0fe5f283",
+                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/3e9abbf0e817134c6d03b4cb541f96471238d96c",
+                "reference": "3e9abbf0e817134c6d03b4cb541f96471238d96c",
                 "shasum": ""
             },
             "require": {
@@ -4657,7 +4657,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -9291,43 +9291,6 @@
             "time": "2016-01-07 14:44:47"
         },
         {
-            "name": "nicholas-eden/math",
-            "version": "0.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nicholas-eden/math.git",
-                "reference": "56137c34383c451f6ed0d18d6b5147783f014bba"
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "satooshi/php-coveralls": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Brick\\Math\\": "src/",
-                    "Brick\\Math\\Tests\\": "tests/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Arbitrary-precision arithmetic library",
-            "keywords": [
-                "Arbitrary-precision",
-                "Arithmetic",
-                "BigDecimal",
-                "BigInteger",
-                "BigRational",
-                "Brick",
-                "Math"
-            ],
-            "time": "2015-10-21 19:56:08"
-        },
-        {
             "name": "phpdocumentor/reflection-common",
             "version": "1.0",
             "source": {
@@ -9600,16 +9563,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "6150bf2c35d3fc379e50c7602b75caceaa39dbf0"
+                "reference": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/6150bf2c35d3fc379e50c7602b75caceaa39dbf0",
-                "reference": "6150bf2c35d3fc379e50c7602b75caceaa39dbf0",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
+                "reference": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
                 "shasum": ""
             },
             "require": {
@@ -9643,7 +9606,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2015-06-21 13:08:43"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
