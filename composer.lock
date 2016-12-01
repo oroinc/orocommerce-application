@@ -5740,12 +5740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocommerce/orocommerce.git",
-                "reference": "bc84647df3bd141ed701430e662eeeb33b5f5e5b"
+                "reference": "c7221d516b89fba161cb7d455abd7e70c9c0f136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/bc84647df3bd141ed701430e662eeeb33b5f5e5b",
-                "reference": "bc84647df3bd141ed701430e662eeeb33b5f5e5b",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/c7221d516b89fba161cb7d455abd7e70c9c0f136",
+                "reference": "c7221d516b89fba161cb7d455abd7e70c9c0f136",
                 "shasum": ""
             },
             "require": {
@@ -5781,7 +5781,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2016-11-30 19:51:44"
+            "time": "2016-12-01 14:49:06"
         },
         {
             "name": "oro/doctrine-extensions",
