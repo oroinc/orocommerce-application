@@ -14,6 +14,7 @@ default: &default
             shared_contexts:
                 - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
                 - Oro\Bundle\SalesBundle\Tests\Behat\Context\SalesContext
+                - Oro\Bundle\ShippingBundle\Tests\Behat\Context\SingleCurrencyContext
             application_suites:
                 - OroApplicationBundle
                 - OroUserBundle
