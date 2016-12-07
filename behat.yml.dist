@@ -13,6 +13,7 @@ default: &default
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
             shared_contexts:
                 - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
+                - Oro\Bundle\ShippingBundle\Tests\Behat\Context\SingleCurrencyContext
             application_suites:
                 - OroEmailBundle
                 - OroUserBundle
