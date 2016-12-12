@@ -14,17 +14,17 @@
     }
   },
   "require": {
-    "php": ">=5.5.9",
     "oro/commerce": "1.x-dev",
-    "oro/crm": "1.x-dev"
+    "oro/crm": "1.x-dev",
+    "oro/commerce-crm": "1.x-dev"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.0.11",
     "behat/behat": "3.2.0",
-    "behat/mink-extension": "^2.0",
+    "behat/mink-extension": "2.2.*",
     "behat/mink-selenium2-driver": "1.*",
     "behat/symfony2-extension": "2.1.1",
-    "nelmio/alice": "^2.1",
+    "nelmio/alice": "2.1.*",
     "phpunit/phpunit": "4.8.*",
     "johnkary/phpunit-speedtrap": "1.0.*",
     "mybuilder/phpunit-accelerator": "1.1.*"
@@ -34,6 +34,7 @@
   },
   "scripts": {
     "post-install-cmd": [
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
@@ -42,6 +43,7 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
     ],
     "post-update-cmd": [
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
@@ -67,10 +69,6 @@
     {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/nicholas-eden/math.git"
     }
   ]
 }

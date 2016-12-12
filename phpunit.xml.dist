@@ -14,6 +14,7 @@
         <exclude>
             <group>soap</group>
             <group>segfault</group>
+            <group>dist</group>
         </exclude>
     </groups>
     <testsuites>
@@ -24,6 +25,7 @@
             <directory suffix="Test.php">vendor/oro/platform*/src/*/Component/*/Tests/Unit</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Bundle/*Bundle/Tests/Unit</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Component/*/Tests/Unit</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Unit</directory>
         </testsuite>
         <testsuite name="functional">
             <directory suffix="Test.php">vendor/oro/crm*/src/*/Bundle/*Bundle/Tests/Functional</directory>
@@ -32,6 +34,10 @@
             <directory suffix="Test.php">vendor/oro/platform*/src/*/Component/*/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Component/*/Tests/Functional</directory>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/CustomerBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/TaxBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
+            <exclude>vendor/oro/crm/src/Oro/Bundle/AccountBundle/Tests/Functional/API/RestAccountTest.php</exclude>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-1-of-6">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/A*Bundle/Tests/Functional</directory>
@@ -47,6 +53,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/K*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/L*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/CustomerBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
         </testsuite>
         <testsuite name="functional-2-of-6">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/M*Bundle/Tests/Functional</directory>
@@ -57,6 +64,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/T*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/TaxBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
         </testsuite>
         <testsuite name="functional-3-of-6">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Q*Bundle/Tests/Functional</directory>
@@ -94,6 +102,7 @@
             <directory suffix="Test.php">vendor/oro/crm/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/crm/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/crm-*/src/*/Bundle/*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/crm/src/Oro/Bundle/AccountBundle/Tests/Functional/API/RestAccountTest.php</exclude>
         </testsuite>
         <testsuite name="functional-5-of-6">
             <directory suffix="Test.php">vendor/oro/platform/src/*/Bundle/A*Bundle/Tests/Functional</directory>
@@ -132,6 +141,7 @@
         <testsuite name="functional-2-of-10">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/T*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/TaxBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
         </testsuite>
         <testsuite name="functional-3-of-10">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/P*Bundle/Tests/Functional</directory>
@@ -161,10 +171,12 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/X*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/commerce/src/Oro/Bundle/CustomerBundle/Tests/Functional/Controller/AccountControllerTest.php</exclude>
         </testsuite>
         <testsuite name="functional-6-of-10">
             <directory suffix="Test.php">vendor/oro/platform/src/*/Bundle/A*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/*/src/*/Component/*/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-7-of-10">
             <directory suffix="Test.php">vendor/oro/platform/src/*/Bundle/D*Bundle/Tests/Functional</directory>
@@ -226,6 +238,7 @@
             <directory suffix="Test.php">vendor/oro/crm/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/crm/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/crm-*/src/*/Bundle/*Bundle/Tests/Functional</directory>
+            <exclude>vendor/oro/crm/src/Oro/Bundle/AccountBundle/Tests/Functional/API/RestAccountTest.php</exclude>
         </testsuite>
     </testsuites>
     <php>
