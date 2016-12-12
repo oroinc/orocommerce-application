@@ -14,17 +14,20 @@
         <exclude>
             <group>soap</group>
             <group>segfault</group>
+            <group>dist</group>
         </exclude>
     </groups>
     <testsuites>
         <testsuite name="unit">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/*Bundle/Tests/Unit</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Unit</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Unit</directory>
         </testsuite>
         <testsuite name="functional">
             <directory suffix="Test.php">vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-1-of-4">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/A*Bundle/Tests/Functional</directory>
@@ -54,6 +57,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Q*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/R*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/S*Bundle/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-4-of-4">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
@@ -101,6 +105,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Component/*/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
     </testsuites>
     <php>
