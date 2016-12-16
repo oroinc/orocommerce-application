@@ -443,12 +443,12 @@
             "version": "0.3.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wyuenho/backgrid.git",
+                "url": "https://github.com/cloudflare/backgrid.git",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wyuenho/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
+                "url": "https://api.github.com/repos/cloudflare/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "shasum": ""
             },
@@ -485,12 +485,12 @@
             "version": "v0.3.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wyuenho/backgrid-paginator.git",
+                "url": "https://github.com/cloudflare/backgrid-paginator.git",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wyuenho/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
+                "url": "https://api.github.com/repos/cloudflare/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "shasum": ""
             },
@@ -5534,7 +5534,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "f82870e662cfe282ea1b37da44eebf9237d52ee2",
+                "reference": "5209c413992a59ee31dc7888ce9320198e5bf3bb",
                 "shasum": null
             },
             "require": {
@@ -5545,7 +5545,8 @@
                 "leafo/scssphp": "0.6.3",
                 "myclabs/deep-copy": "1.5.*",
                 "oro/calendar-bundle": "1.x-dev",
-                "oro/platform": "1.x-dev"
+                "oro/platform": "1.x-dev",
+                "oro/platform-serialised-fields": "1.x-dev"
             },
             "type": "library",
             "extra": {
