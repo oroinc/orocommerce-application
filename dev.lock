@@ -9,38 +9,31 @@
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
-            "version": "2.1.2",
+            "version": "1.x-dev",
             "target-dir": "A2lix/TranslationFormBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/a2lix/TranslationFormBundle.git",
-                "reference": "a04a8db282caabc084cf9fcccd82d2fcfbee36af"
+                "reference": "5041f05883685d944e2d9b44343709b51a1d476f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/a2lix/TranslationFormBundle/zipball/a04a8db282caabc084cf9fcccd82d2fcfbee36af",
-                "reference": "a04a8db282caabc084cf9fcccd82d2fcfbee36af",
+                "url": "https://api.github.com/repos/a2lix/TranslationFormBundle/zipball/5041f05883685d944e2d9b44343709b51a1d476f",
+                "reference": "5041f05883685d944e2d9b44343709b51a1d476f",
                 "shasum": ""
             },
             "require": {
                 "symfony/symfony": ">=2.3"
             },
-            "require-dev": {
-                "doctrine/common": "~2.3",
-                "gedmo/doctrine-extensions": "~2.4",
-                "knplabs/doctrine-behaviors": "1.0.*",
-                "phpunit/phpunit": "~4.1"
-            },
             "suggest": {
                 "a2lix/i18n-doctrine-bundle": "For A2lix strategy",
-                "gedmo/doctrine-extensions": "For Gedmo strategy",
                 "knplabs/doctrine-behaviors": "For Knp strategy",
-                "prezent/doctrine-translatable-bundle": "For Prezent strategy"
+                "stof/doctrine-extensions-bundle": "For Gedmo strategy"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -54,11 +47,14 @@
             ],
             "authors": [
                 {
-                    "name": "David ALLIX",
-                    "homepage": "http://a2lix.fr"
+                    "name": "David ALLIX"
+                },
+                {
+                    "name": "A2lix",
+                    "homepage": "http://www.a2lix.fr"
                 }
             ],
-            "description": "Translate your doctrine objects easily with some helps",
+            "description": "Translate your doctrine objects easily with a custom form field",
             "homepage": "https://github.com/a2lix/TranslationFormBundle",
             "keywords": [
                 "Symfony2",
@@ -71,7 +67,7 @@
                 "translatable",
                 "translation"
             ],
-            "time": "2016-04-11 12:49:49"
+            "time": "2016-08-05 18:11:57"
         },
         {
             "name": "akeneo/batch-bundle",
@@ -377,12 +373,12 @@
             "version": "0.3.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid.git",
+                "url": "https://github.com/wyuenho/backgrid.git",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
+                "url": "https://api.github.com/repos/wyuenho/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "shasum": ""
             },
@@ -419,12 +415,12 @@
             "version": "v0.3.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid-paginator.git",
+                "url": "https://github.com/wyuenho/backgrid-paginator.git",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
+                "url": "https://api.github.com/repos/wyuenho/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "shasum": ""
             },
@@ -5576,11 +5572,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "518c1d363e9f7b2191f1a2c28e58344d535e625b",
+                "reference": "ec660a8175e9feeb035e761e35a60ef58cd4defa",
                 "shasum": null
             },
             "require": {
-                "a2lix/translation-form-bundle": "2.1.2",
+                "a2lix/translation-form-bundle": "1.x-dev",
                 "akeneo/batch-bundle": "0.4.2",
                 "ass/xmlsecurity": "1.1.1",
                 "bower-asset/autobahnjs": "0.8.0",
@@ -9066,43 +9062,6 @@
                 "test"
             ],
             "time": "2016-07-15 19:50:38"
-        },
-        {
-            "name": "nicholas-eden/math",
-            "version": "0.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nicholas-eden/math.git",
-                "reference": "56137c34383c451f6ed0d18d6b5147783f014bba"
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "satooshi/php-coveralls": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Brick\\Math\\": "src/",
-                    "Brick\\Math\\Tests\\": "tests/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Arbitrary-precision arithmetic library",
-            "keywords": [
-                "Arbitrary-precision",
-                "Arithmetic",
-                "BigDecimal",
-                "BigInteger",
-                "BigRational",
-                "Brick",
-                "Math"
-            ],
-            "time": "2015-10-21 19:56:08"
         },
         {
             "name": "phpspec/prophecy",
