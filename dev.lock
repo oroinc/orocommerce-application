@@ -5479,7 +5479,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "f82870e662cfe282ea1b37da44eebf9237d52ee2",
+                "reference": "5209c413992a59ee31dc7888ce9320198e5bf3bb",
                 "shasum": null
             },
             "require": {
@@ -5490,7 +5490,8 @@
                 "leafo/scssphp": "0.6.3",
                 "myclabs/deep-copy": "1.5.*",
                 "oro/calendar-bundle": "1.x-dev",
-                "oro/platform": "1.x-dev"
+                "oro/platform": "1.x-dev",
+                "oro/platform-serialised-fields": "1.x-dev"
             },
             "type": "library",
             "extra": {
