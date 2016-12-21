@@ -23,5 +23,6 @@ node_modules/
 /app/config/parameters_test.yml
 phpunit.xml
 *~
+bin
 
 /app/SymfonyRequirements.php
