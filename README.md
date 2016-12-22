@@ -162,6 +162,10 @@ CREATE EXTENSION "uuid-ossp";
 
 The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][4].
 
+## License
+
+[OSL-3.0][11] Copyright (c) 2015 - 2016, Oro, Inc.
+
 [1]: http://getcomposer.org/
 [2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
@@ -172,3 +176,4 @@ The OroCommerce sample application is based on the Symfony standard application,
 [8]:  http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
 [9]:  https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
 [10]:  https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
+[11]: LICENSE
