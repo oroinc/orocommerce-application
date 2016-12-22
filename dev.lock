@@ -7351,16 +7351,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.4.0",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069"
+                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069",
-                "reference": "d7b7bd6bb6e9b32ebc5f9778f94d4b4e4af5d069",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/ad751095576ce0c12a284e30e3fff80c91f27225",
+                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225",
                 "shasum": ""
             },
             "require": {
@@ -7406,7 +7406,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-10-27 17:59:30"
+            "time": "2016-12-20 04:44:33"
         },
         {
             "name": "symfony/symfony",
@@ -7953,26 +7953,26 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.0.1",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e"
+                "reference": "c3bce7b7d47c54040b9ae51bc55491c72513b75d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/5c80bdee0e952be112dcec0968bad770082c3a6e",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/c3bce7b7d47c54040b9ae51bc55491c72513b75d",
+                "reference": "c3bce7b7d47c54040b9ae51bc55491c72513b75d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0",
+                "phpunit/phpunit": "^5.6",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
             "suggest": {
@@ -7982,8 +7982,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev",
-                    "dev-develop": "3.1-dev"
+                    "dev-master": "3.1-dev",
+                    "dev-develop": "3.2-dev"
                 }
             },
             "autoload": {
@@ -8003,7 +8003,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2016-02-18 20:53:00"
+            "time": "2016-12-19 21:47:12"
         },
         {
             "name": "zendframework/zend-loader",
