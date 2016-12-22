@@ -60,11 +60,20 @@ php composer.phar install --prefer-dist
 
 - Create a database with the name specified in the previous step (the default name is "b2b_dev").
 
-- Install the application and create the admin user with the web installation wizard by opening install.php in the browser or from CLI:
+- On some systems it might be necessary to temporarily increase memory_limit setting to 1 GB in php.ini configuration file for the duration of the installation process:
+
+```ini
+memory_limit=1024M
+```
+
+**Note:** After the installation is finished the memory_limit configuration can be changed back to the recommended value (512 MB or more).
+
+- Install the application and create the admin user with the web installation wizard by opening install.php in the browser or running the following CLI command:
 
 ```bash
 php app/console oro:install --env prod
 ```
+
 **Note:** If the installation process times out, add the `--timeout=0` argument to the oro:install command.
 
 - Enable WebSocket messaging
