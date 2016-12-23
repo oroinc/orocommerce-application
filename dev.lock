@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d01cb1b8976562ed362e75d8b5f5dace",
-    "content-hash": "e67c38526ced8a8c3e6354b673a650f3",
+    "hash": "438e582bb028937a0a7ae23caf874354",
+    "content-hash": "bd995cad4ddf33b7916cd328b59e4655",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -1244,16 +1244,16 @@
         },
         {
             "name": "bower-asset/moment-timezone",
-            "version": "0.5.10",
+            "version": "0.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment-timezone.git",
-                "reference": "3e9abbf0e817134c6d03b4cb541f96471238d96c"
+                "reference": "2124976c909dd440bea4499c5fd9c8ca4da95fd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/3e9abbf0e817134c6d03b4cb541f96471238d96c",
-                "reference": "3e9abbf0e817134c6d03b4cb541f96471238d96c",
+                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/2124976c909dd440bea4499c5fd9c8ca4da95fd8",
+                "reference": "2124976c909dd440bea4499c5fd9c8ca4da95fd8",
                 "shasum": ""
             },
             "require": {
@@ -5475,7 +5475,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "b2b8cc63d06e33281e24802e0fe3f5f0745b08a2",
+                "reference": "1bbba4309b104528ec6b8f990b17d70953d0cdca",
                 "shasum": null
             },
             "require": {
@@ -5486,6 +5486,7 @@
                 "leafo/scssphp": "0.6.3",
                 "myclabs/deep-copy": "1.5.*",
                 "oro/calendar-bundle": "1.x-dev",
+                "oro/marketing": "1.x-dev",
                 "oro/platform": "1.x-dev",
                 "oro/platform-serialised-fields": "1.x-dev"
             },
@@ -5554,13 +5555,14 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "3bf668bb9797e1b4c07db3c8d232b2c5053de64f",
+                "reference": "0a672f818fa5d1fa2ac5cbb5ab6dac3c0226aaf2",
                 "shasum": null
             },
             "require": {
                 "oro/calendar-bundle": "1.x-dev",
                 "oro/crm-call-bundle": "1.x-dev",
                 "oro/crm-task-bundle": "1.x-dev",
+                "oro/marketing": "1.x-dev",
                 "oro/platform": "1.x-dev",
                 "php": ">=5.6"
             },
@@ -11130,8 +11132,7 @@
         "oro/crm-magento-embedded-contact-us": 20,
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
-        "oro/crm-zendesk": 20,
-        "oro/marketing": 20
+        "oro/crm-zendesk": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
