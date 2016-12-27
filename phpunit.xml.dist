@@ -28,6 +28,7 @@
 
     <groups>
         <exclude>
+            <group>crm</group>
             <group>soap</group>
             <group>segfault</group>
             <group>dist</group>
