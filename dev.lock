@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9ba73f050ff7d5ba319ee75453cf753",
+    "hash": "658929e2274c4c368642fcd3e13ad34a",
     "content-hash": "2bf49b8732e6195571988e861bbbd294",
     "packages": [
         {
@@ -628,6 +628,42 @@
                 "time",
                 "timepicker",
                 "ui"
+            ]
+        },
+        {
+            "name": "bower-asset/elevatezoom3",
+            "version": "3.0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qodeboy-forks/elevatezoom.git",
+                "reference": "e02b7785a3598254842219b02a6208f4e29eae3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qodeboy-forks/elevatezoom/zipball/e02b7785a3598254842219b02a6208f4e29eae3a",
+                "reference": "e02b7785a3598254842219b02a6208f4e29eae3a",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A jQuery image zoom plugin, with tints, easing and gallery integration.",
+            "keywords": [
+                "effects",
+                "elements",
+                "zoom",
+                "zooming"
             ]
         },
         {
@@ -3156,16 +3192,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.25",
+            "version": "v2.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8"
+                "reference": "983dd85d6860f87fb7dffd0d9f7ad1462e20a09d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8",
-                "reference": "9ac9111dfa7e4b89f8961f29bb64a385c31d5ed8",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/983dd85d6860f87fb7dffd0d9f7ad1462e20a09d",
+                "reference": "983dd85d6860f87fb7dffd0d9f7ad1462e20a09d",
                 "shasum": ""
             },
             "require": {
@@ -3231,7 +3267,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-12-14 20:12:38"
+            "time": "2016-12-21 13:46:54"
         },
         {
             "name": "genemu/form-bundle",
@@ -5434,7 +5470,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "e1d25daea3d9ff8f5919f453dee9f774ef62aeb7",
+                "reference": "0073e53ae98216101084e6d1a4e9f61f1f0cac0f",
                 "shasum": null
             },
             "require": {
@@ -5475,10 +5511,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "1bbba4309b104528ec6b8f990b17d70953d0cdca",
+                "reference": "448a9e2959216b3fafa560f75d8d9410d8dd3077",
                 "shasum": null
             },
             "require": {
+                "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
                 "box/spout": "2.3.*",
@@ -5519,7 +5556,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "36ff30275fe8ba1183c0fc74907d8dd3748cd454",
+                "reference": "17701b76858de0bf7a89aaaa3e98a9c32157af3a",
                 "shasum": null
             },
             "require": {
@@ -5555,7 +5592,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "0a672f818fa5d1fa2ac5cbb5ab6dac3c0226aaf2",
+                "reference": "614cf4aa448b9ca414f89ae6a0f08a4b7d31f70f",
                 "shasum": null
             },
             "require": {
@@ -5596,7 +5633,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "bd02fe31a6431dc3094e5c4769ce38943110441c",
+                "reference": "3c4f83346f6f0a06beae464f19590f8efba2c7b4",
                 "shasum": null
             },
             "require": {
@@ -5634,7 +5671,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "ff702c47fa4a0be215119d4d65c43f83e8d5ac3f",
+                "reference": "528d92ff1a7702836099a9ed9dc03965b220f514",
                 "shasum": null
             },
             "require": {
@@ -5675,7 +5712,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "7a66be19cc2d34078716220337d76bb588d7b509",
+                "reference": "695276c0a960a1d401eda56531fd5dd18fcd981c",
                 "shasum": null
             },
             "require": {
@@ -5714,7 +5751,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "d5ca4b425d27dd0d542ddea659768d68308baaf9",
+                "reference": "d28e027146138ab9b97627fba9f4aac9be84322f",
                 "shasum": null
             },
             "require": {
@@ -5758,7 +5795,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "94b031116ac67fd2bce28cc60722bd57ad51acc5",
+                "reference": "6177c0fdabe89c4135a37a77d1741e84190b481f",
                 "shasum": null
             },
             "require": {
@@ -5795,7 +5832,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "b9eb2047854768568e95fffcca5b59713970e3ec",
+                "reference": "f70d68267352d268879f51dfc909410021b7595b",
                 "shasum": null
             },
             "require": {
@@ -5834,7 +5871,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "93a719fc8fb149258ae200519fe4e484bb5b7afe",
+                "reference": "f644333ae4f710f73bf397577557d7495221c41e",
                 "shasum": null
             },
             "require": {
@@ -5875,7 +5912,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "fa42b0c9166fc748f93750df901c2515b917eb14",
+                "reference": "e4e99d9a1d42064a4c0e117df9deac7282a820f1",
                 "shasum": null
             },
             "require": {
@@ -5970,7 +6007,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "3d9ea12e684c73f4e51d8d912a7cb49b20485505",
+                "reference": "d56d957a23d03560d3272a8cb6969483b7bc9af8",
                 "shasum": null
             },
             "require": {
@@ -6012,7 +6049,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "44b563558e0878f1f362c7877456188c038abdd5",
+                "reference": "9276a2db9499a55b2016286b8399ed9afa119472",
                 "shasum": null
             },
             "require": {
@@ -6160,7 +6197,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "30768c7cfa57e3e26c4e0cd8ee9d8ab3f1969f32",
+                "reference": "ee5012f2d5570c85e766cec82b11d489f194c5c9",
                 "shasum": null
             },
             "require": {
@@ -6499,17 +6536,17 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.3.4",
+            "version": "v0.3.5",
             "target-dir": "React/EventLoop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "235cddfa999a392e7d63dc9bef2e042492608d9f"
+                "reference": "13e03b17e54ea864c6653a2cf6d146dad8464e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/235cddfa999a392e7d63dc9bef2e042492608d9f",
-                "reference": "235cddfa999a392e7d63dc9bef2e042492608d9f",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/13e03b17e54ea864c6653a2cf6d146dad8464e91",
+                "reference": "13e03b17e54ea864c6653a2cf6d146dad8464e91",
                 "shasum": ""
             },
             "require": {
@@ -6538,7 +6575,7 @@
             "keywords": [
                 "event-loop"
             ],
-            "time": "2013-07-21 02:23:09"
+            "time": "2016-12-28 22:48:03"
         },
         {
             "name": "react/socket",
@@ -7129,23 +7166,24 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.4",
+            "version": "v5.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
+                "reference": "cd142238a339459b10da3d8234220963f392540c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/cd142238a339459b10da3d8234220963f392540c",
+                "reference": "cd142238a339459b10da3d8234220963f392540c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1"
+                "mockery/mockery": "~0.9.1",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
@@ -7178,7 +7216,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-11-24 01:01:23"
+            "time": "2016-12-29 10:02:40"
         },
         {
             "name": "sylius/flow-bundle",
@@ -10163,16 +10201,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.4",
+            "version": "5.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "af91da3f2671006ff5d0628023de3b7ac4d1ef09"
+                "reference": "50fd2be8f3e23e91da825f36f08e5f9633076ffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/af91da3f2671006ff5d0628023de3b7ac4d1ef09",
-                "reference": "af91da3f2671006ff5d0628023de3b7ac4d1ef09",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/50fd2be8f3e23e91da825f36f08e5f9633076ffe",
+                "reference": "50fd2be8f3e23e91da825f36f08e5f9633076ffe",
                 "shasum": ""
             },
             "require": {
@@ -10241,7 +10279,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-13 16:19:44"
+            "time": "2016-12-28 07:18:51"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
