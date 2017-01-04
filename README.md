@@ -71,7 +71,7 @@ memory_limit=1024M
 - Install the application and create the admin user with the web installation wizard by opening install.php in the browser or running the following CLI command:
 
 ```bash
-php app/console oro:install --env prod
+php app/console oro:install --env=prod
 ```
 
 **Note:** If the installation process times out, add the `--timeout=0` argument to the oro:install command.
@@ -79,19 +79,19 @@ php app/console oro:install --env prod
 - Enable WebSocket messaging
 
 ```bash
-php app/console clank:server --env prod
+php app/console clank:server --env=prod
 ```
 
 - Configure crontab or scheduled tasks execution to run the command below every minute:
 
 ```bash
-php app/console oro:cron --env prod
+php app/console oro:cron --env=prod
 ```
 
 - Launch the message queue processing:
 
 ```bash
-php app/console oro:message-queue:consume --env prod
+php app/console oro:message-queue:consume --env=prod
 ```
 
 **Note:** ``app/console`` is a path from the project root folder. Please make sure you are using the full path for crontab configuration if you are running console command from a different location.
