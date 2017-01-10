@@ -21,7 +21,7 @@ security:
             pattern: ^/
             organization-http-basic:
                 realm: "AccountUser REST Area"
-            provider: commerce_account_user
+            provider: commerce_customer_user
             http-basic: false
             organization-form-login: false
             logout: false
@@ -32,7 +32,7 @@ security:
             pattern: ^/
             organization-http-basic:
                 realm: "Secured AccountUser REST Area"
-            provider: commerce_account_user
+            provider: commerce_customer_user
             http-basic: false
             organization-form-login: false
             logout: false
