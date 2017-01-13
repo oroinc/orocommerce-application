@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "658929e2274c4c368642fcd3e13ad34a",
+    "hash": "d9ba73f050ff7d5ba319ee75453cf753",
     "content-hash": "2bf49b8732e6195571988e861bbbd294",
     "packages": [
         {
@@ -373,12 +373,12 @@
             "version": "0.3.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid.git",
+                "url": "https://github.com/wyuenho/backgrid.git",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
+                "url": "https://api.github.com/repos/wyuenho/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "shasum": ""
             },
@@ -415,12 +415,12 @@
             "version": "v0.3.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid-paginator.git",
+                "url": "https://github.com/wyuenho/backgrid-paginator.git",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
+                "url": "https://api.github.com/repos/wyuenho/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "shasum": ""
             },
@@ -2022,16 +2022,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5"
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
                 "shasum": ""
             },
             "require": {
@@ -2086,7 +2086,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2016-10-24 11:45:47"
+            "time": "2016-12-30 15:59:45"
         },
         {
             "name": "doctrine/cache",
@@ -3435,41 +3435,41 @@
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "d9a7fe0a3d2b829a208db35e14530b9482acc812"
+                "reference": "50f4bcbe5c217cfdf0f7f40a174b87199b76d1e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/d9a7fe0a3d2b829a208db35e14530b9482acc812",
-                "reference": "d9a7fe0a3d2b829a208db35e14530b9482acc812",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/50f4bcbe5c217cfdf0f7f40a174b87199b76d1e1",
+                "reference": "50f4bcbe5c217cfdf0f7f40a174b87199b76d1e1",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/buzz": "~0.13",
-                "php": ">=5.3.3",
-                "symfony/form": "~2.3|~3.0",
-                "symfony/framework-bundle": "~2.3|~3.0",
-                "symfony/options-resolver": "~2.3|~3.0",
-                "symfony/security-bundle": "~2.3|~3.0",
-                "symfony/templating": "~2.7|~3.0",
-                "symfony/yaml": "~2.3|~3.0"
+                "php": "^5.3.3|^7.0",
+                "symfony/form": "^2.3|^3.0",
+                "symfony/framework-bundle": "^2.3|^3.0",
+                "symfony/options-resolver": "^2.3|^3.0",
+                "symfony/security-bundle": "^2.3|^3.0",
+                "symfony/templating": "^2.7|^3.0",
+                "symfony/yaml": "^2.3|^3.0"
             },
             "conflict": {
                 "twig/twig": "<1.12"
             },
             "require-dev": {
-                "doctrine/orm": "~2.3",
-                "fabpot/php-cs-fixer": "~1.11",
-                "friendsofsymfony/user-bundle": "~1.3|~2.0",
-                "phpunit/phpunit": "~4.8|~5.0",
-                "symfony/phpunit-bridge": "~2.7|~3.0",
-                "symfony/property-access": "~2.3|~3.0",
-                "symfony/stopwatch": "~2.5|~3.0",
-                "symfony/twig-bundle": "~2.3|~3.0",
-                "symfony/validator": "~2.3|~3.0"
+                "doctrine/orm": "^2.3",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "friendsofsymfony/user-bundle": "^1.3|^2.0",
+                "phpunit/phpunit": "^4.8|^5.0",
+                "symfony/phpunit-bridge": "^2.7|^3.0",
+                "symfony/property-access": "^2.3|^3.0",
+                "symfony/stopwatch": "^2.5|^3.0",
+                "symfony/twig-bundle": "^2.3|^3.0",
+                "symfony/validator": "^2.3|^3.0"
             },
             "suggest": {
                 "doctrine/doctrine-bundle": "to use Doctrine user provider",
@@ -3581,7 +3581,7 @@
                 "yandex",
                 "youtube"
             ],
-            "time": "2016-12-12 10:39:59"
+            "time": "2017-01-08 14:13:58"
         },
         {
             "name": "imagine/imagine",
@@ -4240,7 +4240,7 @@
                     "homepage": "http://github.com/knplabs/Gaufrette/contributors"
                 },
                 {
-                    "name": "KnpLabs Team",
+                    "name": "KNPLabs Team",
                     "homepage": "http://knplabs.com"
                 }
             ],
@@ -5470,7 +5470,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "0073e53ae98216101084e6d1a4e9f61f1f0cac0f",
+                "reference": "e1d25daea3d9ff8f5919f453dee9f774ef62aeb7",
                 "shasum": null
             },
             "require": {
@@ -5511,7 +5511,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "448a9e2959216b3fafa560f75d8d9410d8dd3077",
+                "reference": "5ce695c630703bbf011246db8296d4f77b3fa4c7",
                 "shasum": null
             },
             "require": {
@@ -5556,7 +5556,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "17701b76858de0bf7a89aaaa3e98a9c32157af3a",
+                "reference": "94ca5941bbdaa4eee2912229307492db0ec290db",
                 "shasum": null
             },
             "require": {
@@ -5571,7 +5571,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Oro\\Bridge": "src/"
+                    "Oro": "src/"
                 }
             },
             "license": [
@@ -5592,7 +5592,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "614cf4aa448b9ca414f89ae6a0f08a4b7d31f70f",
+                "reference": "0a672f818fa5d1fa2ac5cbb5ab6dac3c0226aaf2",
                 "shasum": null
             },
             "require": {
@@ -5633,7 +5633,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "3c4f83346f6f0a06beae464f19590f8efba2c7b4",
+                "reference": "bd02fe31a6431dc3094e5c4769ce38943110441c",
                 "shasum": null
             },
             "require": {
@@ -5671,7 +5671,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "528d92ff1a7702836099a9ed9dc03965b220f514",
+                "reference": "ff702c47fa4a0be215119d4d65c43f83e8d5ac3f",
                 "shasum": null
             },
             "require": {
@@ -5712,7 +5712,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "695276c0a960a1d401eda56531fd5dd18fcd981c",
+                "reference": "7a66be19cc2d34078716220337d76bb588d7b509",
                 "shasum": null
             },
             "require": {
@@ -5749,10 +5749,10 @@
             "version": "dev-master",
             "target-dir": "src/Oro/Bundle/HangoutsCallBundle",
             "dist": {
-                "type": "path",
-                "url": "../../package/google-hangout",
-                "reference": "d28e027146138ab9b97627fba9f4aac9be84322f",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/orocrm/OroCRMHangoutsCallBundle/zipball/a80e490da7355bd1a21e2ad781adb336582ac7b9",
+                "reference": "a80e490da7355bd1a21e2ad781adb336582ac7b9",
+                "shasum": ""
             },
             "require": {
                 "oro/calendar-bundle": "1.x-dev",
@@ -5771,6 +5771,7 @@
                     "Oro\\Bundle\\HangoutsCallBundle": "src/"
                 }
             },
+            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5786,7 +5787,8 @@
                 "Google Hangouts",
                 "Oro",
                 "integration"
-            ]
+            ],
+            "time": "2017-01-07 07:04:24"
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
@@ -5795,7 +5797,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "6177c0fdabe89c4135a37a77d1741e84190b481f",
+                "reference": "94b031116ac67fd2bce28cc60722bd57ad51acc5",
                 "shasum": null
             },
             "require": {
@@ -5832,7 +5834,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "f70d68267352d268879f51dfc909410021b7595b",
+                "reference": "b9eb2047854768568e95fffcca5b59713970e3ec",
                 "shasum": null
             },
             "require": {
@@ -5871,7 +5873,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "f644333ae4f710f73bf397577557d7495221c41e",
+                "reference": "93a719fc8fb149258ae200519fe4e484bb5b7afe",
                 "shasum": null
             },
             "require": {
@@ -5912,7 +5914,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "e4e99d9a1d42064a4c0e117df9deac7282a820f1",
+                "reference": "fa42b0c9166fc748f93750df901c2515b917eb14",
                 "shasum": null
             },
             "require": {
@@ -6007,7 +6009,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "d56d957a23d03560d3272a8cb6969483b7bc9af8",
+                "reference": "3d9ea12e684c73f4e51d8d912a7cb49b20485505",
                 "shasum": null
             },
             "require": {
@@ -6049,7 +6051,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "9276a2db9499a55b2016286b8399ed9afa119472",
+                "reference": "44b563558e0878f1f362c7877456188c038abdd5",
                 "shasum": null
             },
             "require": {
@@ -6197,7 +6199,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "ee5012f2d5570c85e766cec82b11d489f194c5c9",
+                "reference": "30768c7cfa57e3e26c4e0cd8ee9d8ab3f1969f32",
                 "shasum": null
             },
             "require": {
@@ -6946,17 +6948,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.12",
+            "version": "v4.0.38",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "f2bbaa81fe980f64ccf32bb63038bf130855f5f1"
+                "reference": "95469374e703f01b8e760023ac4f2f64da6a1dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f2bbaa81fe980f64ccf32bb63038bf130855f5f1",
-                "reference": "f2bbaa81fe980f64ccf32bb63038bf130855f5f1",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/95469374e703f01b8e760023ac4f2f64da6a1dd9",
+                "reference": "95469374e703f01b8e760023ac4f2f64da6a1dd9",
                 "shasum": ""
             },
             "require": {
@@ -7002,7 +7004,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-30 23:17:28"
+            "time": "2017-01-04 13:34:44"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -7351,20 +7353,20 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "3.0.1",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "5f2d2d62530cd66be361216107869a3b061045db"
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/5f2d2d62530cd66be361216107869a3b061045db",
-                "reference": "5f2d2d62530cd66be361216107869a3b061045db",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
+                "reference": "ebce76a39a65495a66c34eb1574cc4b9e35a4e64",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.18",
+                "monolog/monolog": "~1.22",
                 "php": ">=5.3.2",
                 "symfony/config": "~2.7|~3.0",
                 "symfony/dependency-injection": "~2.7|~3.0",
@@ -7407,7 +7409,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-11-15 15:54:07"
+            "time": "2017-01-10 20:01:51"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -9643,16 +9645,16 @@
         },
         {
             "name": "pdepend/pdepend",
-            "version": "2.3.2",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdepend/pdepend.git",
-                "reference": "8d7ab8fe8c1f9de5056bb7ea2c0852f4ddd44f90"
+                "reference": "3acfa4fcadbb8b65b8b2ec077408c5ef0e112e68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdepend/pdepend/zipball/8d7ab8fe8c1f9de5056bb7ea2c0852f4ddd44f90",
-                "reference": "8d7ab8fe8c1f9de5056bb7ea2c0852f4ddd44f90",
+                "url": "https://api.github.com/repos/pdepend/pdepend/zipball/3acfa4fcadbb8b65b8b2ec077408c5ef0e112e68",
+                "reference": "3acfa4fcadbb8b65b8b2ec077408c5ef0e112e68",
                 "shasum": ""
             },
             "require": {
@@ -9679,7 +9681,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Official version of pdepend to be handled with Composer",
-            "time": "2016-11-23 20:25:02"
+            "time": "2017-01-11 16:15:35"
         },
         {
             "name": "phpdocumentor/reflection-common",
