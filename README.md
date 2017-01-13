@@ -153,6 +153,10 @@ More details about this issue can be found [here][8]
 
 The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][9].
 
+##Using Redis for application caching
+
+To use Redis for application caching, follow the corresponding [configuration instructions][10]
+
 [1]: http://getcomposer.org/
 [2]: https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
 [3]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
@@ -162,3 +166,4 @@ The OroCommerce sample application is based on the Symfony standard application,
 [7]: http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
 [8]: https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
 [9]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
+[10]: https://github.com/orocrm/redis-config#configuration
