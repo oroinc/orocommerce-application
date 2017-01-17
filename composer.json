@@ -14,9 +14,9 @@
     }
   },
   "require": {
-    "oro/commerce": "1.x-dev",
-    "oro/crm": "1.x-dev",
-    "oro/commerce-crm": "1.x-dev"
+    "oro/commerce": "1.0.0",
+    "oro/crm": "2.0.0",
+    "oro/commerce-crm": "1.0.0"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
