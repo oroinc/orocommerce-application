@@ -248,6 +248,7 @@
         </testsuite>
     </testsuites>
     <php>
+        <ini name="error_reporting" value="-1"/>
         <server name="KERNEL_DIR" value="app/"/>
         <const name="PHPUNIT_LOAD_LIMIT" value="1.2"/>
         <const name="PHPUNIT_PAGE_LIMIT" value="0.5"/>
@@ -281,7 +282,4 @@
         </listener>
         <listener class="JohnKary\PHPUnit\Listener\SpeedTrapListener"/>
     </listeners>
-    <php>
-        <server name="KERNEL_DIR" value="app/"/>
-    </php>
 </phpunit>
