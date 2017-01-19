@@ -12,15 +12,18 @@ node_modules/
 /cov
 /web/bundles
 /web/css
-/web/js
 /web/images
+/web/js
 /web/uploads/users/*
 /web/media/cache
 /web/build.js
+/web/tracking.php
 /app/phpunit.xml
 /app/karma.conf.js
 /app/config/parameters.yml
 /app/config/parameters_test.yml
+phpunit.xml
 *~
+bin
 
 /app/SymfonyRequirements.php

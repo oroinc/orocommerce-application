@@ -4,15 +4,16 @@ OroCommerce Sample Application
 What is OroCommerce?
 --------------------
 
-OroCommerce is an open-source Business to Business Commerce application built with flexibility in mind.
-OroCommerce can be customized and extended to fit any B2B commerce needs.
+OroCommerce is an open-source Business to Business Commerce application built with flexibility in mind. It can be customized and extended to fit any B2B commerce needs.
+You can find out more about OroCommerce at [www.orocommerce.com](https://www.orocommerce.com/).
 
-## Requirements
+Requirements
+------------
 
-OroCommerce is a Symfony 2 based application with the following requirements:
+OroCommerce is a Symfony-based application with the following requirements:
 
-* PHP 5.5.9 or above
-* PHP 5.5.9 or above with command line interface
+* PHP 5.6 or above
+* Command line interface
 * PHP Extensions
     * GD
     * Mcrypt
@@ -23,25 +24,23 @@ OroCommerce is a Symfony 2 based application with the following requirements:
     * PCRE
     * ICU
 * MySQL 5.1 or above
-* PostgreSQL 9.1 or above
 
-## Installation instructions
+Installation Instructions
+-------------------------
 
-### Using Composer
-
-This OroCommerce application uses both [Composer][1] and [Git Submodules][5] to manage its dependencies, this is the recommended way to install the application.
+This OroCommerce application uses [Composer][1] to manage its dependencies, this is the recommended way to install the application.
 
  - If you do not have Composer yet, download it and follow the instructions on
-http://getcomposer.org/ or just run the following command:
+http://getcomposer.org/ website or simply run the following command:
 
 ```bash
 curl -s https://getcomposer.org/installer | php
 ```
 
-OroCommerce uses [fxpio/composer-asset-plugin][10] to manage dependency on third-party asset libraries. The plugin has to be installed globally (per user):
+OroCommerce uses [fxpio/composer-asset-plugin][2] to manage dependencies on some third-party asset libraries. The plugin has to be installed globally (per user):
  
 ```bash
-    composer global require "fxp/composer-asset-plugin:~1.2"
+composer global require "fxp/composer-asset-plugin:~1.2"
 ```
 
 - Clone https://github.com/orocommerce/orocommerce-application.git repository with
@@ -50,79 +49,81 @@ OroCommerce uses [fxpio/composer-asset-plugin][10] to manage dependency on third
 git clone --recursive https://github.com/orocommerce/orocommerce-application.git
 ```
 
-- Make sure that you have [NodeJS][2] installed
+- Make sure that you have [NodeJS][3] installed
 
 - Install project dependencies with Composer. If the installation process is too slow, you can use the "--prefer-dist" option.
-  Run Composer installation:
+  Run composer installation:
 
 ```bash
 php composer.phar install --prefer-dist
 ```
 
-- Create the database with the name specified in the previous step (the default name is "b2b_dev").
+- Create a database with the name specified in the previous step (the default name is "b2b_dev").
 
-- Install application and admin user with Installation Wizard by opening install.php in the browser or from CLI:
+- On some systems it might be necessary to temporarily increase memory_limit setting to 1 GB in php.ini configuration file for the duration of the installation process:
 
-```bash
-php app/console oro:install --env prod
+```ini
+memory_limit=1024M
 ```
-**Note:** If the installation process times out, add the `--timeout=0` argument to the command.
 
-- Enable WebSockets messaging
+**Note:** After the installation is finished the memory_limit configuration can be changed back to the recommended value (512 MB or more).
+
+- Install the application and create the admin user with the web installation wizard by opening install.php in the browser or running the following CLI command:
 
 ```bash
-php app/console clank:server --env prod
+php app/console oro:install --env=prod
+```
+
+**Note:** If the installation process times out, add the `--timeout=0` argument to the oro:install command.
+
+- Enable WebSocket messaging
+
+```bash
+php app/console clank:server --env=prod
 ```
 
 - Configure crontab or scheduled tasks execution to run the command below every minute:
 
 ```bash
-php app/console oro:cron --env prod
+php app/console oro:cron --env=prod
 ```
 
-- Launch the message queue consumption:
+- Launch the message queue processing:
 
 ```bash
-php app/console oro:message-queue:consume --env prod
+php app/console oro:message-queue:consume --env=prod
 ```
 
-**Note:** ``app/console`` is a path from project root folder. Please make sure you are using the full path for crontab configuration or if you are running console command from a different location.
+**Note:** ``app/console`` is a path from the project root folder. Please make sure you are using the full path for crontab configuration if you are running console command from a different location.
 
-## Upgrading
+Installation Notes
+------------------
 
-If you're upgrading from existing, older beta versions please issue the following commands in the `application/commerce` folder:
+Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs).
 
-```bash
-composer install
-app/console oro:platform:update --force
-```
+Note that the port used by the WebSocket server must be open in firewall for outgoing/incoming connections.
 
-The database will be migrated into the latest state.
+### MySQL Configuration
 
-Note that if you want to preserve images from the old version, you need to copy the `app/attachments` folder from the previous installation.
-
-## Installation notes
-
-Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs)
-
-Note that the port used in Websocket must be open in firewall for outgoing/incoming connections
-
-Using MySQL 5.6 on HDD is potentially risky because of performance issues
+Using MySQL 5.6 on HDD is potentially risky as it can result in performance issues.
 
 Recommended configuration for this case:
 
-    innodb_file_per_table = 0
-
-Ensure that timeout has default value
-
-    wait_timeout = 28800
-
-See [Optimizing InnoDB Disk I/O][3] for more information.
-
-The default MySQL character set utf8 uses a maximum of three bytes per character and contains only BMP characters. The [utf8mb4][6] character set uses a maximum of four bytes per character and supports supplemental characters (e.g. emojis). It is [recommended][7] to use utf8mb4 character set in your app/config.yml:
-
+```ini
+innodb_file_per_table = 0
 ```
-...
+
+Ensure that the timeout has a default value
+
+```ini
+wait_timeout = 28800
+```
+
+See [Optimizing InnoDB Disk I/O][4] for more information.
+
+The default MySQL character set utf8 uses a maximum of three bytes per character and contains only BMP characters. The [utf8mb4][5] character set uses a maximum of four bytes per character and supports supplemental characters (e.g. emojis). It is [recommended][6] to use utf8mb4 character set in your app/config.yml:
+
+```yaml
 doctrine:
     dbal:
         connections:
@@ -138,37 +139,31 @@ doctrine:
                     charset: utf8mb4
                     collate: utf8mb4_unicode_ci
                     row_format: dynamic
-...
 ```
 
 Using utf8mb4 might have side effects. MySQL indexes have a default limit of 767 bytes, so any indexed fields with varchar(255) will fail when inserted, because utf8mb4 can have 4 bytes per character (255 * 4 = 1020 bytes), thus the longest data can be 191 (191 * 4 = 764 < 767). To be able to use any 4 byte charset all indexed varchars should be at most varchar(191). To overcome the index size issue the server can be configured to have large index size by enabling [sysvar_innodb_large_prefix][7]. However, innodb_large_prefix requires some additional settings to work:
 
-- innodb_default_row_format=DYNAMIC (you may also enable it per connection as in the config above)
-- innodb_file_format=Barracuda
-- innodb_file_per_table=1 (see above performance issues with this setting)
+- `innodb_default_row_format=DYNAMIC` (you may also enable it per connection as in the config above)
+- `innodb_file_format=Barracuda`
+- `innodb_file_per_table=1` (see above performance issues with this setting)
 
-More details about this issue can be read [here][9]
+More details about this issue can be found [here][8]
 
-## PostgreSQL installation notes
+### Web Server Configuration
 
-You need to load `uuid-ossp` extension for proper doctrine's `guid` type handling.
-Log into database and run sql query:
+The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][9].
 
-```
-CREATE EXTENSION "uuid-ossp";
-```
+##Using Redis for application caching
 
-## Web Server Configuration
-
-The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][4].
+To use Redis for application caching, follow the corresponding [configuration instructions][10]
 
 [1]: http://getcomposer.org/
-[2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-[3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
-[4]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
-[5]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
-[6]:  https://dev.mysql.com/doc/refman/5.6/en/charset-unicode-utf8mb4.html
-[7]:  http://symfony.com/doc/current/doctrine.html#configuring-the-database
-[8]:  http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
-[9]:  https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
-[10]:  https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
+[2]: https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
+[3]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+[4]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
+[5]: https://dev.mysql.com/doc/refman/5.6/en/charset-unicode-utf8mb4.html
+[6]: http://symfony.com/doc/current/doctrine.html#configuring-the-database
+[7]: http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
+[8]: https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
+[9]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
+[10]: https://github.com/orocrm/redis-config#configuration

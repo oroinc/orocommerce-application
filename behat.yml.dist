@@ -2,24 +2,34 @@ imports:
   - ../../package/platform/src/Oro/Bundle/TestFrameworkBundle/Resources/config/behat.yml.dist
 
 default: &default
+    gherkin:
+        filters:
+            tags: ~@not-automated&&~@skip
     extensions:
         Behat\MinkExtension:
-            base_url: 'http://dev-commerce.local/'
+            base_url: 'http://dev-commerce-crm.local/'
         Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
             shared_contexts:
                 - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
+                - Oro\Bundle\SalesBundle\Tests\Behat\Context\SalesContext
+                - Oro\Bundle\ShippingBundle\Tests\Behat\Context\SingleCurrencyContext
             application_suites:
-                - OroEmailBundle
+                - OroApplicationBundle
                 - OroUserBundle
+                - OroCRMBundle
+                - OroNavigationBundle
+                - OroContactBundle
+                - OroAccountBundle
+                - OroTaskBundle
+                - OroEmailBundle
                 - OroHelpBundle
                 - OroSearchBundle
                 - OroDashboardBundle
                 - OroApplicationBundle
-                - OroNavigationBundle
-                - OroShippingBundle
-
+#                @todo Uncomment after resolve BB-4971
+#                - OroShippingBundle
 
 selenium2:
     <<: *default
@@ -27,4 +37,4 @@ selenium2:
 #    extensions:
 #        Behat\MinkExtension:
 #            browser_name: chrome
-#            base_url: 'http://dev-commerce.local/'
+#            base_url: 'http://dev-commerce-crm.local/'

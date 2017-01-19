@@ -1,11 +1,11 @@
 {
-  "name": "oro/commerce-application",
+  "name": "oro/commerce-crm-application",
   "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
   "license": "OSL-3.0",
   "authors": [
     {
       "name": "Oro, Inc",
-      "homepage": "http://www.orocommerce.com"
+      "homepage": "https://www.orocommerce.com"
     }
   ],
   "autoload": {
@@ -14,22 +14,28 @@
     }
   },
   "require": {
-    "php": ">=5.5.9",
-    "oro/commerce": "1.0.0-beta.5"
+    "oro/commerce": "1.0.0",
+    "oro/crm": "2.0.0",
+    "oro/commerce-crm": "1.0.0"
   },
   "require-dev": {
-    "sensio/generator-bundle": "2.5.3",
-    "behat/behat": "3.1.0",
-    "behat/mink-extension": "^2.0",
+    "sensio/generator-bundle": "3.1.2",
+    "behat/behat": "3.2.2",
+    "behat/mink-extension": "2.2.*",
     "behat/mink-selenium2-driver": "1.*",
     "behat/symfony2-extension": "2.1.1",
-    "nelmio/alice": "~2.1.4",
-    "phpunit/phpunit": "4.8.*",
+    "nelmio/alice": "2.2.*",
+    "phpunit/phpunit": "5.7.*",
+    "phpunit/phpunit-selenium": "3.0.*",
     "johnkary/phpunit-speedtrap": "1.0.*",
-    "mybuilder/phpunit-accelerator": "1.1.*"
+    "mybuilder/phpunit-accelerator": "1.2.*",
+    "squizlabs/php_codesniffer": "2.7.*",
+    "phpmd/phpmd": "2.5.*",
+    "sebastian/phpcpd": "2.0.*"
   },
   "config": {
-    "component-dir": "web/bundles/components"
+    "component-dir": "web/bundles/components",
+    "bin-dir": "bin"
   },
   "scripts": {
     "post-install-cmd": [
@@ -68,10 +74,6 @@
     {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/nicholas-eden/math.git"
     }
   ]
 }

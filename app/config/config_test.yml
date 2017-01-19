@@ -33,11 +33,6 @@ oro_require_js:
     js_engine: ~
 
 services:
-    twig.extension.debug:
-        class: Twig_Extensions_Extension_Debug
-        tags:
-            - { name: twig.extension }
-
     oro_message_queue.test.message_collector:
         class: Oro\Bundle\MessageQueueBundle\Test\Functional\MessageCollector
         decorates: oro_message_queue.client.message_producer
