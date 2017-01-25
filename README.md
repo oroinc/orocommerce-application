@@ -153,6 +153,22 @@ More details about this issue can be found [here][8]
 
 The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][9].
 
+### Opcache
+
+Recommended configuration
+
+```
+;512Mb for php5
+opcache.memory_consumption=512
+
+;256Mb for php7
+opcache.memory_consumption=256
+opcache.max_accelerated_files=32531
+opcache.interned_strings_buffer=32
+```
+
+See [Symfony Performance](http://symfony.com/doc/current/performance.html)
+
 ##Using Redis for application caching
 
 To use Redis for application caching, follow the corresponding [configuration instructions][10]
