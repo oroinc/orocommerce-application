@@ -15,6 +15,7 @@ class AppKernel extends OroKernel
         if ('dev' === $this->getEnvironment()) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
+            $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             if (class_exists('Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle')) {
                 $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             }
