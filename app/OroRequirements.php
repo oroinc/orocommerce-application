@@ -89,6 +89,19 @@ class OroRequirements extends SymfonyRequirements
             'Install and enable the <strong>Tidy</strong> extension.'
         );
 
+        $tmpDir = sys_get_temp_dir();
+        $this->addRequirement(
+            is_writable($tmpDir),
+            sprintf('%s (sys_get_temp_dir()) directory must be writable', $tmpDir),
+            sprintf(
+                'Change the permissions of the "<strong>%s</strong>" directory ' .
+                'or the result of <string>sys_get_temp_dir()</string> ' .
+                'or add the path to php <strong>open_basedir</strong> list. ' .
+                'So that it would be writable.',
+                $tmpDir
+            )
+        );
+
         // Windows specific checks
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
             $this->addRecommendation(
