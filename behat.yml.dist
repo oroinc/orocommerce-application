@@ -12,9 +12,19 @@ default: &default
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
             shared_contexts:
-                - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
-                - Oro\Bundle\SalesBundle\Tests\Behat\Context\SalesContext
-                - Oro\Bundle\ShippingBundle\Tests\Behat\Context\SingleCurrencyContext
+                - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
+                - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\FixturesContext
+                - OroActivityListBundle::ActivityContext
+                - OroDataGridBundle::GridContext
+                - OroSecurityBundle::ACLContext
+                - OroSearchBundle::SearchContext
+                - OroImportExportBundle::ImportExportContext:
+                    - '@oro_entity.entity_alias_resolver'
+                    - '@oro_importexport.processor.registry'
+                - OroAddressBundle::AddressContext
+                - OroApplicationBundle::CommerceMainContext
+                - OroSalesBundle::SalesContext
+                - OroShippingBundle::SingleCurrencyContext
             application_suites:
                 - OroApplicationBundle
                 - OroUserBundle
