@@ -40,7 +40,7 @@ curl -s https://getcomposer.org/installer | php
 OroCommerce uses [fxpio/composer-asset-plugin][2] to manage dependencies on some third-party asset libraries. The plugin has to be installed globally (per user):
  
 ```bash
-composer global require "fxp/composer-asset-plugin:~1.2"
+composer global require "fxp/composer-asset-plugin"
 ```
 
 - Clone https://github.com/orocommerce/orocommerce-application.git repository with
