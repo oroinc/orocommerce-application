@@ -7,7 +7,6 @@ nelmio_api_doc:
 
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
-    prefix:   %web_backend_prefix%
 
 _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
