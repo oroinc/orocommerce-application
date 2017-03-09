@@ -37,7 +37,6 @@ default: &default
                 - OroHelpBundle
                 - OroSearchBundle
                 - OroDashboardBundle
-                - OroApplicationBundle
 #                @todo Uncomment after resolve BB-4971
 #                - OroShippingBundle
 
