@@ -29,8 +29,8 @@
     <groups>
         <exclude>
             <group>crm</group>
+            <group>commerce</group>
             <group>soap</group>
-            <group>segfault</group>
             <group>dist</group>
         </exclude>
     </groups>
@@ -47,6 +47,7 @@
             <directory suffix="Test.php">vendor/oro/crm*/src/*/Component/*/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/platform*/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/platform*/src/*/Component/*/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/customer-portal/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Bundle/*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce*/src/*/Component/*/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/calendar-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
@@ -65,6 +66,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/K*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/L*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/O*Bundle/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/customer-portal/src/*/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-2-of-6">
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/M*Bundle/Tests/Functional</directory>
@@ -179,6 +181,7 @@
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/X*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Y*Bundle/Tests/Functional</directory>
             <directory suffix="Test.php">vendor/oro/commerce/src/*/Bundle/Z*Bundle/Tests/Functional</directory>
+            <directory suffix="Test.php">vendor/oro/customer-portal/src/*/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="functional-6-of-10">
             <directory suffix="Test.php">vendor/oro/platform/src/*/Bundle/A*Bundle/Tests/Functional</directory>
@@ -248,6 +251,7 @@
         </testsuite>
     </testsuites>
     <php>
+        <ini name="error_reporting" value="-1"/>
         <server name="KERNEL_DIR" value="app/"/>
         <const name="PHPUNIT_LOAD_LIMIT" value="1.2"/>
         <const name="PHPUNIT_PAGE_LIMIT" value="0.5"/>
@@ -281,7 +285,4 @@
         </listener>
         <listener class="JohnKary\PHPUnit\Listener\SpeedTrapListener"/>
     </listeners>
-    <php>
-        <server name="KERNEL_DIR" value="app/"/>
-    </php>
 </phpunit>
