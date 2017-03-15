@@ -12,6 +12,12 @@
     "psr-4": {"": "src/"},
     "exclude-from-classmap": ["**/Tests/"]
   },
+  "repositories": {
+     "composer": {
+        "type": "composer",
+        "url": "https://packagist.orocrm.com"
+      }
+   },
   "require": {
     "oro/commerce": "1.x-dev",
     "oro/crm": "1.x-dev",
@@ -74,11 +80,5 @@
       "npm-asset-library": "web/bundles/npmassets",
       "bower-asset-library": "web/bundles/bowerassets"
     }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packagist.orocrm.com"
-    }
-  ]
+  }
 }
