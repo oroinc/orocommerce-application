@@ -27,20 +27,6 @@ default: &default
                 - OroOrderBundle::OrderContext
                 - OroShoppingListBundle::ShoppingListContext
                 - OroRedirectBundle::SlugPrototypesContext
-            application_suites:
-                - OroApplicationBundle
-                - OroUserBundle
-                - OroNavigationBundle
-                - OroEmailBundle
-                - OroHelpBundle
-                - OroSearchBundle
-                - OroDashboardBundle
-                - OroCheckoutBundle
-                - OroShippingBundle
-                - OroTaskBundle
-                - OroCRMBundle
-                - OroContactBundle
-                - OroAccountBundle
 
 selenium2:
     <<: *default
