@@ -5585,14 +5585,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "20b39d14fa2a71f55c80ed2b2c98be144bfd7865",
+                "reference": "f6cb59357fd40ffd539caa9e204c08939a370b4f",
                 "shasum": null
             },
             "require": {
                 "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
-                "bower-asset/prism": "1.6.0",
                 "box/spout": "2.3.*",
                 "brick/math": "0.5.*",
                 "myclabs/deep-copy": "1.5.*",
@@ -6050,11 +6049,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "a45b630e0a6b5628d17f4f6dd573618193ebab59",
+                "reference": "6eba1fc20357fbc4a20eddc3049e11df0b70419d",
                 "shasum": null
             },
             "require": {
                 "bower-asset/jquery-validate": "1.11.1",
+                "bower-asset/prism": "1.6.0",
                 "leafo/scssphp": "0.6.3",
                 "oro/calendar-bundle": "1.x-dev",
                 "oro/marketing": "1.x-dev",
@@ -6421,16 +6421,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.9",
+            "version": "v2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "6968531206671f94377b01dc7888d5d1b858a01b"
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/6968531206671f94377b01dc7888d5d1b858a01b",
-                "reference": "6968531206671f94377b01dc7888d5d1b858a01b",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
                 "shasum": ""
             },
             "require": {
@@ -6465,7 +6465,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-03 20:43:42"
+            "time": "2017-03-13 16:27:32"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -8704,7 +8704,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -10504,16 +10504,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.15",
+            "version": "5.7.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5"
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b99112aecc01f62acf3d81a3f59646700a1849e5",
-                "reference": "b99112aecc01f62acf3d81a3f59646700a1849e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/dafc78e2a7d12139b0e97078d1082326bd09363d",
+                "reference": "dafc78e2a7d12139b0e97078d1082326bd09363d",
                 "shasum": ""
             },
             "require": {
@@ -10582,7 +10582,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-02 15:22:43"
+            "time": "2017-03-15 13:02:34"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

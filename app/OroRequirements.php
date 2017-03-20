@@ -2,11 +2,11 @@
 
 require_once __DIR__ . '/SymfonyRequirements.php';
 
-use Symfony\Component\Process\ProcessBuilder;
-use Symfony\Component\Intl\Intl;
-
 use Oro\Bundle\InstallerBundle\Process\PhpExecutableFinder;
 use Oro\Bundle\RequireJSBundle\DependencyInjection\Configuration as RequireJSConfiguration;
+
+use Symfony\Component\Intl\Intl;
+use Symfony\Component\Process\ProcessBuilder;
 
 /**
  * This class specifies all requirements and optional recommendations that are necessary to run the Oro Application.
@@ -185,7 +185,11 @@ class OroRequirements extends SymfonyRequirements
             'app/attachment/ directory must be writable',
             'Change the permissions of the "<strong>app/attachment/</strong>" directory so that the web server can write into it.'
         );
-
+        $this->addOroRequirement(
+            is_writable($baseDir . '/app/import_export'),
+            'app/import_export/ directory must be writable',
+            'Change the permissions of the "<strong>app/import_export/</strong>" directory so that the web server can write into it.'
+        );
        
         if (is_dir($baseDir . '/web/js')) {
             $this->addOroRequirement(
@@ -366,11 +370,11 @@ class OroRequirements extends SymfonyRequirements
      */
     protected function checkFileNameLength()
     {
-        $getConf = new ProcessBuilder(array('getconf', 'NAME_MAX', __DIR__));
+        $getConf = new ProcessBuilder(['getconf', 'NAME_MAX', __DIR__]);
         $getConf = $getConf->getProcess();
 
         if (isset($_SERVER['PATH'])) {
-            $getConf->setEnv(array('PATH' => $_SERVER['PATH']));
+            $getConf->setEnv(['PATH' => $_SERVER['PATH']]);
         }
         $getConf->run();
 
