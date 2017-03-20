@@ -14,6 +14,7 @@
   },
   "require": {
     "oro/commerce": "1.x-dev",
+    "oro/platform": "1.x-dev",
     "oro/crm": "1.x-dev",
     "oro/commerce-crm": "1.x-dev",
     "oro/platform-serialised-fields": "1.x-dev",
