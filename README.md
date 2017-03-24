@@ -12,7 +12,7 @@ Requirements
 
 OroCommerce is a Symfony-based application with the following requirements:
 
-* PHP 5.6 or above
+* PHP 7.0 or above
 * Command line interface
 * PHP Extensions
     * GD
@@ -40,8 +40,11 @@ curl -s https://getcomposer.org/installer | php
 OroCommerce uses [fxpio/composer-asset-plugin][2] to manage dependencies on some third-party asset libraries. The plugin has to be installed globally (per user):
  
 ```bash
-composer global require "fxp/composer-asset-plugin:~1.2"
+    composer self-update
+    composer global require "fxp/composer-asset-plugin"
 ```
+**Note:** This is a temporary solution.  After plugin version 1.3.0 is released, the requirement will be changed to version 1.3
+([see related issue](https://github.com/fxpio/composer-asset-plugin/issues/277#issuecomment-282745055)).
 
 - Clone https://github.com/orocommerce/orocommerce-application.git repository with
 
