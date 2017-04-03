@@ -27,3 +27,4 @@ phpunit.xml
 bin
 
 /app/SymfonyRequirements.php
+/web/sitemaps
