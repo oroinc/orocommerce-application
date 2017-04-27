@@ -37,3 +37,4 @@ parameters:
 
     message_queue_transport: 'dbal'
     message_queue_transport_config: ~
+    enable_price_sharding: false

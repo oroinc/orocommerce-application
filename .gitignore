@@ -22,8 +22,13 @@ node_modules/
 /app/karma.conf.js
 /app/config/parameters.yml
 /app/config/parameters_test.yml
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
 phpunit.xml
 *~
 bin
 
 /app/SymfonyRequirements.php
+/web/sitemaps
