@@ -1,12 +1,18 @@
 <?php
 
+if (is_file(__DIR__.'/../vendor/autoload.php')) {
+    require_once __DIR__ . '/../vendor/autoload.php';
+}
 require_once __DIR__ . '/SymfonyRequirements.php';
 
 use Oro\Bundle\InstallerBundle\Process\PhpExecutableFinder;
 use Oro\Bundle\RequireJSBundle\DependencyInjection\Configuration as RequireJSConfiguration;
 
+use Oro\Component\PhpUtils\ArrayUtil;
+use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Intl\Intl;
 use Symfony\Component\Process\ProcessBuilder;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * This class specifies all requirements and optional recommendations that are necessary to run the Oro Application.
@@ -20,7 +26,10 @@ class OroRequirements extends SymfonyRequirements
 
     const EXCLUDE_REQUIREMENTS_MASK = '/5\.[0-6]/';
 
-    public function __construct()
+    /**
+     * @param string $env
+     */
+    public function __construct($env = 'prod')
     {
         parent::__construct();
 
@@ -190,7 +199,7 @@ class OroRequirements extends SymfonyRequirements
             'app/import_export/ directory must be writable',
             'Change the permissions of the "<strong>app/import_export/</strong>" directory so that the web server can write into it.'
         );
-       
+
         if (is_dir($baseDir . '/web/js')) {
             $this->addOroRequirement(
                 is_writable($baseDir . '/web/js'),
@@ -221,6 +230,19 @@ class OroRequirements extends SymfonyRequirements
                 'app/config/parameters.yml file must be writable',
                 'Change the permissions of the "<strong>app/config/parameters.yml</strong>" file so that the web server can write into it.'
             );
+        }
+
+        $configYmlPath = $baseDir . '/app/config/config_' . $env . '.yml';
+        if (is_file($configYmlPath)) {
+            $config = $this->getParameters($configYmlPath);
+            $pdo = $this->getDatabaseConnection($config);
+            if ($pdo) {
+                $this->addOroRequirement(
+                    $this->isUuidSqlFunctionPresent($pdo),
+                    'UUID SQL function must be present',
+                    'Execute "<strong>CREATE EXTENSION IF NOT EXISTS "uuid-ossp";</strong>" SQL command so UUID-OSSP extension will be installed for database.'
+                );
+            }
         }
     }
 
@@ -370,11 +392,11 @@ class OroRequirements extends SymfonyRequirements
      */
     protected function checkFileNameLength()
     {
-        $getConf = new ProcessBuilder(['getconf', 'NAME_MAX', __DIR__]);
+        $getConf = new ProcessBuilder(array('getconf', 'NAME_MAX', __DIR__));
         $getConf = $getConf->getProcess();
 
         if (isset($_SERVER['PATH'])) {
-            $getConf->setEnv(['PATH' => $_SERVER['PATH']]);
+            $getConf->setEnv(array('PATH' => $_SERVER['PATH']));
         }
         $getConf->run();
 
@@ -401,6 +423,76 @@ class OroRequirements extends SymfonyRequirements
         );
 
         return shell_exec($command);
+    }
+
+    /**
+     * @param PDO $pdo
+     * @return bool
+     */
+    protected function isUuidSqlFunctionPresent(PDO $pdo)
+    {
+        if ($pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'pgsql') {
+            try {
+                $version = $pdo->query("SELECT extversion FROM pg_extension WHERE extname = 'uuid-ossp'")->fetchColumn();
+
+                return !empty($version);
+            } catch (\Exception $e) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * @param array $config
+     * @return bool
+     */
+    protected function isPdoDriver(array $config)
+    {
+        return !empty($config['database_driver']) && strpos($config['database_driver'], 'pdo') === 0;
+    }
+
+    /**
+     * @param array $config
+     * @return bool|null|PDO
+     */
+    protected function getDatabaseConnection(array $config)
+    {
+        if ($config && $this->isPdoDriver($config)) {
+            $driver = str_replace('pdo_', '', $config['database_driver']);
+            $dsnParts = array(
+                'host=' . $config['database_host'],
+            );
+            if (!empty($config['database_port'])) {
+                $dsnParts[] = 'port=' . $config['database_port'];
+            }
+            $dsnParts[] = 'dbname=' . $config['database_name'];
+
+            try {
+                return new PDO(
+                    $driver . ':' . implode(';', $dsnParts),
+                    $config['database_user'],
+                    $config['database_password']
+                );
+            } catch (\Exception $e) {
+                return null;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * @param string $parametersYmlPath
+     * @return array
+     */
+    protected function getParameters($parametersYmlPath)
+    {
+        $fileLocator = new FileLocator();
+        $loader = new YamlFileLoader($fileLocator);
+
+        return $loader->load($parametersYmlPath);
     }
 }
 
@@ -429,5 +521,79 @@ class CliRequirement extends Requirement
     public function setOutput($output)
     {
         $this->output = $output;
+    }
+}
+
+class YamlFileLoader extends Symfony\Component\Config\Loader\FileLoader
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function load($resource, $type = null)
+    {
+        $path = $this->locator->locate($resource);
+
+        $content = Yaml::parse(file_get_contents($path));
+
+        // empty file
+        if (null === $content) {
+            return array();
+        }
+        if (empty($content['parameters'])) {
+            $content['parameters'] = array();
+        }
+
+        // imports
+        $importedParameters = $this->parseImports($content, $path);
+        $content['parameters'] = ArrayUtil::arrayMergeRecursiveDistinct($content['parameters'], $importedParameters);
+
+        // parameters
+        if (isset($content['parameters'])) {
+            return $content['parameters'];
+        }
+
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function supports($resource, $type = null)
+    {
+        return is_string($resource) && in_array(pathinfo($resource, PATHINFO_EXTENSION), array('yml', 'yaml'), true);
+    }
+
+    /**
+     * Parses all imports.
+     *
+     * @param array $content
+     * @param string $file
+     * @return array
+     */
+    private function parseImports($content, $file)
+    {
+        if (!isset($content['imports'])) {
+            return array();
+        }
+
+        if (!is_array($content['imports'])) {
+            throw new InvalidArgumentException(sprintf('The "imports" key should contain an array in %s. Check your YAML syntax.', $file));
+        }
+
+        $defaultDirectory = dirname($file);
+        $importedParameters = array();
+        foreach ($content['imports'] as $import) {
+            if (!is_array($import)) {
+                throw new InvalidArgumentException(sprintf('The values in the "imports" key should be arrays in %s. Check your YAML syntax.', $file));
+            }
+
+            $this->setCurrentDir($defaultDirectory);
+            $importedContent = (array)$this->import($import['resource'], null, isset($import['ignore_errors']) ? (bool) $import['ignore_errors'] : false, $file);
+            if (is_array($importedContent)) {
+                $importedParameters = ArrayUtil::arrayMergeRecursiveDistinct($importedParameters, $importedContent);
+            }
+        }
+
+        return $importedParameters;
     }
 }
