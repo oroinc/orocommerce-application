@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "250d70233bc42baa5f6b6f1342790b61",
+    "content-hash": "ae4d54626edbdc59f5aaae936242861b",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3577,6 +3577,242 @@
             "time": "2013-10-02T20:47:00+00:00"
         },
         {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-02-28T22:50:30+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "hochstrasserio/wirecard",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hochstrasserio/wirecard.git",
+                "reference": "ff5f35b8f6bf16b499367186fab2263ab9b5ead0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hochstrasserio/wirecard/zipball/ff5f35b8f6bf16b499367186fab2263ab9b5ead0",
+                "reference": "ff5f35b8f6bf16b499367186fab2263ab9b5ead0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/psr7": "^1.0.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "egeloen/http-adapter": "~0.8.0@dev",
+                "guzzlehttp/guzzle": "^6.0.0",
+                "phpunit/phpunit": "4.*"
+            },
+            "suggest": {
+                "php-http/httplug": "Adapters to existing HTTP clients",
+                "sebastian/money": "Robust handling of money amounts"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hochstrasser\\Wirecard\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Hochstrasser",
+                    "email": "christoph@hochstrasser.io",
+                    "homepage": "https://www.hochstrasser.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A modern client for the Wirecard payment gateway",
+            "homepage": "https://github.com/hochstrasserio/wirecard",
+            "keywords": [
+                "hochstrasserio",
+                "wirecard"
+            ],
+            "time": "2017-03-09T22:08:10+00:00"
+        },
+        {
             "name": "hwi/oauth-bundle",
             "version": "0.5.3",
             "source": {
@@ -4510,7 +4746,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4569,7 +4805,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5739,10 +5975,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "1f8c287d213583b46060f3d878390634c78a9a57",
+                "reference": "1c207c39e1c17a6ae79e1648fde2cf5c67c15828",
                 "shasum": null
             },
             "require": {
+                "authorizenet/authorizenet": "~1.9.2",
                 "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
@@ -5798,45 +6035,6 @@
             "homepage": "https://github.com/orocommerce/orocommerce"
         },
         {
-            "name": "oro/commerce-authorizenet",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/authorizenet",
-                "reference": "070d8d545e4ed46ea81114ca092e572bb61f44cb",
-                "shasum": null
-            },
-            "require": {
-                "authorizenet/authorizenet": "~1.9.2",
-                "oro/commerce": "1.x-dev",
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\AuthorizeNetBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com"
-                }
-            ],
-            "description": "OroCommerce Authorize.Net integration"
-        },
-        {
             "name": "oro/commerce-crm",
             "version": "dev-master",
             "dist": {
@@ -5871,6 +6069,46 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
+        },
+        {
+            "name": "oro/commerce-wirecard",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/wirecard",
+                "reference": "d84545826d2a30ba04bd3ebef3718fc3bc751862",
+                "shasum": null
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0.0",
+                "hochstrasserio/wirecard": "^1.0",
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\WirecardBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "OroCommerce Wirecard integration"
         },
         {
             "name": "oro/crm",
@@ -6951,6 +7189,56 @@
                 "redis"
             ],
             "time": "2016-06-16T16:22:20+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -9998,7 +10286,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork Maintainer"
+                    "role": "Fork maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -11888,12 +12176,12 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/commerce": 20,
-        "oro/commerce-authorizenet": 20,
         "oro/platform": 20,
         "oro/platform-serialised-fields": 20,
         "oro/calendar-bundle": 20,
         "oro/marketing": 20,
         "oro/customer-portal": 20,
+        "oro/commerce-wirecard": 20,
         "oro/crm": 20,
         "oro/crm-task-bundle": 20,
         "oro/crm-call-bundle": 20,
