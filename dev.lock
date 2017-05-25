@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae4d54626edbdc59f5aaae936242861b",
+    "content-hash": "5406de3dba134389e36424d0fae9a384",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4746,7 +4746,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4805,7 +4805,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5975,11 +5975,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "1c207c39e1c17a6ae79e1648fde2cf5c67c15828",
+                "reference": "1f8c287d213583b46060f3d878390634c78a9a57",
                 "shasum": null
             },
             "require": {
-                "authorizenet/authorizenet": "~1.9.2",
                 "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
@@ -6033,6 +6032,45 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce"
+        },
+        {
+            "name": "oro/commerce-authorizenet",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/authorizenet",
+                "reference": "070d8d545e4ed46ea81114ca092e572bb61f44cb",
+                "shasum": null
+            },
+            "require": {
+                "authorizenet/authorizenet": "~1.9.2",
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\AuthorizeNetBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce Authorize.Net integration"
         },
         {
             "name": "oro/commerce-crm",
@@ -10286,7 +10324,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork maintainer"
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -12176,6 +12214,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/commerce": 20,
+        "oro/commerce-authorizenet": 20,
         "oro/platform": 20,
         "oro/platform-serialised-fields": 20,
         "oro/calendar-bundle": 20,
