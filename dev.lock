@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5360d7b52ab47acef7fa579c89973eb",
+    "content-hash": "31d423e3b3c86c319a3b7d81d5c76416",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -6002,6 +6002,50 @@
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
         },
         {
+            "name": "oro/commerce-dpd",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/dpd",
+                "reference": "46d729c305e1602089d1d4481a6f3f52a6516181",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\DPDBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocommerce.com"
+                }
+            ],
+            "description": "Oro DPD Integration",
+            "homepage": "https://github.com/orocommerce/OroDPDBundle.git",
+            "keywords": [
+                "DPD",
+                "Integration",
+                "Oro"
+            ]
+        },
+        {
             "name": "oro/commerce-wirecard",
             "version": "dev-master",
             "dist": {
@@ -6518,50 +6562,6 @@
                 "type"
             ],
             "time": "2017-02-17T16:39:21+00:00"
-        },
-        {
-            "name": "oro/dpd",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/dpd",
-                "reference": "4b84904b7e3914e5a1bd31076b05b3ffda557461",
-                "shasum": null
-            },
-            "require": {
-                "oro/commerce": "1.x-dev",
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\DPDBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
-                }
-            ],
-            "description": "Oro DPD Integration",
-            "homepage": "https://github.com/orocommerce/OroDPDBundle.git",
-            "keywords": [
-                "DPD",
-                "Integration",
-                "Oro"
-            ]
         },
         {
             "name": "oro/marketing",
@@ -12091,7 +12091,7 @@
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
-        "oro/dpd": 20
+        "oro/commerce-dpd": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
