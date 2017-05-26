@@ -20,6 +20,7 @@
       }
   },
   "require": {
+    "oro/platform": "2.0.*",
     "oro/commerce": "1.0.*",
     "oro/commerce-crm": "1.0.*"
   },
