@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cea3c60dccef7f212ed2e58e7240b68",
+    "content-hash": "2e79812a4641f81504e70732eeb493ba",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -265,6 +265,131 @@
                 "transliterator"
             ],
             "time": "2015-09-28T16:26:35+00:00"
+        },
+        {
+            "name": "besimple/soap-client",
+            "version": "v0.2.6",
+            "target-dir": "BeSimple/SoapClient",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeSimple/BeSimpleSoapClient.git",
+                "reference": "50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapClient/zipball/50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41",
+                "reference": "50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41",
+                "shasum": ""
+            },
+            "require": {
+                "ass/xmlsecurity": "~1.0",
+                "besimple/soap-common": "0.2.*",
+                "ext-curl": "*",
+                "ext-soap": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.0",
+                "symfony/filesystem": "~2.0",
+                "symfony/process": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "BeSimple\\SoapClient": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Schamberger",
+                    "email": "mail@andreass.net"
+                },
+                {
+                    "name": "Christian Kerl",
+                    "email": "christian-kerl@web.de"
+                },
+                {
+                    "name": "Francis Besset",
+                    "email": "francis.besset@gmail.com"
+                }
+            ],
+            "description": "Build and consume SOAP Client based web services",
+            "homepage": "https://github.com/BeSimple/BeSimpleSoapClient",
+            "keywords": [
+                "soap",
+                "soap-client"
+            ],
+            "time": "2014-08-18T09:45:53+00:00"
+        },
+        {
+            "name": "besimple/soap-common",
+            "version": "v0.2.6",
+            "target-dir": "BeSimple/SoapCommon",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeSimple/BeSimpleSoapCommon.git",
+                "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapCommon/zipball/08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+                "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+                "shasum": ""
+            },
+            "require": {
+                "ass/xmlsecurity": "~1.0",
+                "ext-soap": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "ext-mcrypt": "*",
+                "mikey179/vfsstream": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "BeSimple\\SoapCommon": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Schamberger",
+                    "email": "mail@andreass.net"
+                },
+                {
+                    "name": "Christian Kerl",
+                    "email": "christian-kerl@web.de"
+                },
+                {
+                    "name": "Francis Besset",
+                    "email": "francis.besset@gmail.com"
+                }
+            ],
+            "description": "Build and consume SOAP Common based web services",
+            "homepage": "https://github.com/BeSimple/BeSimpleSoapCommon",
+            "keywords": [
+                "soap",
+                "soap-common"
+            ],
+            "time": "2014-08-14T19:40:13+00:00"
         },
         {
             "name": "bower-asset/Autolinker.js",
@@ -4746,7 +4871,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4805,7 +4930,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -6044,6 +6169,50 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
+        },
+        {
+            "name": "oro/commerce-infinitepay",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/infinitepay",
+                "reference": "6d3c17dda15d3826e51d5573a337cd13b8664145",
+                "shasum": null
+            },
+            "require": {
+                "besimple/soap-client": "^0.2.6",
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\InfinitePayBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce InfinitePay Integration",
+            "keywords": [
+                "InfinitePay",
+                "Integration",
+                "Oro"
+            ]
         },
         {
             "name": "oro/commerce-wirecard",
@@ -9178,7 +9347,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -10243,7 +10412,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork maintainer"
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -12091,7 +12260,8 @@
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
-        "oro/commerce-apruve": 20
+        "oro/commerce-apruve": 20,
+        "oro/commerce-infinitepay": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
