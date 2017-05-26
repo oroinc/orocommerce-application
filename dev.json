@@ -30,7 +30,8 @@
     "oro/crm-mail-chimp": "2.x-dev",
     "oro/crm-dotmailer": "2.x-dev",
     "oro/crm-zendesk": "2.x-dev",
-    "oro/commerce-apruve": "1.x-dev"
+    "oro/commerce-apruve": "1.x-dev",
+    "oro/dpd": "1.x-dev"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
