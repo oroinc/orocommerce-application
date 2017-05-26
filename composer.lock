@@ -1867,16 +1867,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd"
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
+                "url": "https://api.github.com/repos/composer/composer/zipball/489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
                 "shasum": ""
             },
             "require": {
@@ -1940,7 +1940,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-03-10T08:29:45+00:00"
+            "time": "2017-05-17T06:17:53+00:00"
         },
         {
             "name": "composer/semver",
@@ -4151,16 +4151,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416"
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/e3c9bccdc38bbd09bcac0131c00f3be58368b416",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/429be236f296ca249d61c65649cdf2652f4a5e80",
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80",
                 "shasum": ""
             },
             "require": {
@@ -4169,7 +4169,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1",
                 "json-schema/json-schema-test-suite": "1.2.0",
-                "phpdocumentor/phpdocumentor": "~2",
+                "phpdocumentor/phpdocumentor": "^2.7",
                 "phpunit/phpunit": "^4.8.22"
             },
             "bin": [
@@ -4214,7 +4214,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-03-22T22:43:35+00:00"
+            "time": "2017-05-16T21:06:09+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -4412,7 +4412,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4471,7 +4471,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5591,16 +5591,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "6452cc2e9ba273a463d6bfb8b296d98a9f0162d9"
+                "reference": "8a2e7154b947b417bc12112412255e69b9263769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/6452cc2e9ba273a463d6bfb8b296d98a9f0162d9",
-                "reference": "6452cc2e9ba273a463d6bfb8b296d98a9f0162d9",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/8a2e7154b947b417bc12112412255e69b9263769",
+                "reference": "8a2e7154b947b417bc12112412255e69b9263769",
                 "shasum": ""
             },
             "require": {
@@ -5642,7 +5642,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2017-04-27T12:13:58+00:00"
+            "time": "2017-05-11T09:27:03+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5689,16 +5689,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm.git",
-                "reference": "1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3"
+                "reference": "de4a6b3d1146c6d69850a4c3a377d6d46ccf69b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3",
-                "reference": "1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/de4a6b3d1146c6d69850a4c3a377d6d46ccf69b2",
+                "reference": "de4a6b3d1146c6d69850a4c3a377d6d46ccf69b2",
                 "shasum": ""
             },
             "require": {
@@ -5735,7 +5735,7 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2017-04-26T15:31:16+00:00"
+            "time": "2017-05-22T16:38:47+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5836,16 +5836,16 @@
         },
         {
             "name": "oro/crm-dotmailer",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMDotmailerBundle.git",
-                "reference": "f2d4cd23daaee54ec8d30ef797c45ba6c5b7f721"
+                "reference": "59f21cbc675096e202d136ff1cb3aba1cbdd5156"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMDotmailerBundle/zipball/f2d4cd23daaee54ec8d30ef797c45ba6c5b7f721",
-                "reference": "f2d4cd23daaee54ec8d30ef797c45ba6c5b7f721",
+                "url": "https://api.github.com/repos/orocrm/OroCRMDotmailerBundle/zipball/59f21cbc675096e202d136ff1cb3aba1cbdd5156",
+                "reference": "59f21cbc675096e202d136ff1cb3aba1cbdd5156",
                 "shasum": ""
             },
             "require": {
@@ -5880,7 +5880,7 @@
             ],
             "description": "Oro Dotmailer integration",
             "homepage": "https://github.com/orocrm/OroCRMDotmailerBundle.git",
-            "time": "2017-04-11T12:31:45+00:00"
+            "time": "2017-05-16T10:27:49+00:00"
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
@@ -6031,16 +6031,16 @@
         },
         {
             "name": "oro/crm-task-bundle",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMTaskBundle.git",
-                "reference": "94a89954f37e249a3526be4afeaaa3f64d60e2bf"
+                "reference": "12434454def65923f8151be3773edd1c89929d4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/94a89954f37e249a3526be4afeaaa3f64d60e2bf",
-                "reference": "94a89954f37e249a3526be4afeaaa3f64d60e2bf",
+                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/12434454def65923f8151be3773edd1c89929d4d",
+                "reference": "12434454def65923f8151be3773edd1c89929d4d",
                 "shasum": ""
             },
             "require": {
@@ -6077,7 +6077,7 @@
                 "Oro",
                 "Task"
             ],
-            "time": "2017-03-22T09:57:09+00:00"
+            "time": "2017-05-15T07:43:36+00:00"
         },
         {
             "name": "oro/crm-zendesk",
@@ -6132,16 +6132,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/customer-portal.git",
-                "reference": "dd11f7e08ced4b3a36a4c9ed2fd2c2b7d038af4b"
+                "reference": "843563199d2bc44ed1f90966a3d91f45508c6b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/dd11f7e08ced4b3a36a4c9ed2fd2c2b7d038af4b",
-                "reference": "dd11f7e08ced4b3a36a4c9ed2fd2c2b7d038af4b",
+                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/843563199d2bc44ed1f90966a3d91f45508c6b45",
+                "reference": "843563199d2bc44ed1f90966a3d91f45508c6b45",
                 "shasum": ""
             },
             "require": {
@@ -6178,7 +6178,7 @@
                 }
             ],
             "homepage": "https://github.com/orocrm/customer-portal",
-            "time": "2017-04-03T16:35:34+00:00"
+            "time": "2017-05-18T17:04:06+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6237,16 +6237,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMMarketingBundle.git",
-                "reference": "7f4626f0f986d39d3a20c7171e15af4f09c63c35"
+                "reference": "96497551a70331b533708bf14650c62c21948a09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMarketingBundle/zipball/7f4626f0f986d39d3a20c7171e15af4f09c63c35",
-                "reference": "7f4626f0f986d39d3a20c7171e15af4f09c63c35",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMarketingBundle/zipball/96497551a70331b533708bf14650c62c21948a09",
+                "reference": "96497551a70331b533708bf14650c62c21948a09",
                 "shasum": ""
             },
             "require": {
@@ -6282,20 +6282,20 @@
                 "Oro",
                 "Tracking"
             ],
-            "time": "2017-03-29T20:12:04+00:00"
+            "time": "2017-05-03T08:20:38+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "2.1.1",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform.git",
-                "reference": "9bb8b75875847ba9b66c4a71c964b22a69eb8cf0"
+                "reference": "9662748444d953cc3ace82888313fe9c80d39433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/9bb8b75875847ba9b66c4a71c964b22a69eb8cf0",
-                "reference": "9bb8b75875847ba9b66c4a71c964b22a69eb8cf0",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/9662748444d953cc3ace82888313fe9c80d39433",
+                "reference": "9662748444d953cc3ace82888313fe9c80d39433",
                 "shasum": ""
             },
             "require": {
@@ -6442,7 +6442,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2017-04-26T11:54:26+00:00"
+            "time": "2017-05-24T09:22:56+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7581,16 +7581,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.7",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4"
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "shasum": ""
             },
             "require": {
@@ -7631,7 +7631,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-04-20T17:32:18+00:00"
+            "time": "2017-05-01T15:54:03+00:00"
         },
         {
             "name": "sylius/flow-bundle",
@@ -8338,21 +8338,21 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225"
+                "reference": "bdc1024a33cc2fbb3d02b13ae11240f0c5ed9648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/ad751095576ce0c12a284e30e3fff80c91f27225",
-                "reference": "ad751095576ce0c12a284e30e3fff80c91f27225",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/bdc1024a33cc2fbb3d02b13ae11240f0c5ed9648",
+                "reference": "bdc1024a33cc2fbb3d02b13ae11240f0c5ed9648",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
+                "swiftmailer/swiftmailer": "~4.2|~5.0",
                 "symfony/config": "~2.7|~3.0",
                 "symfony/dependency-injection": "~2.7|~3.0",
                 "symfony/http-kernel": "~2.7|~3.0"
@@ -8393,7 +8393,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-12-20T04:44:33+00:00"
+            "time": "2017-05-22T05:02:30+00:00"
         },
         {
             "name": "symfony/symfony",
@@ -8820,7 +8820,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -9885,7 +9885,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork Maintainer"
+                    "role": "Fork maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -10620,16 +10620,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.19",
+            "version": "5.7.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1"
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/69c4f49ff376af2692bad9cebd883d17ebaa98a1",
-                "reference": "69c4f49ff376af2692bad9cebd883d17ebaa98a1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
+                "reference": "3cb94a5f8c07a03c8b7527ed7468a2926203f58b",
                 "shasum": ""
             },
             "require": {
@@ -10647,7 +10647,7 @@
                 "phpunit/php-timer": "^1.0.6",
                 "phpunit/phpunit-mock-objects": "^3.2",
                 "sebastian/comparator": "^1.2.4",
-                "sebastian/diff": "~1.2",
+                "sebastian/diff": "^1.4.3",
                 "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
                 "sebastian/global-state": "^1.1",
@@ -10698,7 +10698,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-04-03T02:22:27+00:00"
+            "time": "2017-05-22T07:42:55+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -10938,23 +10938,23 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "1.4.1",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
-                "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
             "extra": {
@@ -10986,7 +10986,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08T07:14:41+00:00"
+            "time": "2017-05-22T07:24:03+00:00"
         },
         {
             "name": "sebastian/environment",
