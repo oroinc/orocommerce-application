@@ -1,4 +1,3 @@
-
 {
   "name": "oro/commerce-crm-application",
   "description": "OroCommerce - an open-source Business to Business Commerce application.\\This package contains a sample application.",
@@ -31,6 +30,7 @@
     "oro/crm-mail-chimp": "2.x-dev",
     "oro/crm-dotmailer": "2.x-dev",
     "oro/crm-zendesk": "2.x-dev",
+    "oro/commerce-apruve": "1.x-dev",
     "oro/commerce-dpd": "1.x-dev"
   },
   "require-dev": {
