@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae4d54626edbdc59f5aaae936242861b",
+    "content-hash": "83a043623349b6c97b2823463ba02d2e",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4746,7 +4746,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4805,7 +4805,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -6035,6 +6035,50 @@
             "homepage": "https://github.com/orocommerce/orocommerce"
         },
         {
+            "name": "oro/commerce-apruve",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/apruve",
+                "reference": "71e8cc38cc3c040cc8464b7964434d0ce5f13047",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\ApruveBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://www.orocommerce.com/"
+                }
+            ],
+            "description": "OroCommerce Apruve Integration",
+            "homepage": "https://github.com/orocommerce/OroApruveBundle.git",
+            "keywords": [
+                "Apruve",
+                "Integration",
+                "Oro"
+            ]
+        },
+        {
             "name": "oro/commerce-crm",
             "version": "dev-master",
             "dist": {
@@ -6076,7 +6120,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "d84545826d2a30ba04bd3ebef3718fc3bc751862",
+                "reference": "ef794da0800993708c0f946d991ce06b1ecf443f",
                 "shasum": null
             },
             "require": {
@@ -6105,10 +6149,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "http://www.orocommerce.com"
                 }
             ],
-            "description": "OroCommerce Wirecard integration"
+            "description": "OroCommerce Wirecard integration",
+            "homepage": "https://github.com/orocommerce/OroWirecardBundle.git"
         },
         {
             "name": "oro/crm",
@@ -9221,7 +9266,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -10286,7 +10331,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork maintainer"
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -12192,6 +12237,7 @@
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
+        "oro/commerce-apruve": 20,
         "sebastian/phpcpd": 20
     },
     "prefer-stable": true,
