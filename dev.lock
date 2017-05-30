@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf608f819a63a340928285f30559fe61",
+    "content-hash": "72bac8e34902d4dccc0a29703000fc52",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -6241,12 +6241,56 @@
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
         },
         {
+            "name": "oro/commerce-dpd",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/dpd",
+                "reference": "d35a65b42605e8cda54e49f8695658fc5abdede9",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\DPDBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce DPD Integration",
+            "homepage": "https://github.com/orocommerce/OroDPDBundle.git",
+            "keywords": [
+                "DPD",
+                "Integration",
+                "Oro"
+            ]
+        },
+        {
             "name": "oro/commerce-infinitepay",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "a2e50c345d48202a1a9f57d34dc8ea87b41d5c0b",
+                "reference": "d89516ac3e69b7c1737ff613c8209cf318ddb723",
                 "shasum": null
             },
             "require": {
@@ -6277,8 +6321,8 @@
                     "homepage": "http://www.orocommerce.com"
                 }
             ],
-            "description": "Oro InfinitePay Integration",
-            "homepage": "https://github.com/orocrm/OroInfinitePayBundle.git",
+            "description": "OroCommerce InfinitePay Integration",
+            "homepage": "https://github.com/orocommerce/OroInfinitePayBundle.git",
             "keywords": [
                 "InfinitePay",
                 "Integration",
@@ -12409,6 +12453,7 @@
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/commerce-apruve": 20,
+        "oro/commerce-dpd": 20,
         "oro/commerce-infinitepay": 20,
         "sebastian/phpcpd": 20
     },
