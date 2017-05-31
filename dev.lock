@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5406de3dba134389e36424d0fae9a384",
+    "content-hash": "72bac8e34902d4dccc0a29703000fc52",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -265,6 +265,131 @@
                 "transliterator"
             ],
             "time": "2015-09-28T16:26:35+00:00"
+        },
+        {
+            "name": "besimple/soap-client",
+            "version": "v0.2.6",
+            "target-dir": "BeSimple/SoapClient",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeSimple/BeSimpleSoapClient.git",
+                "reference": "50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapClient/zipball/50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41",
+                "reference": "50f186fd3e9fafc4ce2d194d5d18e3987d5fbf41",
+                "shasum": ""
+            },
+            "require": {
+                "ass/xmlsecurity": "~1.0",
+                "besimple/soap-common": "0.2.*",
+                "ext-curl": "*",
+                "ext-soap": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.0",
+                "symfony/filesystem": "~2.0",
+                "symfony/process": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "BeSimple\\SoapClient": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Schamberger",
+                    "email": "mail@andreass.net"
+                },
+                {
+                    "name": "Christian Kerl",
+                    "email": "christian-kerl@web.de"
+                },
+                {
+                    "name": "Francis Besset",
+                    "email": "francis.besset@gmail.com"
+                }
+            ],
+            "description": "Build and consume SOAP Client based web services",
+            "homepage": "https://github.com/BeSimple/BeSimpleSoapClient",
+            "keywords": [
+                "soap",
+                "soap-client"
+            ],
+            "time": "2014-08-18T09:45:53+00:00"
+        },
+        {
+            "name": "besimple/soap-common",
+            "version": "v0.2.6",
+            "target-dir": "BeSimple/SoapCommon",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeSimple/BeSimpleSoapCommon.git",
+                "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapCommon/zipball/08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+                "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+                "shasum": ""
+            },
+            "require": {
+                "ass/xmlsecurity": "~1.0",
+                "ext-soap": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "ext-mcrypt": "*",
+                "mikey179/vfsstream": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "BeSimple\\SoapCommon": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Schamberger",
+                    "email": "mail@andreass.net"
+                },
+                {
+                    "name": "Christian Kerl",
+                    "email": "christian-kerl@web.de"
+                },
+                {
+                    "name": "Francis Besset",
+                    "email": "francis.besset@gmail.com"
+                }
+            ],
+            "description": "Build and consume SOAP Common based web services",
+            "homepage": "https://github.com/BeSimple/BeSimpleSoapCommon",
+            "keywords": [
+                "soap",
+                "soap-common"
+            ],
+            "time": "2014-08-14T19:40:13+00:00"
         },
         {
             "name": "bower-asset/Autolinker.js",
@@ -4746,7 +4871,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4805,7 +4930,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5975,10 +6100,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "1f8c287d213583b46060f3d878390634c78a9a57",
+                "reference": "f6593a4a5c1b9fe4cec010eb6c12a56f1a2217c6",
                 "shasum": null
             },
             "require": {
+                "authorizenet/authorizenet": "~1.9.2",
+                "besimple/soap-client": "^0.2.6",
                 "bower-asset/elevatezoom3": "3.0.8.1",
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
@@ -6034,16 +6161,15 @@
             "homepage": "https://github.com/orocommerce/orocommerce"
         },
         {
-            "name": "oro/commerce-authorizenet",
+            "name": "oro/commerce-apruve",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../../package/authorizenet",
-                "reference": "070d8d545e4ed46ea81114ca092e572bb61f44cb",
+                "url": "../../package/apruve",
+                "reference": "71e8cc38cc3c040cc8464b7964434d0ce5f13047",
                 "shasum": null
             },
             "require": {
-                "authorizenet/authorizenet": "~1.9.2",
                 "oro/commerce": "1.x-dev",
                 "php": ">=7.0"
             },
@@ -6055,7 +6181,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Oro\\Bundle\\AuthorizeNetBundle\\": ""
+                    "Oro\\Bundle\\ApruveBundle\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6067,10 +6193,16 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com"
+                    "homepage": "https://www.orocommerce.com/"
                 }
             ],
-            "description": "OroCommerce Authorize.Net integration"
+            "description": "OroCommerce Apruve Integration",
+            "homepage": "https://github.com/orocommerce/OroApruveBundle.git",
+            "keywords": [
+                "Apruve",
+                "Integration",
+                "Oro"
+            ]
         },
         {
             "name": "oro/commerce-crm",
@@ -6109,12 +6241,101 @@
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
         },
         {
+            "name": "oro/commerce-dpd",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/dpd",
+                "reference": "d35a65b42605e8cda54e49f8695658fc5abdede9",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\DPDBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce DPD Integration",
+            "homepage": "https://github.com/orocommerce/OroDPDBundle.git",
+            "keywords": [
+                "DPD",
+                "Integration",
+                "Oro"
+            ]
+        },
+        {
+            "name": "oro/commerce-infinitepay",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/infinitepay",
+                "reference": "d89516ac3e69b7c1737ff613c8209cf318ddb723",
+                "shasum": null
+            },
+            "require": {
+                "besimple/soap-client": "^0.2.6",
+                "oro/commerce": "1.x-dev",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\InfinitePayBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce InfinitePay Integration",
+            "homepage": "https://github.com/orocommerce/OroInfinitePayBundle.git",
+            "keywords": [
+                "InfinitePay",
+                "Integration",
+                "Oro"
+            ]
+        },
+        {
             "name": "oro/commerce-wirecard",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "d84545826d2a30ba04bd3ebef3718fc3bc751862",
+                "reference": "ef794da0800993708c0f946d991ce06b1ecf443f",
                 "shasum": null
             },
             "require": {
@@ -6143,10 +6364,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "http://www.orocommerce.com"
                 }
             ],
-            "description": "OroCommerce Wirecard integration"
+            "description": "OroCommerce Wirecard integration",
+            "homepage": "https://github.com/orocommerce/OroWirecardBundle.git"
         },
         {
             "name": "oro/crm",
@@ -10324,7 +10546,7 @@
                 {
                     "name": "Anthon Pang",
                     "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork Maintainer"
+                    "role": "Fork maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -12052,16 +12274,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.2.8",
+            "version": "v3.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "00916603c524b8048906de460b7ea0dfa1651281"
+                "reference": "038abe00bcbe7e7fc9854f2b0f3eb6606ccdeab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/00916603c524b8048906de460b7ea0dfa1651281",
-                "reference": "00916603c524b8048906de460b7ea0dfa1651281",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/038abe00bcbe7e7fc9854f2b0f3eb6606ccdeab7",
+                "reference": "038abe00bcbe7e7fc9854f2b0f3eb6606ccdeab7",
                 "shasum": ""
             },
             "require": {
@@ -12110,7 +12332,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-04-12T14:13:17+00:00"
+            "time": "2017-05-21T17:48:56+00:00"
         },
         {
             "name": "theseer/fdomdocument",
@@ -12214,7 +12436,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/commerce": 20,
-        "oro/commerce-authorizenet": 20,
         "oro/platform": 20,
         "oro/platform-serialised-fields": 20,
         "oro/calendar-bundle": 20,
@@ -12231,6 +12452,9 @@
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
+        "oro/commerce-apruve": 20,
+        "oro/commerce-dpd": 20,
+        "oro/commerce-infinitepay": 20,
         "sebastian/phpcpd": 20
     },
     "prefer-stable": true,
