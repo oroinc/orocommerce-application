@@ -1,6 +1,6 @@
 imports:
     - { resource: config.yml }
-    - { resource: parameters_test.yml }
+    - { resource: parameters_test.yml, ignore_errors: true }
     - { resource: security_test.yml }
 
 parameters:
