@@ -14,6 +14,7 @@
   },
   "require": {
     "oro/commerce": "1.x-dev",
+    "oro/commerce-authorizenet": "1.x-dev",
     "oro/platform": "2.x-dev",
     "oro/platform-serialised-fields": "2.x-dev",
     "oro/calendar-bundle": "2.x-dev",
