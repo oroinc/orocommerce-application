@@ -855,7 +855,8 @@
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
                 "shasum": ""
             },
-            "type": "bower-asset-library"
+            "type": "bower-asset-library",
+            "time": "2014-07-21 18:45:41"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -1230,7 +1231,8 @@
                 "reference": "e25ba46913160617935f837836016ea7ed2be08c",
                 "shasum": ""
             },
-            "type": "bower-asset-library"
+            "type": "bower-asset-library",
+            "time": "2017-02-08 18:28:50"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -4874,7 +4876,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4933,7 +4935,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -6954,7 +6956,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "fb14559042262c0c851fc3a20ebdd188db76e4d9",
+                "reference": "6e9ab480b4ee2725cd69be453530c5c4809d89b8",
                 "shasum": null
             },
             "require": {
@@ -6989,6 +6991,7 @@
                 "bower-asset/less": "2.5.*",
                 "bower-asset/lightgallery": "1.2.18",
                 "bower-asset/malihu-custom-scrollbar-plugin": "3.1.5",
+                "bower-asset/moment": "2.18.*",
                 "bower-asset/moment-timezone": "0.5.*",
                 "bower-asset/numeral": "1.5.2",
                 "bower-asset/select2": "3.4.1",
