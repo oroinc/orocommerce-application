@@ -4877,7 +4877,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4936,7 +4936,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -6106,7 +6106,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "7754fd126403a742dda5efd0bccbed38919b8850",
+                "reference": "3888f64aef662e7b19fa19e74282710b586358ad",
                 "shasum": null
             },
             "require": {
@@ -6115,7 +6115,6 @@
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "bower-asset/jquery-validate": "1.11.1",
                 "box/spout": "2.3.*",
-                "brick/math": "0.5.*",
                 "myclabs/deep-copy": "1.5.*",
                 "oro/calendar-bundle": "2.x-dev",
                 "oro/customer-portal": "2.x-dev",
@@ -6957,7 +6956,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "d2b9ea2b82155d1f0c070ed7ffc18a7c5d1651ab",
+                "reference": "f077684a0fd2b8b43aa6d680363f31a8629c5d5d",
                 "shasum": null
             },
             "require": {
@@ -7001,6 +7000,7 @@
                 "bower-asset/underscore": "1.8.3",
                 "bower-asset/uniform": "2.1.1",
                 "bower-asset/when": "2.4.0",
+                "brick/math": "0.5.*",
                 "components/jquery": "3.1.*",
                 "components/jqueryui": "1.12.*",
                 "composer/composer": "1.4.*",
