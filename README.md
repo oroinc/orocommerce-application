@@ -37,22 +37,13 @@ http://getcomposer.org/ website or simply run the following command:
 curl -s https://getcomposer.org/installer | php
 ```
 
-OroCommerce uses [fxpio/composer-asset-plugin][2] to manage dependencies on some third-party asset libraries. The plugin has to be installed globally (per user):
- 
-```bash
-    composer self-update
-    composer global require "fxp/composer-asset-plugin"
-```
-**Note:** This is a temporary solution.  After plugin version 1.3.0 is released, the requirement will be changed to version 1.3
-([see related issue](https://github.com/fxpio/composer-asset-plugin/issues/277#issuecomment-282745055)).
-
 - Clone https://github.com/orocommerce/orocommerce-application.git repository with
 
 ```bash
 git clone --recursive https://github.com/orocommerce/orocommerce-application.git
 ```
 
-- Make sure that you have [NodeJS][3] installed
+- Make sure that you have [NodeJS][2] installed
 
 - Install project dependencies with Composer. If the installation process is too slow, you can use the "--prefer-dist" option.
   Run composer installation:
@@ -122,9 +113,9 @@ Ensure that the timeout has a default value
 wait_timeout = 28800
 ```
 
-See [Optimizing InnoDB Disk I/O][4] for more information.
+See [Optimizing InnoDB Disk I/O][3] for more information.
 
-The default MySQL character set utf8 uses a maximum of three bytes per character and contains only BMP characters. The [utf8mb4][5] character set uses a maximum of four bytes per character and supports supplemental characters (e.g. emojis). It is [recommended][6] to use utf8mb4 character set in your app/config.yml:
+The default MySQL character set utf8 uses a maximum of three bytes per character and contains only BMP characters. The [utf8mb4][4] character set uses a maximum of four bytes per character and supports supplemental characters (e.g. emojis). It is [recommended][5] to use utf8mb4 character set in your app/config.yml:
 
 ```yaml
 doctrine:
@@ -144,17 +135,17 @@ doctrine:
                     row_format: dynamic
 ```
 
-Using utf8mb4 might have side effects. MySQL indexes have a default limit of 767 bytes, so any indexed fields with varchar(255) will fail when inserted, because utf8mb4 can have 4 bytes per character (255 * 4 = 1020 bytes), thus the longest data can be 191 (191 * 4 = 764 < 767). To be able to use any 4 byte charset all indexed varchars should be at most varchar(191). To overcome the index size issue the server can be configured to have large index size by enabling [sysvar_innodb_large_prefix][7]. However, innodb_large_prefix requires some additional settings to work:
+Using utf8mb4 might have side effects. MySQL indexes have a default limit of 767 bytes, so any indexed fields with varchar(255) will fail when inserted, because utf8mb4 can have 4 bytes per character (255 * 4 = 1020 bytes), thus the longest data can be 191 (191 * 4 = 764 < 767). To be able to use any 4 byte charset all indexed varchars should be at most varchar(191). To overcome the index size issue the server can be configured to have large index size by enabling [sysvar_innodb_large_prefix][6]. However, innodb_large_prefix requires some additional settings to work:
 
 - `innodb_default_row_format=DYNAMIC` (you may also enable it per connection as in the config above)
 - `innodb_file_format=Barracuda`
 - `innodb_file_per_table=1` (see above performance issues with this setting)
 
-More details about this issue can be found [here][8]
+More details about this issue can be found [here][7]
 
 ### Web Server Configuration
 
-The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][9].
+The OroCommerce sample application is based on the Symfony standard application, so the web server configuration recommendations are the [same][8].
 
 ### Opcache
 
@@ -174,15 +165,14 @@ See [Symfony Performance](http://symfony.com/doc/current/performance.html)
 
 ##Using Redis for application caching
 
-To use Redis for application caching, follow the corresponding [configuration instructions][10]
+To use Redis for application caching, follow the corresponding [configuration instructions][9]
 
 [1]: http://getcomposer.org/
-[2]: https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
-[3]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
-[4]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
-[5]: https://dev.mysql.com/doc/refman/5.6/en/charset-unicode-utf8mb4.html
-[6]: http://symfony.com/doc/current/doctrine.html#configuring-the-database
-[7]: http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
-[8]: https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
-[9]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
-[10]: https://github.com/orocrm/redis-config#configuration
+[2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+[3]: http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
+[4]: https://dev.mysql.com/doc/refman/5.6/en/charset-unicode-utf8mb4.html
+[5]: http://symfony.com/doc/current/doctrine.html#configuring-the-database
+[6]: http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
+[7]: https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
+[8]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
+[9]: https://github.com/orocrm/redis-config#configuration
