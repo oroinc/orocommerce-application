@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6e6c9f22e31ea74af36973507ebba08",
+    "content-hash": "2786c2ff9a87869650bd692b94e6efe5",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -5820,16 +5820,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "da6365e116277e6925dadb242341bc070c49a6af"
+                "reference": "692eec385f32a05585edbe985d9d524f2e945e2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/da6365e116277e6925dadb242341bc070c49a6af",
-                "reference": "da6365e116277e6925dadb242341bc070c49a6af",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/692eec385f32a05585edbe985d9d524f2e945e2b",
+                "reference": "692eec385f32a05585edbe985d9d524f2e945e2b",
                 "shasum": ""
             },
             "require": {
@@ -5887,7 +5887,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2017-06-14T07:44:14+00:00"
+            "time": "2017-06-30T07:23:07+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -6143,7 +6143,7 @@
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
-            "version": "2.2.x-dev",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMHangoutsCallBundle.git",
@@ -6192,7 +6192,7 @@
                 "Oro",
                 "integration"
             ],
-            "time": "2017-05-31 12:11:04"
+            "time": "2017-05-31T12:11:04+00:00"
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
@@ -10963,16 +10963,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.4.3",
+            "version": "3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "3ab72b65b39b491e0c011e2e09bb2206c2aa8e24"
+                "reference": "a23b761686d50a560cc56233b9ecf49597cc9118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/3ab72b65b39b491e0c011e2e09bb2206c2aa8e24",
-                "reference": "3ab72b65b39b491e0c011e2e09bb2206c2aa8e24",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/a23b761686d50a560cc56233b9ecf49597cc9118",
+                "reference": "a23b761686d50a560cc56233b9ecf49597cc9118",
                 "shasum": ""
             },
             "require": {
@@ -11018,7 +11018,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-12-08T20:27:08+00:00"
+            "time": "2017-06-30T09:13:00+00:00"
         },
         {
             "name": "phpunit/phpunit-selenium",
