@@ -26,15 +26,4 @@ security:
             organization-form-login: false
             logout: false
             organization-remember-me: false
-            anonymous: true
-
-        frontend_secure:
-            pattern: ^/
-            organization-http-basic:
-                realm: "Secured AccountUser REST Area"
-            provider: commerce_customer_user
-            http-basic: false
-            organization-form-login: false
-            logout: false
-            organization-remember-me: false
-            anonymous: true
+            anonymous_customer_user: true
