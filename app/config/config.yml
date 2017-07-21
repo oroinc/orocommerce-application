@@ -127,7 +127,6 @@ oro_distribution:
     entry_point: ~
 
 oro_require_js:
-    build_logger: true
     build_path:               "js/oro.min.js"
     building_timeout:         3600
     build:
