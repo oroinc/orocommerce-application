@@ -163,7 +163,7 @@ opcache.interned_strings_buffer=32
 
 See [Symfony Performance](http://symfony.com/doc/current/performance.html)
 
-##Using Redis for application caching
+### Using Redis for application caching
 
 To use Redis for application caching, follow the corresponding [configuration instructions][9]
 
