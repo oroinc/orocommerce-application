@@ -163,9 +163,13 @@ opcache.interned_strings_buffer=32
 
 See [Symfony Performance](http://symfony.com/doc/current/performance.html)
 
-##Using Redis for application caching
+### Using Redis for application caching
 
 To use Redis for application caching, follow the corresponding [configuration instructions][9]
+
+### License
+ 
+[OSL-3.0][10] Copyright (c) 2015 - 2017, Oro, Inc.
 
 [1]: http://getcomposer.org/
 [2]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
@@ -176,3 +180,4 @@ To use Redis for application caching, follow the corresponding [configuration in
 [7]: https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
 [8]: http://symfony.com/doc/2.8/setup/web_server_configuration.html
 [9]: https://github.com/orocrm/redis-config#configuration
+[10]: LICENSE
