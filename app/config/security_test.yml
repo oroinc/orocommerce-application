@@ -22,6 +22,7 @@ security:
             organization-http-basic:
                 realm: "AccountUser REST Area"
             provider: commerce_customer_user
+            context: customer_identity
             http-basic: false
             organization-form-login: false
             logout: false
