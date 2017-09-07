@@ -10,7 +10,6 @@ default: &default
             base_url: 'http://dev-commerce-crm.local/'
         Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
-            reference_initializer_class: Oro\Bundle\ApplicationBundle\Tests\Behat\ReferenceRepositoryInitializer
             shared_contexts:
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\FixturesContext
