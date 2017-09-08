@@ -5132,16 +5132,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.3.4",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "1cf82ef3b0ad1afab2830af50fd8e9812f3c3661"
+                "reference": "599864d14b91f6ed032e20e73e198bcad752c9b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/1cf82ef3b0ad1afab2830af50fd8e9812f3c3661",
-                "reference": "1cf82ef3b0ad1afab2830af50fd8e9812f3c3661",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/599864d14b91f6ed032e20e73e198bcad752c9b1",
+                "reference": "599864d14b91f6ed032e20e73e198bcad752c9b1",
                 "shasum": ""
             },
             "require": {
@@ -5200,7 +5200,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2017-09-04T14:22:53+00:00"
+            "time": "2017-09-07T08:14:09+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5247,16 +5247,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm.git",
-                "reference": "cec7dfed2480856e3fe7608d08680c8d657282a6"
+                "reference": "7ab3d88eadae8bcde16d1b8f573ebb8ccda4d930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/cec7dfed2480856e3fe7608d08680c8d657282a6",
-                "reference": "cec7dfed2480856e3fe7608d08680c8d657282a6",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/7ab3d88eadae8bcde16d1b8f573ebb8ccda4d930",
+                "reference": "7ab3d88eadae8bcde16d1b8f573ebb8ccda4d930",
                 "shasum": ""
             },
             "require": {
@@ -5311,7 +5311,7 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/oroinc/crm.git",
-            "time": "2017-08-29T20:43:28+00:00"
+            "time": "2017-09-05T11:58:43+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5708,16 +5708,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/customer-portal.git",
-                "reference": "e60fcefde4e6377c2de19b5638340281af50cb51"
+                "reference": "4096fa3a01d10babdb808bb9db5a5e9ecb04aa02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/e60fcefde4e6377c2de19b5638340281af50cb51",
-                "reference": "e60fcefde4e6377c2de19b5638340281af50cb51",
+                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/4096fa3a01d10babdb808bb9db5a5e9ecb04aa02",
+                "reference": "4096fa3a01d10babdb808bb9db5a5e9ecb04aa02",
                 "shasum": ""
             },
             "require": {
@@ -5753,7 +5753,7 @@
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
-            "time": "2017-08-26T09:38:47+00:00"
+            "time": "2017-09-07T08:14:09+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5861,16 +5861,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform.git",
-                "reference": "55dfb1175b22fccb5f35390b70a4bfb9b27ac475"
+                "reference": "51e0cbe26f30bcee405e830689ef3d6372fc5648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/55dfb1175b22fccb5f35390b70a4bfb9b27ac475",
-                "reference": "55dfb1175b22fccb5f35390b70a4bfb9b27ac475",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/51e0cbe26f30bcee405e830689ef3d6372fc5648",
+                "reference": "51e0cbe26f30bcee405e830689ef3d6372fc5648",
                 "shasum": ""
             },
             "require": {
@@ -6023,7 +6023,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "time": "2017-09-04T16:15:38+00:00"
+            "time": "2017-09-07T16:05:29+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
