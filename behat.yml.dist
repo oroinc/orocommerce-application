@@ -28,3 +28,6 @@ default: &default
                 - OroOrderBundle::OrderContext
                 - OroShoppingListBundle::ShoppingListContext
                 - OroRedirectBundle::SlugPrototypesContext
+
+chromedriver:
+    <<: *default
