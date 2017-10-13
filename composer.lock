@@ -66,7 +66,7 @@
                 "translatable",
                 "translation"
             ],
-            "time": "2016-08-05 18:11:57"
+            "time": "2016-08-05T18:11:57+00:00"
         },
         {
             "name": "akeneo/batch-bundle",
@@ -632,7 +632,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2014-07-21 18:45:41"
+            "time": "2014-07-21T18:45:41+00:00"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -873,7 +873,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2017-02-08 18:28:50"
+            "time": "2017-02-08T18:28:50+00:00"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -2149,16 +2149,16 @@
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "cfc629363a4a1d7b3f21c4689c53aa05519eed52"
+                "reference": "9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/cfc629363a4a1d7b3f21c4689c53aa05519eed52",
-                "reference": "cfc629363a4a1d7b3f21c4689c53aa05519eed52",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1",
+                "reference": "9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1",
                 "shasum": ""
             },
             "require": {
@@ -2233,7 +2233,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2017-09-29T14:39:10+00:00"
+            "time": "2017-10-12T17:23:29+00:00"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -2832,16 +2832,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.30",
+            "version": "v2.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "5e2cc07beb0cd24345cbe02eb7afc3b23f9cd488"
+                "reference": "79cd1d49898a21ede9a5dfad41c021abd9a14339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/5e2cc07beb0cd24345cbe02eb7afc3b23f9cd488",
-                "reference": "5e2cc07beb0cd24345cbe02eb7afc3b23f9cd488",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/79cd1d49898a21ede9a5dfad41c021abd9a14339",
+                "reference": "79cd1d49898a21ede9a5dfad41c021abd9a14339",
                 "shasum": ""
             },
             "require": {
@@ -2906,7 +2906,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2017-07-02T09:46:37+00:00"
+            "time": "2017-10-12T06:26:21+00:00"
         },
         {
             "name": "genemu/form-bundle",
@@ -3745,16 +3745,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.2",
+            "version": "5.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "b80053b620826810b38211b3c5f935ba9cddf6b3"
+                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/b80053b620826810b38211b3c5f935ba9cddf6b3",
-                "reference": "b80053b620826810b38211b3c5f935ba9cddf6b3",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/0d4fda8efdf216ade084a7f0aad5637572ce9835",
+                "reference": "0d4fda8efdf216ade084a7f0aad5637572ce9835",
                 "shasum": ""
             },
             "require": {
@@ -3807,7 +3807,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-10-03T00:49:49+00:00"
+            "time": "2017-10-10T13:22:37+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -5131,16 +5131,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "69fc19d6154c7183923b1c869980ce5aeb029df8"
+                "reference": "0588a37df14132cf0439ad00373d94ba1b83df03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/69fc19d6154c7183923b1c869980ce5aeb029df8",
-                "reference": "69fc19d6154c7183923b1c869980ce5aeb029df8",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/0588a37df14132cf0439ad00373d94ba1b83df03",
+                "reference": "0588a37df14132cf0439ad00373d94ba1b83df03",
                 "shasum": ""
             },
             "require": {
@@ -5199,20 +5199,20 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2017-10-02T12:46:05+00:00"
+            "time": "2017-10-10T18:57:17+00:00"
         },
         {
             "name": "oro/commerce-crm",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce-orocrm.git",
-                "reference": "fca1cf58ababdd23eacb884e5082695429c3b3f5"
+                "reference": "93db42dd9f39c2637adc2ec826a950edce30536f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce-orocrm/zipball/fca1cf58ababdd23eacb884e5082695429c3b3f5",
-                "reference": "fca1cf58ababdd23eacb884e5082695429c3b3f5",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce-orocrm/zipball/93db42dd9f39c2637adc2ec826a950edce30536f",
+                "reference": "93db42dd9f39c2637adc2ec826a950edce30536f",
                 "shasum": ""
             },
             "require": {
@@ -5242,20 +5242,20 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm",
-            "time": "2017-09-27T13:17:49+00:00"
+            "time": "2017-10-06T17:43:26+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:oroinc/crm.git",
-                "reference": "d76e2a44a085777daebc0ef0c0621eee51a51490"
+                "reference": "3baba5dfe97d11d42b564d2513ce5c0de0e5d690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/d76e2a44a085777daebc0ef0c0621eee51a51490",
-                "reference": "d76e2a44a085777daebc0ef0c0621eee51a51490",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/3baba5dfe97d11d42b564d2513ce5c0de0e5d690",
+                "reference": "3baba5dfe97d11d42b564d2513ce5c0de0e5d690",
                 "shasum": ""
             },
             "require": {
@@ -5310,7 +5310,7 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/oroinc/crm.git",
-            "time": "2017-10-02T18:45:41+00:00"
+            "time": "2017-10-13T15:55:45+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5558,16 +5558,16 @@
         },
         {
             "name": "oro/crm-mail-chimp",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMMailChimpBundle.git",
-                "reference": "a4977336a504be1480bcf773136015f9094b3464"
+                "reference": "2126b8cb3ce537b6cfc60c9e5d94c7428100e22e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/a4977336a504be1480bcf773136015f9094b3464",
-                "reference": "a4977336a504be1480bcf773136015f9094b3464",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/2126b8cb3ce537b6cfc60c9e5d94c7428100e22e",
+                "reference": "2126b8cb3ce537b6cfc60c9e5d94c7428100e22e",
                 "shasum": ""
             },
             "require": {
@@ -5602,7 +5602,7 @@
             ],
             "description": "OroCRM MailChimp integration",
             "homepage": "https://github.com/oroinc/OroCRMMailChimpBundle.git",
-            "time": "2017-10-02T12:23:12+00:00"
+            "time": "2017-10-03T13:40:42+00:00"
         },
         {
             "name": "oro/crm-task-bundle",
@@ -5656,16 +5656,16 @@
         },
         {
             "name": "oro/crm-zendesk",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMZendeskBundle.git",
-                "reference": "473dadd5bebbd7ed08353e0e893c89105858e011"
+                "reference": "2589d46eb5490095ddbd00d3123d6f2b66c27918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/473dadd5bebbd7ed08353e0e893c89105858e011",
-                "reference": "473dadd5bebbd7ed08353e0e893c89105858e011",
+                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/2589d46eb5490095ddbd00d3123d6f2b66c27918",
+                "reference": "2589d46eb5490095ddbd00d3123d6f2b66c27918",
                 "shasum": ""
             },
             "require": {
@@ -5703,20 +5703,20 @@
                 "Zendesk",
                 "integration"
             ],
-            "time": "2017-09-27T13:17:49+00:00"
+            "time": "2017-10-06T17:43:26+00:00"
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/customer-portal.git",
-                "reference": "82449538895370a36614a6016c62e8dfc8dc5088"
+                "reference": "c8568a5a1ae4d3c5050d45322c2d3c7863a36f24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/82449538895370a36614a6016c62e8dfc8dc5088",
-                "reference": "82449538895370a36614a6016c62e8dfc8dc5088",
+                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/c8568a5a1ae4d3c5050d45322c2d3c7863a36f24",
+                "reference": "c8568a5a1ae4d3c5050d45322c2d3c7863a36f24",
                 "shasum": ""
             },
             "require": {
@@ -5753,7 +5753,7 @@
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
-            "time": "2017-10-02T13:59:03+00:00"
+            "time": "2017-10-06T17:43:26+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5812,16 +5812,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:oroinc/OroCRMMarketingBundle.git",
-                "reference": "ac213eba7888d2abefc2d0f257cd9b77dfab5e8f"
+                "reference": "c717c09275e8b533263a7bfe1448eb8787cfbfa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/ac213eba7888d2abefc2d0f257cd9b77dfab5e8f",
-                "reference": "ac213eba7888d2abefc2d0f257cd9b77dfab5e8f",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/c717c09275e8b533263a7bfe1448eb8787cfbfa1",
+                "reference": "c717c09275e8b533263a7bfe1448eb8787cfbfa1",
                 "shasum": ""
             },
             "require": {
@@ -5857,7 +5857,7 @@
                 "Oro",
                 "Tracking"
             ],
-            "time": "2017-09-27T13:17:49+00:00"
+            "time": "2017-10-11T06:16:00+00:00"
         },
         {
             "name": "oro/platform",
