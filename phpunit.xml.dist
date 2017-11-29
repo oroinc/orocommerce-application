@@ -33,6 +33,7 @@
             <group>dist</group>
             <group>install</group>
             <group>segfault</group>
+            <group>demo-fixtures</group>
         </exclude>
     </groups>
     <testsuites>
