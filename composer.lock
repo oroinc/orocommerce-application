@@ -5132,12 +5132,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "42e4314790f57b6083a11aa76458df30bddca7f6"
+                "reference": "51b12516a2507a28055ac3d41f40d6ca7f2f66b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/42e4314790f57b6083a11aa76458df30bddca7f6",
-                "reference": "42e4314790f57b6083a11aa76458df30bddca7f6",
+                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/51b12516a2507a28055ac3d41f40d6ca7f2f66b0",
+                "reference": "51b12516a2507a28055ac3d41f40d6ca7f2f66b0",
                 "shasum": ""
             },
             "require": {
@@ -5196,7 +5196,7 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2017-11-28T15:36:27+00:00"
+            "time": "2017-11-29T19:15:36+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5862,12 +5862,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:oroinc/platform.git",
-                "reference": "93211a54983b731375e94ad87de2dd349d1e1ce5"
+                "reference": "902126584a2bda4e3a714eb234e5207df39474ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/93211a54983b731375e94ad87de2dd349d1e1ce5",
-                "reference": "93211a54983b731375e94ad87de2dd349d1e1ce5",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/902126584a2bda4e3a714eb234e5207df39474ba",
+                "reference": "902126584a2bda4e3a714eb234e5207df39474ba",
                 "shasum": ""
             },
             "require": {
@@ -6020,7 +6020,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "time": "2017-11-28T09:22:27+00:00"
+            "time": "2017-11-30T10:04:02+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
