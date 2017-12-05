@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "be041f95b8bc6121821ca6995aee1393",
+    "content-hash": "478bbdf729f0e66ee663f7b0c7ba119e",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -66,7 +66,7 @@
                 "translatable",
                 "translation"
             ],
-            "time": "2016-08-05 18:11:57"
+            "time": "2016-08-05T18:11:57+00:00"
         },
         {
             "name": "akeneo/batch-bundle",
@@ -576,7 +576,7 @@
             "version": "v2.3.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twbs/bootstrap.git",
+                "url": "https://github.com/twbs/bootstrap.git",
                 "reference": "8c7f9c66a7d12f47f50618ef420868fe836d0c33"
             },
             "dist": {
@@ -678,7 +678,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2014-07-21 18:45:41"
+            "time": "2014-07-21T18:45:41+00:00"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -919,7 +919,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2017-02-08 18:28:50"
+            "time": "2017-02-08T18:28:50+00:00"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -4350,7 +4350,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5288,7 +5288,7 @@
             "version": "v3.0.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twbs/bootstrap.git",
+                "url": "https://github.com/twbs/bootstrap.git",
                 "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
             },
             "dist": {
@@ -5427,7 +5427,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "8e7cb1a4c05b9187eec7446d7c27a0ba188d532b",
+                "reference": "e14d8f256d12b13f16fa5ed0898bf35549e3a68b",
                 "shasum": null
             },
             "require": {
@@ -5459,7 +5459,7 @@
                 }
             ],
             "description": "Oro Calendar Bundle",
-            "homepage": "https://github.com/orocrm/OroCalendarBundle.git",
+            "homepage": "https://github.com/oroinc/OroCalendarBundle.git",
             "keywords": [
                 "Calendar",
                 "Oro"
@@ -5471,7 +5471,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "2e6ed90cd35b826ce308871c6e9212901ee3a200",
+                "reference": "70211d3563b7bb9ba120d43cf812aaad708b59e5",
                 "shasum": null
             },
             "require": {
@@ -5531,56 +5531,12 @@
             "homepage": "https://github.com/orocommerce/orocommerce"
         },
         {
-            "name": "oro/commerce-apruve",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/apruve",
-                "reference": "71e8cc38cc3c040cc8464b7964434d0ce5f13047",
-                "shasum": null
-            },
-            "require": {
-                "oro/commerce": "1.x-dev",
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\ApruveBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com/"
-                }
-            ],
-            "description": "OroCommerce Apruve Integration",
-            "homepage": "https://github.com/orocommerce/OroApruveBundle.git",
-            "keywords": [
-                "Apruve",
-                "Integration",
-                "Oro"
-            ]
-        },
-        {
             "name": "oro/commerce-authorizenet",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "f4efcd2ad67f009d1c405046967974e6ab223fea",
+                "reference": "38e4abafd411903d5575406c9625378461c79c46",
                 "shasum": null
             },
             "require": {
@@ -5620,7 +5576,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "132f80fca1ad08781a0824575f503108d209adf6",
+                "reference": "a98f330dfb0f6ea1814ee0ac5036e2b42d7a1cff",
                 "shasum": null
             },
             "require": {
@@ -5651,56 +5607,12 @@
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm"
         },
         {
-            "name": "oro/commerce-dpd",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/dpd",
-                "reference": "d35a65b42605e8cda54e49f8695658fc5abdede9",
-                "shasum": null
-            },
-            "require": {
-                "oro/commerce": "1.x-dev",
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\DPDBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
-                }
-            ],
-            "description": "OroCommerce DPD Integration",
-            "homepage": "https://github.com/orocommerce/OroDPDBundle.git",
-            "keywords": [
-                "DPD",
-                "Integration",
-                "Oro"
-            ]
-        },
-        {
             "name": "oro/commerce-infinitepay",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "d89516ac3e69b7c1737ff613c8209cf318ddb723",
+                "reference": "8ecddfbb44c38cbcd1f729499203118355c16e05",
                 "shasum": null
             },
             "require": {
@@ -5745,7 +5657,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "ef794da0800993708c0f946d991ce06b1ecf443f",
+                "reference": "b977b04eb26c2205eece869860eb378de654f35b",
                 "shasum": null
             },
             "require": {
@@ -5786,7 +5698,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "4d9f8a13309cd45171dc1737c1a5ef61bd867ae9",
+                "reference": "6f1635a18ba7f7674c4763ca10ee0e54d6bfc2bb",
                 "shasum": null
             },
             "require": {
@@ -5839,7 +5751,7 @@
                 }
             ],
             "description": "OroCRM",
-            "homepage": "https://github.com/orocrm/crm.git"
+            "homepage": "https://github.com/oroinc/crm.git"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5847,7 +5759,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "3411b3b80ea8a381d5930340fd8cc4156b15dc38",
+                "reference": "52654b2ee44d5ce476d4d5f3e8c72a8ee9e6d744",
                 "shasum": null
             },
             "require": {
@@ -5887,7 +5799,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "31fd2de15cc18d6a03549ab63e4e4b239bce6afc",
+                "reference": "179a264ba7c90b7b43cd844c6e905c5c569ccb8a",
                 "shasum": null
             },
             "require": {
@@ -5918,7 +5830,7 @@
                 }
             ],
             "description": "Oro Call Bundle",
-            "homepage": "https://github.com/orocrm/OroCRMCallBundle.git",
+            "homepage": "https://github.com/oroinc/OroCRMCallBundle.git",
             "keywords": [
                 "Call",
                 "Oro"
@@ -5930,7 +5842,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "53a31e1b32e3626b563e0f5b58d9d4eb0dcfa541",
+                "reference": "530b830eedd1f741ac91c0b214adfd9aa5b60107",
                 "shasum": null
             },
             "require": {
@@ -5963,7 +5875,7 @@
                 }
             ],
             "description": "Oro Dotmailer integration",
-            "homepage": "https://github.com/orocrm/OroCRMDotmailerBundle.git"
+            "homepage": "https://github.com/oroinc/OroCRMDotmailerBundle.git"
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
@@ -5971,7 +5883,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "ada18ab5260be268173cc96238541f683b428a6a",
+                "reference": "589ab37ac8e807780ad1dd70fb8bf5a7779131d1",
                 "shasum": null
             },
             "require": {
@@ -6004,7 +5916,7 @@
                 }
             ],
             "description": "Oro Google Hangouts integration",
-            "homepage": "https://github.com/orocrm/OroCRMHangoutsCallBundle.git",
+            "homepage": "https://github.com/oroinc/OroCRMHangoutsCallBundle.git",
             "keywords": [
                 "Google Hangouts",
                 "Oro",
@@ -6017,7 +5929,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "353d50488bd41c696311a0186c44f0fcc285d856",
+                "reference": "6bb18e6bfe8cafea24ecb7f91095d9d794eef5da",
                 "shasum": null
             },
             "require": {
@@ -6048,7 +5960,7 @@
                 }
             ],
             "description": "OroCRM Magento Embedded Contact Us package",
-            "homepage": "https://github.com/orocrm/OroCRMMagentoContactUsBundle.git"
+            "homepage": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git"
         },
         {
             "name": "oro/crm-mail-chimp",
@@ -6056,7 +5968,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "abc44ca2b954f92a008f39b0acb98b4d03037c8b",
+                "reference": "d0f8231097b0ed9fb00fb42dd8fbbe6281c13a9e",
                 "shasum": null
             },
             "require": {
@@ -6089,7 +6001,7 @@
                 }
             ],
             "description": "OroCRM MailChimp integration",
-            "homepage": "https://github.com/orocrm/OroCRMMailChimpBundle.git"
+            "homepage": "https://github.com/oroinc/OroCRMMailChimpBundle.git"
         },
         {
             "name": "oro/crm-task-bundle",
@@ -6097,7 +6009,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "f022c4022ea59d4e31955d9ff0b3987d74f9640a",
+                "reference": "bf99a0ad0f4f2eee9922f1fecedef4635a418aa1",
                 "shasum": null
             },
             "require": {
@@ -6128,7 +6040,7 @@
                 }
             ],
             "description": "Oro Task Bundle",
-            "homepage": "https://github.com/orocrm/OroCRMTaskBundle.git",
+            "homepage": "https://github.com/oroinc/OroCRMTaskBundle.git",
             "keywords": [
                 "Oro",
                 "Task"
@@ -6140,7 +6052,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "2fc7640ac51a129c5c726b6ee5e88773980aa2bd",
+                "reference": "c2b7958facc802521b154c519395c91f4528f94b",
                 "shasum": null
             },
             "require": {
@@ -6171,7 +6083,7 @@
                 }
             ],
             "description": "OroCRM Zendesk Integration",
-            "homepage": "https://github.com/orocrm/OroZendeskBundle.git",
+            "homepage": "https://github.com/oroinc/OroCRMZendeskBundle.git",
             "keywords": [
                 "Integration",
                 "Oro",
@@ -6184,13 +6096,14 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "0ccc8d923755614385ab5bc926a1f1f8b4f69e23",
+                "reference": "7238d0d3ad9365ac394dcbc7350984add20cc591",
                 "shasum": null
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
                 "leafo/scssphp": "0.6.3",
                 "oro/calendar-bundle": "2.x-dev",
+                "oro/commerce": "1.x-dev",
                 "oro/marketing": "2.x-dev",
                 "oro/platform": "2.x-dev",
                 "oro/platform-serialised-fields": "2.x-dev"
@@ -6218,7 +6131,7 @@
                     "homepage": "http://www.orocommerce.com"
                 }
             ],
-            "homepage": "https://github.com/orocrm/customer-portal"
+            "homepage": "https://github.com/oroinc/customer-portal"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6281,7 +6194,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "70436192ca0d8526cfb4f8f90eab1a03314daa11",
+                "reference": "ba135b03dea983c4e704365964cccd766ea30d2f",
                 "shasum": null
             },
             "require": {
@@ -6309,7 +6222,7 @@
                 }
             ],
             "description": "Oro Marketing Bundles",
-            "homepage": "https://github.com/orocrm/OroCRMMarketingBundle.git",
+            "homepage": "https://github.com/oroinc/OroCRMMarketingBundle.git",
             "keywords": [
                 "Campaign",
                 "Marketing",
@@ -6323,7 +6236,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "ff1936190d7ff8ee125ab4c341e06b41dcac2a4c",
+                "reference": "08e7dffa76bafc00476c68052dab79f8d228ebe9",
                 "shasum": null
             },
             "require": {
@@ -6474,7 +6387,7 @@
                 }
             ],
             "description": "Business Application Platform (BAP)",
-            "homepage": "https://github.com/orocrm/platform.git"
+            "homepage": "https://github.com/oroinc/platform.git"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -6482,7 +6395,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "fbcccae7809cef24a13f60cd312d194883c16d1a",
+                "reference": "603c286dcdde695eb3aeeb4ce11af8f9fcaecc33",
                 "shasum": null
             },
             "require": {
@@ -6513,7 +6426,7 @@
                 }
             ],
             "description": "Oro Platform Serialized Fields",
-            "homepage": "https://github.com/orocrm/OroEntitySerializedFieldsBundle",
+            "homepage": "https://github.com/oroinc/OroEntitySerializedFieldsBundle",
             "keywords": [
                 "Oro",
                 "Platform",
@@ -11438,20 +11351,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpcpd.git",
-                "reference": "8cd349c5801aaa9e7259b89d4778e24ddf7b6526"
+                "reference": "b6dd25b89fa4891fea79db51871c1488dc12c1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpcpd/zipball/8cd349c5801aaa9e7259b89d4778e24ddf7b6526",
-                "reference": "8cd349c5801aaa9e7259b89d4778e24ddf7b6526",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpcpd/zipball/b6dd25b89fa4891fea79db51871c1488dc12c1ac",
+                "reference": "b6dd25b89fa4891fea79db51871c1488dc12c1ac",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6|^7.0",
                 "phpunit/php-timer": "^1.0.6",
                 "sebastian/finder-facade": "^1.1",
-                "sebastian/version": "^2.0",
-                "symfony/console": "^2.7|^3.0"
+                "sebastian/version": "^1.0|^2.0",
+                "symfony/console": "^2.7|^3.0|^4.0"
             },
             "bin": [
                 "phpcpd"
@@ -11480,7 +11393,7 @@
             ],
             "description": "Copy/Paste Detector (CPD) for PHP code.",
             "homepage": "https://github.com/sebastianbergmann/phpcpd",
-            "time": "2017-02-27T06:12:50+00:00"
+            "time": "2017-11-16T09:52:34+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -12034,8 +11947,6 @@
         "oro/crm-mail-chimp": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
-        "oro/commerce-apruve": 20,
-        "oro/commerce-dpd": 20,
         "oro/commerce-infinitepay": 20,
         "sebastian/phpcpd": 20
     },
