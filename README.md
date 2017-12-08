@@ -10,12 +10,12 @@ You can find out more about OroCommerce at [www.orocommerce.com](https://www.oro
 System Requirements
 -------------------
 
-Please see the OroCommerce online documentation for the complete list of [system requirements](https://www.orocommerce.com/documentation/current/system-requirements).
+Please see the OroCommerce online documentation for the complete list of [system requirements](https://www.oroinc.com/doc/orocommerce/current/system-requirements).
 
 Installation
 ------------
 
-Please see the [Quick Start Installation Hints for OroCommerce and OroCRM Community Edition](https://www.orocommerce.com/documentation/current/install-upgrade/installation-quick-start-dev/commerce-crm) or refer to the online [OroCommerce Installation Guide](https://www.orocommerce.com/documentation/current/install-upgrade) for the detailed installation steps.
+Please see the [Quick Start Installation Hints for OroCommerce and OroCRM Community Edition](https://www.oroinc.com/doc/orocommerce/current/install-upgrade/installation-quick-start-dev/commerce-crm) or refer to the online [OroCommerce Installation Guide](https://www.oroinc.com/doc/orocommerce/current/install-upgrade) for the detailed installation steps.
 
 License
 -------
