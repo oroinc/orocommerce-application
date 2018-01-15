@@ -1,4 +1,5 @@
 <?php
+// @codingStandardsIgnoreFile
 
 if (is_file(__DIR__.'/../vendor/autoload.php')) {
     require_once __DIR__ . '/../vendor/autoload.php';
@@ -19,12 +20,12 @@ use Symfony\Component\Yaml\Yaml;
  */
 class OroRequirements extends SymfonyRequirements
 {
-    const REQUIRED_PHP_VERSION  = '7.0';
+    const REQUIRED_PHP_VERSION  = '7.1';
     const REQUIRED_GD_VERSION   = '2.0';
     const REQUIRED_CURL_VERSION = '7.0';
     const REQUIRED_ICU_VERSION  = '3.8';
 
-    const EXCLUDE_REQUIREMENTS_MASK = '/5\.[0-6]/';
+    const EXCLUDE_REQUIREMENTS_MASK = '/5\.[0-6]|7\.0/';
 
     /**
      * @param string $env
