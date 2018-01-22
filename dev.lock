@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb68772a3265cee4f6350cbeda2c126f",
+    "content-hash": "83f096c298c53fec75ed2bce0cfd8a7b",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4888,30 +4888,25 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220"
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/1f51cc520948f66cd2af8cbc45a5ee175e774220",
-                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/01ab082b355bf188d907b9929cd99b2923053495",
+                "reference": "01ab082b355bf188d907b9929cd99b2923053495",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-lib": "1.4.x-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Michelf": ""
+                "psr-4": {
+                    "Michelf\\": "Michelf/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4935,7 +4930,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2016-10-29T18:58:20+00:00"
+            "time": "2018-01-15T00:49:33+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5446,18 +5441,18 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "5b85db0dd34ebe6bb36294fee865514c3d99f2f8",
+                "reference": "0ce0865619275e2020ff3a33f780cbe901daa69f",
                 "shasum": null
             },
             "require": {
                 "bower-asset/fullcalendar": "3.4.0",
-                "oro/platform": "2.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5490,7 +5485,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "70211d3563b7bb9ba120d43cf812aaad708b59e5",
+                "reference": "ae36d4013d8a5f13f82cf77f09abec833d3cba27",
                 "shasum": null
             },
             "require": {
@@ -5499,11 +5494,11 @@
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "box/spout": "2.3.*",
                 "myclabs/deep-copy": "1.5.*",
-                "oro/calendar-bundle": "2.x-dev",
-                "oro/customer-portal": "2.x-dev",
-                "oro/marketing": "2.x-dev",
-                "oro/platform": "2.x-dev",
-                "oro/platform-serialised-fields": "2.x-dev"
+                "oro/calendar-bundle": "2.6.x-dev",
+                "oro/customer-portal": "2.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
+                "oro/platform": "2.6.x-dev",
+                "oro/platform-serialised-fields": "2.6.x-dev"
             },
             "require-dev": {
                 "behat/behat": "3.2.2",
@@ -5526,7 +5521,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -5555,18 +5550,18 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "bc1364f7a2208f05375a08747b7986569e97f54e",
+                "reference": "8fdb0bff68e02b7f802d258a189d32597f30c95e",
                 "shasum": null
             },
             "require": {
                 "authorizenet/authorizenet": "~1.9.2",
-                "oro/commerce": "1.x-dev",
+                "oro/commerce": "1.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -5595,17 +5590,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "a98f330dfb0f6ea1814ee0ac5036e2b42d7a1cff",
+                "reference": "8872127144e1af7a3c883e091e465e6630748231",
                 "shasum": null
             },
             "require": {
-                "oro/commerce": "1.x-dev",
-                "oro/crm": "2.x-dev"
+                "oro/commerce": "1.6.x-dev",
+                "oro/crm": "2.6.x-dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -5631,18 +5626,18 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "0448e99b7b6c90812f8e550f29b0cf8e8d3762e4",
+                "reference": "e12b188823acfef51da1c83c05162af5b468cd72",
                 "shasum": null
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
-                "oro/commerce": "1.x-dev",
+                "oro/commerce": "1.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -5676,19 +5671,19 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "3942cef22004753d5727e8015d3808b66c9d8a52",
+                "reference": "cbf5af46719307af1d92cfbf448ca26151d9234e",
                 "shasum": null
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0",
                 "hochstrasserio/wirecard": "^1.0",
-                "oro/commerce": "1.x-dev",
+                "oro/commerce": "1.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -5717,15 +5712,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "85be06d9e81d55bdc420374b26147e34a9c747d9",
+                "reference": "9c60b9f9dd1b03789f39efe0bfd70210264a93d2",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "2.x-dev",
-                "oro/crm-call-bundle": "2.x-dev",
-                "oro/crm-task-bundle": "2.x-dev",
-                "oro/marketing": "2.x-dev",
-                "oro/platform": "2.x-dev",
+                "oro/calendar-bundle": "2.6.x-dev",
+                "oro/crm-call-bundle": "2.6.x-dev",
+                "oro/crm-task-bundle": "2.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "require-dev": {
@@ -5749,7 +5744,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5778,19 +5773,19 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "95d3cd3f4ad6ff0220acabd6a32c3259d908386b",
+                "reference": "a309a9dfeb9f0c9a5739fa98ef73a9e308b48f1f",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.x-dev",
-                "oro/crm-mail-chimp": "2.x-dev",
-                "oro/marketing": "2.x-dev",
+                "oro/crm": "2.6.x-dev",
+                "oro/crm-mail-chimp": "2.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5818,17 +5813,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "64357a26c502e34b3e413820163a578a8c667622",
+                "reference": "44983a2727aeafed718b7c4478877d45034019ca",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5861,19 +5856,19 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "f3513524bc934e55d8e6c5f108e29db26816d6e1",
+                "reference": "74ec947094729e35332afbf0e094b6dab344c9ae",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.x-dev",
-                "oro/marketing": "2.x-dev",
+                "oro/crm": "2.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
                 "php": "7.1.*",
                 "romanpitak/dotmailer-api-v2-client": "1.0.11"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5902,19 +5897,19 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "0a4211869537345b4452dbafd9be8309e442b500",
+                "reference": "624570550305ada9f723c8640c5fcb1b302353e2",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "2.x-dev",
-                "oro/crm-call-bundle": "2.x-dev",
-                "oro/platform": "2.x-dev",
+                "oro/calendar-bundle": "2.6.x-dev",
+                "oro/crm-call-bundle": "2.6.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5948,17 +5943,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "218ed8445603ce19103c2491209f3e9d55ac359d",
+                "reference": "f6fa36b90784fdd49666272b602caf3d00ca27fe",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.x-dev",
+                "oro/crm": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -5987,19 +5982,19 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "3280328f52fc5d1dbb1f2c2e51b5f2a7cdcafe4d",
+                "reference": "2256822efc265cfd312c9fd1306f1fc9d8765c16",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.x-dev",
-                "oro/marketing": "2.x-dev",
+                "oro/crm": "2.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
                 "php": "7.1.*",
                 "zfr/zfr-mailchimp": "2.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6028,17 +6023,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "02866d35078ed04528dfee3ce101cecfceda20ac",
+                "reference": "9a1731bbaaa093ed0ac65e1083a721d859704998",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6071,17 +6066,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "b893e22b98e09589aee618445111f99158f5ce6c",
+                "reference": "6d4e51f6d5cc30184ebe19d662233176cd2e5eb5",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.x-dev",
+                "oro/crm": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6115,22 +6110,22 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "7238d0d3ad9365ac394dcbc7350984add20cc591",
+                "reference": "3188068ec98b96d1b165c0b7d1cc3d4ffbf3178c",
                 "shasum": null
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
                 "leafo/scssphp": "0.6.3",
-                "oro/calendar-bundle": "2.x-dev",
-                "oro/commerce": "1.x-dev",
-                "oro/marketing": "2.x-dev",
-                "oro/platform": "2.x-dev",
-                "oro/platform-serialised-fields": "2.x-dev"
+                "oro/calendar-bundle": "2.6.x-dev",
+                "oro/commerce": "1.6.x-dev",
+                "oro/marketing": "2.6.x-dev",
+                "oro/platform": "2.6.x-dev",
+                "oro/platform-serialised-fields": "2.6.x-dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6213,17 +6208,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "6cce6ecf06009783ab6a450d8a7730adc748b873",
+                "reference": "32fba1d810aba006808b6a5960e58c04863f47b5",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6255,7 +6250,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "e3e0b63566bc02c0cd0448d2d1b1aa5922d1e078",
+                "reference": "98423d4caca40ba9e9dd095e61f94b0ce09814e5",
                 "shasum": null
             },
             "require": {
@@ -6386,7 +6381,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -6415,17 +6410,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "2fed41810540ea4ddd30c9d33a0c4104dcddeb00",
+                "reference": "6ed99e34c1e08bd90a8e055c2d089bf7837c9249",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.x-dev",
+                "oro/platform": "2.6.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
