@@ -5441,12 +5441,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "0ce0865619275e2020ff3a33f780cbe901daa69f",
+                "reference": "89ed639166103f5e588bec2178ba196be8389e01",
                 "shasum": null
             },
             "require": {
                 "bower-asset/fullcalendar": "3.4.0",
-                "oro/platform": "2.6.x-dev",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -5485,7 +5485,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "ae36d4013d8a5f13f82cf77f09abec833d3cba27",
+                "reference": "aa243a7cff8c22766536b3d0c9079a29c0bbdc31",
                 "shasum": null
             },
             "require": {
@@ -5494,11 +5494,11 @@
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "box/spout": "2.3.*",
                 "myclabs/deep-copy": "1.5.*",
-                "oro/calendar-bundle": "2.6.x-dev",
-                "oro/customer-portal": "2.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
-                "oro/platform": "2.6.x-dev",
-                "oro/platform-serialised-fields": "2.6.x-dev"
+                "oro/calendar-bundle": "2.6.*",
+                "oro/customer-portal": "2.6.*",
+                "oro/marketing": "2.6.*",
+                "oro/platform": "2.6.*",
+                "oro/platform-serialised-fields": "2.6.*"
             },
             "require-dev": {
                 "behat/behat": "3.2.2",
@@ -5550,12 +5550,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "8fdb0bff68e02b7f802d258a189d32597f30c95e",
+                "reference": "cbc1f164af7776496489cc24c597dd543c81a866",
                 "shasum": null
             },
             "require": {
                 "authorizenet/authorizenet": "~1.9.2",
-                "oro/commerce": "1.6.x-dev",
+                "oro/commerce": "1.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5590,12 +5590,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "8872127144e1af7a3c883e091e465e6630748231",
+                "reference": "6675d2d5e4409c1a9fb430ddf52606d5546326bb",
                 "shasum": null
             },
             "require": {
-                "oro/commerce": "1.6.x-dev",
-                "oro/crm": "2.6.x-dev"
+                "oro/commerce": "1.6.*",
+                "oro/crm": "2.6.*"
             },
             "type": "library",
             "extra": {
@@ -5626,12 +5626,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "e12b188823acfef51da1c83c05162af5b468cd72",
+                "reference": "9779f1c81e3af6f526e82dd9caa55662b33a3fec",
                 "shasum": null
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
-                "oro/commerce": "1.6.x-dev",
+                "oro/commerce": "1.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5671,13 +5671,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "cbf5af46719307af1d92cfbf448ca26151d9234e",
+                "reference": "b97c98b9e6b44a099ec9d6a8d5426c1043a3f1e5",
                 "shasum": null
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0",
                 "hochstrasserio/wirecard": "^1.0",
-                "oro/commerce": "1.6.x-dev",
+                "oro/commerce": "1.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5712,15 +5712,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "9c60b9f9dd1b03789f39efe0bfd70210264a93d2",
+                "reference": "5a23944107d522f54f3e21b61af1270acabe88c9",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "2.6.x-dev",
-                "oro/crm-call-bundle": "2.6.x-dev",
-                "oro/crm-task-bundle": "2.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
-                "oro/platform": "2.6.x-dev",
+                "oro/calendar-bundle": "2.6.*",
+                "oro/crm-call-bundle": "2.6.*",
+                "oro/crm-task-bundle": "2.6.*",
+                "oro/marketing": "2.6.*",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "require-dev": {
@@ -5773,13 +5773,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "a309a9dfeb9f0c9a5739fa98ef73a9e308b48f1f",
+                "reference": "410e86161ba8e28bbc31cb15b360b524cb7c6a99",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.6.x-dev",
-                "oro/crm-mail-chimp": "2.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
+                "oro/crm": "2.6.*",
+                "oro/crm-mail-chimp": "2.6.*",
+                "oro/marketing": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5813,11 +5813,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "44983a2727aeafed718b7c4478877d45034019ca",
+                "reference": "45993c23ce6c7cadefe1361de7894280131e27e2",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.6.x-dev",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5856,12 +5856,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "74ec947094729e35332afbf0e094b6dab344c9ae",
+                "reference": "173f1ecb33d2595b57d32fecfecaaa8a50f890b5",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
+                "oro/crm": "2.6.*",
+                "oro/marketing": "2.6.*",
                 "php": "7.1.*",
                 "romanpitak/dotmailer-api-v2-client": "1.0.11"
             },
@@ -5897,13 +5897,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "624570550305ada9f723c8640c5fcb1b302353e2",
+                "reference": "13dea13f160fa04df0b7574b6201542d5770b5fb",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "2.6.x-dev",
-                "oro/crm-call-bundle": "2.6.x-dev",
-                "oro/platform": "2.6.x-dev",
+                "oro/calendar-bundle": "2.6.*",
+                "oro/crm-call-bundle": "2.6.*",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -5943,11 +5943,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "f6fa36b90784fdd49666272b602caf3d00ca27fe",
+                "reference": "7b33358f803ac6496b5923dc3c0ba4043c7d03e4",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.6.x-dev",
+                "oro/crm": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5982,12 +5982,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "2256822efc265cfd312c9fd1306f1fc9d8765c16",
+                "reference": "2da2f22afbf4ec1660666f332f7cfd06ae677436",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
+                "oro/crm": "2.6.*",
+                "oro/marketing": "2.6.*",
                 "php": "7.1.*",
                 "zfr/zfr-mailchimp": "2.0.*"
             },
@@ -6023,11 +6023,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "9a1731bbaaa093ed0ac65e1083a721d859704998",
+                "reference": "7cc1c90989cee3f7c14621412a8bf50ba8646da1",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.6.x-dev",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -6066,11 +6066,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "6d4e51f6d5cc30184ebe19d662233176cd2e5eb5",
+                "reference": "a497b35f433ee08d271aa8a34c92d194a7bfda33",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "2.6.x-dev",
+                "oro/crm": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -6110,17 +6110,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "3188068ec98b96d1b165c0b7d1cc3d4ffbf3178c",
+                "reference": "06e7dfc1471be72c567d3ef68f9c2c1a56e5b863",
                 "shasum": null
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
                 "leafo/scssphp": "0.6.3",
-                "oro/calendar-bundle": "2.6.x-dev",
-                "oro/commerce": "1.6.x-dev",
-                "oro/marketing": "2.6.x-dev",
-                "oro/platform": "2.6.x-dev",
-                "oro/platform-serialised-fields": "2.6.x-dev"
+                "oro/calendar-bundle": "2.6.*",
+                "oro/commerce": "1.6.*",
+                "oro/marketing": "2.6.*",
+                "oro/platform": "2.6.*",
+                "oro/platform-serialised-fields": "2.6.*"
             },
             "type": "library",
             "extra": {
@@ -6208,11 +6208,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "32fba1d810aba006808b6a5960e58c04863f47b5",
+                "reference": "d9431bb00fd7d75bf1dcdd3f5d4a498c723a5349",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.6.x-dev",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -6410,11 +6410,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "6ed99e34c1e08bd90a8e055c2d089bf7837c9249",
+                "reference": "0f95759d38a4006721b85a041048ca75edcae286",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "2.6.x-dev",
+                "oro/platform": "2.6.*",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -6639,6 +6639,7 @@
                 "xls",
                 "xlsx"
             ],
+            "abandoned": "phpoffice/phpspreadsheet",
             "time": "2015-05-01T07:00:55+00:00"
         },
         {
@@ -7211,16 +7212,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "9b355654ea99460397b89c132b5c1087b6bf4473"
+                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9b355654ea99460397b89c132b5c1087b6bf4473",
-                "reference": "9b355654ea99460397b89c132b5c1087b6bf4473",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/d15f59a67ff805a44c50ea0516d2341740f81a38",
+                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38",
                 "shasum": ""
             },
             "require": {
@@ -7256,7 +7257,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-03T12:13:57+00:00"
+            "time": "2018-01-24T12:46:19+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -7577,16 +7578,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
+                "reference": "7ffc1ea296ed14bf8260b6ef11b80208dbadba91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
-                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/7ffc1ea296ed14bf8260b6ef11b80208dbadba91",
+                "reference": "7ffc1ea296ed14bf8260b6ef11b80208dbadba91",
                 "shasum": ""
             },
             "require": {
@@ -7621,13 +7622,13 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.org",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-01T15:54:03+00:00"
+            "time": "2018-01-23T07:37:21+00:00"
         },
         {
             "name": "sylius/flow-bundle",
@@ -10230,16 +10231,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.2.0",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "66465776cfc249844bde6d117abff1d22e06c2da"
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/66465776cfc249844bde6d117abff1d22e06c2da",
-                "reference": "66465776cfc249844bde6d117abff1d22e06c2da",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/94fd0001232e47129dd3504189fa1c7225010d08",
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08",
                 "shasum": ""
             },
             "require": {
@@ -10277,7 +10278,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2017-11-27T17:38:31+00:00"
+            "time": "2017-11-30T07:14:17+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
