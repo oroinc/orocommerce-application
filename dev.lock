@@ -5368,11 +5368,11 @@
         },
         {
             "name": "oro/calendar-bundle",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "e5a1d75e0ece7aa7c1d4ae6390fcaf71349a69b1",
+                "reference": "4e0b1e705c56e9bee6d8dbb971675d361b6b4657",
                 "shasum": null
             },
             "require": {
@@ -5383,7 +5383,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5412,11 +5412,11 @@
         },
         {
             "name": "oro/commerce",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "631b0ed46d7be8981c02c33569fd8fefb1bcf227",
+                "reference": "04ec7b4a9ca37ff3a4b032c9b97ff0d8abf4b5a4",
                 "shasum": null
             },
             "require": {
@@ -5452,7 +5452,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5477,11 +5477,11 @@
         },
         {
             "name": "oro/commerce-authorizenet",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "10a205db924c88f8d71a621cea68338ff0de293a",
+                "reference": "2a2c0acfb6a41d4f94e5b18b1531c052b23f693f",
                 "shasum": null
             },
             "require": {
@@ -5492,7 +5492,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5517,11 +5517,11 @@
         },
         {
             "name": "oro/commerce-crm",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "14295a8e3cd91e972b18e64d9fea8266a5a6c54a",
+                "reference": "c630bf6abf68e16e72ce92604824175271b98ba5",
                 "shasum": null
             },
             "require": {
@@ -5531,7 +5531,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5553,11 +5553,11 @@
         },
         {
             "name": "oro/commerce-infinitepay",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "3658d92fc727a7e51eadec469e66cd76d5ad5822",
+                "reference": "dde99881bc1b391cc2561fa32147b666a50acd57",
                 "shasum": null
             },
             "require": {
@@ -5568,7 +5568,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5598,11 +5598,11 @@
         },
         {
             "name": "oro/commerce-wirecard",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "1716c41dd7df0965bb57a5a566f919c31acf4f4a",
+                "reference": "de43e051677f839c8b1c5001555de823cc9ef9ac",
                 "shasum": null
             },
             "require": {
@@ -5614,7 +5614,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5639,11 +5639,11 @@
         },
         {
             "name": "oro/crm",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "9b2b134920ae76a28e790eeddd7c6b98b3902c23",
+                "reference": "fac7c9d534b00dc885905c8c4ebad8fa98c7a161",
                 "shasum": null
             },
             "require": {
@@ -5675,7 +5675,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5700,11 +5700,11 @@
         },
         {
             "name": "oro/crm-abandoned-cart",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "fa4bccdb585091a2b628c29b20ee984b9a764549",
+                "reference": "b600ecc47d1126b8e1ba813aa3db9ae292d77fcf",
                 "shasum": null
             },
             "require": {
@@ -5716,7 +5716,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5740,11 +5740,11 @@
         },
         {
             "name": "oro/crm-call-bundle",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "4e4cc0fe83faf0fe5811f6116809bcb8af5d69ec",
+                "reference": "9174fa1183808ef79acc25fb26a0de609488189e",
                 "shasum": null
             },
             "require": {
@@ -5754,7 +5754,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5783,11 +5783,11 @@
         },
         {
             "name": "oro/crm-dotmailer",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "84d706d1e3d02df05a26d67f56ab11f72e934ee5",
+                "reference": "bfe75865b95a3755dc3f44e57b7edf7cde95669f",
                 "shasum": null
             },
             "require": {
@@ -5799,7 +5799,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5824,11 +5824,11 @@
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "5aa9f213f15d6b2a967b70b2948d6dd843f667a5",
+                "reference": "005c42d5f976048535bae23ae652b0a31affba80",
                 "shasum": null
             },
             "require": {
@@ -5840,7 +5840,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5870,11 +5870,11 @@
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "54f28cf17fd2f970d72541bf2c3652e6187ad421",
+                "reference": "2ba8440def51e05bc61f3e721d155e1b4fb5a1b7",
                 "shasum": null
             },
             "require": {
@@ -5884,7 +5884,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5909,11 +5909,11 @@
         },
         {
             "name": "oro/crm-mail-chimp",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "2835ae513452d803e9765b5e54a9a09f8d96c37a",
+                "reference": "01f5753e81be8f78a43a3096aa7fc8cace6d4d86",
                 "shasum": null
             },
             "require": {
@@ -5925,7 +5925,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5950,11 +5950,11 @@
         },
         {
             "name": "oro/crm-task-bundle",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "86031696d6335cfdfde3d973a930f142933517a8",
+                "reference": "65ee035f2106d3ef7cb95d60fe0442c60fae0975",
                 "shasum": null
             },
             "require": {
@@ -5964,7 +5964,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -5993,11 +5993,11 @@
         },
         {
             "name": "oro/crm-zendesk",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "4b6f4126750c99b511f0329e6ec8a1641dd4920e",
+                "reference": "3bfed98a2b18330e2ed26d6d2891a53635b52a04",
                 "shasum": null
             },
             "require": {
@@ -6007,7 +6007,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -6037,11 +6037,11 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "1bbde0fc07890f0acb6f9754adb3dc9b38ab7ba3",
+                "reference": "941307cd588a57bfe88ba96920ebc0e79a79bdb8",
                 "shasum": null
             },
             "require": {
@@ -6056,7 +6056,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -6135,11 +6135,11 @@
         },
         {
             "name": "oro/marketing",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "a7555bd37b284a460a6fcd0736cfee1f5205c5bf",
+                "reference": "42a8453b6dc4bb7e86bddebc45512d8e9d8af06a",
                 "shasum": null
             },
             "require": {
@@ -6149,7 +6149,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -6177,11 +6177,11 @@
         },
         {
             "name": "oro/platform",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "7a492fbd2bb306457cffe12f0e942bfc91adc121",
+                "reference": "ef2c498710377cd24d935e723b7219899aadc7a1",
                 "shasum": null
             },
             "require": {
@@ -6311,7 +6311,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -6336,11 +6336,11 @@
         },
         {
             "name": "oro/platform-serialised-fields",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "252f93d0307de5cd39d7faf3aeb9e43f049824ae",
+                "reference": "f35a8d1600ed0be118a585434e2ac8d53795e8a4",
                 "shasum": null
             },
             "require": {
@@ -6350,7 +6350,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -6381,12 +6381,12 @@
         },
         {
             "name": "oro/redis-config",
-            "version": "dev-master",
+            "version": "dev-3.0-beta",
             "target-dir": "Oro/Bundle/RedisConfigBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/redis-config",
-                "reference": "062811cc3db96a39229c4bcaab2f87bf09d0ed44",
+                "reference": "daf7b9dc12587c37593f8c6186fd16d689dc2bb7",
                 "shasum": null
             },
             "require": {
@@ -6399,7 +6399,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-3.0-beta": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -9845,7 +9845,7 @@
             ],
             "authors": [
                 {
-                    "name": "François Zaninotto"
+                    "name": "Francois Zaninotto"
                 }
             ],
             "description": "Faker is a PHP library that generates fake data for you.",
