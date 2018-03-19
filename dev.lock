@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a16c99406c9d9648dfa372ccc9bcae1",
+    "content-hash": "fbf7bea044306e591eb5923ec8d95c65",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -74,7 +74,7 @@
             "target-dir": "Akeneo/Bundle/BatchBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laboro/BatchBundle.git",
+                "url": "git@github.com:laboro/BatchBundle.git",
                 "reference": "82c3e15ac5921a6950085cd6980b31bf302aece3"
             },
             "dist": {
@@ -104,22 +104,20 @@
                     "Akeneo\\Bundle\\BatchBundle": ""
                 }
             },
+            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Akeneo Batch Bundle",
             "keywords": [
-                "Akeneo",
                 "Batch",
                 "Job",
                 "Processor",
                 "Reader",
-                "Writer"
+                "Writer",
+                "akeneo"
             ],
-            "support": {
-                "source": "https://github.com/laboro/BatchBundle/tree/0.4.7"
-            },
-            "time": "2018-03-13T10:18:11+00:00"
+            "time": "2018-03-16T08:53:24+00:00"
         },
         {
             "name": "ass/xmlsecurity",
@@ -669,7 +667,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:HumbleSoftware/Flotr2.git",
+                "url": "https://github.com/HumbleSoftware/Flotr2.git",
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5"
             },
             "dist": {
@@ -2975,22 +2973,22 @@
         },
         {
             "name": "goetas-webservices/xsd2php-runtime",
-            "version": "v0.2.7",
+            "version": "v0.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goetas-webservices/xsd2php-runtime.git",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec"
+                "reference": "18a9e25e89b719fa5417dcbd6515604723df957d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goetas-webservices/xsd2php-runtime/zipball/f62d40ad91502576d252f80143f9c0bf1a46ceec",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec",
+                "url": "https://api.github.com/repos/goetas-webservices/xsd2php-runtime/zipball/18a9e25e89b719fa5417dcbd6515604723df957d",
+                "reference": "18a9e25e89b719fa5417dcbd6515604723df957d",
                 "shasum": ""
             },
             "require": {
                 "jms/serializer": "^1.2",
                 "php": ">=5.5",
-                "symfony/yaml": "^2.2|^3.0"
+                "symfony/yaml": "^2.2|^3.0|^4.0"
             },
             "conflict": {
                 "jms/serializer": "1.4.1|1.6.1|1.6.2"
@@ -3011,7 +3009,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -3027,7 +3025,7 @@
                 "xml",
                 "xsd"
             ],
-            "time": "2017-05-05T14:58:17+00:00"
+            "time": "2018-03-16T09:41:04+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -4451,16 +4449,16 @@
         },
         {
             "name": "kriswallsmith/buzz",
-            "version": "v0.16.0",
+            "version": "v0.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "bd3299b7b6be3eeeb7a2842e677685031b93aa26"
+                "reference": "4977b7d44dbef49cdc641f14be6512fdcfe32f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/bd3299b7b6be3eeeb7a2842e677685031b93aa26",
-                "reference": "bd3299b7b6be3eeeb7a2842e677685031b93aa26",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/4977b7d44dbef49cdc641f14be6512fdcfe32f12",
+                "reference": "4977b7d44dbef49cdc641f14be6512fdcfe32f12",
                 "shasum": ""
             },
             "require": {
@@ -4497,7 +4495,7 @@
                 "curl",
                 "http client"
             ],
-            "time": "2018-02-03T19:40:45+00:00"
+            "time": "2018-03-19T10:34:40+00:00"
         },
         {
             "name": "leafo/lessphp",
@@ -6182,12 +6180,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "59d6aa86275d045495d8334eeee1962ae79f77e3",
+                "reference": "87fd68ab228c3e482b8cc33622fcb8d10afb0056",
                 "shasum": null
             },
             "require": {
                 "a2lix/translation-form-bundle": "1.x-dev",
-                "akeneo/batch-bundle": "0.4.7",
+                "akeneo/batch-bundle": "0.4.*",
                 "ass/xmlsecurity": "1.1.1",
                 "bower-asset/autobahnjs": "0.8.0",
                 "bower-asset/autolinker.js": "1.4.*",
