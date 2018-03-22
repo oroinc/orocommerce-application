@@ -10,7 +10,8 @@
   ],
   "autoload": {
     "psr-4": {"": "src/"},
-    "exclude-from-classmap": ["**/Tests/"]
+    "classmap": ["vendor/oro/platform/src/Oro/Bundle/FormBundle/Form/FormRegistry.php"],
+    "exclude-from-classmap": ["/vendor/symfony/symfony/src/Symfony/Component/Form/FormRegistry.php", "**/Tests/"]
   },
   "require": {
     "oro/commerce": "1.x-dev",
