@@ -1,5 +1,5 @@
 imports:
-    - { resource: @OroDistributionBundle/Resources/config/security.yml }
+    - { resource: '@OroDistributionBundle/Resources/config/security.yml' }
     - { resource: ../parameters.yml }
 
 framework:
@@ -33,7 +33,7 @@ assetic:
         cssrewrite: ~
         lessphp:
             file: %kernel.root_dir%/../vendor/leafo/lessphp/lessc.inc.php
-            apply_to: "\.less$"
+            apply_to: '\.less$'
         cssmin:
             file: %kernel.root_dir%/Resources/php/cssmin-v3.0.1.php
 
