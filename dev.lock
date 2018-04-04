@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "49a0c6097aa295a0f295353b8d49b223",
+    "content-hash": "1dab7c88e47e2ef4b4e8bb8c2184cfa3",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -181,16 +181,16 @@
         },
         {
             "name": "authorizenet/authorizenet",
-            "version": "1.9.5",
+            "version": "1.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AuthorizeNet/sdk-php.git",
-                "reference": "02b948b1d7bdd8efe84b4a35a0b25d7a0196eaac"
+                "reference": "de06148a987b20070d34922f1754bbb1dbaf37d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AuthorizeNet/sdk-php/zipball/02b948b1d7bdd8efe84b4a35a0b25d7a0196eaac",
-                "reference": "02b948b1d7bdd8efe84b4a35a0b25d7a0196eaac",
+                "url": "https://api.github.com/repos/AuthorizeNet/sdk-php/zipball/de06148a987b20070d34922f1754bbb1dbaf37d2",
+                "reference": "de06148a987b20070d34922f1754bbb1dbaf37d2",
                 "shasum": ""
             },
             "require": {
@@ -223,7 +223,7 @@
                 "ecommerce",
                 "payment"
             ],
-            "time": "2018-02-21T13:23:46+00:00"
+            "time": "2018-03-24T19:32:25+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1414,16 +1414,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "943b2c4fcad1ef178d16a713c2468bf7e579c288"
+                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/943b2c4fcad1ef178d16a713c2468bf7e579c288",
-                "reference": "943b2c4fcad1ef178d16a713c2468bf7e579c288",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d2c0a83b7533d6912e8d516756ebd34f893e9169",
+                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169",
                 "shasum": ""
             },
             "require": {
@@ -1432,7 +1432,7 @@
                 "php": "^5.3.2 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
                 "psr/log": "^1.0",
                 "symfony/process": "^2.5 || ^3.0 || ^4.0"
             },
@@ -1466,7 +1466,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-11-29T09:37:33+00:00"
+            "time": "2018-03-29T19:57:20+00:00"
         },
         {
             "name": "composer/composer",
@@ -2163,39 +2163,39 @@
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1"
+                "reference": "4c8e363f96427924e7e519c5b5119b4f54512697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1",
-                "reference": "9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/4c8e363f96427924e7e519c5b5119b4f54512697",
+                "reference": "4c8e363f96427924e7e519c5b5119b4f54512697",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.4.2",
                 "doctrine/inflector": "~1.0",
                 "php": ">=5.3.2",
-                "symfony/doctrine-bridge": "~2.2|~3.0|~4.0"
+                "symfony/doctrine-bridge": "~2.7|~3.3|~4.0"
             },
             "require-dev": {
                 "instaclick/coding-standard": "~1.1",
                 "instaclick/object-calisthenics-sniffs": "dev-master",
                 "instaclick/symfony2-coding-standard": "dev-remaster",
-                "phpunit/phpunit": "~4",
+                "phpunit/phpunit": "~4|~5",
                 "predis/predis": "~0.8",
                 "satooshi/php-coveralls": "^1.0",
                 "squizlabs/php_codesniffer": "~1.5",
-                "symfony/console": "~2.2|~3.0|~4.0",
-                "symfony/finder": "~2.2|~3.0|~4.0",
-                "symfony/framework-bundle": "~2.2|~3.0|~4.0",
-                "symfony/phpunit-bridge": "~2.7|~3.0|~4.0",
-                "symfony/security-acl": "~2.3|~3.0",
-                "symfony/validator": "~2.2|~3.0|~4.0",
-                "symfony/yaml": "~2.2|~3.0|~4.0"
+                "symfony/console": "~2.7|~3.3|~4.0",
+                "symfony/finder": "~2.7|~3.3|~4.0",
+                "symfony/framework-bundle": "~2.7|~3.3|~4.0",
+                "symfony/phpunit-bridge": "~2.7|~3.3|~4.0",
+                "symfony/security-acl": "~2.7|~3.3",
+                "symfony/validator": "~2.7|~3.3|~4.0",
+                "symfony/yaml": "~2.7|~3.3|~4.0"
             },
             "suggest": {
                 "symfony/security-acl": "For using this bundle to cache ACLs"
@@ -2247,7 +2247,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2017-10-12T17:23:29+00:00"
+            "time": "2018-03-27T09:22:12+00:00"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -3083,16 +3083,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.3.0",
+            "version": "6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
-                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/68d0ea14d5a3f42a20e87632a5f84931e2709c90",
+                "reference": "68d0ea14d5a3f42a20e87632a5f84931e2709c90",
                 "shasum": ""
             },
             "require": {
@@ -3102,7 +3102,7 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.0 || ^5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
                 "psr/log": "^1.0"
             },
             "suggest": {
@@ -3111,7 +3111,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.2-dev"
+                    "dev-master": "6.3-dev"
                 }
             },
             "autoload": {
@@ -3144,7 +3144,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22T18:50:49+00:00"
+            "time": "2018-03-26T16:33:04+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3977,16 +3977,16 @@
         },
         {
             "name": "knplabs/gaufrette",
-            "version": "v0.5.0",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/Gaufrette.git",
-                "reference": "2f228650fd4cc50c3d3c1d6541546ffc169b2240"
+                "reference": "a7c71edef4528d9881f534515f9061660255afe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/2f228650fd4cc50c3d3c1d6541546ffc169b2240",
-                "reference": "2f228650fd4cc50c3d3c1d6541546ffc169b2240",
+                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/a7c71edef4528d9881f534515f9061660255afe3",
+                "reference": "a7c71edef4528d9881f534515f9061660255afe3",
                 "shasum": ""
             },
             "require": {
@@ -4003,8 +4003,7 @@
                 "dropbox-php/dropbox-php": "*",
                 "google/apiclient": "~1.1.3",
                 "league/flysystem": "~1.0",
-                "microsoft/azure-storage": "~0.15.0",
-                "microsoft/windowsazure": "~0.4",
+                "microsoft/azure-storage-blob": "^1.0",
                 "mikey179/vfsstream": "~1.2.0",
                 "mongodb/mongodb": "^1.1",
                 "phpseclib/phpseclib": "^2.0",
@@ -4033,7 +4032,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -4063,7 +4062,7 @@
                 "filesystem",
                 "media"
             ],
-            "time": "2018-01-04T19:50:08+00:00"
+            "time": "2018-03-26T12:19:49+00:00"
         },
         {
             "name": "knplabs/knp-gaufrette-bundle",
@@ -6056,7 +6055,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "d45d1ecfa4a1117ca01b40edad2d24eb7ff3bbc6",
+                "reference": "ac315eb95adb68e9da2e3e23b69d7b3d3118e500",
                 "shasum": null
             },
             "require": {
@@ -6155,6 +6154,7 @@
                 "symfony/assetic-bundle": "2.8.1",
                 "symfony/monolog-bundle": "3.0.*",
                 "symfony/polyfill-php70": "1.*",
+                "symfony/security-acl": "~2.7|~3.0.0",
                 "symfony/swiftmailer-bundle": "2.4.*",
                 "symfony/symfony": "3.3.*",
                 "tinymce/tinymce": "4.6.*",
@@ -7964,6 +7964,67 @@
                 "shim"
             ],
             "time": "2018-01-31T18:08:44+00:00"
+        },
+        {
+            "name": "symfony/security-acl",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/security-acl.git",
+                "reference": "ab4dfe2d95e038cd367dd04604487b0a3359bcff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-acl/zipball/ab4dfe2d95e038cd367dd04604487b0a3359bcff",
+                "reference": "ab4dfe2d95e038cd367dd04604487b0a3359bcff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/security-core": "~2.8|~3.0|~4.0"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.2",
+                "doctrine/dbal": "~2.2",
+                "psr/log": "~1.0",
+                "symfony/phpunit-bridge": "~2.8|~3.0|~4.0"
+            },
+            "suggest": {
+                "doctrine/dbal": "For using the built-in ACL implementation",
+                "symfony/class-loader": "For using the ACL generateSql script",
+                "symfony/finder": "For using the ACL generateSql script"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Security\\Acl\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Security Component - ACL (Access Control List)",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-21T06:01:18+00:00"
         },
         {
             "name": "symfony/swiftmailer-bundle",
