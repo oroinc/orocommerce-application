@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dab7c88e47e2ef4b4e8bb8c2184cfa3",
+    "content-hash": "7e3643aa8fa5a18eb850773870fbc310",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -66,7 +66,7 @@
                 "translatable",
                 "translation"
             ],
-            "time": "2016-08-05 18:11:57"
+            "time": "2016-08-05T18:11:57+00:00"
         },
         {
             "name": "akeneo/batch-bundle",
@@ -677,7 +677,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2014-07-21 18:45:41"
+            "time": "2014-07-21T18:45:41+00:00"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -934,7 +934,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2017-02-08 18:28:50"
+            "time": "2017-02-08T18:28:50+00:00"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -7564,6 +7564,62 @@
                 "minification"
             ],
             "time": "2016-11-22T11:42:57+00:00"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "9cf7c2271cfb89ef9727db1b740ca77be57bf9d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/9cf7c2271cfb89ef9727db1b740ca77be57bf9d7",
+                "reference": "9cf7c2271cfb89ef9727db1b740ca77be57bf9d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/http-kernel": "~2.8|~3.0|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-04-03T05:22:50+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
