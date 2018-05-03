@@ -4,7 +4,7 @@
 if (is_file(__DIR__.'/../vendor/autoload.php')) {
     require_once __DIR__ . '/../vendor/autoload.php';
 }
-require_once __DIR__ . '/SymfonyRequirements.php';
+require_once __DIR__ . '/../var/SymfonyRequirements.php';
 
 use Oro\Bundle\InstallerBundle\Process\PhpExecutableFinder;
 use Oro\Bundle\RequireJSBundle\DependencyInjection\Configuration as RequireJSConfiguration;

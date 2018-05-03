@@ -6,6 +6,9 @@
 /composer.phar
 composer.lock
 behat.yml
+/var/
+!var/cache/.gitkeep
+!var/logs/.gitkeep
 /build/logs/*
 /vendor
 node_modules/
@@ -29,7 +32,8 @@ node_modules/
 !app/logs/.gitkeep
 phpunit.xml
 *~
-bin
+bin/*
+!bin/console
 
 /app/SymfonyRequirements.php
 /web/sitemaps
