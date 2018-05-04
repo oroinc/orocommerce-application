@@ -38,3 +38,4 @@ bin/*
 /app/SymfonyRequirements.php
 /web/sitemaps
 /web/uploads/behat
+/.web-server-pid

@@ -4,7 +4,8 @@ security:
         cache:
             id: security.acl.cache.doctrine
             prefix: sf2_acl_
-
+    access_decision_manager:
+        strategy: unanimous
     firewalls:
         main:
             pattern: ^%web_backend_prefix%/
