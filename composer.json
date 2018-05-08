@@ -10,6 +10,7 @@
   ],
   "autoload": {
     "psr-4": {"": "src/"},
+    "files": ["app/AppKernel.php"],
     "exclude-from-classmap": ["**/Tests/"]
   },
   "repositories": {
@@ -85,6 +86,9 @@
   "extra": {
     "symfony-app-dir": "app",
     "symfony-web-dir": "web",
+    "symfony-var-dir": "var",
+    "symfony-bin-dir": "bin",
+    "symfony-tests-dir": "tests",
     "incenteev-parameters": {
       "file": "app/config/parameters.yml"
     }
