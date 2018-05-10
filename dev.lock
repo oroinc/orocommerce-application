@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6b8efe489d5f2641436a9163b97f51f",
+    "content-hash": "c0cee34117437d3bafb147b5c4e84d1d",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -668,7 +668,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:HumbleSoftware/Flotr2.git",
+                "url": "https://github.com/HumbleSoftware/Flotr2.git",
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5"
             },
             "dist": {
@@ -3045,22 +3045,22 @@
         },
         {
             "name": "goetas-webservices/xsd2php-runtime",
-            "version": "v0.2.7",
+            "version": "v0.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/goetas-webservices/xsd2php-runtime.git",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec"
+                "reference": "18a9e25e89b719fa5417dcbd6515604723df957d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goetas-webservices/xsd2php-runtime/zipball/f62d40ad91502576d252f80143f9c0bf1a46ceec",
-                "reference": "f62d40ad91502576d252f80143f9c0bf1a46ceec",
+                "url": "https://api.github.com/repos/goetas-webservices/xsd2php-runtime/zipball/18a9e25e89b719fa5417dcbd6515604723df957d",
+                "reference": "18a9e25e89b719fa5417dcbd6515604723df957d",
                 "shasum": ""
             },
             "require": {
                 "jms/serializer": "^1.2",
                 "php": ">=5.5",
-                "symfony/yaml": "^2.2|^3.0"
+                "symfony/yaml": "^2.2|^3.0|^4.0"
             },
             "conflict": {
                 "jms/serializer": "1.4.1|1.6.1|1.6.2"
@@ -3081,7 +3081,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL"
+                "LGPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -3097,7 +3097,7 @@
                 "xml",
                 "xsd"
             ],
-            "time": "2017-05-05T14:58:17+00:00"
+            "time": "2018-03-16T09:41:04+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -4369,7 +4369,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -4521,16 +4521,16 @@
         },
         {
             "name": "kriswallsmith/buzz",
-            "version": "v0.16.0",
+            "version": "v0.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "bd3299b7b6be3eeeb7a2842e677685031b93aa26"
+                "reference": "4977b7d44dbef49cdc641f14be6512fdcfe32f12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/bd3299b7b6be3eeeb7a2842e677685031b93aa26",
-                "reference": "bd3299b7b6be3eeeb7a2842e677685031b93aa26",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/4977b7d44dbef49cdc641f14be6512fdcfe32f12",
+                "reference": "4977b7d44dbef49cdc641f14be6512fdcfe32f12",
                 "shasum": ""
             },
             "require": {
@@ -4567,7 +4567,7 @@
                 "curl",
                 "http client"
             ],
-            "time": "2018-02-03T19:40:45+00:00"
+            "time": "2018-03-19T10:34:40+00:00"
         },
         {
             "name": "leafo/lessphp",
@@ -6252,7 +6252,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "10e52336aa6cbd49fae083c011f1f1c5c35cc430",
+                "reference": "3959db3bdb360f5d56b46cff40d5f2745f2392b6",
                 "shasum": null
             },
             "require": {
@@ -6343,7 +6343,7 @@
                 "npm-asset/xregexp": "3.2.*",
                 "ocramius/proxy-manager": "0.5.*",
                 "oro/doctrine-extensions": "1.1.*",
-                "oro/redis-config": "2.x-dev",
+                "oro/redis-config": "~2.0",
                 "php": "7.1.*",
                 "piwik/device-detector": "3.7.*",
                 "robloach/component-installer": "0.2.*",
@@ -6355,7 +6355,7 @@
                 "symfony/monolog-bundle": "3.0.*",
                 "symfony/polyfill-php70": "1.*",
                 "symfony/swiftmailer-bundle": "2.4.*",
-                "symfony/symfony": "2.8.*, !=2.8.10, <=2.8.33",
+                "symfony/symfony": "2.8.*, !=2.8.10, <=2.8.38",
                 "tinymce/tinymce": "4.6.*",
                 "twig/extensions": "1.4.*",
                 "twig/twig": "1.35.*",
@@ -6458,7 +6458,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/redis-config",
-                "reference": "ebb33607b791385b6628708eb86dbf607dc9984d",
+                "reference": "25d3e3de7815d3cc7414e3d2138aca6d7cdebd3f",
                 "shasum": null
             },
             "require": {
@@ -6471,7 +6471,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.6.x-dev"
                 }
             },
             "autoload": {
@@ -8405,16 +8405,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.33",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "a3bb63a81e5cb9bec9f3c8f30405d3107411ba8c"
+                "reference": "481883d56cbd4f435466dc26648d5c735671dd58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/a3bb63a81e5cb9bec9f3c8f30405d3107411ba8c",
-                "reference": "a3bb63a81e5cb9bec9f3c8f30405d3107411ba8c",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/481883d56cbd4f435466dc26648d5c735671dd58",
+                "reference": "481883d56cbd4f435466dc26648d5c735671dd58",
                 "shasum": ""
             },
             "require": {
@@ -8540,7 +8540,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-01-05T06:19:59+00:00"
+            "time": "2018-04-06T14:52:23+00:00"
         },
         {
             "name": "tinymce/tinymce",
