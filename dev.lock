@@ -5130,12 +5130,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "84f59bdc7f1ff4efe589d837fcfbf36468f66874",
+                "reference": "3622f5e28c642ea31f8c3e4834d32df6a51ff8d9",
                 "shasum": null
             },
             "require": {
                 "bower-asset/fullcalendar": "3.4.0",
-                "oro/platform": "3.0.*",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -5174,7 +5174,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "4bcd43156b55dd6adf716e158a43fc35b877d0c7",
+                "reference": "0fc2af22764bca88a7e7d64745a86c65697ba839",
                 "shasum": null
             },
             "require": {
@@ -5183,11 +5183,11 @@
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "box/spout": "2.3.*",
                 "myclabs/deep-copy": "1.5.*",
-                "oro/calendar-bundle": "3.0.*",
-                "oro/customer-portal": "3.0.*",
-                "oro/marketing": "3.0.*",
-                "oro/platform": "3.0.*",
-                "oro/platform-serialised-fields": "3.0.*"
+                "oro/calendar-bundle": "3.0.x-dev",
+                "oro/customer-portal": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
+                "oro/platform": "3.0.x-dev",
+                "oro/platform-serialised-fields": "3.0.x-dev"
             },
             "require-dev": {
                 "behat/behat": "3.2.2",
@@ -5239,12 +5239,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "1eda9977959597a7c68d71f7c2fba0497f43a517",
+                "reference": "2f1923f25266efff9a36f1c94088f833b5648156",
                 "shasum": null
             },
             "require": {
                 "authorizenet/authorizenet": "~1.9.2",
-                "oro/commerce": "3.0.*",
+                "oro/commerce": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5279,12 +5279,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "0b1e9a8b3ebbdae15af4b1be3470f05025179158",
+                "reference": "c717171094ea78a415eec93be546e8358a32eb2a",
                 "shasum": null
             },
             "require": {
-                "oro/commerce": "3.0.*",
-                "oro/crm": "3.0.*"
+                "oro/commerce": "3.0.x-dev",
+                "oro/crm": "3.0.x-dev"
             },
             "type": "library",
             "extra": {
@@ -5315,12 +5315,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "e497e5b0d3de6fc58ebe2fdfc1ea6db13d0f19f8",
+                "reference": "9795b417b65d9df9cb967ee1a23ff3e3a994a673",
                 "shasum": null
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
-                "oro/commerce": "3.0.*",
+                "oro/commerce": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5360,13 +5360,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "3af48c7e494d5891a57bb53b80b16c7d8c5f44a2",
+                "reference": "cd4d06ef50908e226863cbdb3fe14e3db48ae33f",
                 "shasum": null
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0",
                 "hochstrasserio/wirecard": "^1.0",
-                "oro/commerce": "3.0.*",
+                "oro/commerce": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5401,15 +5401,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "f38110333da49a8a4df2b92bee96d5a70c2267a9",
+                "reference": "f7bed03c0870424597d69dba95885bd890abf061",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "3.0.*",
-                "oro/crm-call-bundle": "3.0.*",
-                "oro/crm-task-bundle": "3.0.*",
-                "oro/marketing": "3.0.*",
-                "oro/platform": "3.0.*",
+                "oro/calendar-bundle": "3.0.x-dev",
+                "oro/crm-call-bundle": "3.0.x-dev",
+                "oro/crm-task-bundle": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "require-dev": {
@@ -5462,13 +5462,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "f9232c242a94470e6f29ad264fa12a77074447a6",
+                "reference": "ffef32bc3c53038d9537a4c9a4fd7a44deaf25f6",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "3.0.*",
-                "oro/crm-mail-chimp": "3.0.*",
-                "oro/marketing": "3.0.*",
+                "oro/crm": "3.0.x-dev",
+                "oro/crm-mail-chimp": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5502,11 +5502,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "47127fc96cefa235dd1fcfdb68bdcbfacedcf9f4",
+                "reference": "53212a445705b661e6bc8f18438c40031d5c4622",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "3.0.*",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5545,12 +5545,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "b740e4dcf623b0fc72d1a023508d792554642322",
+                "reference": "d8fe155b800fe9b2fd4dfc98db8a77d9660192c4",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "3.0.*",
-                "oro/marketing": "3.0.*",
+                "oro/crm": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
                 "php": "7.1.*",
                 "romanpitak/dotmailer-api-v2-client": "1.0.11"
             },
@@ -5586,13 +5586,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "6f8eae9c1c673ca24fb322b97bb3dbb317f4dc8b",
+                "reference": "0639b755ff708d9f4e41e4761272d5fddfdf03d6",
                 "shasum": null
             },
             "require": {
-                "oro/calendar-bundle": "3.0.*",
-                "oro/crm-call-bundle": "3.0.*",
-                "oro/platform": "3.0.*",
+                "oro/calendar-bundle": "3.0.x-dev",
+                "oro/crm-call-bundle": "3.0.x-dev",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -5632,11 +5632,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "2b7777853e6fdc2083bd2ff4f7bfeb226cad0315",
+                "reference": "a20f43aec37cdac011961f10ee573bd25b1d91ad",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "3.0.*",
+                "oro/crm": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5671,12 +5671,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "32dbf8e70f4bcc0c2188f942d0047d45ca8d9b07",
+                "reference": "33b25c53f12f22d7c94786c4b587e05ed5060d11",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "3.0.*",
-                "oro/marketing": "3.0.*",
+                "oro/crm": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
                 "php": "7.1.*",
                 "zfr/zfr-mailchimp": "2.0.*"
             },
@@ -5712,11 +5712,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "c9e0a57c3a1b84993add31536443fe993117bf79",
+                "reference": "45f015132d50a10f63d7cf14b8630989464ab35a",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "3.0.*",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "symfony-bundle",
@@ -5755,11 +5755,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "6e912bd78b466ca247b9601c6d7fadac9e07f150",
+                "reference": "ee915d7ca331698b51661df07f9f6d12f6ba1239",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "3.0.*",
+                "oro/crm": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5799,17 +5799,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "0a25fb0471e2491f6e4ca9709e57d3d3d507a26a",
+                "reference": "a2bf0afad4cec597a6c148ba9995094d4f783246",
                 "shasum": null
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
                 "leafo/scssphp": "0.6.3",
-                "oro/calendar-bundle": "3.0.*",
-                "oro/commerce": "3.0.*",
-                "oro/marketing": "3.0.*",
-                "oro/platform": "3.0.*",
-                "oro/platform-serialised-fields": "3.0.*"
+                "oro/calendar-bundle": "3.0.x-dev",
+                "oro/commerce": "3.0.x-dev",
+                "oro/marketing": "3.0.x-dev",
+                "oro/platform": "3.0.x-dev",
+                "oro/platform-serialised-fields": "3.0.x-dev"
             },
             "type": "library",
             "extra": {
@@ -5897,11 +5897,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "6ccd3ab38c0734c8ac21a049986cfd4d6b16c276",
+                "reference": "66593302e2d8e3a5d2b255ccfd3428c9984a6a9b",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "3.0.*",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
@@ -5939,7 +5939,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "5d804984cdd2aa6b125e4be56771774ebc09f5f2",
+                "reference": "3a162a47e3e7cb8f5b5387dceecf447c80fdd121",
                 "shasum": null
             },
             "require": {
@@ -6027,7 +6027,7 @@
                 "npm-asset/xregexp": "3.2.*",
                 "ocramius/proxy-manager": "0.5.*",
                 "oro/doctrine-extensions": "1.1.*",
-                "oro/redis-config": "3.0.*",
+                "oro/redis-config": "3.0.x-dev",
                 "php": "7.1.*",
                 "piwik/device-detector": "3.7.*",
                 "robloach/component-installer": "0.2.*",
@@ -6090,11 +6090,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "3749e8190760fb928863c2171adde565a109718d",
+                "reference": "f7f92ba99f10d34544dfe3cf2060cc2a566e3886",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "3.0.*",
+                "oro/platform": "3.0.x-dev",
                 "php": "7.1.*"
             },
             "type": "library",
