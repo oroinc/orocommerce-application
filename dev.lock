@@ -372,7 +372,7 @@
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jashkenas/backbone.git",
+                "url": "https://github.com/jashkenas/backbone.git",
                 "reference": "05fde9e201f7e2137796663081105cd6dad12a98"
             },
             "dist": {
@@ -9738,7 +9738,7 @@
                     "email": "shelburt02@gmail.com"
                 },
                 {
-                    "name": "Théo Fidry",
+                    "name": "Théo FIDRY",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
