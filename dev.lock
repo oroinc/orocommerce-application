@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "8af2f723a738ec287d671bf78e320416",
@@ -372,7 +372,7 @@
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jashkenas/backbone.git",
+                "url": "https://github.com/jashkenas/backbone.git",
                 "reference": "05fde9e201f7e2137796663081105cd6dad12a98"
             },
             "dist": {
@@ -615,7 +615,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2014-07-21T18:45:41+00:00"
+            "time": "2014-07-21 18:45:41"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -872,7 +872,7 @@
                 "shasum": null
             },
             "type": "bower-asset",
-            "time": "2018-04-29T21:14:49+00:00"
+            "time": "2018-04-29 21:14:49"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -2676,7 +2676,7 @@
                     "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
                 },
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -8009,16 +8009,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.10",
+            "version": "v3.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "816bf5030e3ac7cf6a88575a27138a088d3041b0"
+                "reference": "8eb567d8398ce31a402ea8db3e6b5b1faf121cbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/816bf5030e3ac7cf6a88575a27138a088d3041b0",
-                "reference": "816bf5030e3ac7cf6a88575a27138a088d3041b0",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/8eb567d8398ce31a402ea8db3e6b5b1faf121cbc",
+                "reference": "8eb567d8398ce31a402ea8db3e6b5b1faf121cbc",
                 "shasum": ""
             },
             "require": {
@@ -8160,7 +8160,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-05-21T13:44:23+00:00"
+            "time": "2018-05-25T13:16:49+00:00"
         },
         {
             "name": "tinymce/tinymce",
@@ -9792,7 +9792,7 @@
                     "email": "shelburt02@gmail.com"
                 },
                 {
-                    "name": "Théo Fidry",
+                    "name": "Théo FIDRY",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
