@@ -35,3 +35,4 @@ bin/*
 /public/sitemaps
 /public/uploads/behat
 /.web-server-pid
+/.vagrant
