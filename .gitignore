@@ -34,3 +34,4 @@ bin
 /app/SymfonyRequirements.php
 /web/sitemaps
 /web/uploads/behat
+/.vagrant
