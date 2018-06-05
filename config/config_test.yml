@@ -60,3 +60,7 @@ twig:
 oro_message_queue:
     transport:
         dbal: null
+
+oro_search:
+    engine_parameters:
+        force_refresh: true
