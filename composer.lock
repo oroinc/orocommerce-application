@@ -5167,12 +5167,12 @@
             "version": "2.6.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCalendarBundle.git",
+                "url": "https://github.com/oroinc/OroCalendarBundle.git",
                 "reference": "d3ee5e11a9ff36d50d84f05ab005e297b7f20271"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCalendarBundle/zipball/d3ee5e11a9ff36d50d84f05ab005e297b7f20271",
+                "url": "https://api.github.com/repos/oroinc/OroCalendarBundle/zipball/d3ee5e11a9ff36d50d84f05ab005e297b7f20271",
                 "reference": "d3ee5e11a9ff36d50d84f05ab005e297b7f20271",
                 "shasum": ""
             },
@@ -5215,16 +5215,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.16",
+            "version": "1.6.17",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocommerce/orocommerce.git",
-                "reference": "8e0b1c98ba26505f64cf836051ef5401de351a8f"
+                "url": "https://github.com/oroinc/orocommerce.git",
+                "reference": "1e405b82fc1153f6352585a4d8a2a771749c509b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce/zipball/8e0b1c98ba26505f64cf836051ef5401de351a8f",
-                "reference": "8e0b1c98ba26505f64cf836051ef5401de351a8f",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/1e405b82fc1153f6352585a4d8a2a771749c509b",
+                "reference": "1e405b82fc1153f6352585a4d8a2a771749c509b",
                 "shasum": ""
             },
             "require": {
@@ -5271,7 +5271,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5283,19 +5282,23 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2018-07-02T06:35:04+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/orocommerce/tree/1.6",
+                "issues": "https://github.com/oroinc/orocommerce/issues"
+            },
+            "time": "2018-07-07T07:13:00+00:00"
         },
         {
             "name": "oro/commerce-crm",
             "version": "1.6.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocommerce/orocommerce-orocrm.git",
+                "url": "https://github.com/oroinc/orocommerce-orocrm.git",
                 "reference": "dbee8d479cf458011c199cff13147e6447494117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocommerce/orocommerce-orocrm/zipball/dbee8d479cf458011c199cff13147e6447494117",
+                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/dbee8d479cf458011c199cff13147e6447494117",
                 "reference": "dbee8d479cf458011c199cff13147e6447494117",
                 "shasum": ""
             },
@@ -5333,7 +5336,7 @@
             "version": "2.6.12",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/crm.git",
+                "url": "https://github.com/oroinc/crm.git",
                 "reference": "ce21c807885f9c87d3a5111cae27ba2f20b67b76"
             },
             "dist": {
@@ -5401,12 +5404,12 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMAbandonedCartBundle.git",
+                "url": "https://github.com/oroinc/OroCRMAbandonedCartBundle.git",
                 "reference": "529181aa0a38d197f8a00fdae2e73a6d3bb0ce3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMAbandonedCartBundle/zipball/529181aa0a38d197f8a00fdae2e73a6d3bb0ce3e",
+                "url": "https://api.github.com/repos/oroinc/OroCRMAbandonedCartBundle/zipball/529181aa0a38d197f8a00fdae2e73a6d3bb0ce3e",
                 "reference": "529181aa0a38d197f8a00fdae2e73a6d3bb0ce3e",
                 "shasum": ""
             },
@@ -5448,12 +5451,12 @@
             "version": "2.6.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMCallBundle.git",
+                "url": "https://github.com/oroinc/OroCRMCallBundle.git",
                 "reference": "e7617c5a748d25805267268bb1053ef442a64fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMCallBundle/zipball/e7617c5a748d25805267268bb1053ef442a64fb3",
+                "url": "https://api.github.com/repos/oroinc/OroCRMCallBundle/zipball/e7617c5a748d25805267268bb1053ef442a64fb3",
                 "reference": "e7617c5a748d25805267268bb1053ef442a64fb3",
                 "shasum": ""
             },
@@ -5498,12 +5501,12 @@
             "version": "2.6.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMDotmailerBundle.git",
+                "url": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
                 "reference": "ac53d88d05dca776ecb675db4cf17b51552ce3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMDotmailerBundle/zipball/ac53d88d05dca776ecb675db4cf17b51552ce3cf",
+                "url": "https://api.github.com/repos/oroinc/OroCRMDotmailerBundle/zipball/ac53d88d05dca776ecb675db4cf17b51552ce3cf",
                 "reference": "ac53d88d05dca776ecb675db4cf17b51552ce3cf",
                 "shasum": ""
             },
@@ -5546,12 +5549,12 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMHangoutsCallBundle.git",
+                "url": "https://github.com/oroinc/OroCRMHangoutsCallBundle.git",
                 "reference": "ab2371d6d3bf756b9c06ba3dc0299d93ca91da5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMHangoutsCallBundle/zipball/ab2371d6d3bf756b9c06ba3dc0299d93ca91da5f",
+                "url": "https://api.github.com/repos/oroinc/OroCRMHangoutsCallBundle/zipball/ab2371d6d3bf756b9c06ba3dc0299d93ca91da5f",
                 "reference": "ab2371d6d3bf756b9c06ba3dc0299d93ca91da5f",
                 "shasum": ""
             },
@@ -5599,12 +5602,12 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMMagentoContactUsBundle.git",
+                "url": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git",
                 "reference": "875e307faea07c1b5839ea4bd005a416ac91375c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMagentoContactUsBundle/zipball/875e307faea07c1b5839ea4bd005a416ac91375c",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMagentoContactUsBundle/zipball/875e307faea07c1b5839ea4bd005a416ac91375c",
                 "reference": "875e307faea07c1b5839ea4bd005a416ac91375c",
                 "shasum": ""
             },
@@ -5645,12 +5648,12 @@
             "version": "2.6.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMMailChimpBundle.git",
+                "url": "https://github.com/oroinc/OroCRMMailChimpBundle.git",
                 "reference": "8d9f02b64cbbc63ae17116a5f178ce309eac4dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/8d9f02b64cbbc63ae17116a5f178ce309eac4dbf",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMailChimpBundle/zipball/8d9f02b64cbbc63ae17116a5f178ce309eac4dbf",
                 "reference": "8d9f02b64cbbc63ae17116a5f178ce309eac4dbf",
                 "shasum": ""
             },
@@ -5693,12 +5696,12 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMTaskBundle.git",
+                "url": "https://github.com/oroinc/OroCRMTaskBundle.git",
                 "reference": "438f7835757079f68589961e62e05ec192e9d27c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/438f7835757079f68589961e62e05ec192e9d27c",
+                "url": "https://api.github.com/repos/oroinc/OroCRMTaskBundle/zipball/438f7835757079f68589961e62e05ec192e9d27c",
                 "reference": "438f7835757079f68589961e62e05ec192e9d27c",
                 "shasum": ""
             },
@@ -5743,12 +5746,12 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMZendeskBundle.git",
+                "url": "https://github.com/oroinc/OroCRMZendeskBundle.git",
                 "reference": "ddf637f59fb5c28ddff5efa047a125b758758a07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/ddf637f59fb5c28ddff5efa047a125b758758a07",
+                "url": "https://api.github.com/repos/oroinc/OroCRMZendeskBundle/zipball/ddf637f59fb5c28ddff5efa047a125b758758a07",
                 "reference": "ddf637f59fb5c28ddff5efa047a125b758758a07",
                 "shasum": ""
             },
@@ -5791,16 +5794,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.6.16",
+            "version": "2.6.17",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/customer-portal.git",
-                "reference": "4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4"
+                "url": "https://github.com/oroinc/customer-portal.git",
+                "reference": "4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/customer-portal/zipball/4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4",
-                "reference": "4692ec71aaf7f28a53b2de1fd7a72c4f0dda36c4",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619",
+                "reference": "4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619",
                 "shasum": ""
             },
             "require": {
@@ -5826,7 +5829,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5837,7 +5839,11 @@
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
-            "time": "2018-06-27T12:37:50+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/customer-portal/tree/2.6",
+                "issues": "https://github.com/oroinc/customer-portal/issues"
+            },
+            "time": "2018-07-07T07:13:00+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5899,7 +5905,7 @@
             "version": "2.6.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMMarketingBundle.git",
+                "url": "https://github.com/oroinc/OroCRMMarketingBundle.git",
                 "reference": "fa0a91e4943f21e876897cdad100cf14f670bf6f"
             },
             "dist": {
@@ -5945,16 +5951,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.17",
+            "version": "2.6.18",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/platform.git",
-                "reference": "d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6"
+                "url": "https://github.com/oroinc/platform.git",
+                "reference": "e792ea09b82ea53cdfefc83ccec9023887c23d20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6",
-                "reference": "d8832e2c9ee671350ec6e9c88d397bc8b6b9c1b6",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/e792ea09b82ea53cdfefc83ccec9023887c23d20",
+                "reference": "e792ea09b82ea53cdfefc83ccec9023887c23d20",
                 "shasum": ""
             },
             "require": {
@@ -6096,7 +6102,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6108,19 +6113,23 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "time": "2018-06-26T15:59:41+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/platform/tree/2.6",
+                "issues": "https://github.com/oroinc/platform/issues"
+            },
+            "time": "2018-07-06T12:13:16+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
             "version": "2.6.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroEntitySerializedFieldsBundle.git",
+                "url": "https://github.com/oroinc/OroEntitySerializedFieldsBundle.git",
                 "reference": "06a034a6e21d43ccf95b7a5087de88c1eeb2fd08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroEntitySerializedFieldsBundle/zipball/06a034a6e21d43ccf95b7a5087de88c1eeb2fd08",
+                "url": "https://api.github.com/repos/oroinc/OroEntitySerializedFieldsBundle/zipball/06a034a6e21d43ccf95b7a5087de88c1eeb2fd08",
                 "reference": "06a034a6e21d43ccf95b7a5087de88c1eeb2fd08",
                 "shasum": ""
             },
@@ -6168,12 +6177,12 @@
             "target-dir": "Oro/Bundle/RedisConfigBundle",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/redis-config.git",
+                "url": "https://github.com/oroinc/redis-config.git",
                 "reference": "0065697501673684fd9016045ed3d4b15a6cb9d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/redis-config/zipball/0065697501673684fd9016045ed3d4b15a6cb9d6",
+                "url": "https://api.github.com/repos/oroinc/redis-config/zipball/0065697501673684fd9016045ed3d4b15a6cb9d6",
                 "reference": "0065697501673684fd9016045ed3d4b15a6cb9d6",
                 "shasum": ""
             },
@@ -6211,16 +6220,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.15",
+            "version": "v2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09"
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/10bcb46e8f3d365170f6de9d05245aa066b81f09",
-                "reference": "10bcb46e8f3d365170f6de9d05245aa066b81f09",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
                 "shasum": ""
             },
             "require": {
@@ -6256,7 +6265,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-08T15:26:40+00:00"
+            "time": "2018-07-04T16:31:37+00:00"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -6795,7 +6804,7 @@
             "version": "v1.0.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:laboro/dotMailer-API-v2-PHP-client.git",
+                "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client.git",
                 "reference": "d31cae6f4ddf8627fad94a3c8621a30a7d279d5d"
             },
             "dist": {
