@@ -603,7 +603,7 @@
             "version": "3.0.8.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:qodeboy-forks/elevatezoom.git",
+                "url": "https://github.com/qodeboy-forks/elevatezoom.git",
                 "reference": "e02b7785a3598254842219b02a6208f4e29eae3a"
             },
             "dist": {
@@ -5215,16 +5215,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.17",
+            "version": "1.6.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "1e405b82fc1153f6352585a4d8a2a771749c509b"
+                "reference": "f401c6a76c2dcd5250ca685505fc667a4c11a51e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/1e405b82fc1153f6352585a4d8a2a771749c509b",
-                "reference": "1e405b82fc1153f6352585a4d8a2a771749c509b",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/f401c6a76c2dcd5250ca685505fc667a4c11a51e",
+                "reference": "f401c6a76c2dcd5250ca685505fc667a4c11a51e",
                 "shasum": ""
             },
             "require": {
@@ -5286,7 +5286,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/1.6",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2018-07-07T07:13:00+00:00"
+            "time": "2018-07-12T14:48:07+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5333,16 +5333,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.6.12",
+            "version": "2.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "ce21c807885f9c87d3a5111cae27ba2f20b67b76"
+                "reference": "d6c60d189a5de3f1063c9789c9abe8abd5f53237"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/ce21c807885f9c87d3a5111cae27ba2f20b67b76",
-                "reference": "ce21c807885f9c87d3a5111cae27ba2f20b67b76",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/d6c60d189a5de3f1063c9789c9abe8abd5f53237",
+                "reference": "d6c60d189a5de3f1063c9789c9abe8abd5f53237",
                 "shasum": ""
             },
             "require": {
@@ -5385,7 +5385,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5397,7 +5396,11 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/oroinc/crm.git",
-            "time": "2018-06-13T15:23:25+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/crm/tree/2.6",
+                "issues": "https://github.com/oroinc/crm/issues"
+            },
+            "time": "2018-07-11T11:22:44+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5645,16 +5648,16 @@
         },
         {
             "name": "oro/crm-mail-chimp",
-            "version": "2.6.3",
+            "version": "2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMMailChimpBundle.git",
-                "reference": "8d9f02b64cbbc63ae17116a5f178ce309eac4dbf"
+                "reference": "e5816193827852e4f86bc6d616dcee3e87a09159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMailChimpBundle/zipball/8d9f02b64cbbc63ae17116a5f178ce309eac4dbf",
-                "reference": "8d9f02b64cbbc63ae17116a5f178ce309eac4dbf",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMailChimpBundle/zipball/e5816193827852e4f86bc6d616dcee3e87a09159",
+                "reference": "e5816193827852e4f86bc6d616dcee3e87a09159",
                 "shasum": ""
             },
             "require": {
@@ -5677,7 +5680,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5689,7 +5691,11 @@
             ],
             "description": "OroCRM MailChimp integration",
             "homepage": "https://github.com/oroinc/OroCRMMailChimpBundle.git",
-            "time": "2018-06-13T11:30:27+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMMailChimpBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCRMMailChimpBundle/issues"
+            },
+            "time": "2018-07-04T17:09:40+00:00"
         },
         {
             "name": "oro/crm-task-bundle",
@@ -5951,16 +5957,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.18",
+            "version": "2.6.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "e792ea09b82ea53cdfefc83ccec9023887c23d20"
+                "reference": "7f5626ef9654260877c9081e316c2a88891d3892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/e792ea09b82ea53cdfefc83ccec9023887c23d20",
-                "reference": "e792ea09b82ea53cdfefc83ccec9023887c23d20",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/7f5626ef9654260877c9081e316c2a88891d3892",
+                "reference": "7f5626ef9654260877c9081e316c2a88891d3892",
                 "shasum": ""
             },
             "require": {
@@ -6117,7 +6123,7 @@
                 "source": "https://github.com/oroinc/platform/tree/2.6",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2018-07-06T12:13:16+00:00"
+            "time": "2018-07-12T14:48:07+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7615,6 +7621,61 @@
             "time": "2018-04-26T10:06:28+00:00"
         },
         {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-04-30T19:57:29+00:00"
+        },
+        {
             "name": "symfony/polyfill-intl-icu",
             "version": "v1.8.0",
             "source": {
@@ -8371,20 +8432,21 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.3",
+            "version": "v1.35.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f"
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
-                "reference": "b48680b6eb7d16b5025b9bfc4108d86f6b8af86f",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+                "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.3",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
@@ -8423,16 +8485,16 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2018-03-20T04:25:58+00:00"
+            "time": "2018-07-13T07:12:17+00:00"
         },
         {
             "name": "vakata/jstree",
@@ -9609,16 +9671,16 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
-                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/f72816b43e74063c8b10357394b6bba8cb1c10de",
+                "reference": "f72816b43e74063c8b10357394b6bba8cb1c10de",
                 "shasum": ""
             },
             "require": {
@@ -9626,7 +9688,7 @@
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "^4.0 || ^5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
                 "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
@@ -9655,7 +9717,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2017-08-15T16:48:10+00:00"
+            "time": "2018-07-12T10:23:15+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
