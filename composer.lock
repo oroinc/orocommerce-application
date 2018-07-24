@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "307a8e4157eaf68abd62a87e7f124830",
@@ -5215,16 +5215,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.18",
+            "version": "1.6.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "f401c6a76c2dcd5250ca685505fc667a4c11a51e"
+                "reference": "9c64fa3e941fe3f5576e226935798fde4bbd89b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/f401c6a76c2dcd5250ca685505fc667a4c11a51e",
-                "reference": "f401c6a76c2dcd5250ca685505fc667a4c11a51e",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/9c64fa3e941fe3f5576e226935798fde4bbd89b4",
+                "reference": "9c64fa3e941fe3f5576e226935798fde4bbd89b4",
                 "shasum": ""
             },
             "require": {
@@ -5286,7 +5286,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/1.6",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2018-07-12T14:48:07+00:00"
+            "time": "2018-07-23T15:52:49+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5800,16 +5800,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.6.17",
+            "version": "2.6.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619"
+                "reference": "7a676857b7c80c3d506ab5697a39ad1d3f4522e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619",
-                "reference": "4ebcdc87e3549e0ddc1703d8e8b6f0f837b0c619",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/7a676857b7c80c3d506ab5697a39ad1d3f4522e2",
+                "reference": "7a676857b7c80c3d506ab5697a39ad1d3f4522e2",
                 "shasum": ""
             },
             "require": {
@@ -5849,7 +5849,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/2.6",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2018-07-07T07:13:00+00:00"
+            "time": "2018-07-23T15:52:49+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5957,16 +5957,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.19",
+            "version": "2.6.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "7f5626ef9654260877c9081e316c2a88891d3892"
+                "reference": "c50c67112311913f75c2463898d4f88e138e5493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/7f5626ef9654260877c9081e316c2a88891d3892",
-                "reference": "7f5626ef9654260877c9081e316c2a88891d3892",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/c50c67112311913f75c2463898d4f88e138e5493",
+                "reference": "c50c67112311913f75c2463898d4f88e138e5493",
                 "shasum": ""
             },
             "require": {
@@ -6123,7 +6123,7 @@
                 "source": "https://github.com/oroinc/platform/tree/2.6",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2018-07-12T14:48:07+00:00"
+            "time": "2018-07-23T14:30:22+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
