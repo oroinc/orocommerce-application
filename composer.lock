@@ -5215,16 +5215,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.20",
+            "version": "1.6.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "11db6e85067ca1d31a7e6b6137d0db314afe0c85"
+                "reference": "121673d5f21122c89b9f3af3e5a3dae0cd3bbe00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/11db6e85067ca1d31a7e6b6137d0db314afe0c85",
-                "reference": "11db6e85067ca1d31a7e6b6137d0db314afe0c85",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/121673d5f21122c89b9f3af3e5a3dae0cd3bbe00",
+                "reference": "121673d5f21122c89b9f3af3e5a3dae0cd3bbe00",
                 "shasum": ""
             },
             "require": {
@@ -5286,7 +5286,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/1.6",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2018-07-26T15:47:00+00:00"
+            "time": "2018-07-30T17:36:17+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5957,16 +5957,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.21",
+            "version": "2.6.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "96e63f948dd3cdf7a3890c6ced13493c1b6b5f0f"
+                "reference": "f00755db81aa724930b79185ef489875fb0bbb5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/96e63f948dd3cdf7a3890c6ced13493c1b6b5f0f",
-                "reference": "96e63f948dd3cdf7a3890c6ced13493c1b6b5f0f",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/f00755db81aa724930b79185ef489875fb0bbb5f",
+                "reference": "f00755db81aa724930b79185ef489875fb0bbb5f",
                 "shasum": ""
             },
             "require": {
@@ -6123,7 +6123,7 @@
                 "source": "https://github.com/oroinc/platform/tree/2.6",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2018-07-26T15:47:00+00:00"
+            "time": "2018-07-30T17:36:17+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7320,16 +7320,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.10",
+            "version": "v5.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "dd71cc1638ed7aebbb33f2e2b0edd2cf6ea73d97"
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/dd71cc1638ed7aebbb33f2e2b0edd2cf6ea73d97",
-                "reference": "dd71cc1638ed7aebbb33f2e2b0edd2cf6ea73d97",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
+                "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
                 "shasum": ""
             },
             "require": {
@@ -7370,7 +7370,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2018-07-27T08:58:59+00:00"
+            "time": "2018-07-31T09:26:32+00:00"
         },
         {
             "name": "sylius/flow-bundle",
