@@ -5215,16 +5215,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.23",
+            "version": "1.6.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "d59bdabb682e1b23c8e3f52570f7f8edd6e932ba"
+                "reference": "f4fb0c09f2e191ea4b979167c11124612a1904a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/d59bdabb682e1b23c8e3f52570f7f8edd6e932ba",
-                "reference": "d59bdabb682e1b23c8e3f52570f7f8edd6e932ba",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/f4fb0c09f2e191ea4b979167c11124612a1904a2",
+                "reference": "f4fb0c09f2e191ea4b979167c11124612a1904a2",
                 "shasum": ""
             },
             "require": {
@@ -5286,7 +5286,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/1.6",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2018-08-07T16:32:06+00:00"
+            "time": "2018-08-08T11:13:31+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5962,16 +5962,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.6.24",
+            "version": "2.6.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "83d2563c39044b345618098b4a9d7fe04d217c9e"
+                "reference": "a752ff6e49e6e14af3cd8b824598dae7c0a22cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/83d2563c39044b345618098b4a9d7fe04d217c9e",
-                "reference": "83d2563c39044b345618098b4a9d7fe04d217c9e",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/a752ff6e49e6e14af3cd8b824598dae7c0a22cf5",
+                "reference": "a752ff6e49e6e14af3cd8b824598dae7c0a22cf5",
                 "shasum": ""
             },
             "require": {
@@ -6128,7 +6128,7 @@
                 "source": "https://github.com/oroinc/platform/tree/2.6",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2018-08-07T16:32:06+00:00"
+            "time": "2018-08-08T08:13:26+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
