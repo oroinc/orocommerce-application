@@ -888,7 +888,8 @@
                 "reference": "58df70e97f9031c58361d38d59997485e7a693a2",
                 "shasum": null
             },
-            "type": "bower-asset"
+            "type": "bower-asset",
+            "time": "2018-04-29T21:14:49+00:00"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -1741,16 +1742,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.7.1",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a"
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/b3217d58609e9c8e661cd41357a54d926c4a2a1a",
-                "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
+                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
                 "shasum": ""
             },
             "require": {
@@ -1761,8 +1762,9 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
+                "doctrine/coding-standard": "^4.0",
                 "mongodb/mongodb": "^1.1",
-                "phpunit/phpunit": "^5.7",
+                "phpunit/phpunit": "^7.0",
                 "predis/predis": "~1.0"
             },
             "suggest": {
@@ -1771,7 +1773,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7.x-dev"
+                    "dev-master": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -1806,12 +1808,12 @@
                 }
             ],
             "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "http://www.doctrine-project.org",
+            "homepage": "https://www.doctrine-project.org",
             "keywords": [
                 "cache",
                 "caching"
             ],
-            "time": "2017-08-25T07:02:50+00:00"
+            "time": "2018-08-21T18:01:43+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -5215,16 +5217,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.25",
+            "version": "1.6.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "982b67a3aee8a34d878bc6b8a160d82ab1bff685"
+                "reference": "856a60a1be9468534bafc3a55708ee7b9c4da574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/982b67a3aee8a34d878bc6b8a160d82ab1bff685",
-                "reference": "982b67a3aee8a34d878bc6b8a160d82ab1bff685",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/856a60a1be9468534bafc3a55708ee7b9c4da574",
+                "reference": "856a60a1be9468534bafc3a55708ee7b9c4da574",
                 "shasum": ""
             },
             "require": {
@@ -5286,7 +5288,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/1.6",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2018-08-17T14:10:54+00:00"
+            "time": "2018-08-28T08:33:58+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5335,16 +5337,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.6.15",
+            "version": "2.6.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "2fb4869e21827a98e9fab00f6bf1a3011bc8af8c"
+                "reference": "e23373db8a63e658c7d32198864dcbaa80d405ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/2fb4869e21827a98e9fab00f6bf1a3011bc8af8c",
-                "reference": "2fb4869e21827a98e9fab00f6bf1a3011bc8af8c",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/e23373db8a63e658c7d32198864dcbaa80d405ca",
+                "reference": "e23373db8a63e658c7d32198864dcbaa80d405ca",
                 "shasum": ""
             },
             "require": {
@@ -5402,7 +5404,7 @@
                 "source": "https://github.com/oroinc/crm/tree/2.6",
                 "issues": "https://github.com/oroinc/crm/issues"
             },
-            "time": "2018-08-07T16:32:06+00:00"
+            "time": "2018-08-27T17:51:26+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5805,16 +5807,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.6.20",
+            "version": "2.6.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "605aa8e2ef451790550c9d207b8731af29743924"
+                "reference": "9d922eeb6336fce30f0bba5331f31a014fbc6c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/605aa8e2ef451790550c9d207b8731af29743924",
-                "reference": "605aa8e2ef451790550c9d207b8731af29743924",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/9d922eeb6336fce30f0bba5331f31a014fbc6c66",
+                "reference": "9d922eeb6336fce30f0bba5331f31a014fbc6c66",
                 "shasum": ""
             },
             "require": {
@@ -5854,7 +5856,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/2.6",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2018-08-07T16:32:06+00:00"
+            "time": "2018-08-27T15:58:10+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5913,16 +5915,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "2.6.2",
+            "version": "2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMMarketingBundle.git",
-                "reference": "fa0a91e4943f21e876897cdad100cf14f670bf6f"
+                "reference": "8813fa32193c6044a15136486aad4ada751e0903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/fa0a91e4943f21e876897cdad100cf14f670bf6f",
-                "reference": "fa0a91e4943f21e876897cdad100cf14f670bf6f",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/8813fa32193c6044a15136486aad4ada751e0903",
+                "reference": "8813fa32193c6044a15136486aad4ada751e0903",
                 "shasum": ""
             },
             "require": {
@@ -5940,7 +5942,6 @@
                     "Oro": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5958,20 +5959,23 @@
                 "Oro",
                 "Tracking"
             ],
-            "time": "2018-06-13T11:30:27+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMMarketingBundle/tree/2.6"
+            },
+            "time": "2018-08-27T15:58:10+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "2.6.26",
+            "version": "2.6.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "1654f3bfc4a56a80ec8b1c8fc8a89f88fafa7e01"
+                "reference": "22da39f4f2c237b7c4a4f74a66abcc8e896f066b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/1654f3bfc4a56a80ec8b1c8fc8a89f88fafa7e01",
-                "reference": "1654f3bfc4a56a80ec8b1c8fc8a89f88fafa7e01",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/22da39f4f2c237b7c4a4f74a66abcc8e896f066b",
+                "reference": "22da39f4f2c237b7c4a4f74a66abcc8e896f066b",
                 "shasum": ""
             },
             "require": {
@@ -6128,7 +6132,7 @@
                 "source": "https://github.com/oroinc/platform/tree/2.6",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2018-08-10T06:46:38+00:00"
+            "time": "2018-08-27T17:51:26+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -11621,17 +11625,6 @@
         {
             "name": "symfony/polyfill-xml",
             "version": "v1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-xml.git",
-                "reference": "a2ef9388bbcef094e06d8447145b2782861c87ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-xml/zipball/a2ef9388bbcef094e06d8447145b2782861c87ef",
-                "reference": "a2ef9388bbcef094e06d8447145b2782861c87ef",
-                "shasum": ""
-            },
             "require": {
                 "php": ">=5.3.3",
                 "symfony/polyfill-php72": "~1.4"
