@@ -631,8 +631,7 @@
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
                 "shasum": null
             },
-            "type": "bower-asset",
-            "time": "2014-07-21T18:45:41+00:00"
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -888,8 +887,7 @@
                 "reference": "58df70e97f9031c58361d38d59997485e7a693a2",
                 "shasum": null
             },
-            "type": "bower-asset",
-            "time": "2018-04-29T21:14:49+00:00"
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -5169,7 +5167,7 @@
             "version": "2.6.6",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCalendarBundle.git",
+                "url": "https://github.com/oroinc/OroCalendarBundle.git",
                 "reference": "0326e2e3b6eb4706c7ad28abf198446d601da850"
             },
             "dist": {
@@ -5212,20 +5210,24 @@
                 "Calendar",
                 "Oro"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroCalendarBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCalendarBundle/issues"
+            },
             "time": "2018-09-21T13:32:37+00:00"
         },
         {
             "name": "oro/commerce",
-            "version": "1.6.30",
+            "version": "1.6.31",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/orocommerce.git",
-                "reference": "00eed380c182367ac52c1c8575c5614b7d687be0"
+                "url": "https://github.com/oroinc/orocommerce.git",
+                "reference": "66acbdb3b944ea675d4f087517bb2fb2c46728ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/00eed380c182367ac52c1c8575c5614b7d687be0",
-                "reference": "00eed380c182367ac52c1c8575c5614b7d687be0",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/66acbdb3b944ea675d4f087517bb2fb2c46728ae",
+                "reference": "66acbdb3b944ea675d4f087517bb2fb2c46728ae",
                 "shasum": ""
             },
             "require": {
@@ -5283,20 +5285,24 @@
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
             "homepage": "https://github.com/orocommerce/orocommerce",
-            "time": "2018-09-28T13:30:45+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/orocommerce/tree/1.6",
+                "issues": "https://github.com/oroinc/orocommerce/issues"
+            },
+            "time": "2018-10-09T16:20:47+00:00"
         },
         {
             "name": "oro/commerce-crm",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/orocommerce-orocrm.git",
-                "reference": "78b5afb52fd75ddd0d5d2ed215194c73902a2ab9"
+                "url": "https://github.com/oroinc/orocommerce-orocrm.git",
+                "reference": "ccce384c74490b4ae7cf556949f74c71d947f907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/78b5afb52fd75ddd0d5d2ed215194c73902a2ab9",
-                "reference": "78b5afb52fd75ddd0d5d2ed215194c73902a2ab9",
+                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/ccce384c74490b4ae7cf556949f74c71d947f907",
+                "reference": "ccce384c74490b4ae7cf556949f74c71d947f907",
                 "shasum": ""
             },
             "require": {
@@ -5325,20 +5331,23 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm",
-            "time": "2018-09-20T06:47:26+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/orocommerce-orocrm/tree/1.6"
+            },
+            "time": "2018-10-02T13:23:30+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "2.6.20",
+            "version": "2.6.21",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/crm.git",
-                "reference": "431acafbb7ab80293d8e792f9d18be340d1f3297"
+                "url": "https://github.com/oroinc/crm.git",
+                "reference": "c94a3f252a654ec9647cbb668d993546feb28012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/431acafbb7ab80293d8e792f9d18be340d1f3297",
-                "reference": "431acafbb7ab80293d8e792f9d18be340d1f3297",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/c94a3f252a654ec9647cbb668d993546feb28012",
+                "reference": "c94a3f252a654ec9647cbb668d993546feb28012",
                 "shasum": ""
             },
             "require": {
@@ -5392,14 +5401,18 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/oroinc/crm.git",
-            "time": "2018-09-21T13:32:37+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/crm/tree/2.6",
+                "issues": "https://github.com/oroinc/crm/issues"
+            },
+            "time": "2018-10-05T08:17:40+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
             "version": "2.6.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMAbandonedCartBundle.git",
+                "url": "https://github.com/oroinc/OroCRMAbandonedCartBundle.git",
                 "reference": "1d3a0086258ff7fe3d4d6bcf1315aec6a74fd400"
             },
             "dist": {
@@ -5449,7 +5462,7 @@
             "version": "2.6.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMCallBundle.git",
+                "url": "https://github.com/oroinc/OroCRMCallBundle.git",
                 "reference": "43ecf2e26dd7aecc6d1500d588a7f50549e065d4"
             },
             "dist": {
@@ -5491,6 +5504,10 @@
                 "Call",
                 "Oro"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMCallBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCRMCallBundle/issues"
+            },
             "time": "2018-09-20T06:47:26+00:00"
         },
         {
@@ -5498,7 +5515,7 @@
             "version": "2.6.5",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMDotmailerBundle.git",
+                "url": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
                 "reference": "6792d7dfd86ddc4ac41812e365210be107b809cb"
             },
             "dist": {
@@ -5538,6 +5555,10 @@
             ],
             "description": "Oro Dotmailer integration",
             "homepage": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMDotmailerBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCRMDotmailerBundle/issues"
+            },
             "time": "2018-09-23T17:20:22+00:00"
         },
         {
@@ -5545,7 +5566,7 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMHangoutsCallBundle.git",
+                "url": "https://github.com/oroinc/OroCRMHangoutsCallBundle.git",
                 "reference": "ab2371d6d3bf756b9c06ba3dc0299d93ca91da5f"
             },
             "dist": {
@@ -5574,7 +5595,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5591,20 +5611,24 @@
                 "Oro",
                 "integration"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMHangoutsCallBundle/tree/2.6.0",
+                "issues": "https://github.com/oroinc/OroCRMHangoutsCallBundle/issues"
+            },
             "time": "2018-01-29T15:34:08+00:00"
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMMagentoContactUsBundle.git",
-                "reference": "875e307faea07c1b5839ea4bd005a416ac91375c"
+                "url": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git",
+                "reference": "09a1da1f3128b0f2fcba82fd502580946ada3447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMagentoContactUsBundle/zipball/875e307faea07c1b5839ea4bd005a416ac91375c",
-                "reference": "875e307faea07c1b5839ea4bd005a416ac91375c",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMagentoContactUsBundle/zipball/09a1da1f3128b0f2fcba82fd502580946ada3447",
+                "reference": "09a1da1f3128b0f2fcba82fd502580946ada3447",
                 "shasum": ""
             },
             "require": {
@@ -5625,7 +5649,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5637,14 +5660,18 @@
             ],
             "description": "OroCRM Magento Embedded Contact Us package",
             "homepage": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git",
-            "time": "2018-01-29T15:34:08+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMMagentoContactUsBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCRMMagentoContactUsBundle/issues"
+            },
+            "time": "2018-10-02T13:23:30+00:00"
         },
         {
             "name": "oro/crm-mail-chimp",
             "version": "2.6.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMMailChimpBundle.git",
+                "url": "https://github.com/oroinc/OroCRMMailChimpBundle.git",
                 "reference": "e5816193827852e4f86bc6d616dcee3e87a09159"
             },
             "dist": {
@@ -5695,7 +5722,7 @@
             "version": "2.6.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMTaskBundle.git",
+                "url": "https://github.com/oroinc/OroCRMTaskBundle.git",
                 "reference": "1ddf9fad41fe0e1cf57bbf50757e31d176499459"
             },
             "dist": {
@@ -5737,6 +5764,10 @@
                 "Oro",
                 "Task"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMTaskBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroCRMTaskBundle/issues"
+            },
             "time": "2018-09-20T06:47:26+00:00"
         },
         {
@@ -5744,7 +5775,7 @@
             "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMZendeskBundle.git",
+                "url": "https://github.com/oroinc/OroCRMZendeskBundle.git",
                 "reference": "ddf637f59fb5c28ddff5efa047a125b758758a07"
             },
             "dist": {
@@ -5771,7 +5802,6 @@
                     "/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -5784,24 +5814,28 @@
             "description": "OroCRM Zendesk Integration",
             "homepage": "https://github.com/oroinc/OroCRMZendeskBundle.git",
             "keywords": [
+                "Integration",
                 "Oro",
-                "Zendesk",
-                "integration"
+                "Zendesk"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMZendeskBundle/tree/2.6.0",
+                "issues": "https://github.com/oroinc/OroCRMZendeskBundle/issues"
+            },
             "time": "2018-01-29T15:34:08+00:00"
         },
         {
             "name": "oro/customer-portal",
-            "version": "2.6.25",
+            "version": "2.6.26",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/customer-portal.git",
-                "reference": "a9570c2ffa3821cc55466a4f814787c352cc57dc"
+                "url": "https://github.com/oroinc/customer-portal.git",
+                "reference": "dec26768ac864f437d7f63cc60cfe8228bdfba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/a9570c2ffa3821cc55466a4f814787c352cc57dc",
-                "reference": "a9570c2ffa3821cc55466a4f814787c352cc57dc",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/dec26768ac864f437d7f63cc60cfe8228bdfba3b",
+                "reference": "dec26768ac864f437d7f63cc60cfe8228bdfba3b",
                 "shasum": ""
             },
             "require": {
@@ -5837,7 +5871,11 @@
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
-            "time": "2018-09-28T13:30:45+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/customer-portal/tree/2.6",
+                "issues": "https://github.com/oroinc/customer-portal/issues"
+            },
+            "time": "2018-10-10T11:54:01+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -5896,16 +5934,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "2.6.5",
+            "version": "2.6.6",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroCRMMarketingBundle.git",
-                "reference": "6fb556985546c33513c720956ca30a0ab8a4b634"
+                "url": "https://github.com/oroinc/OroCRMMarketingBundle.git",
+                "reference": "2511a563b53cc5374a94590f35d44ad77f57f1cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/6fb556985546c33513c720956ca30a0ab8a4b634",
-                "reference": "6fb556985546c33513c720956ca30a0ab8a4b634",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/2511a563b53cc5374a94590f35d44ad77f57f1cc",
+                "reference": "2511a563b53cc5374a94590f35d44ad77f57f1cc",
                 "shasum": ""
             },
             "require": {
@@ -5940,20 +5978,23 @@
                 "Oro",
                 "Tracking"
             ],
-            "time": "2018-09-20T06:47:26+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/OroCRMMarketingBundle/tree/2.6"
+            },
+            "time": "2018-10-04T12:58:06+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "2.6.31",
+            "version": "2.6.32",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/platform.git",
-                "reference": "4980712862b6bd922224184781f2e3bd9fa0235c"
+                "url": "https://github.com/oroinc/platform.git",
+                "reference": "8a7738cdf01fb84ddd7e4ea867eedf82d6a84c8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/4980712862b6bd922224184781f2e3bd9fa0235c",
-                "reference": "4980712862b6bd922224184781f2e3bd9fa0235c",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/8a7738cdf01fb84ddd7e4ea867eedf82d6a84c8c",
+                "reference": "8a7738cdf01fb84ddd7e4ea867eedf82d6a84c8c",
                 "shasum": ""
             },
             "require": {
@@ -6106,14 +6147,18 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "time": "2018-09-27T14:31:59+00:00"
+            "support": {
+                "source": "https://github.com/oroinc/platform/tree/2.6",
+                "issues": "https://github.com/oroinc/platform/issues"
+            },
+            "time": "2018-10-09T16:20:47+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
             "version": "2.6.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/OroEntitySerializedFieldsBundle.git",
+                "url": "https://github.com/oroinc/OroEntitySerializedFieldsBundle.git",
                 "reference": "00e6a6e52fcaa289d257f4be18b5cf9d530019e9"
             },
             "dist": {
@@ -6157,6 +6202,10 @@
                 "entity",
                 "fields"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/OroEntitySerializedFieldsBundle/tree/2.6",
+                "issues": "https://github.com/oroinc/OroEntitySerializedFieldsBundle/issues"
+            },
             "time": "2018-09-20T11:49:48+00:00"
         },
         {
@@ -6165,7 +6214,7 @@
             "target-dir": "Oro/Bundle/RedisConfigBundle",
             "source": {
                 "type": "git",
-                "url": "git@github.com:oroinc/redis-config.git",
+                "url": "https://github.com/oroinc/redis-config.git",
                 "reference": "b12375aafcc2dec1a5b08f02e420c2bd56298fa0"
             },
             "dist": {
@@ -6203,6 +6252,10 @@
                 "OroPlatform",
                 "Redis"
             ],
+            "support": {
+                "source": "https://github.com/oroinc/redis-config/tree/2.6",
+                "issues": "https://github.com/oroinc/redis-config/issues"
+            },
             "time": "2018-09-23T17:20:22+00:00"
         },
         {
@@ -6787,7 +6840,7 @@
             "version": "v1.0.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:laboro/dotMailer-API-v2-PHP-client.git",
+                "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client.git",
                 "reference": "d31cae6f4ddf8627fad94a3c8621a30a7d279d5d"
             },
             "dist": {
@@ -6807,7 +6860,6 @@
                     "DotMailer\\Api\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6823,12 +6875,15 @@
             "homepage": "https://github.com/romanpitak/dotMailer-API-v2-PHP-client",
             "keywords": [
                 "API",
+                "REST",
                 "client",
                 "dotMailer",
-                "rest",
                 "v2",
                 "version 2"
             ],
+            "support": {
+                "source": "https://github.com/laboro/dotMailer-API-v2-PHP-client/tree/v1.0.11"
+            },
             "time": "2016-11-11T10:21:32+00:00"
         },
         {
