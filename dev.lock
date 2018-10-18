@@ -512,16 +512,16 @@
         },
         {
             "name": "bower-asset/bootstrap",
-            "version": "v2.3.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "8c7f9c66a7d12f47f50618ef420868fe836d0c33"
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/8c7f9c66a7d12f47f50618ef420868fe836d0c33",
-                "reference": "8c7f9c66a7d12f47f50618ef420868fe836d0c33",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
                 "shasum": null
             },
             "type": "bower-asset"
@@ -5706,6 +5706,23 @@
             ]
         },
         {
+            "name": "npm-asset/slick-carousel",
+            "version": "1.6.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.7.2"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/xregexp",
             "version": "3.2.0",
             "dist": {
@@ -6442,11 +6459,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "f66e28d607f77b91729fab283202cb0e22e3a23d",
+                "reference": "9ab0dd9d8da0254e9eb8885c4a095508b53bcae7",
                 "shasum": null
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
+                "npm-asset/slick-carousel": "1.6.0",
                 "oro/calendar-bundle": "3.1.*",
                 "oro/commerce": "3.1.*",
                 "oro/marketing": "3.1.*",
@@ -6580,7 +6598,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "7474d3b857b45fbe8b3ac9417841ed5347c57fb3",
+                "reference": "1e176cd5e9c14ec3794e36a9300952d3ad69745f",
                 "shasum": null
             },
             "require": {
@@ -6594,7 +6612,7 @@
                 "bower-asset/backgrid-paginator": "0.3.8",
                 "bower-asset/base64": "1.0.*",
                 "bower-asset/bean": "1.0.6",
-                "bower-asset/bootstrap": "2.3.0",
+                "bower-asset/bootstrap": "4.1.1",
                 "bower-asset/chaplin": "1.2.0",
                 "bower-asset/crypto-js": "3.1.7",
                 "bower-asset/datepair": "0.4.*",
