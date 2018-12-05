@@ -19,7 +19,6 @@ behat.yml
 !var/import_export/
 /var/import_export/*
 !var/import_export/.gitkeep
-!var/php/
 !var/oro-check.php
 !var/OroRequirements.php
 /build/logs/*
@@ -34,7 +33,6 @@ node_modules/
 /public/media/cache
 /public/media/js
 /public/build.js
-/public/tracking.php
 /config/parameters.yml
 /config/parameters_test.yml
 phpunit.xml
