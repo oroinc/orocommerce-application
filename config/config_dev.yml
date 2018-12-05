@@ -16,10 +16,6 @@ monolog:
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
 
-oro_assetic:
-    css_debug:      ~
-    css_debug_all:  false
-
 oro_message_queue:
     client:
         traceable_producer: true
