@@ -29,9 +29,6 @@ swiftmailer:
     logging: true
     disable_delivery: true
 
-oro_require_js:
-    js_engine: ~
-
 services:
     oro_message_queue.test.message_collector:
         class: Oro\Bundle\MessageQueueBundle\Test\Functional\MessageCollector
