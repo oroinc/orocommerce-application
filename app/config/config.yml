@@ -75,6 +75,7 @@ fos_rest:
     format_listener:
         rules:
             - { path: '^/api/rest', priorities: [ json ], fallback_format: json, prefer_extension: false }
+            - { path: '^%web_backend_prefix%/api/rest', priorities: [ json ], fallback_format: json, prefer_extension: false }
             - { path: '^/api/soap', stop: true }
             - { path: '^/', stop: true }
     routing_loader:
