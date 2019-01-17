@@ -12,7 +12,7 @@
             "target-dir": "Akeneo/Bundle/BatchBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laboro/BatchBundle.git",
+                "url": "git@github.com:laboro/BatchBundle.git",
                 "reference": "aff218f6ba5714baae575698c0578bf8da207f41"
             },
             "dist": {
@@ -5625,7 +5625,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCalendarBundle.git",
+                "url": "git@github.com:oroinc/OroCalendarBundle.git",
                 "reference": "47944b1a0bb0d68c5611520e170dc8db80f4e203"
             },
             "dist": {
@@ -5864,7 +5864,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCRMCallBundle.git",
+                "url": "git@github.com:oroinc/OroCRMCallBundle.git",
                 "reference": "af30381e516d5602615e2c69d4cdf0e84536ec40"
             },
             "dist": {
@@ -5916,7 +5916,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
+                "url": "git@github.com:oroinc/OroCRMDotmailerBundle.git",
                 "reference": "96981f38fa60af2f408243b1238f34c85ad4ce76"
             },
             "dist": {
@@ -5966,7 +5966,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCRMHangoutsCallBundle.git",
+                "url": "git@github.com:oroinc/OroCRMHangoutsCallBundle.git",
                 "reference": "33bc96a7464fb8fd1c52964e5d0b0554ed459dcd"
             },
             "dist": {
@@ -6069,7 +6069,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCRMTaskBundle.git",
+                "url": "git@github.com:oroinc/OroCRMTaskBundle.git",
                 "reference": "91381b5b313d4d8fad220b091d3468720480476c"
             },
             "dist": {
@@ -6282,7 +6282,7 @@
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroCRMMarketingBundle.git",
+                "url": "git@github.com:oroinc/OroCRMMarketingBundle.git",
                 "reference": "7d8e0d24bf2c089a43738a463d414c2ea98863e3"
             },
             "dist": {
@@ -6333,12 +6333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "04cd0133d9c7c73852aaf6091d0b741027077bfd"
+                "reference": "e1ebddd631c7ae3af1a296de090c9f7248f8cea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/04cd0133d9c7c73852aaf6091d0b741027077bfd",
-                "reference": "04cd0133d9c7c73852aaf6091d0b741027077bfd",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/e1ebddd631c7ae3af1a296de090c9f7248f8cea6",
+                "reference": "e1ebddd631c7ae3af1a296de090c9f7248f8cea6",
                 "shasum": ""
             },
             "require": {
@@ -6484,14 +6484,14 @@
                 "source": "https://github.com/oroinc/platform/tree/releaseTests",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2019-01-15T12:24:27+00:00"
+            "time": "2019-01-16T17:14:38+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
             "version": "dev-releaseTests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/OroEntitySerializedFieldsBundle.git",
+                "url": "git@github.com:oroinc/OroEntitySerializedFieldsBundle.git",
                 "reference": "009e32542cc6004d95d0457415e45c128ddb959a"
             },
             "dist": {
@@ -6546,7 +6546,7 @@
             "target-dir": "Oro/Bundle/RedisConfigBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oroinc/redis-config.git",
+                "url": "git@github.com:oroinc/redis-config.git",
                 "reference": "00927d1cdd9a648eef8e604dcf9783319cf8893e"
             },
             "dist": {
@@ -7456,7 +7456,7 @@
             "version": "3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client.git",
+                "url": "git@github.com:laboro/dotMailer-API-v2-PHP-client.git",
                 "reference": "40a8603a8c7be29afff2a8f0b816f88085f27064"
             },
             "dist": {
@@ -9591,16 +9591,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.5.1",
+            "version": "v4.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a"
+                "reference": "ab0a02ea14893860bca00f225f5621d351a3ad07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a",
-                "reference": "74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/ab0a02ea14893860bca00f225f5621d351a3ad07",
+                "reference": "ab0a02ea14893860bca00f225f5621d351a3ad07",
                 "shasum": ""
             },
             "require": {
@@ -9608,8 +9608,8 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.5|~5",
-                "symfony/phpunit-bridge": "~2.7|~3",
-                "symfony/yaml": "~2.3|~3"
+                "symfony/phpunit-bridge": "~2.7|~3|~4",
+                "symfony/yaml": "~2.3|~3|~4"
             },
             "suggest": {
                 "symfony/yaml": "If you want to parse features, represented in YAML files"
@@ -9646,7 +9646,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2017-08-30T11:04:43+00:00"
+            "time": "2019-01-16T14:22:17+00:00"
         },
         {
             "name": "behat/mink",
