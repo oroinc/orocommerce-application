@@ -167,3 +167,7 @@ oro_attachment:
         - image/gif
         - image/jpeg
         - image/png
+
+oro_cms:
+    direct_editing:
+        login_page_css_field: true
