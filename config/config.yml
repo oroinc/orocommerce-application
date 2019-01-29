@@ -125,7 +125,7 @@ oro_distribution:
 
 oro_require_js:
     build_path:               "js/oro.min.js"
-    building_timeout:         3600
+    build_timeout:            3600
     build:
         preserveLicenseComments: true
 
