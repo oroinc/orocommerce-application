@@ -1,6 +1,15 @@
 imports:
     - { resource: config.yml }
 
+framework:
+    session:
+        cookie_path: '%web_backend_prefix%'
+
+oro_frontend:
+    session:
+        name:        OROSFID
+        cookie_path: '/'
+
 #doctrine:
 #    orm:
 #        metadata_cache_driver: apc
