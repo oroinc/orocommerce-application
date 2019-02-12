@@ -87,9 +87,6 @@ fos_js_routing:
 oro_frontend:
     routes_to_expose:         [oro_*]
 
-oro_navigation:
-    js_routing_filename_prefix: '%web_backend_prefix%'
-
 stof_doctrine_extensions:
     default_locale: en
     translation_fallback: true
