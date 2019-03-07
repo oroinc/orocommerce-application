@@ -121,6 +121,10 @@ Vagrant.configure("2") do |config|
 
 		yum install -y php-fpm php-cli php-pdo php-mysqlnd php-xml php-soap php-gd php-mbstring php-zip php-intl php-mcrypt php-opcache
 		
+		echo "\n~~~~~~~~~~~~~~ Install Zip ~~~~~~~~~~~~~~\n"
+
+		yum install -y unzip.x86_64
+
 		echo "\n~~~~~~~~~~~~~~ Install Composer ~~~~~~~~~~~~~~\n"
 		
 		php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && php composer-setup.php
