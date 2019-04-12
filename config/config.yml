@@ -146,7 +146,6 @@ oro_theme:
 
 oro_message_queue:
     transport:
-        default: '%message_queue_transport%'
         '%message_queue_transport%': '%message_queue_transport_config%'
     client: ~
 
