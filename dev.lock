@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ff9c0a5203efc700956af8d7412bddc",
+    "content-hash": "b20cc15cf5e989cde5e17d47e7870539",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -12996,6 +12996,7 @@
         "oro/commerce-authorizenet": 20,
         "oro/platform": 20,
         "oro/platform-serialised-fields": 20,
+        "oro/oauth2-server": 20,
         "oro/calendar-bundle": 20,
         "oro/marketing": 20,
         "oro/customer-portal": 20,
