@@ -786,21 +786,6 @@
             ]
         },
         {
-            "name": "bower-asset/json2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/douglascrockford/JSON-js.git",
-                "reference": "58df70e97f9031c58361d38d59997485e7a693a2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/douglascrockford/JSON-js/zipball/58df70e97f9031c58361d38d59997485e7a693a2",
-                "reference": "58df70e97f9031c58361d38d59997485e7a693a2"
-            },
-            "type": "bower-asset"
-        },
-        {
             "name": "bower-asset/jsplumb",
             "version": "1.7.10",
             "source": {
@@ -1084,16 +1069,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.8.6",
+            "version": "0.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "44d14bb2a1976b6a165d00eb08823eaa6e8f366e"
+                "reference": "b77bf303449ac66e46d521e5022cedd1663ab6bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/44d14bb2a1976b6a165d00eb08823eaa6e8f366e",
-                "reference": "44d14bb2a1976b6a165d00eb08823eaa6e8f366e",
+                "url": "https://api.github.com/repos/brick/math/zipball/b77bf303449ac66e46d521e5022cedd1663ab6bd",
+                "reference": "b77bf303449ac66e46d521e5022cedd1663ab6bd",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1108,7 @@
                 "brick",
                 "math"
             ],
-            "time": "2019-04-11T12:03:33+00:00"
+            "time": "2019-04-25T14:55:49+00:00"
         },
         {
             "name": "components/jquery",
@@ -2533,16 +2518,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "v1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "c0f1c17602afc18b4cbd8e1c8125f264c9cf7d38"
+                "reference": "3da7c9d125591ca83944f477e65ed3d7b4617c48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/c0f1c17602afc18b4cbd8e1c8125f264c9cf7d38",
-                "reference": "c0f1c17602afc18b4cbd8e1c8125f264c9cf7d38",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/3da7c9d125591ca83944f477e65ed3d7b4617c48",
+                "reference": "3da7c9d125591ca83944f477e65ed3d7b4617c48",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2596,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2018-11-21T00:33:13+00:00"
+            "time": "2019-04-23T08:28:24+00:00"
         },
         {
             "name": "doctrine/reflection",
@@ -5632,16 +5617,16 @@
         },
         {
             "name": "oro/calendar-bundle",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCalendarBundle.git",
-                "reference": "8657e940fe2776e54ca3a6cd6a319f7d6c1ad028"
+                "reference": "dc4943a751ae0917828e5b9f583bb41f03982de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCalendarBundle/zipball/8657e940fe2776e54ca3a6cd6a319f7d6c1ad028",
-                "reference": "8657e940fe2776e54ca3a6cd6a319f7d6c1ad028",
+                "url": "https://api.github.com/repos/oroinc/OroCalendarBundle/zipball/dc4943a751ae0917828e5b9f583bb41f03982de8",
+                "reference": "dc4943a751ae0917828e5b9f583bb41f03982de8",
                 "shasum": ""
             },
             "require": {
@@ -5681,20 +5666,20 @@
                 "source": "https://github.com/oroinc/OroCalendarBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCalendarBundle/issues"
             },
-            "time": "2019-04-17T09:45:09+00:00"
+            "time": "2019-05-16T15:37:36+00:00"
         },
         {
             "name": "oro/commerce",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "747f2225c3abdb4b67b71e8060ea33fb377550e8"
+                "reference": "a8d8974a1a2f183aeb4d0103fa5f783f6e3e7df7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/747f2225c3abdb4b67b71e8060ea33fb377550e8",
-                "reference": "747f2225c3abdb4b67b71e8060ea33fb377550e8",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/a8d8974a1a2f183aeb4d0103fa5f783f6e3e7df7",
+                "reference": "a8d8974a1a2f183aeb4d0103fa5f783f6e3e7df7",
                 "shasum": ""
             },
             "require": {
@@ -5754,20 +5739,20 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/3.1",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2019-04-17T09:51:12+00:00"
+            "time": "2019-05-16T15:43:07+00:00"
         },
         {
             "name": "oro/commerce-crm",
-            "version": "3.1.5",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce-orocrm.git",
-                "reference": "370f4a61a96a12ea05482c18f3edfff26c302b4d"
+                "reference": "343bb8825423d72908c51434eaa88fc2a4abfe52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/370f4a61a96a12ea05482c18f3edfff26c302b4d",
-                "reference": "370f4a61a96a12ea05482c18f3edfff26c302b4d",
+                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/343bb8825423d72908c51434eaa88fc2a4abfe52",
+                "reference": "343bb8825423d72908c51434eaa88fc2a4abfe52",
                 "shasum": ""
             },
             "require": {
@@ -5799,20 +5784,20 @@
             "support": {
                 "source": "https://github.com/oroinc/orocommerce-orocrm/tree/3.1"
             },
-            "time": "2019-03-22T17:06:55+00:00"
+            "time": "2019-05-16T15:43:19+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "1e8652fd589c326a1a80e8a2836f1c21a36b04eb"
+                "reference": "c245dc041b8df0ab391a8fbd2939914171572ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/1e8652fd589c326a1a80e8a2836f1c21a36b04eb",
-                "reference": "1e8652fd589c326a1a80e8a2836f1c21a36b04eb",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/c245dc041b8df0ab391a8fbd2939914171572ba4",
+                "reference": "c245dc041b8df0ab391a8fbd2939914171572ba4",
                 "shasum": ""
             },
             "require": {
@@ -5867,7 +5852,7 @@
                 "source": "https://github.com/oroinc/crm/tree/3.1",
                 "issues": "https://github.com/oroinc/crm/issues"
             },
-            "time": "2019-04-17T09:43:11+00:00"
+            "time": "2019-05-16T15:36:07+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -5923,16 +5908,16 @@
         },
         {
             "name": "oro/crm-dotmailer",
-            "version": "3.1.5",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
-                "reference": "0772fa383de7c54b57fe5d6590ac92ad13dd2636"
+                "reference": "b57e7ac95ec387359f07a28480f9fe6a67489850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMDotmailerBundle/zipball/0772fa383de7c54b57fe5d6590ac92ad13dd2636",
-                "reference": "0772fa383de7c54b57fe5d6590ac92ad13dd2636",
+                "url": "https://api.github.com/repos/oroinc/OroCRMDotmailerBundle/zipball/b57e7ac95ec387359f07a28480f9fe6a67489850",
+                "reference": "b57e7ac95ec387359f07a28480f9fe6a67489850",
                 "shasum": ""
             },
             "require": {
@@ -5969,7 +5954,7 @@
                 "source": "https://github.com/oroinc/OroCRMDotmailerBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCRMDotmailerBundle/issues"
             },
-            "time": "2019-04-17T09:45:28+00:00"
+            "time": "2019-05-16T15:37:53+00:00"
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
@@ -6028,16 +6013,16 @@
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
-            "version": "3.1.3",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git",
-                "reference": "1ff824aae01662b5f3375ce6e290aa6f2d982119"
+                "reference": "62a485c8a9909c5b7e1803b2703717a576ee3a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMagentoContactUsBundle/zipball/1ff824aae01662b5f3375ce6e290aa6f2d982119",
-                "reference": "1ff824aae01662b5f3375ce6e290aa6f2d982119",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMagentoContactUsBundle/zipball/62a485c8a9909c5b7e1803b2703717a576ee3a56",
+                "reference": "62a485c8a9909c5b7e1803b2703717a576ee3a56",
                 "shasum": ""
             },
             "require": {
@@ -6072,7 +6057,7 @@
                 "source": "https://github.com/oroinc/OroCRMMagentoContactUsBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCRMMagentoContactUsBundle/issues"
             },
-            "time": "2019-02-19T15:33:04+00:00"
+            "time": "2019-05-16T15:38:04+00:00"
         },
         {
             "name": "oro/crm-task-bundle",
@@ -6181,16 +6166,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "1520dbe60978121a07f078de7978b71790f2b412"
+                "reference": "6ac9b45498c47fd159018284d9a1d5dfaa4e5b4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/1520dbe60978121a07f078de7978b71790f2b412",
-                "reference": "1520dbe60978121a07f078de7978b71790f2b412",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/6ac9b45498c47fd159018284d9a1d5dfaa4e5b4a",
+                "reference": "6ac9b45498c47fd159018284d9a1d5dfaa4e5b4a",
                 "shasum": ""
             },
             "require": {
@@ -6230,7 +6215,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/3.1",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2019-04-17T09:47:31+00:00"
+            "time": "2019-05-16T15:39:41+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6339,16 +6324,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "bba89ab0034c34785f0df225c2ca77abcafdef6a"
+                "reference": "bf516a06801186aaea0299d61372aebfeb2ffbfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/bba89ab0034c34785f0df225c2ca77abcafdef6a",
-                "reference": "bba89ab0034c34785f0df225c2ca77abcafdef6a",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/bf516a06801186aaea0299d61372aebfeb2ffbfe",
+                "reference": "bf516a06801186aaea0299d61372aebfeb2ffbfe",
                 "shasum": ""
             },
             "require": {
@@ -6377,7 +6362,6 @@
                 "bower-asset/jquery-ui-multiselect-widget": "2.0.1",
                 "bower-asset/jquery-validate": "1.16.0",
                 "bower-asset/jquery.numeric": "1.5.0",
-                "bower-asset/json2": "dev-master",
                 "bower-asset/jsplumb": "1.7.*",
                 "bower-asset/lightgallery": "1.4.0",
                 "bower-asset/malihu-custom-scrollbar-plugin": "3.1.5",
@@ -6497,7 +6481,7 @@
                 "source": "https://github.com/oroinc/platform/tree/3.1",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2019-04-17T09:42:30+00:00"
+            "time": "2019-05-16T15:35:46+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -6756,16 +6740,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.0",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "94fd0001232e47129dd3504189fa1c7225010d08"
+                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/94fd0001232e47129dd3504189fa1c7225010d08",
-                "reference": "94fd0001232e47129dd3504189fa1c7225010d08",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
+                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
                 "shasum": ""
             },
             "require": {
@@ -6803,7 +6787,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2017-11-30T07:14:17+00:00"
+            "time": "2019-04-30T17:48:53+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -9202,16 +9186,16 @@
         },
         {
             "name": "vakata/jstree",
-            "version": "3.3.7",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vakata/jstree.git",
-                "reference": "bc5187e5826244dee5ebdc0e9db2e2652fefe928"
+                "reference": "c9d7c1425f2272c5400536fa631eba8657522ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vakata/jstree/zipball/bc5187e5826244dee5ebdc0e9db2e2652fefe928",
-                "reference": "bc5187e5826244dee5ebdc0e9db2e2652fefe928",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/c9d7c1425f2272c5400536fa631eba8657522ecf",
+                "reference": "c9d7c1425f2272c5400536fa631eba8657522ecf",
                 "shasum": ""
             },
             "require": {
@@ -9255,7 +9239,7 @@
             ],
             "description": "jsTree is jquery plugin, that provides interactive trees.",
             "homepage": "http://jstree.com",
-            "time": "2018-11-06T21:15:47+00:00"
+            "time": "2019-04-28T21:22:05+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -12140,7 +12124,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
