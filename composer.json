@@ -31,8 +31,7 @@
     "oro/crm-dotmailer": "~3.1.1",
     "oro/crm-zendesk": "~3.1.1",
     "oro/commerce": "~3.1.1",
-    "oro/commerce-crm": "~3.1.1",
-    "oro/google-tag-manager-bundle": "~3.1.1"
+    "oro/commerce-crm": "~3.1.1"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.*",
