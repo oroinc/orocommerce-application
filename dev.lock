@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b20cc15cf5e989cde5e17d47e7870539",
+    "content-hash": "663c6bc08efae53006d68086bb4d4e7e",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -6835,6 +6835,51 @@
             "time": "2018-11-12T09:15:04+00:00"
         },
         {
+            "name": "oro/google-tag-manager-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/google-tag-manager",
+                "reference": "1c399d958e738bd6286b394b57a1689711d0e1d5",
+                "shasum": null
+            },
+            "require": {
+                "oro/commerce": "4.0.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\GoogleTagManagerBundle\\": "src/Oro/Bundle/GoogleTagManagerBundle"
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.oroinc.com"
+                }
+            ],
+            "description": "Oro Google Tag Manager integration",
+            "homepage": "https://github.com/oroinc/google-tag-manager-bundle",
+            "keywords": [
+                "Google",
+                "Integration",
+                "Manager",
+                "Oro",
+                "Tag"
+            ]
+        },
+        {
             "name": "oro/marketing",
             "version": "dev-master",
             "dist": {
@@ -13039,7 +13084,8 @@
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/commerce-infinitepay": 20,
-        "oro/redis-config": 20
+        "oro/redis-config": 20,
+        "oro/google-tag-manager-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
