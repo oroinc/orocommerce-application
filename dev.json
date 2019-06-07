@@ -53,7 +53,10 @@
     "sebastian/phpcpd": "3.0.*",
     "phpunit/phpcov": "3.1.*",
     "symfony/phpunit-bridge": "3.2.*",
-    "friendsofphp/php-cs-fixer": "2.1.*"
+    "friendsofphp/php-cs-fixer": "2.1.*",
+    "oro/commerce-documentation-examples": "2.6.x-dev",
+    "oro/crm-documentation-examples": "2.6.x-dev",
+    "oro/platform-documentation-examples": "2.6.x-dev"
   },
   "config": {
     "platform": {
@@ -142,6 +145,18 @@
     {
       "type": "path",
       "url": "../../package/*"
+    },
+    {
+      "type": "path",
+      "url": "../../documentation/commerce/code_examples"
+    },
+    {
+      "type": "path",
+      "url": "../../documentation/crm/code_examples"
+    },
+    {
+      "type": "path",
+      "url": "../../documentation/platform/code_examples"
     },
     {
       "type": "composer",
