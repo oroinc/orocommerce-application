@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "663c6bc08efae53006d68086bb4d4e7e",
+    "content-hash": "b20cc15cf5e989cde5e17d47e7870539",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -5001,32 +5001,29 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "3.2.5",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "82be04b4753f8b7693b62852b7eab30f97524f9b"
+                "reference": "a11ec5f4b4d75d1fcd04e133dede4c317aac9e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/82be04b4753f8b7693b62852b7eab30f97524f9b",
-                "reference": "82be04b4753f8b7693b62852b7eab30f97524f9b",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
+                "reference": "a11ec5f4b4d75d1fcd04e133dede4c317aac9e18",
                 "shasum": ""
             },
             "require": {
+                "ext-mbstring": "*",
                 "ext-openssl": "*",
-                "php": ">=5.5"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "mdanter/ecc": "~0.3.1",
                 "mikey179/vfsstream": "~1.5",
                 "phpmd/phpmd": "~2.2",
                 "phpunit/php-invoker": "~1.1",
-                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit": "^5.7 || ^7.3",
                 "squizlabs/php_codesniffer": "~2.3"
-            },
-            "suggest": {
-                "mdanter/ecc": "Required to use Elliptic Curves based algorithms."
             },
             "type": "library",
             "extra": {
@@ -5055,7 +5052,7 @@
                 "JWS",
                 "jwt"
             ],
-            "time": "2018-11-11T12:22:26+00:00"
+            "time": "2019-05-24T18:30:49+00:00"
         },
         {
             "name": "leafo/scssphp",
@@ -6838,51 +6835,6 @@
             "time": "2018-11-12T09:15:04+00:00"
         },
         {
-            "name": "oro/google-tag-manager-bundle",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/google-tag-manager",
-                "reference": "1c399d958e738bd6286b394b57a1689711d0e1d5",
-                "shasum": null
-            },
-            "require": {
-                "oro/commerce": "4.0.*"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\GoogleTagManagerBundle\\": "src/Oro/Bundle/GoogleTagManagerBundle"
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.oroinc.com"
-                }
-            ],
-            "description": "Oro Google Tag Manager integration",
-            "homepage": "https://github.com/oroinc/google-tag-manager-bundle",
-            "keywords": [
-                "Google",
-                "Integration",
-                "Manager",
-                "Oro",
-                "Tag"
-            ]
-        },
-        {
             "name": "oro/marketing",
             "version": "dev-master",
             "dist": {
@@ -6975,7 +6927,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "c94da218731f47012674322a878b80da9e2cceaf",
+                "reference": "05dcb9ddf18f5d295c37e4a5bc496f8f76177319",
                 "shasum": null
             },
             "require": {
@@ -7077,7 +7029,7 @@
                 "symfony/symfony": "3.4.27",
                 "tinymce/tinymce": "4.6.*",
                 "twig/extensions": "1.5.*",
-                "twig/twig": "1.40.*",
+                "twig/twig": "2.9.*",
                 "vakata/jstree": "3.3.*",
                 "zendframework/zend-mail": "2.10.0"
             },
@@ -9750,21 +9702,22 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.40.1",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "35889516bbd6bbe46a600c2c33b03515df4a076e"
+                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/35889516bbd6bbe46a600c2c33b03515df4a076e",
-                "reference": "35889516bbd6bbe46a600c2c33b03515df4a076e",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
+                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "symfony/polyfill-ctype": "^1.8"
+                "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
             },
             "require-dev": {
                 "psr/container": "^1.0",
@@ -9774,7 +9727,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.40-dev"
+                    "dev-master": "2.9-dev"
                 }
             },
             "autoload": {
@@ -9812,7 +9765,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-04-29T14:12:28+00:00"
+            "time": "2019-04-28T06:57:38+00:00"
         },
         {
             "name": "ua-parser/uap-php",
@@ -11301,15 +11254,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/twig-inspector",
-                "reference": "64de52d5b5b41db3c80e942828ed95a12f4e8e96",
+                "reference": "c23ff1f0ac92b5a8aaa15823a15dc404372ff660",
                 "shasum": null
             },
             "require": {
-                "symfony/config": "^3.4",
-                "symfony/dependency-injection": "^3.4",
-                "symfony/http-foundation": "^3.4",
-                "symfony/http-kernel": "^3.4",
-                "symfony/routing": "^3.4",
+                "symfony/config": "^3.4 | ^4.0",
+                "symfony/dependency-injection": "^3.4 | ^4.0",
+                "symfony/http-foundation": "^3.4 | ^4.0",
+                "symfony/http-kernel": "^3.4 | ^4.0",
+                "symfony/routing": "^3.4 | ^4.0",
                 "twig/twig": "~1.34|~2.4"
             },
             "type": "symfony-bundle",
@@ -13086,8 +13039,7 @@
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/commerce-infinitepay": 20,
-        "oro/redis-config": 20,
-        "oro/google-tag-manager-bundle": 20
+        "oro/redis-config": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
