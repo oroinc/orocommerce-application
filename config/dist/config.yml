@@ -19,8 +19,8 @@ framework:
     default_locale:  en
     session:
         name:                 BAPID_DIST
-        handler_id:           %session_handler%
-        save_path:            %kernel.project_dir%/var/cache/sessions
+        handler_id:           '%session_handler%'
+        save_path:            '%kernel.project_dir%/var/cache/sessions'
         gc_maxlifetime:       3600
         cookie_httponly:      true
     fragments:
@@ -37,13 +37,13 @@ lexik_maintenance:
     driver:
         class:                Lexik\Bundle\MaintenanceBundle\Drivers\FileDriver
         options:
-            file_path:        %kernel.project_dir%/var/cache/maintenance_lock
+            file_path:        '%kernel.project_dir%/var/cache/maintenance_lock'
 
 services:
     oro.cache.abstract:
         abstract:             true
         class:                Doctrine\Common\Cache\PhpFileCache
-        arguments:            [%kernel.cache_dir%/dist]
+        arguments:            ['%kernel.cache_dir%/dist']
     twig.extension.intl:
          class:               Twig_Extensions_Extension_Intl
          tags:
@@ -53,5 +53,5 @@ monolog:
     handlers:
         oro_distribution:
             type: stream
-            path: %kernel.logs_dir%/%kernel.environment%.distribution.log
+            path: '%kernel.logs_dir%/%kernel.environment%.distribution.log'
             channels: oro_distribution
