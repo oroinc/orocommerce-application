@@ -345,8 +345,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/crossbario/autobahn-js/zipball/5561cb7d39004cb764a01454d922c2b4a083d010",
-                "reference": "5561cb7d39004cb764a01454d922c2b4a083d010",
-                "shasum": null
+                "reference": "5561cb7d39004cb764a01454d922c2b4a083d010"
             },
             "type": "bower-asset"
         },
@@ -361,8 +360,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/gregjacobs/Autolinker.js/zipball/f99f4943b3f1fdab604659966c9903a775b03182",
-                "reference": "f99f4943b3f1fdab604659966c9903a775b03182",
-                "shasum": null
+                "reference": "f99f4943b3f1fdab604659966c9903a775b03182"
             },
             "type": "bower-asset",
             "license": [
@@ -380,8 +378,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jashkenas/backbone/zipball/05fde9e201f7e2137796663081105cd6dad12a98",
-                "reference": "05fde9e201f7e2137796663081105cd6dad12a98",
-                "shasum": null
+                "reference": "05fde9e201f7e2137796663081105cd6dad12a98"
             },
             "require": {
                 "bower-asset/underscore": ">=1.7.0"
@@ -399,8 +396,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wyuenho/backbone-pageable/zipball/d1063263056195d2534fd7d56595c1816eec2173",
-                "reference": "d1063263056195d2534fd7d56595c1816eec2173",
-                "shasum": null
+                "reference": "d1063263056195d2534fd7d56595c1816eec2173"
             },
             "type": "bower-asset"
         },
@@ -415,8 +411,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/addyosmani/backbone.paginator/zipball/71123a819b2b0fd549da6699f4f0e46b48223025",
-                "reference": "71123a819b2b0fd549da6699f4f0e46b48223025",
-                "shasum": null
+                "reference": "71123a819b2b0fd549da6699f4f0e46b48223025"
             },
             "require": {
                 "bower-asset/backbone": ">=1.2.3,<2.0.0",
@@ -438,8 +433,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wyuenho/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
-                "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
-                "shasum": null
+                "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea"
             },
             "require": {
                 "bower-asset/backbone": "~1.2.3",
@@ -461,8 +455,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wyuenho/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
-                "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
-                "shasum": null
+                "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7"
             },
             "require": {
                 "bower-asset/backbone": ">=1.1.2,<2.0.0",
@@ -486,8 +479,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/davidchambers/Base64.js/zipball/b2d49f347ed1bce61000a82769bffc837b7c79dc",
-                "reference": "b2d49f347ed1bce61000a82769bffc837b7c79dc",
-                "shasum": null
+                "reference": "b2d49f347ed1bce61000a82769bffc837b7c79dc"
             },
             "type": "bower-asset",
             "license": [
@@ -505,8 +497,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fat/bean/zipball/0bbb3911ec2bb15333fdcf3a0a7904a1d4f62dea",
-                "reference": "0bbb3911ec2bb15333fdcf3a0a7904a1d4f62dea",
-                "shasum": null
+                "reference": "0bbb3911ec2bb15333fdcf3a0a7904a1d4f62dea"
             },
             "type": "bower-asset"
         },
@@ -521,8 +512,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/chaplinjs/downloads/zipball/9b52a254842650787341c67e82edc7758220c19f",
-                "reference": "9b52a254842650787341c67e82edc7758220c19f",
-                "shasum": null
+                "reference": "9b52a254842650787341c67e82edc7758220c19f"
             },
             "require": {
                 "bower-asset/backbone": "dev-1.x|1.x"
@@ -540,8 +530,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/brix/crypto-js/zipball/67d2e996e25e00f66118b3b8ab7f7fc8eae6e8d6",
-                "reference": "67d2e996e25e00f66118b3b8ab7f7fc8eae6e8d6",
-                "shasum": null
+                "reference": "67d2e996e25e00f66118b3b8ab7f7fc8eae6e8d6"
             },
             "type": "bower-asset",
             "license": [
@@ -559,8 +548,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jonthornton/Datepair.js/zipball/5d243d5d513c42dfc07e27db80484e91bc15b9d1",
-                "reference": "5d243d5d513c42dfc07e27db80484e91bc15b9d1",
-                "shasum": null
+                "reference": "5d243d5d513c42dfc07e27db80484e91bc15b9d1"
             },
             "type": "bower-asset",
             "license": [
@@ -578,8 +566,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/qodeboy-forks/elevatezoom/zipball/e02b7785a3598254842219b02a6208f4e29eae3a",
-                "reference": "e02b7785a3598254842219b02a6208f4e29eae3a",
-                "shasum": null
+                "reference": "e02b7785a3598254842219b02a6208f4e29eae3a"
             },
             "type": "bower-asset",
             "license": [
@@ -597,8 +584,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/HumbleSoftware/Flotr2/zipball/df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
-                "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
-                "shasum": null
+                "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5"
             },
             "type": "bower-asset",
             "time": "2014-07-21T18:45:41+00:00"
@@ -614,8 +600,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
-                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
-                "shasum": null
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
             },
             "type": "bower-asset",
             "license": [
@@ -635,8 +620,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/447ab267528a211b253058dfb5d898b7a2296492",
-                "reference": "447ab267528a211b253058dfb5d898b7a2296492",
-                "shasum": null
+                "reference": "447ab267528a211b253058dfb5d898b7a2296492"
             },
             "require": {
                 "bower-asset/jquery": ">=2,<4.0",
@@ -658,8 +642,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/krisk/Fuse/zipball/f68a18a9b94eedfc82dfc7d7def8a8966c9f5b33",
-                "reference": "f68a18a9b94eedfc82dfc7d7def8a8966c9f5b33",
-                "shasum": null
+                "reference": "f68a18a9b94eedfc82dfc7d7def8a8966c9f5b33"
             },
             "type": "bower-asset"
         },
@@ -674,8 +657,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
-                "reference": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3",
-                "shasum": null
+                "reference": "1b30f3ad466ebf2714d47eda34dbd7fdf6849fe3"
             },
             "type": "bower-asset",
             "license": [
@@ -693,8 +675,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/flydreamers/ajaxQueue/zipball/50ffe758abe1a365ad228851ee7028677bfb07b4",
-                "reference": "50ffe758abe1a365ad228851ee7028677bfb07b4",
-                "shasum": null
+                "reference": "50ffe758abe1a365ad228851ee7028677bfb07b4"
             },
             "type": "bower-asset",
             "license": [
@@ -712,8 +693,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/carhartl/jquery-cookie/zipball/7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
-                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
-                "shasum": null
+                "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718"
             },
             "require": {
                 "bower-asset/jquery": ">=1.2"
@@ -731,8 +711,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/PawelDecowski/jquery-creditcardvalidator/zipball/0a534d201566b5a63eb6dd4d1918f111ce1a5858",
-                "reference": "0a534d201566b5a63eb6dd4d1918f111ce1a5858",
-                "shasum": null
+                "reference": "0a534d201566b5a63eb6dd4d1918f111ce1a5858"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -753,8 +732,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery-form/form/zipball/c15a69251b36544cda48892c23e0dcec21fff838",
-                "reference": "c15a69251b36544cda48892c23e0dcec21fff838",
-                "shasum": null
+                "reference": "c15a69251b36544cda48892c23e0dcec21fff838"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -775,8 +753,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-mousewheel/zipball/67289b6b2aa0066d7d78a5807f520387135ffb22",
-                "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22",
-                "shasum": null
+                "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22"
             },
             "require": {
                 "bower-asset/jquery": ">=1.2.2"
@@ -794,8 +771,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ehynds/jquery-ui-multiselect-widget/zipball/a5f3e0cffa6cc1d9fcd75c5977e3185b4bd5d635",
-                "reference": "a5f3e0cffa6cc1d9fcd75c5977e3185b4bd5d635",
-                "shasum": null
+                "reference": "a5f3e0cffa6cc1d9fcd75c5977e3185b4bd5d635"
             },
             "type": "bower-asset"
         },
@@ -810,8 +786,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jzaefferer/jquery-validation/zipball/29b9c702b9c831419f9f774d2acb86f42f803e11",
-                "reference": "29b9c702b9c831419f9f774d2acb86f42f803e11",
-                "shasum": null
+                "reference": "29b9c702b9c831419f9f774d2acb86f42f803e11"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.2"
@@ -832,8 +807,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/SamWM/jquery-numeric/zipball/bb9ef0cfbddcd815d21bff6cdbae0133f85e57e9",
-                "reference": "bb9ef0cfbddcd815d21bff6cdbae0133f85e57e9",
-                "shasum": null
+                "reference": "bb9ef0cfbddcd815d21bff6cdbae0133f85e57e9"
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
@@ -854,8 +828,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sporritt/jsPlumb/zipball/b2b347b3d20a172d4f73528365bcf01ef953017c",
-                "reference": "b2b347b3d20a172d4f73528365bcf01ef953017c",
-                "shasum": null
+                "reference": "b2b347b3d20a172d4f73528365bcf01ef953017c"
             },
             "type": "bower-asset",
             "license": [
@@ -873,8 +846,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/vakata/jstree/zipball/c9d7c1425f2272c5400536fa631eba8657522ecf",
-                "reference": "c9d7c1425f2272c5400536fa631eba8657522ecf",
-                "shasum": null
+                "reference": "c9d7c1425f2272c5400536fa631eba8657522ecf"
             },
             "require": {
                 "bower-asset/jquery": ">=1.9.1"
@@ -895,8 +867,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sachinchoolur/lightGallery/zipball/7b7603e9b1bbabee2228fb8411f34ad67993c130",
-                "reference": "7b7603e9b1bbabee2228fb8411f34ad67993c130",
-                "shasum": null
+                "reference": "7b7603e9b1bbabee2228fb8411f34ad67993c130"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.0"
@@ -917,8 +888,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/moment/moment/zipball/b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378",
-                "reference": "b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378",
-                "shasum": null
+                "reference": "b8a7fc310eb3625e83fc0c8f1ea2840fa83c7378"
             },
             "type": "bower-asset",
             "license": [
@@ -936,8 +906,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/moment/moment-timezone/zipball/2b8da8f103f019949d45dc86fd6763960c8474d8",
-                "reference": "2b8da8f103f019949d45dc86fd6763960c8474d8",
-                "shasum": null
+                "reference": "2b8da8f103f019949d45dc86fd6763960c8474d8"
             },
             "require": {
                 "bower-asset/moment": ">=2.9.0"
@@ -958,8 +927,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/adamwdraper/Numeral-js/zipball/7de892ffb438af6e63b9c4f6aff0c9bc3932f09f",
-                "reference": "7de892ffb438af6e63b9c4f6aff0c9bc3932f09f",
-                "shasum": null
+                "reference": "7de892ffb438af6e63b9c4f6aff0c9bc3932f09f"
             },
             "type": "bower-asset"
         },
@@ -974,8 +942,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/PrismJS/prism/zipball/22df673c472d52fbd1f9ab2656c7186fcbc47c0b",
-                "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b",
-                "shasum": null
+                "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b"
             },
             "type": "bower-asset",
             "license": [
@@ -993,8 +960,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/select2/select2/zipball/13dc8a1ff3af6515c23dbca1ae3dcc0b0dc1b0c1",
-                "reference": "13dc8a1ff3af6515c23dbca1ae3dcc0b0dc1b0c1",
-                "shasum": null
+                "reference": "13dc8a1ff3af6515c23dbca1ae3dcc0b0dc1b0c1"
             },
             "type": "bower-asset"
         },
@@ -1009,8 +975,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/requirejs/text/zipball/d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f",
-                "reference": "d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f",
-                "shasum": null
+                "reference": "d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f"
             },
             "type": "bower-asset",
             "license": [
@@ -1028,8 +993,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jonthornton/jquery-timepicker/zipball/3f26316a6f417c77737488d763e9a9055c20d8ae",
-                "reference": "3f26316a6f417c77737488d763e9a9055c20d8ae",
-                "shasum": null
+                "reference": "3f26316a6f417c77737488d763e9a9055c20d8ae"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -1050,8 +1014,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jashkenas/underscore/zipball/ae037f7c41323807ae6f1533c45512e6d31a1574",
-                "reference": "ae037f7c41323807ae6f1533c45512e6d31a1574",
-                "shasum": null
+                "reference": "ae037f7c41323807ae6f1533c45512e6d31a1574"
             },
             "type": "bower-asset"
         },
@@ -1066,8 +1029,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/cujojs/when/zipball/a2acf1d86d150f5e9617e761b4c69c3158ed01ea",
-                "reference": "a2acf1d86d150f5e9617e761b4c69c3158ed01ea",
-                "shasum": null
+                "reference": "a2acf1d86d150f5e9617e761b4c69c3158ed01ea"
             },
             "type": "bower-asset"
         },
@@ -3714,33 +3676,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "dc784032a3f6f4e7a4b882e272b771f6fe4c37cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc784032a3f6f4e7a4b882e272b771f6fe4c37cf",
+                "reference": "dc784032a3f6f4e7a4b882e272b771f6fe4c37cf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -3777,7 +3743,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-06-30T00:37:05+00:00"
         },
         {
             "name": "hochstrasserio/wirecard",
@@ -4718,16 +4684,16 @@
         },
         {
             "name": "knplabs/knp-menu-bundle",
-            "version": "v2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/KnpMenuBundle.git",
-                "reference": "6bea43eb84fc67c43ab2b43709194efffa8a8ac0"
+                "reference": "267027582a1f1e355276f796f8da0e9f82026bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/6bea43eb84fc67c43ab2b43709194efffa8a8ac0",
-                "reference": "6bea43eb84fc67c43ab2b43709194efffa8a8ac0",
+                "url": "https://api.github.com/repos/KnpLabs/KnpMenuBundle/zipball/267027582a1f1e355276f796f8da0e9f82026bf1",
+                "reference": "267027582a1f1e355276f796f8da0e9f82026bf1",
                 "shasum": ""
             },
             "require": {
@@ -4773,7 +4739,7 @@
             "keywords": [
                 "menu"
             ],
-            "time": "2017-12-24T16:32:39+00:00"
+            "time": "2019-06-17T12:58:15+00:00"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -5830,9 +5796,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/backbone/-/backbone-1.4.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/backbone/-/backbone-1.4.0.tgz"
             },
             "require": {
                 "npm-asset/underscore": ">=1.8.3"
@@ -5847,9 +5811,7 @@
             "version": "4.3.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.3.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5861,9 +5823,7 @@
             "version": "3.4.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5875,9 +5835,7 @@
             "version": "1.12.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.12.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.12.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5889,9 +5847,7 @@
             "version": "4.3.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery.uniform/-/jquery.uniform-4.3.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/jquery.uniform/-/jquery.uniform-4.3.0.tgz"
             },
             "require": {
                 "npm-asset/jquery": ">=3.3.1,<4.0.0"
@@ -5906,9 +5862,7 @@
             "version": "1.6.3",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/overlayscrollbars/-/overlayscrollbars-1.6.3.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/overlayscrollbars/-/overlayscrollbars-1.6.3.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5920,9 +5874,7 @@
             "version": "1.14.7",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/popper.js/-/popper.js-1.14.7.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/popper.js/-/popper.js-1.14.7.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5934,9 +5886,7 @@
             "version": "2.3.3",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/requirejs/-/requirejs-2.3.3.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/requirejs/-/requirejs-2.3.3.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5948,9 +5898,7 @@
             "version": "1.6.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz"
             },
             "require": {
                 "npm-asset/jquery": ">=1.7.2"
@@ -5965,9 +5913,7 @@
             "version": "1.9.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5979,9 +5925,7 @@
             "version": "3.2.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/xregexp/-/xregexp-3.2.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/xregexp/-/xregexp-3.2.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -6113,8 +6057,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "b2afdad5c1dd9880b1e75b1758fe495556c01c83",
-                "shasum": null
+                "reference": "b2afdad5c1dd9880b1e75b1758fe495556c01c83"
             },
             "require": {
                 "bower-asset/fullcalendar": "3.4.0",
@@ -6158,8 +6101,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "a0bb2be8d540780303bf9930a8e8dbfc4793d427",
-                "shasum": null
+                "reference": "a0bb2be8d540780303bf9930a8e8dbfc4793d427"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6223,8 +6165,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "8919a005c69ca0d6a91e3ecef9ca154b8acbd0be",
-                "shasum": null
+                "reference": "8919a005c69ca0d6a91e3ecef9ca154b8acbd0be"
             },
             "require": {
                 "authorizenet/authorizenet": "~1.9.2",
@@ -6262,8 +6203,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "58b92abd2f2302d143d3fc02644f143f869057dd",
-                "shasum": null
+                "reference": "58b92abd2f2302d143d3fc02644f143f869057dd"
             },
             "require": {
                 "oro/commerce": "4.0.*",
@@ -6298,8 +6238,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "8850d27d21194ebba005657aa4c924cbb86da27d",
-                "shasum": null
+                "reference": "8850d27d21194ebba005657aa4c924cbb86da27d"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6342,8 +6281,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "5bfcdb4b7366517a41fbc6578b19298c44bb4bac",
-                "shasum": null
+                "reference": "5bfcdb4b7366517a41fbc6578b19298c44bb4bac"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0.0",
@@ -6382,8 +6320,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "b2ae51a227199eccbe9b243e7b29539cb604e54c",
-                "shasum": null
+                "reference": "b2ae51a227199eccbe9b243e7b29539cb604e54c"
             },
             "require": {
                 "oro/calendar-bundle": "4.0.*",
@@ -6442,8 +6379,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "ad98c4dfb9a839c39400ff5364b514d939dae803",
-                "shasum": null
+                "reference": "ad98c4dfb9a839c39400ff5364b514d939dae803"
             },
             "require": {
                 "oro/platform": "4.0.*"
@@ -6484,8 +6420,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "625c81b2883f53135ed01841100c126ddbe73a3b",
-                "shasum": null
+                "reference": "625c81b2883f53135ed01841100c126ddbe73a3b"
             },
             "require": {
                 "oro/crm": "4.0.*",
@@ -6524,8 +6459,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "b451e0c589271f2b5f8a753a905b5ff9bc8b8b75",
-                "shasum": null
+                "reference": "b451e0c589271f2b5f8a753a905b5ff9bc8b8b75"
             },
             "require": {
                 "oro/calendar-bundle": "4.0.*",
@@ -6569,8 +6503,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "b6cffa9178772db9b2f6cb8be8023f2d6eef1b50",
-                "shasum": null
+                "reference": "b6cffa9178772db9b2f6cb8be8023f2d6eef1b50"
             },
             "require": {
                 "oro/crm": "4.0.*"
@@ -6607,8 +6540,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "2bfc66f6da842407f9be15573bccb5546d04e980",
-                "shasum": null
+                "reference": "2bfc66f6da842407f9be15573bccb5546d04e980"
             },
             "require": {
                 "oro/platform": "4.0.*"
@@ -6649,8 +6581,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "99db3edb19bf8cbafe8560dced898791648ac3d4",
-                "shasum": null
+                "reference": "99db3edb19bf8cbafe8560dced898791648ac3d4"
             },
             "require": {
                 "oro/crm": "4.0.*"
@@ -6692,8 +6623,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "a06a53afc405acb6bea967fd81b6e1184fb27994",
-                "shasum": null
+                "reference": "a06a53afc405acb6bea967fd81b6e1184fb27994"
             },
             "require": {
                 "bower-asset/prism": "1.6.0",
@@ -6790,8 +6720,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-tag-manager",
-                "reference": "1c399d958e738bd6286b394b57a1689711d0e1d5",
-                "shasum": null
+                "reference": "1c399d958e738bd6286b394b57a1689711d0e1d5"
             },
             "require": {
                 "oro/commerce": "4.0.*"
@@ -6835,8 +6764,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "9761c575e8d98c6dac99982a8095d69d022b6a27",
-                "shasum": null
+                "reference": "9761c575e8d98c6dac99982a8095d69d022b6a27"
             },
             "require": {
                 "oro/platform": "4.0.*"
@@ -6876,8 +6804,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "26d3517035844e77d8dd0033aaa63661abd2ef22",
-                "shasum": null
+                "reference": "26d3517035844e77d8dd0033aaa63661abd2ef22"
             },
             "require": {
                 "league/oauth2-server": "7.3.*",
@@ -6922,8 +6849,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "2b589b1f111a179bbe0e118f0fe22d9682188424",
-                "shasum": null
+                "reference": "c1d58e85af81d18421482efd34a6e86a804df527"
             },
             "require": {
                 "akeneo/batch-bundle": "0.4.*",
@@ -7014,6 +6940,7 @@
                 "php": ">=7.1.26",
                 "phpdocumentor/reflection-docblock": "4.3.*",
                 "piwik/device-detector": "3.10.*",
+                "psr/container": "^1.0",
                 "robloach/component-installer": "0.2.*",
                 "sensio/distribution-bundle": "5.0.*",
                 "sensio/framework-extra-bundle": "~3.0.12",
@@ -7078,8 +7005,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "7062b4bef9b087277e5ca2fba4871f43050bea70",
-                "shasum": null
+                "reference": "7062b4bef9b087277e5ca2fba4871f43050bea70"
             },
             "require": {
                 "oro/platform": "4.0.*"
@@ -7123,8 +7049,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/redis-config",
-                "reference": "60df06f9827867e2570235099ee54f343a8bf3c8",
-                "shasum": null
+                "reference": "60df06f9827867e2570235099ee54f343a8bf3c8"
             },
             "require": {
                 "predis/predis": "~1.0",
@@ -7913,24 +7838,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -7949,7 +7874,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "react/event-loop",
@@ -8412,21 +8337,21 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.24",
+            "version": "v5.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "59eac70f15f97ee945924948a6f5e2f6f86b7a4b"
+                "reference": "80a38234bde8321fb92aa0b8c27978a272bb4baf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/59eac70f15f97ee945924948a6f5e2f6f86b7a4b",
-                "reference": "59eac70f15f97ee945924948a6f5e2f6f86b7a4b",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/80a38234bde8321fb92aa0b8c27978a272bb4baf",
+                "reference": "80a38234bde8321fb92aa0b8c27978a272bb4baf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "sensiolabs/security-checker": "~5.0",
+                "sensiolabs/security-checker": "~5.0|~6.0",
                 "symfony/class-loader": "~2.3|~3.0",
                 "symfony/config": "~2.3|~3.0",
                 "symfony/dependency-injection": "~2.3|~3.0",
@@ -8460,7 +8385,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2018-12-14T17:36:15+00:00"
+            "time": "2019-06-18T15:43:58+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -8519,22 +8444,24 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v5.0.3",
+            "version": "v6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "46be3f58adac13084497961e10eed9a7fb4d44d1"
+                "reference": "ce8d0552dcb8d3677ab9adb6d19a5837949bfec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/46be3f58adac13084497961e10eed9a7fb4d44d1",
-                "reference": "46be3f58adac13084497961e10eed9a7fb4d44d1",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/ce8d0552dcb8d3677ab9adb6d19a5837949bfec4",
+                "reference": "ce8d0552dcb8d3677ab9adb6d19a5837949bfec4",
                 "shasum": ""
             },
             "require": {
-                "composer/ca-bundle": "^1.0",
-                "php": ">=5.5.9",
-                "symfony/console": "~2.7|~3.0|~4.0"
+                "php": ">=7.1.3",
+                "symfony/console": "^2.8|^3.4|^4.2",
+                "symfony/http-client": "^4.3",
+                "symfony/mime": "^4.3",
+                "symfony/polyfill-ctype": "^1.11"
             },
             "bin": [
                 "security-checker"
@@ -8542,7 +8469,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -8561,7 +8488,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2018-12-19T17:14:59+00:00"
+            "time": "2019-06-08T06:46:26+00:00"
         },
         {
             "name": "snc/redis-bundle",
@@ -8746,6 +8673,184 @@
                 "mailer"
             ],
             "time": "2018-07-31T09:26:32+00:00"
+        },
+        {
+            "name": "symfony/http-client",
+            "version": "v4.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client.git",
+                "reference": "e903ab079c99eab322fc5c71eb63fc467cd19a2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/e903ab079c99eab322fc5c71eb63fc467cd19a2a",
+                "reference": "e903ab079c99eab322fc5c71eb63fc467cd19a2a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "psr/log": "^1.0",
+                "symfony/http-client-contracts": "^1.1.4",
+                "symfony/polyfill-php73": "^1.11"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0",
+                "symfony/http-client-implementation": "1.1"
+            },
+            "require-dev": {
+                "nyholm/psr7": "^1.0",
+                "psr/http-client": "^1.0",
+                "symfony/http-kernel": "^4.3",
+                "symfony/process": "^4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpClient\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpClient component",
+            "homepage": "https://symfony.com",
+            "time": "2019-06-26T07:29:23+00:00"
+        },
+        {
+            "name": "symfony/http-client-contracts",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client-contracts.git",
+                "reference": "e1924aea9c70ae3e69fff05afa3cb8ce541bf3bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/e1924aea9c70ae3e69fff05afa3cb8ce541bf3bb",
+                "reference": "e1924aea9c70ae3e69fff05afa3cb8ce541bf3bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "suggest": {
+                "symfony/http-client-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\HttpClient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to HTTP clients",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2019-06-17T17:43:54+00:00"
+        },
+        {
+            "name": "symfony/mime",
+            "version": "v4.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mime.git",
+                "reference": "ec2c5565de60e03f33d4296a655e3273f0ad1f8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/ec2c5565de60e03f33d4296a655e3273f0ad1f8b",
+                "reference": "ec2c5565de60e03f33d4296a655e3273f0ad1f8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-intl-idn": "^1.10",
+                "symfony/polyfill-mbstring": "^1.0"
+            },
+            "require-dev": {
+                "egulias/email-validator": "^2.0",
+                "symfony/dependency-injection": "~3.4|^4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Mime\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A library to manipulate MIME messages",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "mime",
+                "mime-type"
+            ],
+            "time": "2019-06-04T09:22:54+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -8983,6 +9088,68 @@
             "time": "2019-01-07T19:39:47+00:00"
         },
         {
+            "name": "symfony/polyfill-intl-idn",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/polyfill-mbstring": "^1.3",
+                "symfony/polyfill-php72": "^1.9"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Laurent Bassin",
+                    "email": "laurent@bassin.info"
+                }
+            ],
+            "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "idn",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-03-04T13:44:35+00:00"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.11.0",
             "source": {
@@ -9147,6 +9314,119 @@
                 }
             ],
             "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
+                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
             "homepage": "https://symfony.com",
             "keywords": [
                 "compatibility",
@@ -9764,16 +10044,16 @@
         },
         {
             "name": "ua-parser/uap-php",
-            "version": "v3.8.8",
+            "version": "v3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ua-parser/uap-php.git",
-                "reference": "3004c494d204c3b6d5e1e80a4ff78e4025e24e2f"
+                "reference": "c7627a8527d7efefad4e8ec593d4a195b9163260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/3004c494d204c3b6d5e1e80a4ff78e4025e24e2f",
-                "reference": "3004c494d204c3b6d5e1e80a4ff78e4025e24e2f",
+                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/c7627a8527d7efefad4e8ec593d4a195b9163260",
+                "reference": "c7627a8527d7efefad4e8ec593d4a195b9163260",
                 "shasum": ""
             },
             "require": {
@@ -9817,7 +10097,7 @@
                 }
             ],
             "description": "A multi-language port of Browserscope's user agent parser.",
-            "time": "2019-03-19T09:54:19+00:00"
+            "time": "2019-06-22T08:54:17+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -11192,8 +11472,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../documentation/commerce/code_examples",
-                "reference": "3a02c9a989db58b3f1c5569441bafced933e2da9",
-                "shasum": null
+                "reference": "540f0b28f87a0d1de05a0ea135df64df822cc179"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -11203,7 +11482,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "ACME\\Bundle\\CollectOnDeliveryBundle\\": "payment_method/collect-on-delivery/"
+                    "ACME\\Bundle\\CollectOnDeliveryBundle\\": "payment_method/collect-on-delivery/",
+                    "ACME\\Bundle\\FastShippingBundle\\": "shipping_method/fast-shipping/"
                 }
             },
             "license": [
@@ -11228,8 +11508,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../documentation/crm/code_examples",
-                "reference": "6e9214c31e40af32fdb3b59aba61480783acde8d",
-                "shasum": null
+                "reference": "6e9214c31e40af32fdb3b59aba61480783acde8d"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -11259,8 +11538,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../documentation/platform/code_examples",
-                "reference": "7e5d2fbac14a23d2ae5ad9c920fd8159b4c377a4",
-                "shasum": null
+                "reference": "7e5d2fbac14a23d2ae5ad9c920fd8159b4c377a4"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -11290,8 +11568,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/twig-inspector",
-                "reference": "c23ff1f0ac92b5a8aaa15823a15dc404372ff660",
-                "shasum": null
+                "reference": "c23ff1f0ac92b5a8aaa15823a15dc404372ff660"
             },
             "require": {
                 "symfony/config": "^3.4 | ^4.0",
@@ -12855,16 +13132,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.28",
+            "version": "v3.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97"
+                "reference": "521489968e58dcdb8df153436cc18349737e49e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/a43a2f6c465a2d99635fea0addbebddc3864ad97",
-                "reference": "a43a2f6c465a2d99635fea0addbebddc3864ad97",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/521489968e58dcdb8df153436cc18349737e49e3",
+                "reference": "521489968e58dcdb8df153436cc18349737e49e3",
                 "shasum": ""
             },
             "require": {
@@ -12916,62 +13193,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2019-04-16T09:03:16+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php72",
-            "version": "v1.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.11-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-06-26T10:03:25+00:00"
         },
         {
             "name": "theseer/fdomdocument",
