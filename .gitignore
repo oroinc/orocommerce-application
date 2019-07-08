@@ -41,7 +41,6 @@ phpunit.xml
 bin/*
 !bin/console
 !bin/dist
-/var/SymfonyRequirements.php
 /public/sitemaps
 /public/uploads/behat
 /.web-server-pid
