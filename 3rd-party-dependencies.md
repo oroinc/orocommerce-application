@@ -111,7 +111,6 @@
 |[league/oauth2-server](https://github.com/thephpleague/oauth2-server.git)|MIT|
 |[lexik/maintenance-bundle](https://github.com/lexik/LexikMaintenanceBundle.git)|MIT|
 |[liip/imagine-bundle](https://github.com/liip/LiipImagineBundle.git)|MIT|
-|[liuggio/excelbundle](https://github.com/liuggio/ExcelBundle.git)|MIT|
 |[michelf/php-markdown](https://github.com/michelf/php-markdown.git)|BSD-3-Clause|
 |[monolog/monolog](https://github.com/Seldaek/monolog.git)|MIT|
 |[mtdowling/cron-expression](https://github.com/mtdowling/cron-expression.git)|MIT|

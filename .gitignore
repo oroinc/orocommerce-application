@@ -20,6 +20,7 @@ behat.yml
 /var/import_export/*
 !var/import_export/.gitkeep
 !var/oro-check.php
+!var/SymfonyRequirements.php
 !var/OroRequirements.php
 /build/logs/*
 /vendor
@@ -40,7 +41,6 @@ phpunit.xml
 bin/*
 !bin/console
 !bin/dist
-/var/SymfonyRequirements.php
 /public/sitemaps
 /public/uploads/behat
 /.web-server-pid
