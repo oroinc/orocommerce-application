@@ -11,7 +11,7 @@ use Oro\Bundle\AssetBundle\NodeJsVersionChecker;
 use Oro\Component\PhpUtils\ArrayUtil;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Intl\Intl;
-use Symfony\Component\Process\ProcessBuilder;
+use Symfony\Component\Process\Process;
 use Symfony\Component\Yaml\Yaml;
 
 /**
@@ -439,8 +439,7 @@ class OroRequirements extends SymfonyRequirements
      */
     protected function checkFileNameLength()
     {
-        $getConf = new ProcessBuilder(array('getconf', 'NAME_MAX', __DIR__));
-        $getConf = $getConf->getProcess();
+        $getConf = new Process(['getconf', 'NAME_MAX', __DIR__]);
 
         if (isset($_SERVER['PATH'])) {
             $getConf->setEnv(array('PATH' => $_SERVER['PATH']));
