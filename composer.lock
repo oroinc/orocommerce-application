@@ -1802,16 +1802,16 @@
         },
         {
             "name": "doctrine/data-fixtures",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "3a1e2c3c600e615a2dffe56d4ca0875cc5233e0a"
+                "reference": "09b16943b27f3d80d63988d100ff256148c2f78b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/3a1e2c3c600e615a2dffe56d4ca0875cc5233e0a",
-                "reference": "3a1e2c3c600e615a2dffe56d4ca0875cc5233e0a",
+                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/09b16943b27f3d80d63988d100ff256148c2f78b",
+                "reference": "09b16943b27f3d80d63988d100ff256148c2f78b",
                 "shasum": ""
             },
             "require": {
@@ -1858,7 +1858,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2018-03-20T09:06:36+00:00"
+            "time": "2019-07-10T18:30:35+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -5658,16 +5658,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "3.1.9",
+            "version": "3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "eab1a9eda7441ccf73f01c5381333e6eda9cb826"
+                "reference": "03455c8ef53705486a127b8210b257e22dd20a80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/eab1a9eda7441ccf73f01c5381333e6eda9cb826",
-                "reference": "eab1a9eda7441ccf73f01c5381333e6eda9cb826",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/03455c8ef53705486a127b8210b257e22dd20a80",
+                "reference": "03455c8ef53705486a127b8210b257e22dd20a80",
                 "shasum": ""
             },
             "require": {
@@ -5727,20 +5727,20 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/3.1",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2019-06-26T17:24:02+00:00"
+            "time": "2019-07-26T13:57:14+00:00"
         },
         {
             "name": "oro/commerce-crm",
-            "version": "3.1.7",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce-orocrm.git",
-                "reference": "28bb47c722d63c56262c6bcc64e8853956573456"
+                "reference": "f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/28bb47c722d63c56262c6bcc64e8853956573456",
-                "reference": "28bb47c722d63c56262c6bcc64e8853956573456",
+                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a",
+                "reference": "f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a",
                 "shasum": ""
             },
             "require": {
@@ -5772,20 +5772,20 @@
             "support": {
                 "source": "https://github.com/oroinc/orocommerce-orocrm/tree/3.1"
             },
-            "time": "2019-06-03T09:37:28+00:00"
+            "time": "2019-07-22T09:57:28+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "3.1.9",
+            "version": "3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "fac8e3d1f1b3b716e29bcb3d3c16b83ddd4d3783"
+                "reference": "529f44768bcb556ee05549f9a92d07a7404d1921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/fac8e3d1f1b3b716e29bcb3d3c16b83ddd4d3783",
-                "reference": "fac8e3d1f1b3b716e29bcb3d3c16b83ddd4d3783",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/529f44768bcb556ee05549f9a92d07a7404d1921",
+                "reference": "529f44768bcb556ee05549f9a92d07a7404d1921",
                 "shasum": ""
             },
             "require": {
@@ -5840,20 +5840,20 @@
                 "source": "https://github.com/oroinc/crm/tree/3.1",
                 "issues": "https://github.com/oroinc/crm/issues"
             },
-            "time": "2019-06-26T17:17:58+00:00"
+            "time": "2019-07-22T09:49:33+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
-            "version": "3.1.6",
+            "version": "3.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMCallBundle.git",
-                "reference": "9e7d42b66ef27c9ec66e7173f1b83bcbf9829ba2"
+                "reference": "55c35be353d9000b7459a0f0c7709f8c938cb89f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMCallBundle/zipball/9e7d42b66ef27c9ec66e7173f1b83bcbf9829ba2",
-                "reference": "9e7d42b66ef27c9ec66e7173f1b83bcbf9829ba2",
+                "url": "https://api.github.com/repos/oroinc/OroCRMCallBundle/zipball/55c35be353d9000b7459a0f0c7709f8c938cb89f",
+                "reference": "55c35be353d9000b7459a0f0c7709f8c938cb89f",
                 "shasum": ""
             },
             "require": {
@@ -5892,7 +5892,7 @@
                 "source": "https://github.com/oroinc/OroCRMCallBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCRMCallBundle/issues"
             },
-            "time": "2019-06-03T09:33:01+00:00"
+            "time": "2019-07-22T09:51:40+00:00"
         },
         {
             "name": "oro/crm-dotmailer",
@@ -6154,16 +6154,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "3.1.9",
+            "version": "3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "f3378e56807f8ed499c2bda528d82d3b30748230"
+                "reference": "e9f86068b35d344eb10220a168d768b4168f888a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/f3378e56807f8ed499c2bda528d82d3b30748230",
-                "reference": "f3378e56807f8ed499c2bda528d82d3b30748230",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/e9f86068b35d344eb10220a168d768b4168f888a",
+                "reference": "e9f86068b35d344eb10220a168d768b4168f888a",
                 "shasum": ""
             },
             "require": {
@@ -6203,7 +6203,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/3.1",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2019-06-26T17:21:24+00:00"
+            "time": "2019-07-22T09:53:13+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6262,16 +6262,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "3.1.7",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMMarketingBundle.git",
-                "reference": "2a50bc03f1970a0290e85ceda39a5b4f9a128799"
+                "reference": "b393752bdb7c0f650a88485c4fe935c32cf454cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/2a50bc03f1970a0290e85ceda39a5b4f9a128799",
-                "reference": "2a50bc03f1970a0290e85ceda39a5b4f9a128799",
+                "url": "https://api.github.com/repos/oroinc/OroCRMMarketingBundle/zipball/b393752bdb7c0f650a88485c4fe935c32cf454cf",
+                "reference": "b393752bdb7c0f650a88485c4fe935c32cf454cf",
                 "shasum": ""
             },
             "require": {
@@ -6308,20 +6308,20 @@
             "support": {
                 "source": "https://github.com/oroinc/OroCRMMarketingBundle/tree/3.1"
             },
-            "time": "2019-06-03T09:33:21+00:00"
+            "time": "2019-07-22T09:51:56+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "3.1.9",
+            "version": "3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "fdd175c7e72d297c39cd92799893e9a6fbe9728e"
+                "reference": "43e794fb2a9b3f3b47dc09dd2e120618de15faa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/fdd175c7e72d297c39cd92799893e9a6fbe9728e",
-                "reference": "fdd175c7e72d297c39cd92799893e9a6fbe9728e",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/43e794fb2a9b3f3b47dc09dd2e120618de15faa0",
+                "reference": "43e794fb2a9b3f3b47dc09dd2e120618de15faa0",
                 "shasum": ""
             },
             "require": {
@@ -6432,12 +6432,15 @@
                 "behat/mink-extension": "2.3.*",
                 "behat/mink-selenium2-driver": "1.*",
                 "behat/symfony2-extension": "2.1.*",
-                "johnkary/phpunit-speedtrap": "1.0.*",
-                "mybuilder/phpunit-accelerator": "1.2.*",
+                "friendsofphp/php-cs-fixer": "2.12.*",
+                "johnkary/phpunit-speedtrap": "2.0.*",
+                "mybuilder/phpunit-accelerator": "2.*",
                 "nelmio/alice": "2.3.*",
                 "phpmd/phpmd": "2.6.*",
+                "phpunit/phpunit": "6.5.*",
                 "sensio/generator-bundle": "3.1.*",
-                "squizlabs/php_codesniffer": "3.3.*"
+                "squizlabs/php_codesniffer": "3.3.*",
+                "symfony/phpunit-bridge": "3.4.*"
             },
             "type": "library",
             "extra": {
@@ -6468,7 +6471,7 @@
                 "source": "https://github.com/oroinc/platform/tree/3.1",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2019-06-26T17:17:39+00:00"
+            "time": "2019-07-26T13:48:36+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7937,7 +7940,7 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
@@ -8169,16 +8172,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "e903ab079c99eab322fc5c71eb63fc467cd19a2a"
+                "reference": "7759fabfbdf7f57a1d29655550b49c4ff04891a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/e903ab079c99eab322fc5c71eb63fc467cd19a2a",
-                "reference": "e903ab079c99eab322fc5c71eb63fc467cd19a2a",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/7759fabfbdf7f57a1d29655550b49c4ff04891a5",
+                "reference": "7759fabfbdf7f57a1d29655550b49c4ff04891a5",
                 "shasum": ""
             },
             "require": {
@@ -8227,7 +8230,7 @@
             ],
             "description": "Symfony HttpClient component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-26T07:29:23+00:00"
+            "time": "2019-07-24T10:16:23+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -8288,16 +8291,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "ec2c5565de60e03f33d4296a655e3273f0ad1f8b"
+                "reference": "6b7148029b1dd5eda1502064f06d01357b7b2d8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/ec2c5565de60e03f33d4296a655e3273f0ad1f8b",
-                "reference": "ec2c5565de60e03f33d4296a655e3273f0ad1f8b",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/6b7148029b1dd5eda1502064f06d01357b7b2d8b",
+                "reference": "6b7148029b1dd5eda1502064f06d01357b7b2d8b",
                 "shasum": ""
             },
             "require": {
@@ -8343,7 +8346,7 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2019-06-04T09:22:54+00:00"
+            "time": "2019-07-19T16:21:19+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -9471,16 +9474,16 @@
         },
         {
             "name": "ua-parser/uap-php",
-            "version": "v3.9.0",
+            "version": "v3.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ua-parser/uap-php.git",
-                "reference": "c7627a8527d7efefad4e8ec593d4a195b9163260"
+                "reference": "2b7130ce5030a880e9d6c4d8463fd181dfd94711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/c7627a8527d7efefad4e8ec593d4a195b9163260",
-                "reference": "c7627a8527d7efefad4e8ec593d4a195b9163260",
+                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/2b7130ce5030a880e9d6c4d8463fd181dfd94711",
+                "reference": "2b7130ce5030a880e9d6c4d8463fd181dfd94711",
                 "shasum": ""
             },
             "require": {
@@ -9524,7 +9527,7 @@
                 }
             ],
             "description": "A multi-language port of Browserscope's user agent parser.",
-            "time": "2019-06-22T08:54:17+00:00"
+            "time": "2019-07-15T14:27:12+00:00"
         },
         {
             "name": "vakata/jstree",
@@ -11140,16 +11143,16 @@
         },
         {
             "name": "phpmd/phpmd",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpmd/phpmd.git",
-                "reference": "4e9924b2c157a3eb64395460fcf56b31badc8374"
+                "reference": "7425e155cf22cdd2b4dd3458a7da4cf6c0201562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/4e9924b2c157a3eb64395460fcf56b31badc8374",
-                "reference": "4e9924b2c157a3eb64395460fcf56b31badc8374",
+                "url": "https://api.github.com/repos/phpmd/phpmd/zipball/7425e155cf22cdd2b4dd3458a7da4cf6c0201562",
+                "reference": "7425e155cf22cdd2b4dd3458a7da4cf6c0201562",
                 "shasum": ""
             },
             "require": {
@@ -11177,20 +11180,20 @@
             "authors": [
                 {
                     "name": "Manuel Pichler",
+                    "role": "Project Founder",
                     "email": "github@manuel-pichler.de",
-                    "homepage": "https://github.com/manuelpichler",
-                    "role": "Project Founder"
+                    "homepage": "https://github.com/manuelpichler"
                 },
                 {
                     "name": "Other contributors",
-                    "homepage": "https://github.com/phpmd/phpmd/graphs/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://github.com/phpmd/phpmd/graphs/contributors"
                 },
                 {
                     "name": "Marc Würth",
+                    "role": "Project Maintainer",
                     "email": "ravage@bluewin.ch",
-                    "homepage": "https://github.com/ravage84",
-                    "role": "Project Maintainer"
+                    "homepage": "https://github.com/ravage84"
                 }
             ],
             "description": "PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD.",
@@ -11202,7 +11205,7 @@
                 "phpmd",
                 "pmd"
             ],
-            "time": "2017-01-20T14:41:10+00:00"
+            "time": "2019-07-05T23:07:02+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -12466,16 +12469,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.29",
+            "version": "v3.4.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "521489968e58dcdb8df153436cc18349737e49e3"
+                "reference": "8f1f27c186496128b861810809c27d956d342417"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/521489968e58dcdb8df153436cc18349737e49e3",
-                "reference": "521489968e58dcdb8df153436cc18349737e49e3",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/8f1f27c186496128b861810809c27d956d342417",
+                "reference": "8f1f27c186496128b861810809c27d956d342417",
                 "shasum": ""
             },
             "require": {
@@ -12527,7 +12530,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2019-06-26T10:03:25+00:00"
+            "time": "2019-07-05T06:33:19+00:00"
         },
         {
             "name": "theseer/fdomdocument",
