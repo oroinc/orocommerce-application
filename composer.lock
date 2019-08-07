@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "31bd855052a59c8e2f16e8609d04c8ef",
+    "content-hash": "fbe29d3829be8a21d8476944b5a3ec3d",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -1222,25 +1222,25 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.4",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d"
+                "reference": "f26a67e397be0e5c00d7c52ec7b5010098e15ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
-                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/f26a67e397be0e5c00d7c52ec7b5010098e15ce5",
+                "reference": "f26a67e397be0e5c00d7c52ec7b5010098e15ce5",
                 "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
                 "ext-pcre": "*",
-                "php": "^5.3.2 || ^7.0"
+                "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
                 "psr/log": "^1.0",
                 "symfony/process": "^2.5 || ^3.0 || ^4.0"
             },
@@ -1274,7 +1274,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2019-01-28T09:30:10+00:00"
+            "time": "2019-08-02T09:05:43+00:00"
         },
         {
             "name": "composer/composer",
@@ -1420,16 +1420,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d"
+                "reference": "7ac1e6aec371357df067f8a688c3d6974df68fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
-                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7ac1e6aec371357df067f8a688c3d6974df68fa5",
+                "reference": "7ac1e6aec371357df067f8a688c3d6974df68fa5",
                 "shasum": ""
             },
             "require": {
@@ -1476,7 +1476,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2019-03-26T10:23:26+00:00"
+            "time": "2019-07-29T10:31:59+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -5603,16 +5603,16 @@
         },
         {
             "name": "oro/calendar-bundle",
-            "version": "3.1.9",
+            "version": "3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCalendarBundle.git",
-                "reference": "08621fd4af2d0463ea5293810a17123980ee3c0b"
+                "reference": "ecbc8f9275721e7c8fa286b2ddb277eabdaadb5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCalendarBundle/zipball/08621fd4af2d0463ea5293810a17123980ee3c0b",
-                "reference": "08621fd4af2d0463ea5293810a17123980ee3c0b",
+                "url": "https://api.github.com/repos/oroinc/OroCalendarBundle/zipball/ecbc8f9275721e7c8fa286b2ddb277eabdaadb5a",
+                "reference": "ecbc8f9275721e7c8fa286b2ddb277eabdaadb5a",
                 "shasum": ""
             },
             "require": {
@@ -5654,20 +5654,20 @@
                 "source": "https://github.com/oroinc/OroCalendarBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCalendarBundle/issues"
             },
-            "time": "2019-06-26T17:19:21+00:00"
+            "time": "2019-08-02T17:48:44+00:00"
         },
         {
             "name": "oro/commerce",
-            "version": "3.1.10",
+            "version": "3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "03455c8ef53705486a127b8210b257e22dd20a80"
+                "reference": "817d4460440b57a3b443033e045ad00b11bfae3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/03455c8ef53705486a127b8210b257e22dd20a80",
-                "reference": "03455c8ef53705486a127b8210b257e22dd20a80",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/817d4460440b57a3b443033e045ad00b11bfae3f",
+                "reference": "817d4460440b57a3b443033e045ad00b11bfae3f",
                 "shasum": ""
             },
             "require": {
@@ -5700,6 +5700,9 @@
             },
             "type": "library",
             "extra": {
+                "symfony": {
+                    "require": "3.4.*"
+                },
                 "branch-alias": {
                     "dev-master": "3.1-dev"
                 }
@@ -5727,20 +5730,20 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/3.1",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2019-07-26T13:57:14+00:00"
+            "time": "2019-08-02T17:54:37+00:00"
         },
         {
             "name": "oro/commerce-crm",
-            "version": "3.1.8",
+            "version": "3.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce-orocrm.git",
-                "reference": "f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a"
+                "reference": "99ecfe38aea3b0f60b95246c5207cfd46b1d0327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a",
-                "reference": "f7b99eb1041ecbaef59d1cb8f97a0d6ed897e11a",
+                "url": "https://api.github.com/repos/oroinc/orocommerce-orocrm/zipball/99ecfe38aea3b0f60b95246c5207cfd46b1d0327",
+                "reference": "99ecfe38aea3b0f60b95246c5207cfd46b1d0327",
                 "shasum": ""
             },
             "require": {
@@ -5772,20 +5775,20 @@
             "support": {
                 "source": "https://github.com/oroinc/orocommerce-orocrm/tree/3.1"
             },
-            "time": "2019-07-22T09:57:28+00:00"
+            "time": "2019-08-02T17:54:47+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "3.1.10",
+            "version": "3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "529f44768bcb556ee05549f9a92d07a7404d1921"
+                "reference": "946e31708b8d0d31b0efc05cc5c732fad6dedd91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/529f44768bcb556ee05549f9a92d07a7404d1921",
-                "reference": "529f44768bcb556ee05549f9a92d07a7404d1921",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/946e31708b8d0d31b0efc05cc5c732fad6dedd91",
+                "reference": "946e31708b8d0d31b0efc05cc5c732fad6dedd91",
                 "shasum": ""
             },
             "require": {
@@ -5813,6 +5816,9 @@
             },
             "type": "library",
             "extra": {
+                "symfony": {
+                    "require": "3.4.*"
+                },
                 "branch-alias": {
                     "dev-master": "3.1-dev"
                 }
@@ -5840,7 +5846,7 @@
                 "source": "https://github.com/oroinc/crm/tree/3.1",
                 "issues": "https://github.com/oroinc/crm/issues"
             },
-            "time": "2019-07-22T09:49:33+00:00"
+            "time": "2019-08-02T17:46:36+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -5896,16 +5902,16 @@
         },
         {
             "name": "oro/crm-dotmailer",
-            "version": "3.1.7",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMDotmailerBundle.git",
-                "reference": "1c82bb998696b35b1f65bd3f7382db003c323ba7"
+                "reference": "3fce5df1f0d16dd7eb4f3e77188de2b58dfc83b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMDotmailerBundle/zipball/1c82bb998696b35b1f65bd3f7382db003c323ba7",
-                "reference": "1c82bb998696b35b1f65bd3f7382db003c323ba7",
+                "url": "https://api.github.com/repos/oroinc/OroCRMDotmailerBundle/zipball/3fce5df1f0d16dd7eb4f3e77188de2b58dfc83b8",
+                "reference": "3fce5df1f0d16dd7eb4f3e77188de2b58dfc83b8",
                 "shasum": ""
             },
             "require": {
@@ -5942,7 +5948,7 @@
                 "source": "https://github.com/oroinc/OroCRMDotmailerBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCRMDotmailerBundle/issues"
             },
-            "time": "2019-06-03T09:32:31+00:00"
+            "time": "2019-07-30T16:51:18+00:00"
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
@@ -6154,16 +6160,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "3.1.10",
+            "version": "3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "e9f86068b35d344eb10220a168d768b4168f888a"
+                "reference": "136c5876214e612dd5bf47c8e4a74a9d45245549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/e9f86068b35d344eb10220a168d768b4168f888a",
-                "reference": "e9f86068b35d344eb10220a168d768b4168f888a",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/136c5876214e612dd5bf47c8e4a74a9d45245549",
+                "reference": "136c5876214e612dd5bf47c8e4a74a9d45245549",
                 "shasum": ""
             },
             "require": {
@@ -6203,7 +6209,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/3.1",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2019-07-22T09:53:13+00:00"
+            "time": "2019-08-02T17:51:07+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6312,16 +6318,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "3.1.10",
+            "version": "3.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "43e794fb2a9b3f3b47dc09dd2e120618de15faa0"
+                "reference": "745cb1bd9e59381efd418ebd9ff35626b7bfd15f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/43e794fb2a9b3f3b47dc09dd2e120618de15faa0",
-                "reference": "43e794fb2a9b3f3b47dc09dd2e120618de15faa0",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/745cb1bd9e59381efd418ebd9ff35626b7bfd15f",
+                "reference": "745cb1bd9e59381efd418ebd9ff35626b7bfd15f",
                 "shasum": ""
             },
             "require": {
@@ -6444,6 +6450,9 @@
             },
             "type": "library",
             "extra": {
+                "symfony": {
+                    "require": "3.4.*"
+                },
                 "branch-alias": {
                     "dev-master": "3.1-dev"
                 }
@@ -6471,7 +6480,7 @@
                 "source": "https://github.com/oroinc/platform/tree/3.1",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2019-07-26T13:48:36+00:00"
+            "time": "2019-08-02T17:46:15+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -8413,16 +8422,16 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "a502face1da6a53289480166f24de2c3c68e5c3c"
+                "reference": "71ce80635d5dcd67772b4dda00b86068595f64d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/a502face1da6a53289480166f24de2c3c68e5c3c",
-                "reference": "a502face1da6a53289480166f24de2c3c68e5c3c",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/71ce80635d5dcd67772b4dda00b86068595f64d5",
+                "reference": "71ce80635d5dcd67772b4dda00b86068595f64d5",
                 "shasum": ""
             },
             "require": {
@@ -8431,7 +8440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8465,20 +8474,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "82ebae02209c21113908c229e9883c419720738a"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
-                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -8490,7 +8499,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8507,12 +8516,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
                 },
                 {
-                    "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -8523,25 +8532,25 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "999878a3a09d73cae157b0cf89bb6fb2cc073057"
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/999878a3a09d73cae157b0cf89bb6fb2cc073057",
-                "reference": "999878a3a09d73cae157b0cf89bb6fb2cc073057",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/66810b9d6eb4af54d543867909d65ab9af654d7e",
+                "reference": "66810b9d6eb4af54d543867909d65ab9af654d7e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/intl": "~2.3|~3.0|~4.0"
+                "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -8549,7 +8558,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8581,20 +8590,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-01-07T19:39:47+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af"
+                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c766e95bec706cdd89903b1eda8afab7d7a6b7af",
-                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
+                "reference": "6af626ae6fa37d396dc90a399c0ff08e5cfc45b2",
                 "shasum": ""
             },
             "require": {
@@ -8608,7 +8617,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8625,12 +8634,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Laurent Bassin",
                     "email": "laurent@bassin.info"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
@@ -8643,20 +8652,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-03-04T13:44:35+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
                 "shasum": ""
             },
             "require": {
@@ -8668,7 +8677,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8702,20 +8711,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42"
+                "reference": "0e3b212e96a51338639d8ce175c046d7729c3403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
-                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/0e3b212e96a51338639d8ce175c046d7729c3403",
+                "reference": "0e3b212e96a51338639d8ce175c046d7729c3403",
                 "shasum": ""
             },
             "require": {
@@ -8725,7 +8734,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8758,20 +8767,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "bc4858fb611bda58719124ca079baff854149c89"
+                "reference": "54b4c428a0054e254223797d2713c31e08610831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/bc4858fb611bda58719124ca079baff854149c89",
-                "reference": "bc4858fb611bda58719124ca079baff854149c89",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/54b4c428a0054e254223797d2713c31e08610831",
+                "reference": "54b4c428a0054e254223797d2713c31e08610831",
                 "shasum": ""
             },
             "require": {
@@ -8781,7 +8790,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8817,20 +8826,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
+                "reference": "04ce3335667451138df4307d6a9b61565560199e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/04ce3335667451138df4307d6a9b61565560199e",
+                "reference": "04ce3335667451138df4307d6a9b61565560199e",
                 "shasum": ""
             },
             "require": {
@@ -8839,7 +8848,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8872,20 +8881,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd"
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
-                "reference": "d1fb4abcc0c47be136208ad9d68bf59f1ee17abd",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188",
                 "shasum": ""
             },
             "require": {
@@ -8894,7 +8903,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8930,20 +8939,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897"
+                "reference": "4317de1386717b4c22caed7725350a8887ab205c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/b46c6cae28a3106735323f00a0c38eccf2328897",
-                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/4317de1386717b4c22caed7725350a8887ab205c",
+                "reference": "4317de1386717b4c22caed7725350a8887ab205c",
                 "shasum": ""
             },
             "require": {
@@ -8952,7 +8961,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -8982,7 +8991,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2019-02-08T14:16:39+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/security-acl",
