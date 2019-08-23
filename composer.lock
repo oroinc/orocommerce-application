@@ -540,7 +540,8 @@
                 "url": "https://api.github.com/repos/HumbleSoftware/Flotr2/zipball/df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5"
             },
-            "type": "bower-asset"
+            "type": "bower-asset",
+            "time": "2014-07-21T18:45:41+00:00"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -3237,8 +3238,8 @@
             "authors": [
                 {
                     "name": "Chris Boden",
-                    "email": "cboden@gmail.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "cboden@gmail.com"
                 }
             ],
             "description": "PHP WebSocket library",
@@ -4867,7 +4868,7 @@
             "time": "2017-09-09T03:53:30+00:00"
         },
         {
-            "name": "liuggio/ExcelBundle",
+            "name": "liuggio/excelbundle",
             "version": "v2.1.0",
             "source": {
                 "type": "git",
@@ -4962,9 +4963,9 @@
             "authors": [
                 {
                     "name": "Michel Fortin",
+                    "role": "Developer",
                     "email": "michel.fortin@michelf.ca",
-                    "homepage": "https://michelf.ca/",
-                    "role": "Developer"
+                    "homepage": "https://michelf.ca/"
                 },
                 {
                     "name": "John Gruber",
@@ -5658,16 +5659,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "3.1.11",
+            "version": "3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "817d4460440b57a3b443033e045ad00b11bfae3f"
+                "reference": "77089428dfad793abea65ad3b47b73ee5ef21713"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/817d4460440b57a3b443033e045ad00b11bfae3f",
-                "reference": "817d4460440b57a3b443033e045ad00b11bfae3f",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/77089428dfad793abea65ad3b47b73ee5ef21713",
+                "reference": "77089428dfad793abea65ad3b47b73ee5ef21713",
                 "shasum": ""
             },
             "require": {
@@ -5730,7 +5731,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/3.1",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2019-08-02T17:54:37+00:00"
+            "time": "2019-08-21T17:34:16+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -5779,16 +5780,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "3.1.11",
+            "version": "3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/crm.git",
-                "reference": "946e31708b8d0d31b0efc05cc5c732fad6dedd91"
+                "reference": "4dc8c89b35a8598b9e369521b3905f837dd7be00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/crm/zipball/946e31708b8d0d31b0efc05cc5c732fad6dedd91",
-                "reference": "946e31708b8d0d31b0efc05cc5c732fad6dedd91",
+                "url": "https://api.github.com/repos/oroinc/crm/zipball/4dc8c89b35a8598b9e369521b3905f837dd7be00",
+                "reference": "4dc8c89b35a8598b9e369521b3905f837dd7be00",
                 "shasum": ""
             },
             "require": {
@@ -5846,7 +5847,7 @@
                 "source": "https://github.com/oroinc/crm/tree/3.1",
                 "issues": "https://github.com/oroinc/crm/issues"
             },
-            "time": "2019-08-02T17:46:36+00:00"
+            "time": "2019-08-21T17:28:21+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -6055,16 +6056,16 @@
         },
         {
             "name": "oro/crm-task-bundle",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/OroCRMTaskBundle.git",
-                "reference": "197212ffd110600c266b29693ca356ace493e3b7"
+                "reference": "ac878a4cf10d48dda0f7f3986d59fece458d1499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/OroCRMTaskBundle/zipball/197212ffd110600c266b29693ca356ace493e3b7",
-                "reference": "197212ffd110600c266b29693ca356ace493e3b7",
+                "url": "https://api.github.com/repos/oroinc/OroCRMTaskBundle/zipball/ac878a4cf10d48dda0f7f3986d59fece458d1499",
+                "reference": "ac878a4cf10d48dda0f7f3986d59fece458d1499",
                 "shasum": ""
             },
             "require": {
@@ -6103,7 +6104,7 @@
                 "source": "https://github.com/oroinc/OroCRMTaskBundle/tree/3.1",
                 "issues": "https://github.com/oroinc/OroCRMTaskBundle/issues"
             },
-            "time": "2019-04-17T09:46:12+00:00"
+            "time": "2019-08-21T17:30:29+00:00"
         },
         {
             "name": "oro/crm-zendesk",
@@ -6160,16 +6161,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "3.1.11",
+            "version": "3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "136c5876214e612dd5bf47c8e4a74a9d45245549"
+                "reference": "3b72745d316c313558f7919bcea24829b79c9391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/136c5876214e612dd5bf47c8e4a74a9d45245549",
-                "reference": "136c5876214e612dd5bf47c8e4a74a9d45245549",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/3b72745d316c313558f7919bcea24829b79c9391",
+                "reference": "3b72745d316c313558f7919bcea24829b79c9391",
                 "shasum": ""
             },
             "require": {
@@ -6209,7 +6210,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/3.1",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2019-08-02T17:51:07+00:00"
+            "time": "2019-08-21T17:31:31+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6318,16 +6319,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "3.1.11",
+            "version": "3.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "745cb1bd9e59381efd418ebd9ff35626b7bfd15f"
+                "reference": "8f567a51b2f5e274a4977dfa541902bd095ff2b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/745cb1bd9e59381efd418ebd9ff35626b7bfd15f",
-                "reference": "745cb1bd9e59381efd418ebd9ff35626b7bfd15f",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/8f567a51b2f5e274a4977dfa541902bd095ff2b8",
+                "reference": "8f567a51b2f5e274a4977dfa541902bd095ff2b8",
                 "shasum": ""
             },
             "require": {
@@ -6480,7 +6481,7 @@
                 "source": "https://github.com/oroinc/platform/tree/3.1",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2019-08-02T17:46:15+00:00"
+            "time": "2019-08-21T17:28:02+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7685,9 +7686,9 @@
             "authors": [
                 {
                     "name": "Roman Piták",
+                    "role": "Developer",
                     "email": "roman@pitak.net",
-                    "homepage": "http://pitak.net",
-                    "role": "Developer"
+                    "homepage": "http://pitak.net"
                 }
             ],
             "description": "REST client library.",
@@ -9459,19 +9460,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
+                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "homepage": "http://fabien.potencier.org"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -9720,7 +9721,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -10727,13 +10728,13 @@
             "authors": [
                 {
                     "name": "Justin Bishop",
-                    "email": "jubishop@gmail.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "jubishop@gmail.com"
                 },
                 {
                     "name": "Anthon Pang",
-                    "email": "apang@softwaredevelopment.ca",
-                    "role": "Fork Maintainer"
+                    "role": "Fork Maintainer",
+                    "email": "apang@softwaredevelopment.ca"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
@@ -10885,7 +10886,7 @@
                     "email": "shelburt02@gmail.com"
                 },
                 {
-                    "name": "Théo FIDRY",
+                    "name": "Théo Fidry",
                     "email": "theo.fidry@gmail.com"
                 }
             ],
@@ -11035,18 +11036,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -11082,18 +11083,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library for handling version information and constraints",
@@ -11329,8 +11330,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -11377,8 +11378,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -11419,8 +11420,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Simple template engine.",
@@ -11468,8 +11469,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "Utility class for timing",
@@ -11572,8 +11573,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "CLI frontend for php-code-coverage",
@@ -11651,8 +11652,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -11721,6 +11722,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
         },
         {
@@ -11936,16 +11938,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "234199f4528de6d12aaa58b612e98f7d36adb937"
+                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/234199f4528de6d12aaa58b612e98f7d36adb937",
-                "reference": "234199f4528de6d12aaa58b612e98f7d36adb937",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/06a9a5947f47b3029d76118eb5c22802e5869687",
+                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687",
                 "shasum": ""
             },
             "require": {
@@ -11973,6 +11975,10 @@
             ],
             "authors": [
                 {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
                     "name": "Jeff Welch",
                     "email": "whatthejeff@gmail.com"
                 },
@@ -11981,16 +11987,12 @@
                     "email": "github@wallbash.com"
                 },
                 {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@2bepublished.at"
-                },
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
-                },
-                {
                     "name": "Adam Harvey",
                     "email": "aharvey@php.net"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
                 }
             ],
             "description": "Provides the functionality to export PHP variables for visualization",
@@ -11999,7 +12001,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-04-03T13:19:02+00:00"
+            "time": "2019-08-11T12:43:14+00:00"
         },
         {
             "name": "sebastian/finder-facade",
@@ -12032,8 +12034,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
@@ -12225,8 +12227,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Copy/Paste Detector (CPD) for PHP code.",
@@ -12363,8 +12365,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -12573,8 +12575,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts for convenience and to simplify the usage of DOM.",
@@ -12614,8 +12616,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
