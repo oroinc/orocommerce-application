@@ -5759,6 +5759,18 @@
             "time": "2018-05-29T15:23:46+00:00"
         },
         {
+            "name": "npm-asset/asap",
+            "version": "2.0.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/backbone",
             "version": "1.4.0",
             "dist": {
@@ -5767,6 +5779,28 @@
             },
             "require": {
                 "npm-asset/underscore": ">=1.8.3"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/backbone-undo",
+            "version": "v0.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osartun/Backbone.Undo.js.git",
+                "reference": "9817afb2e37ca59d01b55b14dd43c42c49db7757"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osartun/Backbone.Undo.js/zipball/9817afb2e37ca59d01b55b14dd43c42c49db7757",
+                "reference": "9817afb2e37ca59d01b55b14dd43c42c49db7757"
+            },
+            "require": {
+                "npm-asset/backbone": ">=1.0.0",
+                "npm-asset/underscore": ">=1.4.4"
             },
             "type": "npm-asset",
             "license": [
@@ -5786,11 +5820,252 @@
             ]
         },
         {
+            "name": "npm-asset/cash-dom",
+            "version": "1.3.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/cash-dom/-/cash-dom-1.3.7.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/codemirror",
+            "version": "5.44.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/codemirror/-/codemirror-5.44.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/codemirror-formatting",
+            "version": "1.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/codemirror-formatting/-/codemirror-formatting-1.0.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/core-util-is",
+            "version": "1.0.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/css-vars-ponyfill",
             "version": "2.0.2",
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/css-vars-ponyfill/-/css-vars-ponyfill-2.0.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/es6-promise",
+            "version": "3.0.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/file-saver",
+            "version": "1.3.8",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/file-saver/-/file-saver-1.3.8.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/font-awesome",
+            "version": "4.7.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(OFL-1.1 AND MIT)"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs",
+            "version": "0.15.3-RC.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs/-/grapesjs-0.15.3-rc.2.tgz"
+            },
+            "require": {
+                "npm-asset/backbone": ">=1.3.3,<2.0.0",
+                "npm-asset/backbone-undo": ">=0.2.5,<0.3.0",
+                "npm-asset/cash-dom": ">=1.3.7,<2.0.0",
+                "npm-asset/codemirror": ">=5.39.0,<6.0.0",
+                "npm-asset/codemirror-formatting": ">=1.0.0,<2.0.0",
+                "npm-asset/font-awesome": ">=4.7.0,<5.0.0",
+                "npm-asset/keymaster": ">=1.6.2,<2.0.0",
+                "npm-asset/promise-polyfill": ">=8.0.0,<9.0.0",
+                "npm-asset/spectrum-colorpicker": ">=1.8.0,<2.0.0",
+                "npm-asset/underscore": ">=1.9.1,<2.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-aviary",
+            "version": "0.1.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-aviary/-/grapesjs-aviary-0.1.2.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-blocks-basic",
+            "version": "0.1.8",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-blocks-basic/-/grapesjs-blocks-basic-0.1.8.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-component-countdown",
+            "version": "0.1.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-component-countdown/-/grapesjs-component-countdown-0.1.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-navbar",
+            "version": "0.1.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-navbar/-/grapesjs-navbar-0.1.5.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-export",
+            "version": "0.1.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-export/-/grapesjs-plugin-export-0.1.5.tgz"
+            },
+            "require": {
+                "npm-asset/file-saver": ">=1.3.2,<2.0.0",
+                "npm-asset/jszip": ">=3.0.0,<4.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-filestack",
+            "version": "0.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-filestack/-/grapesjs-plugin-filestack-0.1.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-plugin-forms",
+            "version": "0.3.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-plugin-forms/-/grapesjs-plugin-forms-0.3.6.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/grapesjs-preset-webpage",
+            "version": "0.1.11",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/grapesjs-preset-webpage/-/grapesjs-preset-webpage-0.1.11.tgz"
+            },
+            "require": {
+                "npm-asset/grapesjs-aviary": ">=0.1.2,<0.2.0",
+                "npm-asset/grapesjs-blocks-basic": ">=0.1.7,<0.2.0",
+                "npm-asset/grapesjs-component-countdown": ">=0.1.2,<0.2.0",
+                "npm-asset/grapesjs-navbar": ">=0.1.5,<0.2.0",
+                "npm-asset/grapesjs-plugin-export": ">=0.1.5,<0.2.0",
+                "npm-asset/grapesjs-plugin-filestack": ">=0.1.1,<0.2.0",
+                "npm-asset/grapesjs-plugin-forms": ">=0.3.5,<0.4.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "name": "npm-asset/inherits",
+            "version": "2.0.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "ISC"
+            ]
+        },
+        {
+            "name": "npm-asset/isarray",
+            "version": "1.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5837,6 +6112,33 @@
             ]
         },
         {
+            "name": "npm-asset/jszip",
+            "version": "3.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jszip/-/jszip-3.0.0.tgz"
+            },
+            "require": {
+                "npm-asset/asap": "~2.0.3",
+                "npm-asset/es6-promise": "~3.0.2",
+                "npm-asset/pako": "~1.0.0",
+                "npm-asset/readable-stream": "~2.0.6"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(MIT OR GPL-3.0)"
+            ]
+        },
+        {
+            "name": "npm-asset/keymaster",
+            "version": "1.6.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/keymaster/-/keymaster-1.6.2.tgz"
+            },
+            "type": "npm-asset"
+        },
+        {
             "name": "npm-asset/overlayscrollbars",
             "version": "1.6.3",
             "dist": {
@@ -5849,11 +6151,73 @@
             ]
         },
         {
+            "name": "npm-asset/pako",
+            "version": "1.0.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/pako/-/pako-1.0.5.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "(MIT AND Zlib)"
+            ]
+        },
+        {
             "name": "npm-asset/popper.js",
             "version": "1.14.7",
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/popper.js/-/popper.js-1.14.7.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/process-nextick-args",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calvinmetcalf/process-nextick-args.git",
+                "reference": "07f531b2e7b3587f1c6cbce3f83054f50aa5cc97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calvinmetcalf/process-nextick-args/zipball/07f531b2e7b3587f1c6cbce3f83054f50aa5cc97",
+                "reference": "07f531b2e7b3587f1c6cbce3f83054f50aa5cc97"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/promise-polyfill",
+            "version": "8.1.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-8.1.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/readable-stream",
+            "version": "2.0.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz"
+            },
+            "require": {
+                "npm-asset/core-util-is": "~1.0.0",
+                "npm-asset/inherits": "~2.0.1",
+                "npm-asset/isarray": "~1.0.0",
+                "npm-asset/process-nextick-args": "~1.0.6",
+                "npm-asset/string_decoder": "~0.10.0",
+                "npm-asset/util-deprecate": "~1.0.1"
             },
             "type": "npm-asset",
             "license": [
@@ -5888,11 +6252,47 @@
             ]
         },
         {
+            "name": "npm-asset/spectrum-colorpicker",
+            "version": "1.8.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/spectrum-colorpicker/-/spectrum-colorpicker-1.8.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/string_decoder",
+            "version": "0.10.31",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/underscore",
             "version": "1.9.1",
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/util-deprecate",
+            "version": "1.0.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -6080,7 +6480,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "44fbb4857c5bb63aafda7d9ba2fbf057ae32c3a2"
+                "reference": "43bef5a7bfe53014e6d2c03084c9b97427f14680"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6088,6 +6488,8 @@
                 "bower-asset/jquery-creditcardvalidator": "1.0",
                 "box/spout": "2.7.*",
                 "myclabs/deep-copy": "1.8.*",
+                "npm-asset/grapesjs": "0.15.3-RC.2",
+                "npm-asset/grapesjs-preset-webpage": "0.1.11",
                 "oro/calendar-bundle": "4.0.*",
                 "oro/customer-portal": "4.0.*",
                 "oro/marketing": "4.0.*",
@@ -6107,7 +6509,7 @@
                 "oro/twig-inspector": "1.0.*",
                 "phpmd/phpmd": "2.6.*",
                 "phpunit/phpcov": "5.0.*",
-                "phpunit/phpunit": "7.5.*",
+                "phpunit/phpunit": "7.5.15",
                 "sebastian/phpcpd": "4.0.*",
                 "squizlabs/php_codesniffer": "3.3.*",
                 "symfony/phpunit-bridge": "4.3.*",
@@ -6303,7 +6705,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "43bccd4c788063f215802b474fa081b270054117"
+                "reference": "ef178e3c50c50ee41cf2400f3e2d11846cfc1a4d"
             },
             "require": {
                 "oro/calendar-bundle": "4.0.*",
@@ -6325,7 +6727,7 @@
                 "oro/twig-inspector": "1.0.*",
                 "phpmd/phpmd": "2.6.*",
                 "phpunit/phpcov": "5.0.*",
-                "phpunit/phpunit": "7.5.*",
+                "phpunit/phpunit": "7.5.15",
                 "sebastian/phpcpd": "4.0.*",
                 "squizlabs/php_codesniffer": "3.3.*",
                 "symfony/phpunit-bridge": "4.3.*",
@@ -6835,7 +7237,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "72ad12ace70986ea34b3125fbdba3090b35005bb"
+                "reference": "77e69ce14315989f3f316cfb1af077a7dea955a5"
             },
             "require": {
                 "akeneo/batch-bundle": "0.4.11",
@@ -6959,7 +7361,7 @@
                 "oro/twig-inspector": "1.0.*",
                 "phpmd/phpmd": "2.6.*",
                 "phpunit/phpcov": "5.0.*",
-                "phpunit/phpunit": "7.5.*",
+                "phpunit/phpunit": "7.5.15",
                 "sebastian/phpcpd": "4.0.*",
                 "squizlabs/php_codesniffer": "3.3.*",
                 "symfony/phpunit-bridge": "4.3.*",
