@@ -120,12 +120,6 @@ liip_imagine:
 oro_distribution:
     entry_point: ~
 
-oro_require_js:
-    build_path:               "js/oro.min.js"
-    build_timeout:            3600
-    build:
-        preserveLicenseComments: true
-
 oro_theme:
     active_theme: oro
 
