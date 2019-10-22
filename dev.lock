@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76d9188b87aab9fc1e2b88d89a6a92dc",
+    "content-hash": "c9de21d9d1791d6360c515d188c52584",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -4531,23 +4531,23 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.8",
+            "version": "5.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4"
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/dcb6e1006bb5fd1e392b4daa68932880f37550d4",
-                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/44c6787311242a979fa15c704327c20e7221a0e4",
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.2.20",
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
                 "json-schema/json-schema-test-suite": "1.2.0",
                 "phpunit/phpunit": "^4.8.35"
             },
@@ -4593,7 +4593,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2019-01-14T23:55:14+00:00"
+            "time": "2019-09-25T14:49:45+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -10731,16 +10731,16 @@
         },
         {
             "name": "zendframework/zend-mime",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mime.git",
-                "reference": "52ae5fa9f12845cae749271034a2d594f0e4c6f2"
+                "reference": "c91e0350be53cc9d29be15563445eec3b269d7c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/52ae5fa9f12845cae749271034a2d594f0e4c6f2",
-                "reference": "52ae5fa9f12845cae749271034a2d594f0e4c6f2",
+                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/c91e0350be53cc9d29be15563445eec3b269d7c1",
+                "reference": "c91e0350be53cc9d29be15563445eec3b269d7c1",
                 "shasum": ""
             },
             "require": {
@@ -10758,8 +10758,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -10772,13 +10772,12 @@
                 "BSD-3-Clause"
             ],
             "description": "Create and parse MIME messages and parts",
-            "homepage": "https://github.com/zendframework/zend-mime",
             "keywords": [
                 "ZendFramework",
                 "mime",
                 "zf"
             ],
-            "time": "2018-05-14T19:02:50+00:00"
+            "time": "2019-10-16T19:30:37+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -11683,7 +11682,7 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../../documentation/commerce/code_examples",
+                "url": "../../documentation/code_examples/commerce",
                 "reference": "b15839632618e622591aef90931f34834a4db3de"
             },
             "type": "symfony-bundle",
@@ -11719,8 +11718,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../../documentation/crm/code_examples",
-                "reference": "8b4d76a2e4ce07d02e5ceca8bcb91ceb06568f1c"
+                "url": "../../documentation/code_examples/crm",
+                "reference": "295ff06ceca58727f3f8baf0851bd3600706fc81"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -11749,8 +11748,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../../documentation/platform/code_examples",
-                "reference": "5a6aeb74e038bab9f434bd7b497a10d9bcdbd4df"
+                "url": "../../documentation/code_examples/platform",
+                "reference": "4e492a9af06fd32bc3b933a06b427d9b5047091c"
             },
             "type": "symfony-bundle",
             "extra": {

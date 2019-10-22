@@ -156,15 +156,15 @@
     },
     {
       "type": "path",
-      "url": "../../documentation/commerce/code_examples"
+      "url": "../../documentation/code_examples/commerce"
     },
     {
       "type": "path",
-      "url": "../../documentation/crm/code_examples"
+      "url": "../../documentation/code_examples/crm"
     },
     {
       "type": "path",
-      "url": "../../documentation/platform/code_examples"
+      "url": "../../documentation/code_examples/platform"
     },
     {
       "type": "composer",
