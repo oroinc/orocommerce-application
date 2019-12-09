@@ -133,7 +133,8 @@
         "installed": "ORO_INSTALLED",
         "message_queue_transport": "ORO_MQ_TRANSPORT",
         "message_queue_transport_config": "ORO_MQ_TRANSPORT_CONFIG",
-        "enable_price_sharding": "ORO_ENABLE_PRICE_SHARDING"
+        "enable_price_sharding": "ORO_ENABLE_PRICE_SHARDING",
+        "deployment_type": "ORO_DEPLOYMENT_TYPE"
       }
     }
   },

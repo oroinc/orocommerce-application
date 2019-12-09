@@ -38,3 +38,5 @@ parameters:
     message_queue_transport: 'null'
     message_queue_transport_config: {}
     enable_price_sharding: false
+
+    deployment_type: ~
