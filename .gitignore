@@ -47,3 +47,4 @@ bin/*
 /public/uploads/behat
 /.web-server-pid
 /.vagrant
+/package.json
