@@ -701,16 +701,16 @@
         },
         {
             "name": "bower-asset/jquery-creditcardvalidator",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PawelDecowski/jquery-creditcardvalidator.git",
-                "reference": "0a534d201566b5a63eb6dd4d1918f111ce1a5858"
+                "reference": "ec16ea18914db044e9b5155708337e27cc67a4fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PawelDecowski/jquery-creditcardvalidator/zipball/0a534d201566b5a63eb6dd4d1918f111ce1a5858",
-                "reference": "0a534d201566b5a63eb6dd4d1918f111ce1a5858"
+                "url": "https://api.github.com/repos/PawelDecowski/jquery-creditcardvalidator/zipball/ec16ea18914db044e9b5155708337e27cc67a4fe",
+                "reference": "ec16ea18914db044e9b5155708337e27cc67a4fe"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -6194,12 +6194,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "97a1c68f50e630f4168dda697a9b3b4a20f99237"
+                "reference": "fa6e46330e22d3ecadef32bb1069d4acc13251ff"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
                 "bower-asset/elevatezoom3": "3.0.8.1",
-                "bower-asset/jquery-creditcardvalidator": "1.0",
+                "bower-asset/jquery-creditcardvalidator": "1.1",
                 "box/spout": "2.7.*",
                 "myclabs/deep-copy": "1.8.*",
                 "oro/calendar-bundle": "~3.1.1",
