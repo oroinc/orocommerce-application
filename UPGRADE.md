@@ -1,4 +1,4 @@
-The upgrade instructions are available at [OroCommerce website](https://oroinc.com/b2b-ecommerce/doc/current/install-upgrade/upgrade).
+The upgrade instructions are available at [OroCommerce website](https://doc.oroinc.com/backend/setup/upgrade-to-new-version/).
 
 This file includes only the most important items that should be addressed before attempting to upgrade or during the upgrade of a vanilla Oro application.
 
