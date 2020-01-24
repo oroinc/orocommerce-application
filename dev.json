@@ -19,6 +19,7 @@
     ]
   },
   "require": {
+    "php": "~7.3.13",
     "oro/commerce": "4.1.x-dev",
     "oro/commerce-authorizenet": "4.1.x-dev",
     "oro/platform": "4.1.x-dev",
