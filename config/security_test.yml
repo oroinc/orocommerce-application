@@ -24,9 +24,3 @@ security:
             logout: false
             organization-remember-me: false
             anonymous_customer_user: true
-
-acl:
-    connection: default
-    cache:
-        id: security.acl.cache.doctrine
-        prefix: sf2_acl_
