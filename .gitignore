@@ -24,7 +24,6 @@ behat.yml
 !var/OroRequirements.php
 /build/logs/*
 /vendor
-node_modules/
 /cov
 /public/bundles
 /public/css
@@ -47,4 +46,3 @@ bin/*
 /public/uploads/behat
 /.web-server-pid
 /.vagrant
-/package.json
