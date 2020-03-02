@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62ca88efa049af83d5e949823b3b0433",
+    "content-hash": "706b7d81026f09efd8ee3c16b7d0faf5",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -5945,7 +5945,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "e864f70996eb9408e48b3c35f05534037effc147"
+                "reference": "c5f002c9346a03e751e8565b654a24c31c0e068c"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -5960,6 +5960,7 @@
             },
             "require-dev": {
                 "behat/behat": "3.4.*",
+                "behat/gherkin": "4.6.0",
                 "behat/mink": "1.7.x-dev#6d637f7",
                 "behat/mink-extension": "2.3.*",
                 "behat/mink-selenium2-driver": "1.*",
@@ -6173,7 +6174,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "aaacb8be3bac266f4839bfc0ce5aa649b7cc49e2"
+                "reference": "7f7645253453c85c423349098ad5e741f3964177"
             },
             "require": {
                 "oro/calendar-bundle": "4.1.*",
@@ -6184,6 +6185,7 @@
             },
             "require-dev": {
                 "behat/behat": "3.4.*",
+                "behat/gherkin": "4.6.0",
                 "behat/mink": "1.7.x-dev#6d637f7",
                 "behat/mink-extension": "2.3.*",
                 "behat/mink-selenium2-driver": "1.*",
@@ -6708,7 +6710,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "2d3d3401dd66f48bc3125d41cdb4dc4ca8251b99"
+                "reference": "8e97d6e9a7070aeff0e7fe78a2281fe1cf8247c9"
             },
             "require": {
                 "akeneo/batch-bundle": "0.4.11",
@@ -6784,6 +6786,7 @@
             },
             "require-dev": {
                 "behat/behat": "3.4.*",
+                "behat/gherkin": "4.6.0",
                 "behat/mink": "1.7.x-dev#6d637f7",
                 "behat/mink-extension": "2.3.*",
                 "behat/mink-selenium2-driver": "1.*",
@@ -7680,26 +7683,25 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9"
+                "reference": "7462d5f123dfc080dfdf26897032a6513644fc95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
-                "reference": "2e32a6d48972b2c1976ed5d8967145b6cec4a4a9",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/7462d5f123dfc080dfdf26897032a6513644fc95",
+                "reference": "7462d5f123dfc080dfdf26897032a6513644fc95",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.2",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
-                "ext-tokenizer": "^7.1",
-                "mockery/mockery": "~1",
-                "phpunit/phpunit": "^7.0"
+                "ext-tokenizer": "^7.2",
+                "mockery/mockery": "~1"
             },
             "type": "library",
             "extra": {
@@ -7723,7 +7725,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2019-08-22T18:11:29+00:00"
+            "time": "2020-02-18T18:59:58+00:00"
         },
         {
             "name": "piwik/device-detector",
