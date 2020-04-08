@@ -29,8 +29,7 @@
     "oro/crm-dotmailer": "4.1.*",
     "oro/crm-zendesk": "4.1.*",
     "oro/commerce": "4.1.*",
-    "oro/commerce-crm": "4.1.*",
-    "oro/mailchimp": "4.1.*"
+    "oro/commerce-crm": "4.1.*"
   },
   "require-dev": {
     "behat/behat": "3.4.*",
