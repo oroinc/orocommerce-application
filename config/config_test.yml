@@ -33,13 +33,6 @@ swiftmailer:
     logging: true
     disable_delivery: true
 
-services:
-    oro_message_queue.test.message_collector:
-        class: Oro\Bundle\MessageQueueBundle\Test\Functional\MessageCollector
-        decorates: oro_message_queue.client.message_producer
-        arguments:
-            - '@oro_message_queue.test.message_collector.inner'
-
 # configure loose default password requirements for auto-generated test users
 oro_user:
     settings:
