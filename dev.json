@@ -10,7 +10,13 @@
   ],
   "autoload": {
     "psr-4": {"": "src/"},
-    "exclude-from-classmap": ["**/Tests/"],
+    "classmap": [
+      "vendor/oro/platform/guzzle/Client.php"
+    ],
+    "exclude-from-classmap": [
+      "/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php",
+      "**/Tests/"
+    ],
     "files": [
       "vendor/oro/platform/Locale.php"
     ]
