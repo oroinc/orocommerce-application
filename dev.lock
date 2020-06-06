@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95565fa6be711810a2b5510627a89d0c",
+    "content-hash": "f398165c60c3bf556efb14d10613f3dc",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
