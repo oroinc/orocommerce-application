@@ -33,6 +33,7 @@ behat.yml
 /public/layout-build
 /public/uploads/users/*
 /public/media/cache
+/public/media/sitemaps
 /public/media/js
 /public/build.js
 /config/parameters.yml
