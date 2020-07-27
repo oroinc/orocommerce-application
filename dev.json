@@ -21,7 +21,7 @@
     ]
   },
   "require": {
-    "php": "~7.3.13 || ~7.4.2",
+    "php": "~7.4.2",
     "oro/commerce": "4.2.x-dev",
     "oro/commerce-authorizenet": "4.2.x-dev",
     "oro/platform": "4.2.x-dev",
