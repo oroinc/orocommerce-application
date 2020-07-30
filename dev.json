@@ -36,7 +36,6 @@
     "oro/crm-call-bundle": "4.2.x-dev",
     "oro/commerce-crm": "4.2.x-dev",
     "oro/crm-hangouts-call-bundle": "4.2.x-dev",
-    "oro/crm-magento-embedded-contact-us": "4.2.x-dev",
     "oro/crm-dotmailer": "4.2.x-dev",
     "oro/crm-zendesk": "4.2.x-dev",
     "oro/commerce-infinitepay": "4.2.x-dev",
