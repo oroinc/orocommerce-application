@@ -60,7 +60,7 @@
     "sebastian/phpcpd": "5.0.*",
     "phpunit/phpcov": "7.0.*",
     "symfony/phpunit-bridge": "4.4.*",
-    "friendsofphp/php-cs-fixer": "2.16.1",
+    "friendsofphp/php-cs-fixer": "2.16.*",
     "oro/twig-inspector": "1.0.*",
     "oro/commerce-documentation-examples": "4.2.x-dev",
     "oro/crm-documentation-examples": "4.2.x-dev",
