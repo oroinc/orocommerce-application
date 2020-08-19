@@ -35,7 +35,8 @@
     "oro/crm-dotmailer": "4.2.*",
     "oro/crm-zendesk": "4.2.*",
     "oro/commerce": "4.2.*",
-    "oro/commerce-crm": "4.2.*"
+    "oro/commerce-crm": "4.2.*",
+    "oro/cookie-consent": "4.2.*"
   },
   "require-dev": {
     "behat/behat": "3.4.*",

@@ -42,7 +42,8 @@
     "oro/commerce-infinitepay": "4.2.x-dev",
     "oro/redis-config": "4.2.x-dev",
     "oro/google-tag-manager-bundle": "4.2.x-dev",
-    "oro/mailchimp": "4.2.x-dev"
+    "oro/mailchimp": "4.2.x-dev",
+    "oro/cookie-consent": "4.2.*"
   },
   "require-dev": {
     "behat/behat": "3.4.*",
