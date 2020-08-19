@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac7fcb9f15e268faac8eb6779e076892",
+    "content-hash": "698db880268d0be6b81be700b76bd4c1",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -406,16 +406,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.8.15",
+            "version": "0.8.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "9b08d412b9da9455b210459ff71414de7e6241cd"
+                "reference": "edffaf98c06459b11dc1843e499bfea2aaf78754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/9b08d412b9da9455b210459ff71414de7e6241cd",
-                "reference": "9b08d412b9da9455b210459ff71414de7e6241cd",
+                "url": "https://api.github.com/repos/brick/math/zipball/edffaf98c06459b11dc1843e499bfea2aaf78754",
+                "reference": "edffaf98c06459b11dc1843e499bfea2aaf78754",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +454,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-15T15:59:35+00:00"
+            "time": "2020-08-18T08:59:30+00:00"
         },
         {
             "name": "cboden/ratchet",
@@ -5637,16 +5637,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.12.2",
+            "version": "2.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b"
+                "reference": "c154a733b122539ac2c894561996c770db289f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/c154a733b122539ac2c894561996c770db289f70",
+                "reference": "c154a733b122539ac2c894561996c770db289f70",
                 "shasum": ""
             },
             "require": {
@@ -5701,7 +5701,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-08-06T14:33:28+00:00"
+            "time": "2020-08-12T14:51:33+00:00"
         },
         {
             "name": "laminas/laminas-mime",
@@ -7313,6 +7313,52 @@
             ],
             "description": "OroCommerce Wirecard integration",
             "homepage": "https://github.com/orocommerce/OroWirecardBundle.git",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "oro/cookie-consent",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/cookie-consent",
+                "reference": "4a1eeecaf1172b6365b51d86d252f4bf86c7f6e1"
+            },
+            "require": {
+                "oro/commerce": "4.2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\CookieConsentBundle\\": "src/Oro/Bundle/CookieConsentBundle"
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.oroinc.com"
+                }
+            ],
+            "description": "Oro Commerce Cookie Consent",
+            "homepage": "https://github.com/laboro/OroCookieConsentBundle.git",
+            "keywords": [
+                "Commerce",
+                "Consent",
+                "Cookie",
+                "Oro"
+            ],
             "transport-options": {
                 "relative": true
             }
@@ -9153,12 +9199,12 @@
             "version": "v1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "82eb18c6c3860849cb6e2ff34b0c4b39d5daee46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/82eb18c6c3860849cb6e2ff34b0c4b39d5daee46",
+                "url": "https://api.github.com/repos/predis/predis/zipball/82eb18c6c3860849cb6e2ff34b0c4b39d5daee46",
                 "reference": "82eb18c6c3860849cb6e2ff34b0c4b39d5daee46",
                 "shasum": ""
             },
@@ -9208,6 +9254,16 @@
                 "nosql",
                 "predis",
                 "redis"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tillkruss",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tillkruss",
+                    "type": "github"
+                }
             ],
             "time": "2020-08-11T17:28:15+00:00"
         },
@@ -10224,16 +10280,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
+                "reference": "3d5eb71705adfa34bd34b993400622932b2f62fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/3d5eb71705adfa34bd34b993400622932b2f62fd",
+                "reference": "3d5eb71705adfa34bd34b993400622932b2f62fd",
                 "shasum": ""
             },
             "require": {
@@ -10279,7 +10335,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-30T19:05:18+00:00"
+            "time": "2020-08-13T09:07:59+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -14117,6 +14173,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2020-08-04T08:28:15+00:00"
         },
         {
@@ -14686,6 +14743,7 @@
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
             "homepage": "https://github.com/sebastianbergmann/finder-facade",
+            "abandoned": true,
             "time": "2020-02-08T06:07:58+00:00"
         },
         {
