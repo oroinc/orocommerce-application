@@ -24,7 +24,7 @@
         "font-awesome": "4.7.*",
         "fullcalendar": "3.4.0",
         "fuse.js": "3.2.*",
-        "grapesjs": "0.15.9",
+        "grapesjs": "0.16.18",
         "grapesjs-parser-postcss": "0.1.1",
         "grapesjs-preset-webpage": "0.1.11",
         "jquery": "3.5.*",
