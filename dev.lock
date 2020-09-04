@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "698db880268d0be6b81be700b76bd4c1",
+    "content-hash": "213695ac9cc0613dd6ed7f77c0ffd4d9",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -7343,7 +7343,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "ca69a0b893eaec9c45d2e2d855cf7f6f1f80203c"
+                "reference": "5602fbfbb5bb2bb53d8d328d337d6d258e8fe174"
             },
             "require": {
                 "oro/calendar-bundle": "4.2.*",
@@ -7385,7 +7385,6 @@
                     "Oro\\Bridge\\CalendarCRM\\": "src/Oro/Bridge/CalendarCRM",
                     "Oro\\Bridge\\CallCRM\\": "src/Oro/Bridge/CallCRM",
                     "Oro\\Bridge\\CustomerPortalCRM\\": "src/Oro/Bridge/CustomerPortalCRM",
-                    "Oro\\Bridge\\MarketingCRM\\": "src/Oro/Bridge/MarketingCRM",
                     "Oro\\Bridge\\TaskCRM\\": "src/Oro/Bridge/TaskCRM",
                     "Oro\\Bundle\\AccountBundle\\": "src/Oro/Bundle/AccountBundle",
                     "Oro\\Bundle\\ActivityContactBundle\\": "src/Oro/Bundle/ActivityContactBundle",
@@ -7396,7 +7395,6 @@
                     "Oro\\Bundle\\ContactUsBundle\\": "src/Oro/Bundle/ContactUsBundle",
                     "Oro\\Bundle\\CRMBundle\\": "src/Oro/Bundle/CRMBundle",
                     "Oro\\Bundle\\DemoDataBundle\\": "src/Oro/Bundle/DemoDataBundle",
-                    "Oro\\Bundle\\MagentoBundle\\": "src/Oro/Bundle/MagentoBundle",
                     "Oro\\Bundle\\ReportCRMBundle\\": "src/Oro/Bundle/ReportCRMBundle",
                     "Oro\\Bundle\\SalesBundle\\": "src/Oro/Bundle/SalesBundle",
                     "Oro\\Bundle\\TestFrameworkCRMBundle\\": "src/Oro/Bundle/TestFrameworkCRMBundle"
@@ -7550,46 +7548,6 @@
                 "Oro",
                 "integration"
             ],
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "oro/crm-magento-embedded-contact-us",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/magento-contact-us",
-                "reference": "8c0846a9ef4f47981867a472b8b436c47bec0746"
-            },
-            "require": {
-                "oro/crm": "4.2.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\MagentoContactUsBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
-                }
-            ],
-            "description": "OroCRM Magento Embedded Contact Us package",
-            "homepage": "https://github.com/oroinc/OroCRMMagentoContactUsBundle.git",
             "transport-options": {
                 "relative": true
             }
@@ -15618,7 +15576,6 @@
         "oro/crm-call-bundle": 20,
         "oro/commerce-crm": 20,
         "oro/crm-hangouts-call-bundle": 20,
-        "oro/crm-magento-embedded-contact-us": 20,
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/commerce-infinitepay": 20,
