@@ -8,8 +8,14 @@ require_once __DIR__ . '/../var/SymfonyRequirements.php';
 
 use Oro\Bundle\AssetBundle\NodeJsExecutableFinder;
 use Oro\Bundle\AssetBundle\NodeJsVersionChecker;
+use Oro\Bundle\AttachmentBundle\Exception\ProcessorsException;
+use Oro\Bundle\AttachmentBundle\Exception\ProcessorsVersionException;
+use Oro\Bundle\AttachmentBundle\ProcessorHelper;
+use Oro\Bundle\AttachmentBundle\ProcessorVersionChecker;
+use Oro\Component\DoctrineUtils\DBAL\DbPrivilegesProvider;
 use Oro\Component\PhpUtils\ArrayUtil;
 use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 use Symfony\Component\Intl\Intl;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Yaml\Yaml;
@@ -291,17 +297,68 @@ class OroRequirements extends SymfonyRequirements
             );
         }
 
+        // Check database configuration
         $configYmlPath = $baseDir . '/config/config_' . $env . '.yml';
         if (is_file($configYmlPath)) {
             $config = $this->getParameters($configYmlPath);
             $pdo = $this->getDatabaseConnection($config);
             if ($pdo) {
+                $requiredPrivileges = ['INSERT', 'SELECT', 'UPDATE', 'DELETE', 'TRUNCATE', 'REFERENCES', 'TRIGGER', 'CREATE', 'DROP'];
+                $notGrantedPrivileges = $this->getNotGrantedPrivileges($pdo, $requiredPrivileges, $config);
+                $this->addOroRequirement(
+                    empty($notGrantedPrivileges),
+                    sprintf('%s database privileges must be granted', implode(', ', $requiredPrivileges)),
+                    sprintf('Grant %s privileges on database "%s" to user "%s"', implode(', ', $notGrantedPrivileges), $config['database_name'], $config['database_user'])
+                );
                 $this->addOroRequirement(
                     $this->isUuidSqlFunctionPresent($pdo),
                     'UUID SQL function must be present',
                     'Execute "<strong>CREATE EXTENSION IF NOT EXISTS "uuid-ossp";</strong>" SQL command so UUID-OSSP extension will be installed for database.'
                 );
             }
+
+            $this->addProcessorsRequirements(ProcessorHelper::JPEGOPTIM, $config);
+            $this->addProcessorsRequirements(ProcessorHelper::PNGQUANT, $config);
+        }
+    }
+
+    /**
+     * @param string $libraryName
+     * @param array $config
+     */
+    private function addProcessorsRequirements(string $libraryName, array $config): void
+    {
+        $library = null;
+        $recommendation = true;
+        $processorHelper = new ProcessorHelper(new ParameterBag($config));
+        [$libraryName, $version] = ProcessorVersionChecker::getLibraryInfo($libraryName);
+
+        try {
+            $library = $libraryName === ProcessorHelper::JPEGOPTIM
+                ? $processorHelper->getJPEGOptimLibrary()
+                : $processorHelper->getPNGQuantLibrary();
+        } catch (ProcessorsException $exception) {
+            $this->addOroRequirement(
+                null !== $library,
+                sprintf('Library `%s` is installed', $libraryName),
+                sprintf('Library `%s` not found or not executable.', $libraryName)
+            );
+            $recommendation = false;
+        } catch (ProcessorsVersionException $exception) {
+            $this->addOroRequirement(
+                null !== $library,
+                sprintf('Minimum required `%s` library version should be %s', $libraryName, $version),
+                sprintf('Minimum required `%s` library version should be %s', $libraryName, $version)
+            );
+            $library = $exception->getBinary();
+        }
+
+        if ($recommendation) {
+            $this->addRecommendation(
+                null !== $library,
+                sprintf('Library `%s` is installed', $libraryName),
+                sprintf('Library `%s` should be installed', $libraryName)
+            );
         }
     }
 
@@ -392,7 +449,6 @@ class OroRequirements extends SymfonyRequirements
             case 'k':
             case 'kb':
                 $val *= 1024;
-            // no break
         }
 
         return (float)$val;
@@ -473,6 +529,26 @@ class OroRequirements extends SymfonyRequirements
         }
 
         return true;
+    }
+
+    /**
+     * @param PDO $pdo
+     * @param array $requiredPrivileges
+     * @param array $config
+     * @return array
+     */
+    protected function getNotGrantedPrivileges(PDO $pdo, array $requiredPrivileges, array $config): array
+    {
+        if ($pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'pgsql') {
+            $granted = DbPrivilegesProvider::getPostgresGrantedPrivileges($pdo, $config['database_name']);
+        } else {
+            $granted = DbPrivilegesProvider::getMySqlGrantedPrivileges($pdo, $config['database_name']);
+            if (in_array('ALL PRIVILEGES', $granted, true)) {
+                $granted = $requiredPrivileges;
+            }
+        }
+
+        return array_diff($requiredPrivileges, $granted);
     }
 
     /**
