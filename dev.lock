@@ -3260,131 +3260,45 @@
             "time": "2020-08-26T14:17:56+00:00"
         },
         {
-            "name": "guzzle/guzzle",
-            "version": "v3.7.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b170b028c6bb5799640e46c8803015b0f9a45ed9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b170b028c6bb5799640e46c8803015b0f9a45ed9",
-                "reference": "b170b028c6bb5799640e46c8803015b0f9a45ed9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.3",
-                "symfony/event-dispatcher": ">=2.1"
-            },
-            "replace": {
-                "guzzle/batch": "self.version",
-                "guzzle/cache": "self.version",
-                "guzzle/common": "self.version",
-                "guzzle/http": "self.version",
-                "guzzle/inflection": "self.version",
-                "guzzle/iterator": "self.version",
-                "guzzle/log": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/plugin": "self.version",
-                "guzzle/plugin-async": "self.version",
-                "guzzle/plugin-backoff": "self.version",
-                "guzzle/plugin-cache": "self.version",
-                "guzzle/plugin-cookie": "self.version",
-                "guzzle/plugin-curlauth": "self.version",
-                "guzzle/plugin-error-response": "self.version",
-                "guzzle/plugin-history": "self.version",
-                "guzzle/plugin-log": "self.version",
-                "guzzle/plugin-md5": "self.version",
-                "guzzle/plugin-mock": "self.version",
-                "guzzle/plugin-oauth": "self.version",
-                "guzzle/service": "self.version",
-                "guzzle/stream": "self.version"
-            },
-            "require-dev": {
-                "doctrine/cache": "*",
-                "monolog/monolog": "1.*",
-                "phpunit/phpunit": "3.7.*",
-                "psr/log": "1.0.*",
-                "symfony/class-loader": "*",
-                "zendframework/zend-cache": "2.0.*",
-                "zendframework/zend-log": "2.0.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Tests": "tests/",
-                    "Guzzle": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                },
-                {
-                    "name": "Guzzle Community",
-                    "homepage": "https://github.com/guzzle/guzzle/contributors"
-                }
-            ],
-            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "rest",
-                "web service"
-            ],
-            "abandoned": "guzzlehttp/guzzle",
-            "time": "2013-10-02T20:47:00+00:00"
-        },
-        {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.5",
+            "version": "7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+                "reference": "2d9d3c186a6637a43193e66b097c50e4451eaab2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/2d9d3c186a6637a43193e66b097c50e4451eaab2",
+                "reference": "2d9d3c186a6637a43193e66b097c50e4451eaab2",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
                 "guzzlehttp/psr7": "^1.6.1",
-                "php": ">=5.5",
-                "symfony/polyfill-intl-idn": "^1.17.0"
+                "php": "^7.2.5",
+                "psr/http-client": "^1.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
             },
             "require-dev": {
+                "ergebnis/composer-normalize": "^2.0",
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "php-http/client-integration-tests": "dev-phpunit8",
+                "phpunit/phpunit": "^8.5.5",
                 "psr/log": "^1.1"
             },
             "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.5-dev"
+                    "dev-master": "7.0-dev"
                 }
             },
             "autoload": {
@@ -3404,6 +3318,11 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://sagikazarmark.hu"
                 }
             ],
             "description": "Guzzle is a PHP HTTP client library",
@@ -3414,10 +3333,12 @@
                 "framework",
                 "http",
                 "http client",
+                "psr-18",
+                "psr-7",
                 "rest",
                 "web service"
             ],
-            "time": "2020-06-16T21:01:06+00:00"
+            "time": "2020-06-27T10:33:25+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -7305,10 +7226,9 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/wirecard",
-                "reference": "6bc9615b72f156be63d7bbc827ab13e7dcd1de04"
+                "reference": "9c51285db69ff7a31f22084111118d065ba87d37"
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.0.0",
                 "hochstrasserio/wirecard": "^1.0",
                 "oro/commerce": "4.2.*"
             },
@@ -8003,7 +7923,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "65baeac9256ee12d1993b048c6baf783695216da"
+                "reference": "a29124628c2ce9d72904d7b9982abac00c86c092"
             },
             "require": {
                 "akeneo/batch-bundle": "0.4.12",
@@ -8034,7 +7954,7 @@
                 "friendsofsymfony/jsrouting-bundle": "2.2.*",
                 "friendsofsymfony/rest-bundle": "2.7.*",
                 "gos/web-socket-bundle": "3.3.*",
-                "guzzle/guzzle": "3.7.4",
+                "guzzlehttp/guzzle": "7.0.*",
                 "hwi/oauth-bundle": "1.1.*",
                 "incenteev/composer-parameter-handler": "2.1.*",
                 "jms/cg": "1.2.*",
