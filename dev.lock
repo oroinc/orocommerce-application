@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f3cf1de0505852321baf19b53e4579a",
+    "content-hash": "567396406684672263cd1bbfd7df05a5",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -4246,65 +4246,6 @@
             "time": "2017-01-10T10:39:54+00:00"
         },
         {
-            "name": "hochstrasserio/wirecard",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hochstrasserio/wirecard.git",
-                "reference": "ff5f35b8f6bf16b499367186fab2263ab9b5ead0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hochstrasserio/wirecard/zipball/ff5f35b8f6bf16b499367186fab2263ab9b5ead0",
-                "reference": "ff5f35b8f6bf16b499367186fab2263ab9b5ead0",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/psr7": "^1.0.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "egeloen/http-adapter": "~0.8.0@dev",
-                "guzzlehttp/guzzle": "^6.0.0",
-                "phpunit/phpunit": "4.*"
-            },
-            "suggest": {
-                "php-http/httplug": "Adapters to existing HTTP clients",
-                "sebastian/money": "Robust handling of money amounts"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hochstrasser\\Wirecard\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christoph Hochstrasser",
-                    "email": "christoph@hochstrasser.io",
-                    "homepage": "https://www.hochstrasser.io",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A modern client for the Wirecard payment gateway",
-            "homepage": "https://github.com/hochstrasserio/wirecard",
-            "keywords": [
-                "hochstrasserio",
-                "wirecard"
-            ],
-            "abandoned": true,
-            "time": "2017-03-09T22:08:10+00:00"
-        },
-        {
             "name": "hwi/oauth-bundle",
             "version": "1.1.0",
             "source": {
@@ -4958,16 +4899,16 @@
         },
         {
             "name": "knplabs/gaufrette",
-            "version": "v0.9.0",
+            "version": "v0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/Gaufrette.git",
-                "reference": "786247eba04d4693e88a80ca9fdabb634675dcac"
+                "reference": "ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/786247eba04d4693e88a80ca9fdabb634675dcac",
-                "reference": "786247eba04d4693e88a80ca9fdabb634675dcac",
+                "url": "https://api.github.com/repos/KnpLabs/Gaufrette/zipball/ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b",
+                "reference": "ef5ec9d72c06d21febfa09b36d5c3d8e3af9cf8b",
                 "shasum": ""
             },
             "require": {
@@ -4977,39 +4918,13 @@
                 "microsoft/windowsazure": "<0.4.3"
             },
             "require-dev": {
-                "akeneo/phpspec-skip-example-extension": "^4.0",
-                "amazonwebservices/aws-sdk-for-php": "1.5.*",
-                "aws/aws-sdk-php": "^2.4.12||~3",
-                "doctrine/dbal": ">=2.3",
-                "dropbox-php/dropbox-php": "*",
-                "google/apiclient": "~1.1.3",
-                "league/flysystem": "~1.0",
-                "microsoft/azure-storage-blob": "^1.0",
-                "mikey179/vfsstream": "~1.2.0",
-                "mongodb/mongodb": "^1.1",
-                "pedrotroller/php-cs-custom-fixer": "^2.17",
-                "phpseclib/phpseclib": "^2.0",
-                "phpspec/phpspec": "~5.1",
-                "phpunit/phpunit": "~7.5",
-                "rackspace/php-opencloud": "^1.9.2"
+                "mikey179/vfsstream": "v1.x-dev as 1.7.0",
+                "phpspec/phpspec": "^5.1 || ^6.2",
+                "phpunit/phpunit": "~7.5"
             },
             "suggest": {
-                "ext-curl": "*",
                 "ext-fileinfo": "This extension is used to automatically detect the content-type of a file in the AwsS3, OpenCloud, AzureBlogStorage and GoogleCloudStorage adapters",
-                "ext-mbstring": "*",
-                "gaufrette/aws-s3-adapter": "to use AwsS3 adapter (supports SDK v2 and v3)",
-                "gaufrette/azure-blob-storage-adapter": "to use AzureBlobStorage adapter",
-                "gaufrette/doctrine-dbal-adapter": "to use DBAL adapter",
-                "gaufrette/flysystem-adapter": "to use Flysystem adapter",
-                "gaufrette/ftp-adapter": "to use Ftp adapter",
-                "gaufrette/gridfs-adapter": "to use GridFS adapter",
-                "gaufrette/in-memory-adapter": "to use InMemory adapter",
-                "gaufrette/local-adapter": "to use Local adapter",
-                "gaufrette/opencloud-adapter": "to use Opencloud adapter",
-                "gaufrette/phpseclib-sftp-adapter": "to use PhpseclibSftp adapter",
-                "gaufrette/zip-adapter": "to use Zip adapter",
-                "google/apiclient": "to use GoogleCloudStorage adapter",
-                "knplabs/knp-gaufrette-bundle": "to use with Symfony2"
+                "knplabs/knp-gaufrette-bundle": "to use with Symfony"
             },
             "type": "library",
             "extra": {
@@ -5044,7 +4959,7 @@
                 "filesystem",
                 "media"
             ],
-            "time": "2019-12-26T15:15:38+00:00"
+            "time": "2020-10-05T19:26:39+00:00"
         },
         {
             "name": "knplabs/knp-gaufrette-bundle",
@@ -7216,47 +7131,6 @@
                 "Integration",
                 "Oro"
             ],
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "oro/commerce-wirecard",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../package/wirecard",
-                "reference": "9c51285db69ff7a31f22084111118d065ba87d37"
-            },
-            "require": {
-                "hochstrasserio/wirecard": "^1.0",
-                "oro/commerce": "4.2.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Oro\\Bundle\\WirecardBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
-                }
-            ],
-            "description": "OroCommerce Wirecard integration",
-            "homepage": "https://github.com/orocommerce/OroWirecardBundle.git",
             "transport-options": {
                 "relative": true
             }
@@ -18468,16 +18342,16 @@
         },
         {
             "name": "sebastian/type",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "e494dcaeb89d1458c9ccd8c819745245a1669aea"
+                "reference": "fa592377f3923946cb90bf1f6a71ba2e5f229909"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/e494dcaeb89d1458c9ccd8c819745245a1669aea",
-                "reference": "e494dcaeb89d1458c9ccd8c819745245a1669aea",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/fa592377f3923946cb90bf1f6a71ba2e5f229909",
+                "reference": "fa592377f3923946cb90bf1f6a71ba2e5f229909",
                 "shasum": ""
             },
             "require": {
@@ -18489,7 +18363,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -18516,7 +18390,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-28T06:01:38+00:00"
+            "time": "2020-10-06T08:41:03+00:00"
         },
         {
             "name": "sebastian/version",
@@ -19313,7 +19187,6 @@
         "oro/calendar-bundle": 20,
         "oro/marketing": 20,
         "oro/customer-portal": 20,
-        "oro/commerce-wirecard": 20,
         "oro/crm": 20,
         "oro/crm-task-bundle": 20,
         "oro/crm-call-bundle": 20,
