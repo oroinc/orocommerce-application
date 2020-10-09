@@ -11,12 +11,10 @@
   "autoload": {
     "psr-4": {"": "src/"},
     "classmap": [
-      "vendor/oro/platform/guzzle/Client.php",
       "src/AppKernel.php",
       "src/AppCache.php"
     ],
     "exclude-from-classmap": [
-      "/vendor/guzzle/guzzle/src/Guzzle/Http/Client.php",
       "**/Tests/"
     ]
   },
@@ -30,7 +28,6 @@
     "oro/calendar-bundle": "4.2.x-dev",
     "oro/marketing": "4.2.x-dev",
     "oro/customer-portal": "4.2.x-dev",
-    "oro/commerce-wirecard": "4.2.x-dev",
     "oro/crm": "4.2.x-dev",
     "oro/crm-task-bundle": "4.2.x-dev",
     "oro/crm-call-bundle": "4.2.x-dev",
