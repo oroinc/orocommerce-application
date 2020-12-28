@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "261e3ddd29823997a7cf54229cb1e954",
+    "content-hash": "767e213aeb8ca8226fd516a8dfd1ea1a",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -7142,6 +7142,46 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "oro/commerce-demo-checkouts",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/commerce-demo-checkouts",
+                "reference": "23c25be9ca06c1584481ffe3d1bab1eb0aac2bc5"
+            },
+            "require": {
+                "oro/commerce": "4.2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\AlternativeCheckoutBundle\\": "src/Oro/Bundle/AlternativeCheckoutBundle"
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce checkout customization examples",
+            "homepage": "https://github.com/oroinc/commerce-demo-checkouts",
             "transport-options": {
                 "relative": true
             }
@@ -16326,16 +16366,16 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.12.1",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "841e8bdde345cc1ea9f98e776959e7531cadea0e"
+                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/841e8bdde345cc1ea9f98e776959e7531cadea0e",
-                "reference": "841e8bdde345cc1ea9f98e776959e7531cadea0e",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/ab3f5364d01f2c2c16113442fb987d26e4004913",
+                "reference": "ab3f5364d01f2c2c16113442fb987d26e4004913",
                 "shasum": ""
             },
             "require": {
@@ -16370,20 +16410,20 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2020-12-11T10:39:41+00:00"
+            "time": "2020-12-18T16:50:48+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.16.9",
+            "version": "v2.16.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "3d0f843b8abe1b966156774bf4093ebbb77f92cc"
+                "reference": "7dd27dde4852270de8f672636a0855ce7de47bf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/3d0f843b8abe1b966156774bf4093ebbb77f92cc",
-                "reference": "3d0f843b8abe1b966156774bf4093ebbb77f92cc",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/7dd27dde4852270de8f672636a0855ce7de47bf0",
+                "reference": "7dd27dde4852270de8f672636a0855ce7de47bf0",
                 "shasum": ""
             },
             "require": {
@@ -16413,9 +16453,11 @@
                 "php-cs-fixer/accessible-object": "^1.0",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.2",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.2.1",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.1",
+                "phpspec/prophecy-phpunit": "^1.1 || ^2.0",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.13 || ^9.4.4 <9.5",
                 "phpunitgoodpractices/polyfill": "^1.5",
                 "phpunitgoodpractices/traits": "^1.9.1",
+                "sanmai/phpunit-legacy-adapter": "^6.4 || ^8.2.1",
                 "symfony/phpunit-bridge": "^5.1",
                 "symfony/yaml": "^3.0 || ^4.0 || ^5.0"
             },
@@ -16468,7 +16510,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-08T13:16:25+00:00"
+            "time": "2020-12-17T16:34:40+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
@@ -19260,6 +19302,7 @@
         "oro/mailchimp": 20,
         "oro/cookie-consent": 20,
         "oro/gridfs-config": 20,
+        "oro/commerce-demo-checkouts": 20,
         "behat/mink": 20,
         "oro/commerce-documentation-examples": 20,
         "oro/crm-documentation-examples": 20,
