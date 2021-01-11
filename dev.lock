@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ab22322b4947da5968cbcb4fc42fa21",
+    "content-hash": "32e518fa27b6ad9acc2ed6021bf95c77",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -6796,16 +6796,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7"
+                "reference": "2bc2f58079c920c2ecbb6935645abf6f2f5f94ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d0427c1811462dbb6c503143eabe5478b26685f7",
-                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7",
+                "url": "https://api.github.com/repos/nette/utils/zipball/2bc2f58079c920c2ecbb6935645abf6f2f5f94ba",
+                "reference": "2bc2f58079c920c2ecbb6935645abf6f2f5f94ba",
                 "shasum": ""
             },
             "require": {
@@ -6873,7 +6873,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-11-25T23:47:50+00:00"
+            "time": "2021-01-11T03:05:59+00:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -7325,6 +7325,46 @@
             ],
             "description": "OroCRM integration for OroCommerce",
             "homepage": "https://github.com/orocommerce/orocommerce-orocrm",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "oro/commerce-demo-checkouts",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/commerce-demo-checkouts",
+                "reference": "23c25be9ca06c1584481ffe3d1bab1eb0aac2bc5"
+            },
+            "require": {
+                "oro/commerce": "4.2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\AlternativeCheckoutBundle\\": "src/Oro/Bundle/AlternativeCheckoutBundle"
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://www.orocommerce.com"
+                }
+            ],
+            "description": "OroCommerce checkout customization examples",
+            "homepage": "https://github.com/oroinc/commerce-demo-checkouts",
             "transport-options": {
                 "relative": true
             }
@@ -19398,6 +19438,7 @@
         "oro/mailchimp": 20,
         "oro/cookie-consent": 20,
         "oro/gridfs-config": 20,
+        "oro/commerce-demo-checkouts": 20,
         "behat/mink": 20,
         "oro/commerce-documentation-examples": 20,
         "oro/crm-documentation-examples": 20,
