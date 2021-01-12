@@ -8,20 +8,24 @@ Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant chan
 
 The minimum required PHP version is 7.4.11.
 
-The File storage component was implement. Directories `var/attchment` and `var/import_export` are no longer used as storage
-and has been removed from the git source code.
+### Routing
 
-Files from these directories must be moved to new locations:
+The regular expressions in `fos_js_routing.routes_to_expose` and `oro_frontend.routes_to_expose` configuration parameters (see `config/config.yml`) have changed.
 
- - files from `var/attachment` to `var/data/attachments`;
- - files from `var/attachment/protected_mediacache` to `var/data/protected_mediacache`;
- - files from `var/import_export` to `var/data/importexport`.
- 
-Files for import should be placed into `var/data/import_files` instead of `var/import_export/files`.
+### Directory structure and filesystem changes
 
-Files for product images import should be placed into `var/data/import_files` instead of `var/import_export/product_images`.
+The `var/attachment` and `var/import_export` directories are no longer used for storing files and have been removed from the default directory structure.
 
-Directory `public/uploads` has been removed.
+All files from these directories must be moved to the new locations:
+- from `var/attachment/protected_mediacache` to `var/data/protected_mediacache`;
+- from `var/attachment` to `var/data/attachments`;
+- from `var/import_export` to `var/data/importexport`.
+
+Files for the standard import should be placed into `var/data/import_files` instead of `var/import_export/files`.
+
+Files for the product images import should be placed into `var/data/import_files` instead of `var/import_export/product_images`.
+
+The `public/uploads` directory has been removed.
 
 ## 4.1.0
 
