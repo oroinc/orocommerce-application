@@ -1019,16 +1019,16 @@
         },
         {
             "name": "bower-asset/prism",
-            "version": "v1.6.0",
+            "version": "v1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrismJS/prism.git",
-                "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b"
+                "reference": "187c8a607ee70c7914682870156faa31ed01f001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrismJS/prism/zipball/22df673c472d52fbd1f9ab2656c7186fcbc47c0b",
-                "reference": "22df673c472d52fbd1f9ab2656c7186fcbc47c0b"
+                "url": "https://api.github.com/repos/PrismJS/prism/zipball/187c8a607ee70c7914682870156faa31ed01f001",
+                "reference": "187c8a607ee70c7914682870156faa31ed01f001"
             },
             "type": "bower-asset",
             "license": [
@@ -6145,10 +6145,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "06e7dfc1471be72c567d3ef68f9c2c1a56e5b863"
+                "reference": "da643ca914136763f1fc342dfe38a8e5842135a3"
             },
             "require": {
-                "bower-asset/prism": "1.6.0",
+                "bower-asset/prism": "1.21.0",
                 "leafo/scssphp": "0.6.3",
                 "oro/calendar-bundle": "2.6.*",
                 "oro/commerce": "1.6.*",
