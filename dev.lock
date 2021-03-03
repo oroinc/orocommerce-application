@@ -7162,7 +7162,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "a43d824e1f2a75244ed8a3474736160635f5ee1d"
+                "reference": "04e9604a56fbfdfc7bd58727be7aebfae77c37a5"
             },
             "require": {
                 "oro/calendar-bundle": "5.0.*",
@@ -7174,7 +7174,7 @@
             "type": "library",
             "extra": {
                 "npm": {
-                    "prismjs": "1.21.0"
+                    "prismjs": "^1.23.0"
                 },
                 "branch-alias": {
                     "dev-master": "5.0-dev"
