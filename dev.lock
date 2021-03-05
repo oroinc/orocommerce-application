@@ -7190,6 +7190,7 @@
                     "Oro\\Bundle\\CustomerBundle\\": "src/Oro/Bundle/CustomerBundle",
                     "Oro\\Bundle\\FrontendAttachmentBundle\\": "src/Oro/Bundle/FrontendAttachmentBundle",
                     "Oro\\Bundle\\FrontendBundle\\": "src/Oro/Bundle/FrontendBundle",
+                    "Oro\\Bundle\\FrontendImportExportBundle\\": "src/Oro/Bundle/FrontendImportExportBundle",
                     "Oro\\Bundle\\StyleBookBundle\\": "src/Oro/Bundle/StyleBookBundle",
                     "Oro\\Bundle\\WebsiteBundle\\": "src/Oro/Bundle/WebsiteBundle"
                 },
