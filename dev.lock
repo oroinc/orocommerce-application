@@ -5190,43 +5190,41 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "4.0.1",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "b80c4876a010cd8bfa9c78de64c930bb2fc8fb9a"
+                "reference": "c544710aa18e079baf0027ca4c8236913f46945b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/b80c4876a010cd8bfa9c78de64c930bb2fc8fb9a",
-                "reference": "b80c4876a010cd8bfa9c78de64c930bb2fc8fb9a",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/c544710aa18e079baf0027ca4c8236913f46945b",
+                "reference": "c544710aa18e079baf0027ca4c8236913f46945b",
                 "shasum": ""
             },
             "require": {
+                "ext-hash": "*",
+                "ext-json": "*",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
+                "ext-sodium": "*",
                 "lcobucci/clock": "^2.0",
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "infection/infection": "^0.20",
+                "infection/infection": "^0.21",
                 "lcobucci/coding-standard": "^6.0",
-                "mikey179/vfsstream": "^1.6",
-                "phpbench/phpbench": "^0.17",
+                "mikey179/vfsstream": "^1.6.7",
+                "phpbench/phpbench": "^1.0@alpha",
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-deprecation-rules": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/php-invoker": "^3.1",
-                "phpunit/phpunit": "^9.4"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Lcobucci\\JWT\\": "src"
@@ -5250,7 +5248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
-                "source": "https://github.com/lcobucci/jwt/tree/4.0.1"
+                "source": "https://github.com/lcobucci/jwt/tree/4.1.2"
             },
             "funding": [
                 {
@@ -5262,7 +5260,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-01-28T00:13:50+00:00"
+            "time": "2021-02-19T19:37:15+00:00"
         },
         {
             "name": "league/event",
@@ -7467,10 +7465,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "417428e437703c59c0aee9fa0d3d0bcabe7e6d8d"
+                "reference": "833d2327f26743b0dfbfd9e93c04ef016531cef9"
             },
             "require": {
-                "lcobucci/jwt": "4.0.*",
+                "ext-sodium": "*",
                 "league/oauth2-server": "8.2.*",
                 "oro/platform": "5.0.*",
                 "symfony/psr-http-message-bridge": "~2.0.2"
