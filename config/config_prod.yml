@@ -10,6 +10,8 @@ framework:
 
 oro_frontend:
     session:
+        # More info about storefront session cookie configuration can be found at
+        # https://doc.oroinc.com/backend/setup/post-install/cookies-configuration/#storefront-session-cookie
         name:        OROSFID
         cookie_path: '/'
 
