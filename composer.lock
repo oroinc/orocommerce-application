@@ -6220,16 +6220,16 @@
         },
         {
             "name": "oro/commerce",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/orocommerce.git",
-                "reference": "75cba323f570c3f26893c64ec0de290428a5d91d"
+                "reference": "613a35206f34c2600ea9d158d0ddf9393ae35f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/75cba323f570c3f26893c64ec0de290428a5d91d",
-                "reference": "75cba323f570c3f26893c64ec0de290428a5d91d",
+                "url": "https://api.github.com/repos/oroinc/orocommerce/zipball/613a35206f34c2600ea9d158d0ddf9393ae35f2c",
+                "reference": "613a35206f34c2600ea9d158d0ddf9393ae35f2c",
                 "shasum": ""
             },
             "require": {
@@ -6353,7 +6353,7 @@
                 "source": "https://github.com/oroinc/orocommerce/tree/4.2",
                 "issues": "https://github.com/oroinc/orocommerce/issues"
             },
-            "time": "2021-03-29T16:51:14+00:00"
+            "time": "2021-04-05T14:39:59+00:00"
         },
         {
             "name": "oro/commerce-crm",
@@ -6824,16 +6824,16 @@
         },
         {
             "name": "oro/customer-portal",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/customer-portal.git",
-                "reference": "8940fd71987ffebf658bc5eb3445501a0e1855d8"
+                "reference": "752e0dcb5008b62b0a7088cc85b25e1206f37291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/8940fd71987ffebf658bc5eb3445501a0e1855d8",
-                "reference": "8940fd71987ffebf658bc5eb3445501a0e1855d8",
+                "url": "https://api.github.com/repos/oroinc/customer-portal/zipball/752e0dcb5008b62b0a7088cc85b25e1206f37291",
+                "reference": "752e0dcb5008b62b0a7088cc85b25e1206f37291",
                 "shasum": ""
             },
             "require": {
@@ -6880,7 +6880,7 @@
                 "source": "https://github.com/oroinc/customer-portal/tree/4.2",
                 "issues": "https://github.com/oroinc/customer-portal/issues"
             },
-            "time": "2021-03-16T11:23:16+00:00"
+            "time": "2021-04-05T15:12:20+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6999,16 +6999,16 @@
         },
         {
             "name": "oro/oauth2-server",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/oauth2-server.git",
-                "reference": "fb4196cacddca29b6c379e6f93b558f85ed0fd9a"
+                "reference": "20a7d799061f415ac78b664ffb00becd12d81604"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/oauth2-server/zipball/fb4196cacddca29b6c379e6f93b558f85ed0fd9a",
-                "reference": "fb4196cacddca29b6c379e6f93b558f85ed0fd9a",
+                "url": "https://api.github.com/repos/oroinc/oauth2-server/zipball/20a7d799061f415ac78b664ffb00becd12d81604",
+                "reference": "20a7d799061f415ac78b664ffb00becd12d81604",
                 "shasum": ""
             },
             "require": {
@@ -7051,20 +7051,20 @@
                 "source": "https://github.com/oroinc/oauth2-server/tree/4.2",
                 "issues": "https://github.com/oroinc/oauth2-server/issues"
             },
-            "time": "2021-03-05T17:11:43+00:00"
+            "time": "2021-03-31T17:58:06+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/platform.git",
-                "reference": "59fb1ebe01af3b1c17339123d3d252007ad42b05"
+                "reference": "fdf910f75449d073b50f16bed624204e37a32e1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/platform/zipball/59fb1ebe01af3b1c17339123d3d252007ad42b05",
-                "reference": "59fb1ebe01af3b1c17339123d3d252007ad42b05",
+                "url": "https://api.github.com/repos/oroinc/platform/zipball/fdf910f75449d073b50f16bed624204e37a32e1c",
+                "reference": "fdf910f75449d073b50f16bed624204e37a32e1c",
                 "shasum": ""
             },
             "require": {
@@ -7382,7 +7382,7 @@
                 "source": "https://github.com/oroinc/platform/tree/4.2",
                 "issues": "https://github.com/oroinc/platform/issues"
             },
-            "time": "2021-03-24T13:56:29+00:00"
+            "time": "2021-04-05T15:12:20+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -15663,16 +15663,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.18.4",
+            "version": "v2.18.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "06f764e3cb6d60822d8f5135205f9d32b5508a31"
+                "reference": "e0f6d05c8b157f50029ca6c65c19ed2694f475bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/06f764e3cb6d60822d8f5135205f9d32b5508a31",
-                "reference": "06f764e3cb6d60822d8f5135205f9d32b5508a31",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/e0f6d05c8b157f50029ca6c65c19ed2694f475bf",
+                "reference": "e0f6d05c8b157f50029ca6c65c19ed2694f475bf",
                 "shasum": ""
             },
             "require": {
@@ -15755,7 +15755,7 @@
             "description": "A tool to automatically fix PHP code style",
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v2.18.4"
+                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v2.18.5"
             },
             "funding": [
                 {
@@ -15763,7 +15763,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-20T14:52:33+00:00"
+            "time": "2021-04-06T18:37:33+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
