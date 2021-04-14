@@ -275,7 +275,13 @@ class OroRequirements extends SymfonyRequirements
             $config = $this->getParameters($configYmlPath);
             $pdo = $this->getDatabaseConnection($config);
             if ($pdo) {
-                $requiredPrivileges = ['INSERT', 'SELECT', 'UPDATE', 'DELETE', 'TRUNCATE', 'REFERENCES', 'TRIGGER', 'CREATE', 'DROP'];
+                $requiredPrivileges = ['INSERT', 'SELECT', 'UPDATE', 'DELETE', 'REFERENCES', 'TRIGGER', 'CREATE', 'DROP'];
+                if ($pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'mysql') {
+                    $requiredPrivileges[] = 'CREATE TEMPORARY TABLES';
+                } else {
+                    $requiredPrivileges[] = 'TEMPORARY';
+                    $requiredPrivileges[] = 'TRUNCATE';
+                }
                 $notGrantedPrivileges = $this->getNotGrantedPrivileges($pdo, $requiredPrivileges, $config);
                 $this->addOroRequirement(
                     empty($notGrantedPrivileges),
