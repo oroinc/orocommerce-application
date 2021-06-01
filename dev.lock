@@ -16534,7 +16534,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../documentation/code_examples/commerce",
-                "reference": "cec67692837e6a506adce70f21e85ba8addb7ea0"
+                "reference": "a1c954b0724ca0a3bed2b87874ceae53f50bb218"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -16546,7 +16546,8 @@
                 "psr-4": {
                     "ACME\\Bundle\\CollectOnDeliveryBundle\\": "payment_method/collect-on-delivery/",
                     "ACME\\Bundle\\FastShippingBundle\\": "shipping_method/fast-shipping/",
-                    "ACME\\Bundle\\CopyrightBundle\\": "content_widget/copyright/"
+                    "ACME\\Bundle\\CopyrightBundle\\": "content_widget/copyright/",
+                    "ACME\\Bundle\\WysiwygBundle\\": "entity_field/wysiwyg/"
                 }
             },
             "license": [
