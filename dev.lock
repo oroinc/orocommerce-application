@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f09f9d1153f42bc40b7abb05b358031c",
+    "content-hash": "32060dda519b720b8725557171a82b70",
     "packages": [
         {
             "name": "akeneo/batch-bundle",
@@ -7583,7 +7583,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "67daca92e7425b7b9fbaca84240eb76fdf5eba25"
+                "reference": "f7e948f5a81c572a3fbc4afed195c82d5afb958b"
             },
             "require": {
                 "akeneo/batch-bundle": "0.4.14",
@@ -7636,7 +7636,7 @@
                 "ocramius/proxy-manager": "~2.11.1",
                 "oro/doctrine-extensions": "2.0.0",
                 "oro/redis-config": "4.2.*",
-                "php": "~7.4.14",
+                "php": "~7.4.14 || ~8.0.0",
                 "php-http/httplug-bundle": "~1.20.0",
                 "phpdocumentor/reflection-docblock": "5.2.*",
                 "psr/container": "^1.0",
@@ -19179,7 +19179,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "~7.4.14"
+        "php": "~7.4.14 || ~8.0.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
