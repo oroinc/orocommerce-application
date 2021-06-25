@@ -7161,7 +7161,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "cc9ee78f0b29b5ecbeece801e36ca15eb07114f3"
+                "reference": "4e12c7481c5ad7a4cc9243a5625166e767abe8d9"
             },
             "require": {
                 "oro/calendar-bundle": "4.2.*",
@@ -7186,6 +7186,7 @@
                     "Oro\\Bundle\\CustomerBundle\\": "src/Oro/Bundle/CustomerBundle",
                     "Oro\\Bundle\\FrontendAttachmentBundle\\": "src/Oro/Bundle/FrontendAttachmentBundle",
                     "Oro\\Bundle\\FrontendBundle\\": "src/Oro/Bundle/FrontendBundle",
+                    "Oro\\Bundle\\FrontendImportExportBundle\\": "src/Oro/Bundle/FrontendImportExportBundle",
                     "Oro\\Bundle\\StyleBookBundle\\": "src/Oro/Bundle/StyleBookBundle",
                     "Oro\\Bundle\\WebsiteBundle\\": "src/Oro/Bundle/WebsiteBundle"
                 },
