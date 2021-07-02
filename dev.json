@@ -41,7 +41,8 @@
     "oro/mailchimp": "4.2.x-dev",
     "oro/cookie-consent": "4.2.x-dev",
     "oro/gridfs-config": "4.2.x-dev",
-    "oro/commerce-demo-checkouts": "4.2.x-dev"
+    "oro/commerce-demo-checkouts": "4.2.x-dev",
+    "oro/microsoft-sync": "4.2.x-dev"
   },
   "require-dev": {
     "behat/behat": "~3.8.1",
