@@ -1,8 +1,14 @@
-The upgrade instructions are available at [OroCommerce website](https://doc.oroinc.com/backend/setup/upgrade-to-new-version/).
+The upgrade instructions are available at [Oro documentation website](https://doc.oroinc.com/backend/setup/upgrade-to-new-version/).
 
 This file includes only the most important items that should be addressed before attempting to upgrade or during the upgrade of a vanilla Oro application.
 
 Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant changes in the code that may affect the upgrade of some customizations.
+
+## 4.2.1
+
+- The link at the calendar events search items was changed,
+  please reindex calendar event items with command
+  `php bin/console oro:search:reindex --class="Oro\Bundle\CalendarBundle\Entity\CalendarEvent"`
 
 ## 4.2.0
 
@@ -29,12 +35,43 @@ The console command `oro:gaufrette:migrate-filestorages` will help to migrate th
 
 ## 4.1.0
 
-The minimum required PHP version is 7.3.13.
-
-Upgrade PHP before running `composer install` or `composer update`, otherwise composer may download wrong versions of the application packages.
+- The minimum required PHP version is 7.3.13.
+- The feature toggle for WEB API was implemented. After upgrade, the API feature will be disabled.
+  To enable it please follow the documentation [Enabling an API Feature](https://doc.oroinc.com/api/enabling-api-feature/).
+- Upgrade PHP before running `composer install` or `composer update`, otherwise composer may download wrong versions of the application packages.
 
 ## 3.1.0
 
 The minimum required PHP version is 7.1.26.
 
 Upgrade PHP before running `composer install` or `composer update`, otherwise composer may download wrong versions of the application packages.
+
+## 1.6.0
+
+* Changed minimum required php version to 7.1
+* Relation between Category and Product has been changed in database. Join table has been removed. Please, make sure that you have fresh database backup before updating application.
+
+## 1.5.0
+
+Full product reindexation has to be performed after upgrade!
+
+## 1.4.0
+
+Format of sluggable urls cache was changed, added support of localized slugs. Cache regeneration is required after update.
+
+## 1.1.0
+
+* Minimum required `php` version has changed from **5.7** to **7.0**.
+* [Fxpio/composer-asset-plugin](https://github.com/fxpio/composer-asset-plugin) dependency was updated to version **1.3**.
+* Composer was updated to version **1.4**; use the following commands:
+
+  ```
+      composer self-update
+      composer global require "fxp/composer-asset-plugin"
+  ```
+
+* To upgrade OroCommerce from **1.0** to **1.1** use the following command:
+
+  ```bash
+  php bin/console oro:platform:update --env=prod --force
+  ```
