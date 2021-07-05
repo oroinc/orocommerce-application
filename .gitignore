@@ -17,8 +17,6 @@ behat.yml
 /var/data/*
 !var/data/.gitkeep
 !var/oro-check.php
-!var/SymfonyRequirements.php
-!var/OroRequirements.php
 /build/logs/*
 /vendor
 /cov
