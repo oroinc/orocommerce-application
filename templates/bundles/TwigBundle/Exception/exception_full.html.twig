@@ -1,4 +1,4 @@
-{% extends 'TwigBundle::layout.html.twig' %}
+{% extends '@Twig/layout.html.twig' %}
 
 {% set pageTitle = status_code ~ ' ' ~ status_text ~ ' - ' ~ exception.message %}
 {% oro_title_set({titleTemplate : pageTitle, force : true}) %}
@@ -8,5 +8,5 @@
 {% endblock %}
 
 {% block body %}
-    {% include 'TwigBundle:Exception:exception.html.twig' %}
+    {% include '@Twig/Exception/exception.html.twig' %}
 {% endblock %}
