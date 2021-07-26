@@ -8,27 +8,25 @@ default: &default
     extensions: &default_extensions
         Behat\MinkExtension:
             base_url: 'http://dev-commerce-crm.local/'
-        Behat\Symfony2Extension: ~
+        FriendsOfBehat\SymfonyExtension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             shared_contexts:
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\FixturesContext
-                - OroActivityListBundle::ActivityContext
-                - OroDataGridBundle::GridContext
-                - OroFormBundle::FormContext
-                - OroSecurityBundle::ACLContext
-                - OroSearchBundle::SearchContext
-                - OroEmailBundle::EmailContext
-                - OroImportExportBundle::ImportExportContext:
-                    - '@oro_entity.entity_alias_resolver'
-                    - '@oro_importexport.processor.registry'
-                - OroAddressBundle::AddressContext
-                - OroApplicationBundle::CommerceMainContext
-                - OroCustomerBundle::CustomerUserContext
-                - OroOrderBundle::OrderContext
-                - OroShippingBundle::SingleCurrencyContext
-                - OroShoppingListBundle::ShoppingListContext
-                - OroRedirectBundle::SlugPrototypesContext
+                - Oro\Bundle\ActivityListBundle\Tests\Behat\Context\ActivityContext
+                - Oro\Bundle\DataGridBundle\Tests\Behat\Context\GridContext
+                - Oro\Bundle\FormBundle\Tests\Behat\Context\FormContext
+                - Oro\Bundle\SecurityBundle\Tests\Behat\Context\ACLContext
+                - Oro\Bundle\SearchBundle\Tests\Behat\Context\SearchContext
+                - Oro\Bundle\EmailBundle\Tests\Behat\Context\EmailContext
+                - Oro\Bundle\ImportExportBundle\Tests\Behat\Context\ImportExportContext
+                - Oro\Bundle\AddressBundle\Tests\Behat\Context\AddressContext
+                - Oro\Bundle\ApplicationBundle\Tests\Behat\Context\CommerceMainContext
+                - Oro\Bundle\CustomerBundle\Tests\Behat\Context\CustomerUserContext
+                - Oro\Bundle\OrderBundle\Tests\Behat\Context\OrderContext
+                - Oro\Bundle\ShippingBundle\Tests\Behat\Context\SingleCurrencyContext
+                - Oro\Bundle\ShoppingListBundle\Tests\Behat\Context\ShoppingListContext
+                - Oro\Bundle\RedirectBundle\Tests\Behat\Context\SlugPrototypesContext
 
 chromedriver:
     <<: *default
