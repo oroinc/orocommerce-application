@@ -81,9 +81,6 @@ oro_maintenance:
 #
 # ORO Bundles config
 #
-oro_distribution:
-    entry_point: ~
-
 oro_theme:
     active_theme: oro
 
