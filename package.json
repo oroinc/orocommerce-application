@@ -42,7 +42,7 @@
         "focus-visible": "5.0.2",
         "fullcalendar": "3.4.0",
         "fuse.js": "3.2.*",
-        "grapesjs": "0.16.30",
+        "grapesjs": "0.17.26",
         "grapesjs-parser-postcss": "0.1.1",
         "grapesjs-preset-webpage": "0.1.11",
         "jquery": "3.5.*",

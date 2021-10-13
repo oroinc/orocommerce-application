@@ -6276,7 +6276,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "b7cdf24700c4e74256c96fa7fe59e1a58d2cd142"
+                "reference": "ddc74256932c39048ecc7273c873b2f4d0a96ce3"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6318,7 +6318,7 @@
             "type": "library",
             "extra": {
                 "npm": {
-                    "grapesjs": "0.16.30",
+                    "grapesjs": "0.17.26",
                     "grapesjs-preset-webpage": "0.1.11",
                     "grapesjs-parser-postcss": "0.1.1",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
