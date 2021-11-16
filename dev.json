@@ -76,9 +76,6 @@
     "bin-dir": "bin",
     "fxp-asset": {
       "enabled": false
-    },
-    "preferred-install": {
-      "oro/api-doc-bundle": "source"
     }
   },
   "scripts": {
