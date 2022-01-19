@@ -20,7 +20,9 @@ behat.yml
 /build/logs/*
 /vendor
 /cov
-/public/bundles
+!public/bundles/
+/public/bundles/*
+!public/bundles/.gitkeep
 /public/images
 !public/js/
 /public/js/*
