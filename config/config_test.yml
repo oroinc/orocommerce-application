@@ -66,3 +66,8 @@ oro_frontend:
     settings:
         web_api:
             value: true
+
+oro_message_queue:
+    client:
+        redelivery:
+            delay_time: 1
