@@ -6552,6 +6552,7 @@
                     "Oro\\Bundle\\FallbackBundle\\": "src/Oro/Bundle/FallbackBundle",
                     "Oro\\Bundle\\FedexShippingBundle\\": "src/Oro/Bundle/FedexShippingBundle",
                     "Oro\\Bundle\\FlatRateShippingBundle\\": "src/Oro/Bundle/FlatRateShippingBundle",
+                    "Oro\\Bundle\\FixedProductShippingBundle\\": "src/Oro/Bundle/FixedProductShippingBundle",
                     "Oro\\Bundle\\FrontendLocalizationBundle\\": "src/Oro/Bundle/FrontendLocalizationBundle",
                     "Oro\\Bundle\\FrontendTestFrameworkBundle\\": "src/Oro/Bundle/FrontendTestFrameworkBundle",
                     "Oro\\Bundle\\InventoryBundle\\": "src/Oro/Bundle/InventoryBundle",
