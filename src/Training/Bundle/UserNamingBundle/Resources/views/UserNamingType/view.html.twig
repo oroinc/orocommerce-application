@@ -1,0 +1,32 @@
+{% extends '@OroUI/actions/view.html.twig' %}
+{% import '@OroUI/macros.html.twig' as UI %}
+
+{% oro_title_set({params : {"%usernamingtype%": entity.title } }) %}
+
+{% block pageHeader %}
+    {% set breadcrumbs = {
+        'entity': entity,
+        'indexPath': path('training_user_naming_type_index'),
+        'indexLabel': 'training.usernaming.usernamingtype.entity_plural_label'|trans,
+        'entityTitle': entity.title|default('N/A'|trans)
+    } %}
+
+    {{ parent() }}
+{% endblock pageHeader %}
+
+{% block content_data %}
+    {% set dataBlocks = [
+        {
+            'title': 'training.usernaming.sections.general'|trans,
+            'subblocks': [{'data' : [
+                UI.renderProperty('training.usernaming.usernamingtype.title.label'|trans, entity.title),
+                UI.renderProperty('training.usernaming.usernamingtype.format.label'|trans, entity.format)
+            ]}]
+        }
+    ] %}
+
+    {% set id = 'user-naming-type-view' %}
+    {% set data = {'dataBlocks': dataBlocks} %}
+
+    {{ parent() }}
+{% endblock content_data %}

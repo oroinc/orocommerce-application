@@ -1,0 +1,18 @@
+services:
+    training.form.type.user_naming_type:
+        class: 'Training\Bundle\UserNamingBundle\Form\Type\UserNamingTypeType'
+        tags:
+            - { name: form.type, alias: user_naming_type_type }
+
+    training.form.autocomplete.user_naming_type.search_handler:
+        parent: oro_form.autocomplete.search_handler
+        arguments:
+            - 'Training\Bundle\UserNamingBundle\Entity\UserNamingType'
+            - [ "title" ]
+        tags:
+            - { name: oro_form.autocomplete.search_handler, alias: user_naming_types, acl_resource: training_user_naming_type_view }
+
+    training.form.type.user_naming_type_select_or_create:
+        class: 'Training\Bundle\UserNamingBundle\Form\Type\UserNamingCreateOrSelectType'
+        tags:
+            - { name: form.type, alias: user_naming_type_select_or_create }

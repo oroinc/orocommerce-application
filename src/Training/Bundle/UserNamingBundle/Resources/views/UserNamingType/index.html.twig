@@ -1,0 +1,15 @@
+{% extends '@OroUI/actions/index.html.twig' %}
+{% import '@OroUI/macros.html.twig' as UI %}
+{% set gridName = 'training-user-naming-type-grid' %}
+{% set pageTitle = 'training.usernaming.usernamingtype.entity_plural_label'|trans %}
+
+{% block navButtons %}
+    {% if is_granted('training_user_naming_type_create') %}
+        <div class="btn-group">
+            {{ UI.addButton({
+                'path' : path('training_user_naming_type_create'),
+                'entity_label': 'training.usernaming.usernamingtype.entity_label'|trans
+            }) }}
+        </div>
+    {% endif %}
+{% endblock %}

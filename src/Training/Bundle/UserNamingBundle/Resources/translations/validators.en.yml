@@ -1,0 +1,4 @@
+training:
+  validators:
+    user_naming_format:
+      message: 'The value must contain only unique placeholder separated by space. Allowed placeholders are: {{ placeholders }}'

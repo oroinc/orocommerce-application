@@ -1,0 +1,24 @@
+training:
+  usernaming:
+    usernamingtype:
+      entity_label: User Naming Type
+      entity_plural_label: User Naming Types
+      id.label: ID
+      title.label: Title
+      format.label: Format
+      owner.label: Owner
+      organization.label: Organization
+    controller:
+      usernamingtype:
+        saved.message: 'User Naming Type has been saved'
+    full_formatted_name: 'Full Formatted Name'
+    user_view:
+      scroll_data:
+        full_name:
+          title: 'Name Info'
+    sections:
+      general: 'General'
+
+oro:
+  user:
+    naming_type.label: User Naming Type

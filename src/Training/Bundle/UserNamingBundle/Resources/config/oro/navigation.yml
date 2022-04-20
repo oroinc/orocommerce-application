@@ -1,0 +1,27 @@
+navigation:
+    menu_config:
+        items:
+            user_naming_type_list:
+                label:    'training.usernaming.usernamingtype.entity_plural_label'
+                route:    'training_user_naming_type_index'
+                position: 10
+                extras:
+                    routes:
+                        - 'training_user_naming_type_index'
+                        - 'training_user_naming_type_view'
+                        - 'training_user_naming_type_create'
+                        - 'training_user_naming_type_update'
+        tree:
+            application_menu:
+                children:
+                    system_tab:
+                        children:
+                            users_management:
+                                children:
+                                    user_naming_type_list: ~
+
+    titles:
+        training_user_naming_type_index: ~
+        training_user_naming_type_view: '%usernamingtype% - oro.ui.view'
+        training_user_naming_type_update: '%usernamingtype% - oro.ui.edit'
+        training_user_naming_type_create: 'oro.ui.create_entity'

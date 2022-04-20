@@ -1,0 +1,77 @@
+datagrids:
+    training-user-naming-type-grid-base:
+        extended_entity_name: 'Training\Bundle\UserNamingBundle\Entity\UserNamingType'
+        acl_resource: training_user_naming_type_view
+        source:
+            type: orm
+            query:
+                select:
+                    - unt.id
+                    - unt.title
+                    - unt.format
+                    - unt.createdAt
+                    - unt.updatedAt
+                from:
+                    - { table: 'Training\Bundle\UserNamingBundle\Entity\UserNamingType', alias: unt }
+        columns:
+            title:
+                label: training.usernaming.usernamingtype.title.label
+            format:
+                label: training.usernaming.usernamingtype.format.label
+            createdAt:
+                label: oro.ui.created_at
+                frontend_type: datetime
+                renderable: false
+            updatedAt:
+                label: oro.ui.updated_at
+                frontend_type: datetime
+                renderable: false
+        sorters:
+            columns:
+                title:
+                    data_name: unt.title
+                format:
+                    data_name: unt.format
+                createdAt:
+                    data_name: unt.createdAt
+                updatedAt:
+                    data_name: unt.updatedAt
+        filters:
+            columns:
+                title:
+                    type: string
+                    data_name: unt.title
+                format:
+                    type: string
+                    data_name: unt.format
+                createdAt:
+                    type: datetime
+                    data_name: unt.createdAt
+                updatedAt:
+                    type: datetime
+                    data_name: unt.updatedAt
+        options:
+            entityHint: training.usernaming.usernamingtype.entity_plural_label
+        properties:
+            id: ~
+
+    training-user-naming-type-grid-select:
+        extends: training-user-naming-type-grid-base
+
+    training-user-naming-type-grid:
+        extends: training-user-naming-type-grid-base
+        options:
+            entity_pagination: true
+        properties:
+            view_link:
+                type: url
+                route: training_user_naming_type_view
+                params: [ id ]
+        actions:
+            view:
+                type: navigate
+                label: oro.grid.action.view
+                link: view_link
+                icon: eye
+                acl_resource: training_user_naming_type_view
+                rowAction: true

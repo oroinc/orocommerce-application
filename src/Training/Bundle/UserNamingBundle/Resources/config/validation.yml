@@ -1,0 +1,15 @@
+Training\Bundle\UserNamingBundle\Entity\UserNamingType:
+    properties:
+        title:
+            - NotBlank: ~
+            - Length:
+                min: 1
+                max: 64
+                allowEmptyString: false
+        format:
+            - NotBlank: ~
+            - Length:
+                  min: 1
+                  max: 255
+                  allowEmptyString: false
+            - Training\Bundle\UserNamingBundle\Validator\Constraints\UserNamingFormat: ~

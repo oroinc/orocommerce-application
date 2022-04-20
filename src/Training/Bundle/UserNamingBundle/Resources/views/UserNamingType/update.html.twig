@@ -1,0 +1,65 @@
+{% extends '@OroUI/actions/update.html.twig' %}
+
+{% oro_title_set({params : {"%usernamingtype%": entity.title, "%entityName%": 'training.usernaming.usernamingtype.entity_label'|trans} }) %}
+
+{% set formAction = form.vars.value.id ? path('training_user_naming_type_update', { 'id': form.vars.value.id }) : path('training_user_naming_type_create')  %}
+
+{% block navButtons %}
+    {% import '@OroUI/macros.html.twig' as UI %}
+
+    {% placeholder update_navButtons with {entity: entity} %}
+    {{ UI.cancelButton(path('training_user_naming_type_index')) }}
+    {% set html = UI.saveAndCloseButton() %}
+    {% if entity.id or is_granted('training_user_naming_type_update') %}
+        {% set html = html ~ UI.saveAndStayButton() %}
+    {% endif %}
+    {{ UI.dropdownSaveButton({'html': html}) }}
+{% endblock %}
+
+{% block pageHeader %}
+    {% if entity.id %}
+        {% set breadcrumbs = {
+            'entity':      entity,
+            'indexPath':   path('training_user_naming_type_index'),
+            'indexLabel': 'training.usernaming.usernamingtype.entity_plural_label'|trans,
+            'entityTitle': entity.title|default('N/A'|trans)
+        } %}
+        {{ parent() }}
+    {% else %}
+        {% set title = 'oro.ui.create_entity'|trans({'%entityName%': 'training.usernaming.usernamingtype.entity_label'|trans}) %}
+        {% include '@OroUI/page_title_block.html.twig' with { title: title } %}
+    {% endif %}
+{% endblock pageHeader %}
+
+{% block stats %}
+    <li>{{ 'oro.ui.created_at'|trans }}: {{ entity.createdAt ? entity.createdAt|oro_format_datetime : 'N/A' }}</li>
+    <li>{{ 'oro.ui.updated_at'|trans }}: {{ entity.updatedAt ? entity.updatedAt|oro_format_datetime : 'N/A' }}</li>
+{% endblock stats %}
+
+{% block content_data %}
+    {% set id = 'user-naming-type' %}
+
+    {% set dataBlocks = [{
+        'title': 'General'|trans,
+        'subblocks': [
+            {
+                'data': [
+                    form_row(form.title),
+                    form_row(form.format)
+                ]
+            }
+        ]
+    }]
+    %}
+
+    {% set dataBlocks = dataBlocks|merge(oro_form_additional_data(form, 'oro.order.sections.additional'|trans)) %}
+
+    {% set data = {
+        'formErrors': form_errors(form),
+        'dataBlocks': dataBlocks
+    }%}
+
+    <div class="responsive-form-inner">
+        {{ parent() }}
+    </div>
+{% endblock content_data %}
