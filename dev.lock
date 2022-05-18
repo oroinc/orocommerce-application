@@ -5409,16 +5409,16 @@
         },
         {
             "name": "league/oauth2-server",
-            "version": "8.3.4",
+            "version": "8.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-server.git",
-                "reference": "0c2f32cd766861f3add4b95c49c5fcef3427e133"
+                "reference": "7aeb7c42b463b1a6fe4d084d3145e2fa22436876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/0c2f32cd766861f3add4b95c49c5fcef3427e133",
-                "reference": "0c2f32cd766861f3add4b95c49c5fcef3427e133",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/7aeb7c42b463b1a6fe4d084d3145e2fa22436876",
+                "reference": "7aeb7c42b463b1a6fe4d084d3145e2fa22436876",
                 "shasum": ""
             },
             "require": {
@@ -5485,7 +5485,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-server/issues",
-                "source": "https://github.com/thephpleague/oauth2-server/tree/8.3.4"
+                "source": "https://github.com/thephpleague/oauth2-server/tree/8.3.5"
             },
             "funding": [
                 {
@@ -5493,7 +5493,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-07T21:33:04+00:00"
+            "time": "2022-05-03T21:21:28+00:00"
         },
         {
             "name": "league/uri",
@@ -6625,7 +6625,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "a8557222b469d913c89a2ecc247a9f517ab06f75"
+                "reference": "f6698a073b03aba52f96693386bacb7006535d6d"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6666,7 +6666,7 @@
             "type": "library",
             "extra": {
                 "npm": {
-                    "grapesjs": "0.17.26",
+                    "grapesjs": "0.18.4",
                     "grapesjs-preset-webpage": "0.1.11",
                     "grapesjs-parser-postcss": "0.1.1",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
@@ -7333,16 +7333,16 @@
         },
         {
             "name": "oro/doctrine-extensions",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/doctrine-extensions.git",
-                "reference": "a56d0330f785af336d226b2c84292494a343e0d0"
+                "reference": "478101fdb37e7a3bd4efad78b6e36fc49c26055f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/doctrine-extensions/zipball/a56d0330f785af336d226b2c84292494a343e0d0",
-                "reference": "a56d0330f785af336d226b2c84292494a343e0d0",
+                "url": "https://api.github.com/repos/oroinc/doctrine-extensions/zipball/478101fdb37e7a3bd4efad78b6e36fc49c26055f",
+                "reference": "478101fdb37e7a3bd4efad78b6e36fc49c26055f",
                 "shasum": ""
             },
             "require": {
@@ -7385,9 +7385,9 @@
             ],
             "support": {
                 "issues": "https://github.com/oroinc/doctrine-extensions/issues",
-                "source": "https://github.com/oroinc/doctrine-extensions/tree/2.0.1"
+                "source": "https://github.com/oroinc/doctrine-extensions/tree/2.0.2"
             },
-            "time": "2021-09-02T11:41:41+00:00"
+            "time": "2022-05-10T14:09:20+00:00"
         },
         {
             "name": "oro/google-tag-manager-bundle",
