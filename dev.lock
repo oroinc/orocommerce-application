@@ -3876,16 +3876,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.17.1",
+            "version": "3.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "190f64b051795d447ec755acbfdb1bff330a6707"
+                "reference": "f721ffd76733c24ec1e8fd1e50e44a335fb78bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/190f64b051795d447ec755acbfdb1bff330a6707",
-                "reference": "190f64b051795d447ec755acbfdb1bff330a6707",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/f721ffd76733c24ec1e8fd1e50e44a335fb78bbe",
+                "reference": "f721ffd76733c24ec1e8fd1e50e44a335fb78bbe",
                 "shasum": ""
             },
             "require": {
@@ -3913,6 +3913,7 @@
                 "symfony/filesystem": "^3.0|^4.0|^5.0|^6.0",
                 "symfony/form": "^3.0|^4.0|^5.0|^6.0",
                 "symfony/translation": "^3.0|^4.0|^5.0|^6.0",
+                "symfony/uid": "^5.1|^6.0",
                 "symfony/validator": "^3.1.9|^4.0|^5.0|^6.0",
                 "symfony/yaml": "^3.3|^4.0|^5.0|^6.0",
                 "twig/twig": "~1.34|~2.4|^3.0"
@@ -3920,6 +3921,7 @@
             "suggest": {
                 "doctrine/collections": "Required if you like to use doctrine collection types as ArrayCollection.",
                 "symfony/cache": "Required if you like to use cache functionality.",
+                "symfony/uid": "Required if you'd like to serialize UID objects.",
                 "symfony/yaml": "Required if you'd like to use the YAML metadata format."
             },
             "type": "library",
@@ -3958,7 +3960,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.17.1"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.18.0"
             },
             "funding": [
                 {
@@ -3966,7 +3968,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-28T20:59:55+00:00"
+            "time": "2022-08-06T05:17:44+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -4432,45 +4434,42 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "1ee1a384b96c8af29ecad9b3a7adc27a150ebc49"
+                "reference": "bf7504247d5a110d941efa8eb4815f5292a8dc56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/1ee1a384b96c8af29ecad9b3a7adc27a150ebc49",
-                "reference": "1ee1a384b96c8af29ecad9b3a7adc27a150ebc49",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/bf7504247d5a110d941efa8eb4815f5292a8dc56",
+                "reference": "bf7504247d5a110d941efa8eb4815f5292a8dc56",
                 "shasum": ""
             },
             "require": {
                 "ext-iconv": "*",
-                "laminas/laminas-loader": "^2.8",
+                "laminas/laminas-loader": "^2.8.0",
                 "laminas/laminas-mime": "^2.9.1",
-                "laminas/laminas-stdlib": "^3.6",
-                "laminas/laminas-validator": "^2.15",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0",
-                "symfony/polyfill-intl-idn": "^1.24.0",
-                "symfony/polyfill-mbstring": "^1.12.0",
-                "webmozart/assert": "^1.10"
-            },
-            "conflict": {
-                "zendframework/zend-mail": "*"
+                "laminas/laminas-stdlib": "^3.11.0",
+                "laminas/laminas-validator": "^2.23.0",
+                "php": "~8.0.0 || ~8.1.0",
+                "symfony/polyfill-intl-idn": "^1.26.0",
+                "symfony/polyfill-mbstring": "^1.16.0",
+                "webmozart/assert": "^1.11.0"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-crypt": "^2.6 || ^3.4",
-                "laminas/laminas-db": "^2.13.3",
-                "laminas/laminas-servicemanager": "^3.7",
-                "phpunit/phpunit": "^9.5.5",
-                "psalm/plugin-phpunit": "^0.15.1",
-                "symfony/process": "^5.3.7",
-                "vimeo/psalm": "^4.7"
+                "laminas/laminas-coding-standard": "~2.3.0",
+                "laminas/laminas-crypt": "^3.8.0",
+                "laminas/laminas-db": "^2.15.0",
+                "laminas/laminas-servicemanager": "^3.16.0",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "symfony/process": "^6.0.11",
+                "vimeo/psalm": "^4.26.0"
             },
             "suggest": {
-                "laminas/laminas-crypt": "Crammd5 support in SMTP Auth",
-                "laminas/laminas-servicemanager": "^2.7.10 || ^3.3.1 when using SMTP to deliver messages"
+                "laminas/laminas-crypt": "^3.8 Crammd5 support in SMTP Auth",
+                "laminas/laminas-servicemanager": "^3.16 when using SMTP to deliver messages"
             },
             "type": "library",
             "extra": {
@@ -4508,7 +4507,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-02-23T21:08:17+00:00"
+            "time": "2022-08-06T12:27:12+00:00"
         },
         {
             "name": "laminas/laminas-mime",
@@ -8464,16 +8463,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.6.4",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "135607f9ccc297d6923d49c2bcf309f509413215"
+                "reference": "367a8d9d5f7da2a0136422d27ce8840583926955"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/135607f9ccc297d6923d49c2bcf309f509413215",
-                "reference": "135607f9ccc297d6923d49c2bcf309f509413215",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/367a8d9d5f7da2a0136422d27ce8840583926955",
+                "reference": "367a8d9d5f7da2a0136422d27ce8840583926955",
                 "shasum": ""
             },
             "require": {
@@ -8503,9 +8502,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.6.4"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.7.0"
             },
-            "time": "2022-06-26T13:09:08+00:00"
+            "time": "2022-08-09T12:23:23+00:00"
         },
         {
             "name": "predis/predis",
