@@ -6221,7 +6221,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "f6698a073b03aba52f96693386bacb7006535d6d"
+                "reference": "4d37385417c81f3c45b16d39d75fec5ef26d71d1"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6266,7 +6266,8 @@
                     "grapesjs-preset-webpage": "0.1.11",
                     "grapesjs-parser-postcss": "0.1.1",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
-                    "@oroinc/elevatezoom": "3.0.81"
+                    "@oroinc/elevatezoom": "3.0.81",
+                    "html2canvas": "1.4.1"
                 },
                 "symfony": {
                     "require": "~5.4.0"
