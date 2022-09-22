@@ -87,7 +87,6 @@ oro_layout:
     enabled_themes:
         - default
         - custom
-        - view-switcher
 
 oro_locale:
     formatting_code: en
