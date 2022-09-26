@@ -1450,16 +1450,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af"
+                "reference": "1269d42c03f8a1cc9b56a1b727568423268a191b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/1958a744696c6bb3bb0d28db2611dc11610e78af",
-                "reference": "1958a744696c6bb3bb0d28db2611dc11610e78af",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/1269d42c03f8a1cc9b56a1b727568423268a191b",
+                "reference": "1269d42c03f8a1cc9b56a1b727568423268a191b",
                 "shasum": ""
             },
             "require": {
@@ -1467,9 +1467,9 @@
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9.0",
-                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan": "^1.4.8",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.1.5",
-                "vimeo/psalm": "^4.2.1"
+                "vimeo/psalm": "^4.22"
             },
             "type": "library",
             "autoload": {
@@ -1513,9 +1513,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/collections/issues",
-                "source": "https://github.com/doctrine/collections/tree/1.6.8"
+                "source": "https://github.com/doctrine/collections/tree/1.6.9"
             },
-            "time": "2021-08-10T18:51:53+00:00"
+            "time": "2022-08-15T12:08:20+00:00"
         },
         {
             "name": "doctrine/common",
@@ -6623,7 +6623,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "a345fe27d8ce5a808aa2f9875f56ef2fa2d7741a"
+                "reference": "d2305b8fd98c40f03a5a2a54a4499777e15ca644"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6668,7 +6668,8 @@
                     "grapesjs-preset-webpage": "0.1.11",
                     "grapesjs-parser-postcss": "0.1.1",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
-                    "@oroinc/elevatezoom": "3.0.81"
+                    "@oroinc/elevatezoom": "3.0.81",
+                    "html2canvas": "1.4.1"
                 },
                 "symfony": {
                     "require": "~5.4.0"
