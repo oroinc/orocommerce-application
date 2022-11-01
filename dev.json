@@ -72,7 +72,8 @@
     "oro/twig-inspector": "1.0.*",
     "oro/commerce-documentation-examples": "5.1.x-dev",
     "oro/crm-documentation-examples": "5.1.x-dev",
-    "oro/platform-documentation-examples": "5.1.x-dev"
+    "oro/platform-documentation-examples": "5.1.x-dev",
+    "oro/maker": "5.1.x-dev"
   },
   "config": {
     "bin-dir": "bin",
