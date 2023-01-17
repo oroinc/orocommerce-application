@@ -3885,22 +3885,22 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.18.2",
+            "version": "3.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "329e29c323fb1e5c65b4ae4c77ba747678755a6c"
+                "reference": "cc49ca6cd97baa173166c1f4fc54521964cf28bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/329e29c323fb1e5c65b4ae4c77ba747678755a6c",
-                "reference": "329e29c323fb1e5c65b4ae4c77ba747678755a6c",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/cc49ca6cd97baa173166c1f4fc54521964cf28bd",
+                "reference": "cc49ca6cd97baa173166c1f4fc54521964cf28bd",
                 "shasum": ""
             },
             "require": {
-                "doctrine/annotations": "^1.13",
+                "doctrine/annotations": "^1.13 || ^2.0",
                 "doctrine/instantiator": "^1.0.3",
-                "doctrine/lexer": "^1.1",
+                "doctrine/lexer": "^1.1 || ^2",
                 "jms/metadata": "^2.6",
                 "php": "^7.2||^8.0",
                 "phpstan/phpdoc-parser": "^0.4 || ^0.5 || ^1.0"
@@ -3958,7 +3958,7 @@
                     "email": "goetas@gmail.com"
                 }
             ],
-            "description": "Library for (de-)serializing data of any complexity; supports XML, JSON, and YAML.",
+            "description": "Library for (de-)serializing data of any complexity; supports XML, and JSON.",
             "homepage": "http://jmsyst.com/libs/serializer",
             "keywords": [
                 "deserialization",
@@ -3969,7 +3969,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.18.2"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.21.0"
             },
             "funding": [
                 {
@@ -3977,7 +3977,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-12T08:40:16+00:00"
+            "time": "2023-01-10T13:08:17+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -4440,16 +4440,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.21.0",
+            "version": "2.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "451b33522a4e7f17e097e45fceea4752c86a2ace"
+                "reference": "6e3d32a81dc28c233f4e1071564f75e151fcaca6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/451b33522a4e7f17e097e45fceea4752c86a2ace",
-                "reference": "451b33522a4e7f17e097e45fceea4752c86a2ace",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/6e3d32a81dc28c233f4e1071564f75e151fcaca6",
+                "reference": "6e3d32a81dc28c233f4e1071564f75e151fcaca6",
                 "shasum": ""
             },
             "require": {
@@ -4513,7 +4513,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-12-05T18:42:59+00:00"
+            "time": "2023-01-06T07:11:10+00:00"
         },
         {
             "name": "laminas/laminas-mime",
