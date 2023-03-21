@@ -5,7 +5,7 @@
 /node_modules
 /composer.phar
 composer.lock
-behat.yml
+/behat.yml
 /var/*
 !var/cache/
 /var/cache/*
