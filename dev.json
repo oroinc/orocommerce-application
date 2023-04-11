@@ -9,9 +9,7 @@
     }
   ],
   "autoload": {
-    "psr-4": {
-      "App\\": "src/"
-    },
+    "psr-4": {"": "src/"},
     "classmap": [
       "src/AppKernel.php"
     ],
