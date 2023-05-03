@@ -5,7 +5,7 @@
 /node_modules
 /composer.phar
 composer.lock
-behat.yml
+/behat.yml
 /var/*
 !var/cache/
 /var/cache/*
@@ -31,12 +31,17 @@ behat.yml
 /public/layout-build
 /public/media/cache
 /public/media/sitemaps
+/public/media/behat
 /public/media/js
 /public/build.js
 /config/parameters.yml
-/config/parameters_test.yml
+/config/.env
+/.env-app.local
+/.env-app.local.php
+/.env-app.*.local
 phpunit.xml
 .phpunit.result.cache
+/.behat-secrets.yml
 *~
 bin/*
 !bin/console

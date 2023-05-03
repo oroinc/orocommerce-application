@@ -45,6 +45,8 @@ monolog:
             type:           deduplication
             handler:        symfony_mailer
             time:           10
+            store:          "%kernel.logs_dir%/deduplicated.log"
+
         symfony_mailer:
             type:           symfony_mailer
             email_prototype:
