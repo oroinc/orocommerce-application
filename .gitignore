@@ -53,3 +53,4 @@ bin/*
 /.vagrant
 /.php-version
 /docker-compose.override.yml
+/.build
