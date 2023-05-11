@@ -4,12 +4,17 @@ pipeline {
         ORO_BEHAT_OPTIONS = '--skip-isolators'
         ORO_BEHAT_TAGS = '@e2esmokeci'
     }
-    agent none
+    agent {
+        node {
+            label 'docker1'
+        }
+    }
     options {
         timeout(time: 1, unit: 'HOURS')
         buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '150', numToKeepStr: '50'))
         disableResume()
         timestamps ()
+        ansiColor('xterm')
     }
     stages {
         stage('Init') {
