@@ -2,6 +2,7 @@
 - */.git
 - */.github
 - */.gitignore
+- .build
 - /node_modules
 - vendor/oro/platform/build/node_modules
 - [Tt]ests/[Uu]nit/
