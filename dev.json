@@ -31,7 +31,6 @@
     "oro/crm-task-bundle": "5.1.x-dev",
     "oro/crm-call-bundle": "5.1.x-dev",
     "oro/commerce-crm": "5.1.x-dev",
-    "oro/crm-hangouts-call-bundle": "5.1.x-dev",
     "oro/crm-dotmailer": "5.1.x-dev",
     "oro/crm-zendesk": "5.1.x-dev",
     "oro/commerce-infinitepay": "5.1.x-dev",
