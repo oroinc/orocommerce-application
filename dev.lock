@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2053c9ddcb28f7fb657ab8c6a2db0e4",
+    "content-hash": "55becbd83e15532897c2e924fb2fc8d2",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6328,47 +6328,6 @@
             }
         },
         {
-            "name": "oro/commerce-documentation-examples",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../documentation/code_examples/commerce",
-                "reference": "22b2cd282a51ea0b4971b606b4f8d4f029f58ae0"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ACME\\Bundle\\CollectOnDeliveryBundle\\": "payment_method/collect-on-delivery/",
-                    "ACME\\Bundle\\FastShippingBundle\\": "shipping_method/fast-shipping/",
-                    "ACME\\Bundle\\CopyrightBundle\\": "content_widget/copyright/",
-                    "ACME\\Bundle\\WysiwygBundle\\": "entity_field/wysiwyg/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
-                }
-            ],
-            "description": "OroCommerce documentation examples",
-            "keywords": [
-                "OroCommerce",
-                "documentation",
-                "example"
-            ],
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
             "name": "oro/commerce-infinitepay",
             "version": "dev-master",
             "dist": {
@@ -6587,39 +6546,6 @@
             "keywords": [
                 "Call",
                 "Oro"
-            ],
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "oro/crm-documentation-examples",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../documentation/code_examples/crm",
-                "reference": "150f7d008b29fa121e08fe78d72e51a58a431659"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
-                }
-            ],
-            "description": "OroCRM documentation examples",
-            "keywords": [
-                "OroCRM",
-                "documentation",
-                "example"
             ],
             "transport-options": {
                 "relative": true
@@ -7437,44 +7363,6 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/oroinc/platform.git",
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "oro/platform-documentation-examples",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../../documentation/code_examples/platform",
-                "reference": "2c16253b897ee829d94f8f7329053cad82ab5780"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ACME\\Bundle\\DemoBundle\\": "image_placeholder/demo/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
-                }
-            ],
-            "description": "OroPlatform documentation examples",
-            "keywords": [
-                "OroPlatform",
-                "documentation",
-                "example"
-            ],
             "transport-options": {
                 "relative": true
             }
@@ -19560,9 +19448,6 @@
         "oro/cookie-consent": 20,
         "oro/gridfs-config": 20,
         "oro/commerce-demo-checkouts": 20,
-        "oro/commerce-documentation-examples": 20,
-        "oro/crm-documentation-examples": 20,
-        "oro/platform-documentation-examples": 20,
         "oro/maker": 20
     },
     "prefer-stable": true,
