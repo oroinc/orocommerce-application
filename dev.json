@@ -39,10 +39,7 @@
     "oro/mailchimp": "5.1.x-dev",
     "oro/cookie-consent": "5.1.x-dev",
     "oro/gridfs-config": "5.1.x-dev",
-    "oro/commerce-demo-checkouts": "5.1.x-dev",
-    "oro/commerce-documentation-examples": "5.1.x-dev",
-    "oro/crm-documentation-examples": "5.1.x-dev",
-    "oro/platform-documentation-examples": "5.1.x-dev"
+    "oro/commerce-demo-checkouts": "5.1.x-dev"
   },
   "require-dev": {
     "behat/behat": "~3.12.0",
@@ -136,18 +133,6 @@
     {
       "type": "path",
       "url": "../../package/*"
-    },
-    {
-      "type": "path",
-      "url": "../../documentation/code_examples/commerce"
-    },
-    {
-      "type": "path",
-      "url": "../../documentation/code_examples/crm"
-    },
-    {
-      "type": "path",
-      "url": "../../documentation/code_examples/platform"
     },
     {
       "type": "composer",
