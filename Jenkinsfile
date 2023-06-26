@@ -227,10 +227,10 @@ pipeline {
                 docker ps -a -f "name=.*_.*-.*" > logs/docker_ps.txt ||:
                 docker ps -a --format '{{.Names}}' -f "name=.*_.*-.*" | xargs -r -I {} bash -c "docker logs {} > logs/docker_logs_{}.txt 2>&1" ||:
                 docker ps -a --format '{{.Names}}' -f "name=.*_.*-redis-.*" | xargs -r -I {} bash -c "docker exec -t {} redis-cli info > logs/docker_{}_info.txt 2>&1" ||:
-                docker ps -a --format '{{.Names}}' -f "name=.*_.*-functional-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro//var/logs/junit logs" ||:
-                docker ps -a --format '{{.Names}}' -f "name=.*_.*-functional-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro//var/logs/functional logs" ||:
-                docker ps -a --format '{{.Names}}' -f "name=.*_.*-behat-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro//var/logs/junit logs" ||:
-                docker ps -a --format '{{.Names}}' -f "name=.*_.*-behat-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro//var/logs/behat logs" ||:
+                docker ps -a --format '{{.Names}}' -f "name=.*_.*-functional-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro/var/logs/junit logs" ||:
+                docker ps -a --format '{{.Names}}' -f "name=.*_.*-functional-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro/var/logs/functional logs" ||:
+                docker ps -a --format '{{.Names}}' -f "name=.*_.*-behat-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro/var/logs/junit logs" ||:
+                docker ps -a --format '{{.Names}}' -f "name=.*_.*-behat-.*" | xargs -r -I {} bash -c "docker cp {}:/var/www/oro/var/logs/behat logs" ||:
             '''
             dir("logs") {
                 archiveArtifacts defaultExcludes: false, allowEmptyArchive: true, artifacts: '**', excludes: '**/*.sql', caseSensitive: false
