@@ -61,7 +61,7 @@ pipeline {
                         stage('Build:prod:install:de') {
                             environment {
                                 ORO_LANGUAGE = 'de_DE'
-                                ORO_FORMATTING_CODE = 'de_DE'
+                                ORO_FORMATTING_CODE = 'de'
                             }
                             steps {
                                 sh '''
@@ -78,7 +78,7 @@ pipeline {
                         stage('Build:prod:install:fr') {
                             environment {
                                 ORO_LANGUAGE = 'fr_FR'
-                                ORO_FORMATTING_CODE = 'fr_FR'
+                                ORO_FORMATTING_CODE = 'fr'
                             }
                             steps {
                                 sh '''
