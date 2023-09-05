@@ -16,6 +16,11 @@ Added `.env-app` files support and removed most of the parameters from the confi
 * The supported PHP MongoDB extension version is 1.15
 * The supported MongoDB version is 6.0
 
+Fixed scheduled price lists issue. It is recommended to rebuild CPL's:
+
+- Run sql query `DELETE FROM oro_price_list_combined; DELETE FROM oro_price_product_combined;`
+- Run command `php bin/console oro:price-lists:schedule-recalculate --all`
+
 ## 5.0.0
 
 The `oro.email.update_visibilities_for_organization` MQ process can take a long time when updating from the old versions
