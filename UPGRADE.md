@@ -18,6 +18,10 @@ It is recommended to add these MQ topics to the `oro.index` queue:
 - `oro.email.update_email_visibilities_for_organization`
 - `oro.email.update_email_visibilities_for_organization_chunk`
 
+Fixed scheduled price lists issue. It is recommended to rebuild CPL's:
+
+- Run sql query `DELETE FROM oro_price_list_combined; DELETE FROM oro_price_product_combined;`
+- Run command `php bin/console oro:price-lists:schedule-recalculate --all`
 
 ## 5.0.0-rc
 
