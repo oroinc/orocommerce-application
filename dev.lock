@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55becbd83e15532897c2e924fb2fc8d2",
+    "content-hash": "e97aa56a431c834a515a7ef36b1be146",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6032,10 +6032,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "959515b451c985d20353f5f7f00cf3bf451bd3cd"
+                "reference": "678754ea8401cbca5d637b9f4d02101709d83d15"
             },
             "require": {
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6043,7 +6043,7 @@
                     "fullcalendar": "3.4.0"
                 },
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6081,17 +6081,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "b4a570d5aff1dee02a9e6110d7a99a4e04bd69f5"
+                "reference": "1f9f147a5c90b3d78f9ee9f717187fb1f067a4b0"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
                 "ext-xmlwriter": "*",
                 "ext-zlib": "*",
-                "oro/calendar-bundle": "5.1.*",
-                "oro/customer-portal": "5.1.*",
-                "oro/marketing": "5.1.*",
-                "oro/platform": "5.1.*",
-                "oro/platform-serialised-fields": "5.1.*"
+                "oro/calendar-bundle": "6.0.*",
+                "oro/customer-portal": "6.0.*",
+                "oro/marketing": "6.0.*",
+                "oro/platform": "6.0.*",
+                "oro/platform-serialised-fields": "6.0.*"
             },
             "require-dev": {
                 "behat/behat": "~3.12.0",
@@ -6133,7 +6133,7 @@
                     "require": "~5.4.0"
                 },
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6210,17 +6210,17 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "cbfebda5a0ad3262526134f99f36fe866aa72309"
+                "reference": "21e9ad453fc3b3f97a9ff80d521eeaea2e8fae65"
             },
             "require": {
                 "authorizenet/authorizenet": "~2.0.2",
                 "jms/serializer": "^1.2|^2.0|^3.0",
-                "oro/commerce": "5.1.*"
+                "oro/commerce": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6252,16 +6252,16 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "8057b9ab9e5ad3f49e34c4c1f0034e9680d3a70d"
+                "reference": "719ed4da18e4d28997c6098aa972be5656bda4b1"
             },
             "require": {
-                "oro/commerce": "5.1.*",
-                "oro/crm": "5.1.*"
+                "oro/commerce": "6.0.*",
+                "oro/crm": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6298,15 +6298,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-demo-checkouts",
-                "reference": "cb38b9c5f3050ee0f8014500d408bc68e48e3ab0"
+                "reference": "0d161d796814e6e7fc0f77126681f9f3e9e07435"
             },
             "require": {
-                "oro/commerce": "5.1.*"
+                "oro/commerce": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6338,16 +6338,16 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "6b947a31c4e2e81ce9605cb5b30c58a6d2632d1e"
+                "reference": "1323971d55374d0b1d74106ab8b3d68b93f3a94c"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
-                "oro/commerce": "5.1.*"
+                "oro/commerce": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6384,15 +6384,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/cookie-consent",
-                "reference": "6efd72a94102fac92728a136f09a6f0c3e7f3900"
+                "reference": "aa0c35cc4be2eacf4e55644e5d348aa8327e0421"
             },
             "require": {
-                "oro/commerce": "5.1.*"
+                "oro/commerce": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6430,14 +6430,14 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "efeb5c3cee74a87d0421355566d056cb4f5108be"
+                "reference": "af71a3501a0229af0cb5a09c7a7a4a33dbfff0c5"
             },
             "require": {
-                "oro/calendar-bundle": "5.1.*",
-                "oro/crm-call-bundle": "5.1.*",
-                "oro/crm-task-bundle": "5.1.*",
-                "oro/marketing": "5.1.*",
-                "oro/platform": "5.1.*"
+                "oro/calendar-bundle": "6.0.*",
+                "oro/crm-call-bundle": "6.0.*",
+                "oro/crm-task-bundle": "6.0.*",
+                "oro/marketing": "6.0.*",
+                "oro/platform": "6.0.*"
             },
             "require-dev": {
                 "behat/behat": "~3.12.0",
@@ -6471,7 +6471,7 @@
                     "require": "~5.4.0"
                 },
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6518,15 +6518,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "69224320c07677b9949f83b5e20c0e4de8554957"
+                "reference": "dad9636d7f80836917e9ab78c1ee6da79345e4f3"
             },
             "require": {
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6562,18 +6562,18 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "0a00fd2aa19d762d5c33874ed747103cb3acfba2"
+                "reference": "40f2f8a98828b17481624f04b27a4303d34fafd3"
             },
             "require": {
                 "ext-curl": "*",
-                "oro/crm": "5.1.*",
-                "oro/marketing": "5.1.*",
+                "oro/crm": "6.0.*",
+                "oro/marketing": "6.0.*",
                 "romanpitak/dotmailer-api-v2-client": "4.2.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6605,15 +6605,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "3cdc482e341cfc923535887571d770b48f4aaecd"
+                "reference": "7072cc091dbbd190efefa5ed69a1ceb28d21e081"
             },
             "require": {
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6649,15 +6649,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "d8c00d66fe83968e6825eac8c2a321148eb119d8"
+                "reference": "7858ae0003aa9ef8aa357846745dc7e04ee22547"
             },
             "require": {
-                "oro/crm": "5.1.*"
+                "oro/crm": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6694,14 +6694,14 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "0dd8d7784c54135b742ab04853fec6c513f64e70"
+                "reference": "0f06f79c056711f17c469df289b29a0af2f5084e"
             },
             "require": {
-                "oro/calendar-bundle": "5.1.*",
-                "oro/commerce": "5.1.*",
-                "oro/marketing": "5.1.*",
-                "oro/platform": "5.1.*",
-                "oro/platform-serialised-fields": "5.1.*"
+                "oro/calendar-bundle": "6.0.*",
+                "oro/commerce": "6.0.*",
+                "oro/marketing": "6.0.*",
+                "oro/platform": "6.0.*",
+                "oro/platform-serialised-fields": "6.0.*"
             },
             "type": "library",
             "extra": {
@@ -6709,7 +6709,7 @@
                     "prismjs": "^1.23.0"
                 },
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6805,15 +6805,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-tag-manager",
-                "reference": "76308411c14325e8b7a44e7c6b17c3fc42ed086b"
+                "reference": "822ccd3c359397f14c6f1bfec91f937cf26c8860"
             },
             "require": {
-                "oro/commerce": "5.1.*"
+                "oro/commerce": "6.0.*"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6852,12 +6852,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/gridfs-config",
-                "reference": "d99aced1921cb8d33308f3ad9fc2cebdc8491f9f"
+                "reference": "9499d30a60ca6c9af80851b4baa930d5069b8b06"
             },
             "require": {
                 "knplabs/knp-gaufrette-bundle": "~0.8.0",
                 "mongodb/mongodb": "1.15.*",
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "require-dev": {
                 "phpunit/phpunit": "9.5.13"
@@ -6865,7 +6865,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6904,12 +6904,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "e69c694997722bad89d06e3536b1308d3c0eac73"
+                "reference": "bbf496acb717a7ed722b5c173f612781d0d643e7"
             },
             "require": {
                 "drewm/mailchimp-api": "^2.5",
-                "oro/crm": "5.1.*",
-                "oro/marketing": "5.1.*"
+                "oro/crm": "6.0.*",
+                "oro/marketing": "6.0.*"
             },
             "conflict": {
                 "oro/crm-mail-chimp": "*"
@@ -6917,7 +6917,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6949,16 +6949,16 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "384268dbdcb0649251ca8b2ecb60ef685e10ab3a"
+                "reference": "dd478e6680964fbae33338f8909ab10995e4ec02"
             },
             "require": {
                 "ext-curl": "*",
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -6999,18 +6999,18 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "5e34f71f00d4c9559dc96d1f6c079e04f1db2261"
+                "reference": "d8b17ec8b056588a4b2bf331e1243ce557f6735d"
             },
             "require": {
                 "ext-sodium": "*",
                 "league/oauth2-server": "~8.5.3",
-                "oro/platform": "5.1.*",
+                "oro/platform": "6.0.*",
                 "symfony/psr-http-message-bridge": "~2.1.1"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -7047,7 +7047,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "3e51cac4b063e92756ed1d068fb5f734b62e3ab6"
+                "reference": "e3debc348ed89d10135d0ed250adf4213773a68e"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7101,7 +7101,7 @@
                 "ocramius/proxy-manager": "~2.11.1",
                 "oro/api-doc-bundle": "2.0.0",
                 "oro/doctrine-extensions": "~2.0.2",
-                "oro/platform-serialised-fields": "5.1.*",
+                "oro/platform-serialised-fields": "6.0.*",
                 "php": "~8.2.0",
                 "php-http/httplug-bundle": "~1.27.0",
                 "phpdocumentor/reflection-docblock": "5.3.*",
@@ -7257,7 +7257,7 @@
                     "require": "~5.4.0"
                 },
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -7379,15 +7379,15 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "06290d23c2467c3d43d55ed2ac84a8bf5d9c729d"
+                "reference": "26995f4e406e22c5a026bac13550ffe15b284389"
             },
             "require": {
-                "oro/platform": "5.1.*"
+                "oro/platform": "6.0.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -16900,16 +16900,16 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/maker",
-                "reference": "147fa7e3159baaecf1f0d01bdcdd8d131104032c"
+                "reference": "bb26bd503af632682e89c21a86e45a29cc16de7c"
             },
             "require": {
-                "oro/platform": "5.1.*",
+                "oro/platform": "6.0.*",
                 "symfony/maker-bundle": "1.39"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
