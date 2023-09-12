@@ -62,6 +62,7 @@ pipeline {
                             environment {
                                 ORO_LANGUAGE = 'de_DE'
                                 ORO_FORMATTING_CODE = 'de'
+                                ORO_INSTALL_OPTIONS = " --locale-country='DE' --locale-timezone='Europe/Berlin' --locale-temperature-unit='celsius' --locale-wind-speed-unit='meters_per_second' --default-currency='EUR' "
                             }
                             steps {
                                 sh '''
@@ -79,6 +80,7 @@ pipeline {
                             environment {
                                 ORO_LANGUAGE = 'fr_FR'
                                 ORO_FORMATTING_CODE = 'fr'
+                                ORO_INSTALL_OPTIONS = " --locale-country='FR' --locale-timezone='Europe/Paris' --locale-temperature-unit='celsius' --locale-wind-speed-unit='meters_per_second' --default-currency='EUR' "
                             }
                             steps {
                                 sh '''
