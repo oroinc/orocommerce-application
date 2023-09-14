@@ -13,6 +13,9 @@ composer.lock
 !var/logs/
 /var/logs/*
 !var/logs/.gitkeep
+!var/maintenance/
+/var/maintenance/*
+!var/maintenance/.gitkeep
 !var/data/
 /var/data/*
 !var/data/.gitkeep
