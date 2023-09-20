@@ -34,6 +34,7 @@ pipeline {
                     }
                     defaultVariables = readProperties(interpolate: true, file: "$WORKSPACE/.build/docker-compose/.env")
                     readProperties(interpolate: true, defaults: defaultVariables + [ORO_IMAGE_TAG: env.BUILD_TAG], file: "$WORKSPACE/.env-build").each {key, value -> env[key] = value }
+                    dockerLabels = ['--label "org.opencontainers.image.title=commerce-crm application"', '--label "org.opencontainers.image.description=commerce-crm application"', '--label "org.opencontainers.image.authors=ORO Inc."', '--label "org.opencontainers.image.vendor=ORO Inc."', "--label \"org.opencontainers.image.revision=${GIT_COMMIT}\"", "--label \"org.opencontainers.image.source=${env.GIT_URL}\"", "--label \"org.opencontainers.image.created=${env.BUILD_TIMESTAMP}\"", "--label \"com.oroinc.orocloud.reference=${env.GIT_BRANCH}\"", '--label "com.oroinc.orocloud.composer=dev.json"']
                     sh '''
                         printenv | sort
                         rm -rf $WORKSPACE/../$BUILD_TAG ||:
@@ -53,16 +54,13 @@ pipeline {
                         }
                         stage('Build:prod:image') {
                             steps {
-                                sh '''
-                                    docker buildx build --pull --load --rm --build-arg ORO_BASELINE_VERSION -t ${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile" .
-                                '''
+                                sh "docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f '.build/docker/Dockerfile' . "
                             }
                         }
                         stage('Build:prod:install:de') {
                             environment {
                                 ORO_LANGUAGE = 'de_DE'
                                 ORO_FORMATTING_CODE = 'de'
-                                ORO_INSTALL_OPTIONS = " --locale-country='DE' --locale-timezone='Europe/Berlin' --locale-temperature-unit='celsius' --locale-wind-speed-unit='meters_per_second' --default-currency='EUR' "
                             }
                             steps {
                                 sh '''
@@ -80,7 +78,6 @@ pipeline {
                             environment {
                                 ORO_LANGUAGE = 'fr_FR'
                                 ORO_FORMATTING_CODE = 'fr'
-                                ORO_INSTALL_OPTIONS = " --locale-country='FR' --locale-timezone='Europe/Paris' --locale-temperature-unit='celsius' --locale-wind-speed-unit='meters_per_second' --default-currency='EUR' "
                             }
                             steps {
                                 sh '''
@@ -132,9 +129,7 @@ pipeline {
                         stage('Build:test:image') {
                             steps {
                                 dir("$WORKSPACE/../$BUILD_TAG") {
-                                    sh '''
-                                        docker buildx build --pull --load --rm --build-arg ORO_BASELINE_VERSION -t ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
-                                    '''
+                                    sh "docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f '.build/docker/Dockerfile-test' . "
                                 }
                             }
                         }
