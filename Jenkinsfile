@@ -1,8 +1,7 @@
 pipeline {
     environment {
         ORO_BASELINE_VERSION = '5.1-latest'
-        ORO_BEHAT_OPTIONS = '--skip-isolators'
-        ORO_BEHAT_TAGS = '@e2esmokeci'
+        ORO_BEHAT_OPTIONS = '--skip-isolators --tags=@e2esmokeci'
     }
     agent {
         node {
@@ -34,6 +33,9 @@ pipeline {
                     }
                     defaultVariables = readProperties(interpolate: true, file: "$WORKSPACE/.build/docker-compose/.env")
                     readProperties(interpolate: true, defaults: defaultVariables + [ORO_IMAGE_TAG: env.BUILD_TAG], file: "$WORKSPACE/.env-build").each {key, value -> env[key] = value }
+                    dockerLabels = ['--label "org.opencontainers.image.title=OroCommerce Application"', '--label "org.opencontainers.image.description=OroCommerce Application"', '--label "org.opencontainers.image.authors=ORO Inc."', '--label "org.opencontainers.image.vendor=ORO Inc."', "--label \"org.opencontainers.image.revision=${GIT_COMMIT}\"","--label \"org.opencontainers.image.source=${env.GIT_URL}\"", "--label \"org.opencontainers.image.created=${env.BUILD_TIMESTAMP}\"", "--label \"com.oroinc.orocloud.reference=${env.GIT_BRANCH}\"", '--label "com.oroinc.orocloud.composer=composer.json"']
+                    if (env.TAG_NAME) { dockerLabels.add("--label \"org.opencontainers.image.version=${env.TAG_NAME}\"") }
+
                     sh '''
                         printenv | sort
                         rm -rf $WORKSPACE/../$BUILD_TAG ||:
@@ -53,9 +55,9 @@ pipeline {
                         }
                         stage('Build:prod:image') {
                             steps {
-                                sh '''
-                                    docker buildx build --pull --load --rm --build-arg ORO_BASELINE_VERSION -t ${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile" .
-                                '''
+                                sh """
+                                    docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile" .
+                                """
                             }
                         }
                         stage('Build:prod:install:de') {
@@ -130,9 +132,9 @@ pipeline {
                         stage('Build:test:image') {
                             steps {
                                 dir("$WORKSPACE/../$BUILD_TAG") {
-                                    sh '''
-                                        docker buildx build --pull --load --rm --build-arg ORO_BASELINE_VERSION -t ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
-                                    '''
+                                    sh """
+                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
+                                    """
                                 }
                             }
                         }
@@ -152,18 +154,18 @@ pipeline {
                                 }
                             }
                         }
-                        // stage('Build:test:functional') {
-                        //     environment {
-                        //         ORO_FUNCTIONAL_ARGS = ' '
-                        //     }
-                        //     steps {
-                        //         dir("$WORKSPACE/../$BUILD_TAG") {
-                        //             sh '''
-                        //                 docker compose -p test_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml up --quiet-pull --exit-code-from functional functional
-                        //             '''
-                        //         }
-                        //     }
-                        // }
+                        stage('Build:test:functional') {
+                            environment {
+                                ORO_FUNCTIONAL_ARGS = ' src'
+                            }
+                            steps {
+                                dir("$WORKSPACE/../$BUILD_TAG") {
+                                    sh '''
+                                        docker compose -p test_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml up --quiet-pull --exit-code-from functional functional
+                                    '''
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -178,30 +180,49 @@ pipeline {
         //             '''
         //     }
         // }
-        stage('Push') {
-        //     environment {
-        //         KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
-        //         configuration = 'oro-product-development'
-        //         credentials = "--configuration ${configuration}"
-        //     }
+        stage('Push Cloud release tag') {
+            environment {
+                ORO_CLOUD_DOCKER_PROJECT = 'harborio.oro.cloud'
+                ORO_CLOUD_DOCKER_PROJECT_FOLDER = 'public-dev-ci'
+                ORO_REGISTRY_CREDS = credentials('harborio.oro.cloud')
+            }
             steps {
-                    // gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
-                    // gcloud config configurations activate ${configuration}
-                    // gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
-                    // gcloud ${credentials} auth configure-docker
-                    // set -x
                 sh '''
-                    docker image ls ${ORO_IMAGE}*
+                    echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin $ORO_CLOUD_DOCKER_PROJECT
+                    docker image tag ${ORO_IMAGE,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
                 '''
-                    // docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG
-                    // docker image rm -f ${ORO_IMAGE,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
-                    // docker image prune -f
+            }
+            when {
+                buildingTag()
+            }
+        }
+        stage('Push to CI') {
+            environment {
+                KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
+                configuration = 'oro-product-development'
+                credentials = "--configuration ${configuration}"
+            }
+            steps {
+                sh '''
+                    gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
+                    gcloud config configurations activate ${configuration}
+                    gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
+                    gcloud ${credentials} auth configure-docker
+                    set -x
+                    docker image ls ${ORO_IMAGE}*
+                    docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG
+                    docker image rm -f ${ORO_IMAGE,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
+                    docker image prune -f
+                '''
             }
         }
     }
