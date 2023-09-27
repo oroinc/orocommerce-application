@@ -191,8 +191,12 @@ pipeline {
                     echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin $ORO_CLOUD_DOCKER_PROJECT
                     docker image tag ${ORO_IMAGE,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
                     docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-fr:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-de:${TAG_NAME,,}
                     docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
                     docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-fr:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-de:${TAG_NAME,,}
                 '''
             }
             when {
@@ -215,9 +219,13 @@ pipeline {
                     docker image ls ${ORO_IMAGE}*
                     docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
                     docker image push ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}-fr:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}-de:$ORO_IMAGE_TAG
                     docker image push ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG
                     docker image push ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG
                     docker image rm -f ${ORO_IMAGE,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE,,}-fr:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE,,}-de:$ORO_IMAGE_TAG ||:
                     docker image rm -f ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG ||:
                     docker image rm -f ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG ||:
                     docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
