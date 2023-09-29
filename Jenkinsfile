@@ -40,6 +40,8 @@ pipeline {
                         printenv | sort
                         rm -rf $WORKSPACE/../$BUILD_TAG ||:
                         cp -rf $WORKSPACE $WORKSPACE/../$BUILD_TAG
+                        docker builder use default
+                        docker builder ls
                     '''
                 }
             }
