@@ -40,6 +40,8 @@ pipeline {
                         printenv | sort
                         rm -rf $WORKSPACE/../$BUILD_TAG ||:
                         cp -rf $WORKSPACE $WORKSPACE/../$BUILD_TAG
+                        docker builder use default
+                        docker builder ls
                     '''
                 }
             }
@@ -73,7 +75,7 @@ pipeline {
                                     rm -rf .build/docker/private_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/public/media/ .build/docker/public_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/var/data/ .build/docker/private_storage
-                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-de DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose  -f .build/docker-compose/compose-orocommerce-application.yaml up --build --quiet-pull --exit-code-from backup backup
+                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-de DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml build backup
                                 '''
                             }
                         }
@@ -90,7 +92,7 @@ pipeline {
                                     rm -rf .build/docker/private_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/public/media/ .build/docker/public_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/var/data/ .build/docker/private_storage
-                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-fr DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose  -f .build/docker-compose/compose-orocommerce-application.yaml up --build --quiet-pull --exit-code-from backup backup
+                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-fr DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml build backup
                                 '''
                             }
                         }
@@ -231,6 +233,9 @@ pipeline {
                     docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
                     docker image prune -f
                 '''
+            }
+            when {
+                environment name: 'PUSH_TO', value: 'us.gcr.io/oro-product-development'
             }
         }
     }
