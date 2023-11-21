@@ -1,8 +1,7 @@
 pipeline {
     environment {
-        ORO_BASELINE_VERSION = '5.1-latest'
-        ORO_BEHAT_OPTIONS = '--skip-isolators'
-        ORO_BEHAT_TAGS = '@e2esmokeci'
+        ORO_BASELINE_VERSION = 'master-latest'
+        ORO_BEHAT_OPTIONS = '--skip-isolators --tags=@e2esmokeci'
     }
     agent {
         node {
@@ -34,11 +33,15 @@ pipeline {
                     }
                     defaultVariables = readProperties(interpolate: true, file: "$WORKSPACE/.build/docker-compose/.env")
                     readProperties(interpolate: true, defaults: defaultVariables + [ORO_IMAGE_TAG: env.BUILD_TAG], file: "$WORKSPACE/.env-build").each {key, value -> env[key] = value }
-                    dockerLabels = ['--label "org.opencontainers.image.title=commerce-crm application"', '--label "org.opencontainers.image.description=commerce-crm application"', '--label "org.opencontainers.image.authors=ORO Inc."', '--label "org.opencontainers.image.vendor=ORO Inc."', "--label \"org.opencontainers.image.revision=${GIT_COMMIT}\"", "--label \"org.opencontainers.image.source=${env.GIT_URL}\"", "--label \"org.opencontainers.image.created=${env.BUILD_TIMESTAMP}\"", "--label \"com.oroinc.orocloud.reference=${env.GIT_BRANCH}\"", '--label "com.oroinc.orocloud.composer=dev.json"']
+                    dockerLabels = ['--label "org.opencontainers.image.title=OroCommerce Application"', '--label "org.opencontainers.image.description=OroCommerce Application"', '--label "org.opencontainers.image.authors=ORO Inc."', '--label "org.opencontainers.image.vendor=ORO Inc."', "--label \"org.opencontainers.image.revision=${GIT_COMMIT}\"","--label \"org.opencontainers.image.source=${env.GIT_URL}\"", "--label \"org.opencontainers.image.created=${env.BUILD_TIMESTAMP}\"", "--label \"com.oroinc.orocloud.reference=${env.GIT_BRANCH}\"", '--label "com.oroinc.orocloud.composer=composer.json"']
+                    if (env.TAG_NAME) { dockerLabels.add("--label \"org.opencontainers.image.version=${env.TAG_NAME}\"") }
+
                     sh '''
                         printenv | sort
                         rm -rf $WORKSPACE/../$BUILD_TAG ||:
                         cp -rf $WORKSPACE $WORKSPACE/../$BUILD_TAG
+                        docker builder use default
+                        docker builder ls
                     '''
                 }
             }
@@ -54,7 +57,9 @@ pipeline {
                         }
                         stage('Build:prod:image') {
                             steps {
-                                sh "docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f '.build/docker/Dockerfile' . "
+                                sh """
+                                    docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile" .
+                                """
                             }
                         }
                         stage('Build:prod:install:de') {
@@ -70,7 +75,7 @@ pipeline {
                                     rm -rf .build/docker/private_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/public/media/ .build/docker/public_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/var/data/ .build/docker/private_storage
-                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-de DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose  -f .build/docker-compose/compose-orocommerce-application.yaml up --build --quiet-pull --exit-code-from backup backup
+                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-de DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml build backup
                                 '''
                             }
                         }
@@ -87,7 +92,7 @@ pipeline {
                                     rm -rf .build/docker/private_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/public/media/ .build/docker/public_storage
                                     docker cp prod_${EXECUTOR_NUMBER}-install-1:/var/www/oro/var/data/ .build/docker/private_storage
-                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-fr DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose  -f .build/docker-compose/compose-orocommerce-application.yaml up --build --quiet-pull --exit-code-from backup backup
+                                    ORO_IMAGE_INIT=${ORO_IMAGE_INIT,,}-fr DB_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' prod_${EXECUTOR_NUMBER}-db-1) docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml build backup
                                 '''
                             }
                         }
@@ -129,7 +134,9 @@ pipeline {
                         stage('Build:test:image') {
                             steps {
                                 dir("$WORKSPACE/../$BUILD_TAG") {
-                                    sh "docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f '.build/docker/Dockerfile-test' . "
+                                    sh """
+                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
+                                    """
                                 }
                             }
                         }
@@ -149,18 +156,18 @@ pipeline {
                                 }
                             }
                         }
-                        // stage('Build:test:functional') {
-                        //     environment {
-                        //         ORO_FUNCTIONAL_ARGS = ' '
-                        //     }
-                        //     steps {
-                        //         dir("$WORKSPACE/../$BUILD_TAG") {
-                        //             sh '''
-                        //                 docker compose -p test_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml up --quiet-pull --exit-code-from functional functional
-                        //             '''
-                        //         }
-                        //     }
-                        // }
+                        stage('Build:test:functional') {
+                            environment {
+                                ORO_FUNCTIONAL_ARGS = ' src'
+                            }
+                            steps {
+                                dir("$WORKSPACE/../$BUILD_TAG") {
+                                    sh '''
+                                        docker compose -p test_${EXECUTOR_NUMBER} --project-directory .build/docker-compose -f .build/docker-compose/compose-orocommerce-application.yaml up --quiet-pull --exit-code-from functional functional
+                                    '''
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -175,30 +182,60 @@ pipeline {
         //             '''
         //     }
         // }
-        stage('Push') {
-        //     environment {
-        //         KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
-        //         configuration = 'oro-product-development'
-        //         credentials = "--configuration ${configuration}"
-        //     }
+        stage('Push Cloud release tag') {
+            environment {
+                ORO_CLOUD_DOCKER_PROJECT = 'harborio.oro.cloud'
+                ORO_CLOUD_DOCKER_PROJECT_FOLDER = 'public-dev-ci'
+                ORO_REGISTRY_CREDS = credentials('harborio.oro.cloud')
+            }
             steps {
-                    // gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
-                    // gcloud config configurations activate ${configuration}
-                    // gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
-                    // gcloud ${credentials} auth configure-docker
-                    // set -x
                 sh '''
-                    docker image ls ${ORO_IMAGE}*
+                    echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin $ORO_CLOUD_DOCKER_PROJECT
+                    docker image tag ${ORO_IMAGE,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-fr:${TAG_NAME,,}
+                    docker image tag ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-de:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-fr:${TAG_NAME,,}
+                    docker image push $ORO_CLOUD_DOCKER_PROJECT/$ORO_CLOUD_DOCKER_PROJECT_FOLDER/orocommerce-application-init-de:${TAG_NAME,,}
                 '''
-                    // docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG
-                    // docker image push ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG
-                    // docker image rm -f ${ORO_IMAGE,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG ||:
-                    // docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
-                    // docker image prune -f
+            }
+            when {
+                buildingTag()
+            }
+        }
+        stage('Push to CI') {
+            environment {
+                KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
+                configuration = 'oro-product-development'
+                credentials = "--configuration ${configuration}"
+            }
+            steps {
+                sh '''
+                    gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
+                    gcloud config configurations activate ${configuration}
+                    gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
+                    gcloud ${credentials} auth configure-docker
+                    set -x
+                    docker image ls ${ORO_IMAGE}*
+                    docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}-fr:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT,,}-de:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG
+                    docker image push ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG
+                    docker image rm -f ${ORO_IMAGE,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE,,}-fr:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE,,}-de:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_INIT,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG ||:
+                    docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
+                    docker image prune -f
+                '''
+            }
+            when {
+                environment name: 'PUSH_TO', value: 'us.gcr.io/oro-product-development'
             }
         }
     }
@@ -227,9 +264,9 @@ pipeline {
             script {
                 def issuesList = []
                 discoverReferenceBuild referenceJob: env.JOB_NAME
-                // issuesList.add(scanForIssues([blameDisabled: true, forensicsDisabled: true, tool: pmdParser(name: 'PHP MD', pattern: 'logs/**/static_analysis/phpmd*.xml')]))
-                issuesList.add(scanForIssues([blameDisabled: true, forensicsDisabled: true, tool: phpCodeSniffer(name: 'PHP Code Sniffer', pattern: 'logs/**/static_analysis/phpcs*.xml')]))
                 issuesList.add(scanForIssues([blameDisabled: true, forensicsDisabled: true, tool: checkStyle(name: 'PHP CS Fixer', pattern: 'logs/**/static_analysis/php-cs-fixer*.xml')]))
+                issuesList.add(scanForIssues([blameDisabled: true, forensicsDisabled: true, tool: phpCodeSniffer(name: 'PHP Code Sniffer', pattern: 'logs/**/static_analysis/phpcs*.xml')]))
+                issuesList.add(scanForIssues([blameDisabled: true, forensicsDisabled: true, tool: pmdParser(name: 'PHP MD', pattern: 'logs/**/static_analysis/phpmd*.xml')]))
                 publishIssues issues: issuesList, skipPublishingChecks: true
             }
         }
