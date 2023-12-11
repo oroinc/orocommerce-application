@@ -1,0 +1,29 @@
+datagrids:
+  user-naming-types-grid:
+    extended_entity_name: 'Training\Bundle\UserNamingBundle\Entity\UserNamingType'
+    source:
+      type: orm
+      query:
+        select:
+          - type.id
+          - type.title
+          - type.format
+        from:
+          - { table: 'Training\Bundle\UserNamingBundle\Entity\UserNamingType', alias: type }
+    columns:
+      title:
+        label: 'training.usernaming.usernamingtype.title.label'
+      format:
+        label: 'training.usernaming.usernamingtype.format.label'
+        type: twig
+        frontend_type: html
+        template: '@TrainingUserNaming/UserNaming/Datagrid/formatColumn.html.twig'
+    sorters:
+      columns:
+        title:
+          data_name: type.title
+    filters:
+      columns:
+        title:
+          type:      string
+          data_name: type.title
