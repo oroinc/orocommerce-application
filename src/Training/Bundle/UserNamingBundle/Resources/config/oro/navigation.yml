@@ -1,0 +1,18 @@
+navigation:
+  menu_config:
+    items:
+      user_namings_list:
+        label: 'usernaming.usernamingtype.entity_plural_label'
+        route: 'user_naming_index'
+        position: 20
+    tree:
+      application_menu:
+        children:
+          system_tab:
+            children:
+              users_management:
+                children:
+                  user_namings_list: ~
+  titles:
+    user_naming_index: ~
+    user_naming_view: '%title% - oro.ui.view'

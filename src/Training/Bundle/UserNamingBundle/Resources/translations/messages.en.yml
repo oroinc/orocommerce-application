@@ -1,4 +1,4 @@
-training.usernaming:
+usernaming:
   usernamingtype:
     entity_label: 'User Naming Type'
     entity_plural_label: 'User Naming Types'

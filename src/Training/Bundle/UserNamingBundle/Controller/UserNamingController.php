@@ -8,8 +8,6 @@ use Symfony\Component\Routing\Annotation\Route;
 
 /**
  * Contains CRUD actions for User Naming
- *
- * @Route("/naming", name="user_naming")
  */
 class UserNamingController
 {
