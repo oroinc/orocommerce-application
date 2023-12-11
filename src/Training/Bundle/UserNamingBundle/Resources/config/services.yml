@@ -2,10 +2,13 @@ services:
   Training\Bundle\UserNamingBundle\Provider\EntityNameProviderDecorator:
     decorates: oro_locale.entity_name_provider
     arguments:
-      - '@.inner'
+      $decorated: '@.inner'
+      $userFullNameProvider: '@Training\Bundle\UserNamingBundle\Provider\UserFullNameProvider'
     tags:
       - { name: oro_entity.name_provider, priority: -10 }
 
   Training\Bundle\UserNamingBundle\EventListener\UserViewNamingListener:
     tags:
       - { name: kernel.event_listener, event: oro_ui.scroll_data.before.userView, method: onUserView }
+
+  Training\Bundle\UserNamingBundle\Provider\UserFullNameProvider: ~
