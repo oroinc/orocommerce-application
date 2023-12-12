@@ -1,0 +1,13 @@
+{% extends '@OroSearch/Search/searchResultItem.html.twig' %}
+
+{% if entity %}
+    {% set recordUrl = indexer_item.recordUrl %}
+{% endif %}
+
+{% set showImage = false %}
+{% set title = entity.title|default('N/A') %}
+{% set entityType = oro_entity_config_value(indexer_item.entityName, 'label')|trans %}
+
+{% set entityInfo = [
+    { 'title': 'training.usernaming.usernamingtype.format.label'|trans, 'value': entity.format }
+] %}

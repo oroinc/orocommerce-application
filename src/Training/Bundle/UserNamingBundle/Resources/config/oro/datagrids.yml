@@ -27,3 +27,41 @@ datagrids:
         title:
           type:      string
           data_name: type.title
+
+    properties:
+      id: ~
+      view_link:
+        type: url
+        route: user_naming_view
+        params: [ id ]
+
+    actions:
+      view:
+        type: navigate
+        label: 'oro.grid.action.view'
+        icon: eye
+        link: view_link
+        rowAction: true
+
+  related-users-by-naming-type:
+    source:
+      type: orm
+      query:
+        select:
+          - user.username
+          - user.firstName
+          - user.lastName
+        from:
+          - { table: 'Oro\Bundle\UserBundle\Entity\User', alias: user }
+        where:
+          and:
+            - IDENTITY(user.namingType) = :namingTypeId
+      bind_parameters:
+        - name: namingTypeId
+    columns:
+      username:
+        label: 'oro.user.username.label'
+      firstName:
+        label: 'oro.user.first_name.label'
+      lastName:
+        label: 'oro.user.last_name.label'

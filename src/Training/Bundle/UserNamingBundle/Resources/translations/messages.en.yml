@@ -8,6 +8,10 @@ usernaming:
     format.label: 'Naming Format'
 
   full_formatted_name: 'Full Formatted Name'
+  full_formatted_name_example: 'Formatted Name Example'
+  sections:
+    general: 'General Information'
+    related_users: 'Related Users'
 
 oro.user:
   naming_type.label: 'User Naming Type'

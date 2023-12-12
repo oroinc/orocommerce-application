@@ -1,0 +1,151 @@
+{% extends '@OroUI/actions/view.html.twig' %}
+
+{% import '@OroUI/macros.html.twig' as UI %}
+{% import '@OroDataGrid/macros.html.twig' as DataGrid %}
+
+{% oro_title_set({params : {"%title%": entity.title }}) %}
+
+{% block pageHeader %}
+    {% set breadcrumbs = {
+        'entity':      entity,
+        'indexPath':   path('user_naming_index'),
+        'indexLabel':  'usernaming.usernamingtype.entity_plural_label'|trans,
+        'entityTitle': entity.title,
+    } %}
+    {{ parent() }}
+{% endblock pageHeader %}
+
+{% block content_data %}
+    {% set generalIinformation %}
+        <div class="widget-content">
+            <div class="row-fluid form-horizontal">
+                <div class="responsive-block">
+                    {{ UI.renderProperty('usernaming.usernamingtype.title.label'|trans, entity.title) }}
+                    {{ UI.renderProperty('usernaming.usernamingtype.format.label'|trans, entity.format) }}
+                    {{ UI.renderProperty('usernaming.full_formatted_name_example'|trans, entity.format|full_name_example) }}
+                </div>
+            </div>
+        </div>
+    {% endset %}
+
+    {% set relatedUsers %}
+        {{ DataGrid.renderGrid('related-users-by-naming-type', {namingTypeId: entity.id}) }}
+    {% endset %}
+
+    {% set dataBlocks = [
+        {
+            'title': 'usernaming.sections.general'|trans,
+            'class': 'active',
+            'subblocks': [
+            {'data' : [generalIinformation]}
+        ]
+        },
+        {
+            'title': 'usernaming.sections.related_users'|trans,
+            'subblocks': [
+            {'data' : [relatedUsers]}
+        ]
+        }
+    ] %}
+
+    {% set id = 'user-naming-type' %}
+    {% set data = { 'dataBlocks': dataBlocks } %}
+    {{ parent() }}
+{% endblock content_data %}
+
+{#{% extends '@OroUI/actions/view.html.twig' %}#}
+{#{% import '@OroUI/macros.html.twig' as UI %}#}
+{#{% import "@OroActivity/macros.html.twig" as AC %}#}
+{#{% import '@OroEntityConfig/macros.html.twig' as entityConfig %}#}
+{#{% import '@OroUser/macros.html.twig' as U %}#}
+
+{#{% oro_title_set({params : {"%entity.subject%": entity.subject|default('N/A'|trans) }}) %}#}
+
+{#{% block navButtons %}#}
+{#    {% import '@OroActivity/macros.html.twig' as AC %}#}
+{#    {% import '@OroUI/macros.html.twig' as UI %}#}
+
+{#    {% placeholder view_navButtons with {entity: entity} %}#}
+{#    {% if is_granted('EDIT', entity) %}#}
+{#         Button for add context on the activity list item view page#}
+{#        {{ AC.addContextButton(entity) }}#}
+{#        {{ UI.editButton({#}
+{#            'path' : path('oro_task_update', { id: entity.id }),#}
+{#            'entity_label': 'oro.task.entity_label'|trans#}
+{#        }) }}#}
+{#    {% endif %}#}
+{#{% endblock navButtons %}#}
+
+{#{% block stats %}#}
+{#    {% import '@OroActivity/macros.html.twig' as AC %}#}
+
+{#    #}{# Display contexts targets in the activity view page #}
+{#    <li class="context-data activity-context-activity-block">#}
+{#        {{ AC.activity_contexts(entity) }}#}
+{#    </li>#}
+{#{% endblock %}#}
+
+{#{% block pageHeader %}#}
+{#    {% set breadcrumbs = {#}
+{#        'entity': entity,#}
+{#        'indexPath': path('oro_task_index'),#}
+{#        'indexLabel': 'oro.task.entity_plural_label'|trans,#}
+{#        'entityTitle': entity.subject#}
+{#    } %}#}
+{#    {{ parent() }}#}
+{#{% endblock pageHeader %}#}
+
+{#{% block breadcrumbs %}#}
+{#    {% import '@OroUI/macros.html.twig' as UI %}#}
+
+{#    {{ parent() }}#}
+{#    <span class="page-title__status">#}
+{#        {% set status = {#}
+{#            'open': 'enabled',#}
+{#            'in_progress': 'tentatively',#}
+{#            'closed': 'disabled'#}
+{#        } %}#}
+{#        {% if entity.status is not null %}#}
+{#            {{ UI.badge(entity.status.name, status[entity.status.id] ? status[entity.status.id] : 'disabled') }}#}
+{#        {% endif %}#}
+{#    </span>#}
+{#{% endblock breadcrumbs %}#}
+
+{#{% block content_data %}#}
+{#    {% import '@OroUI/macros.html.twig' as UI %}#}
+
+{#    {%- set taskInformation -%}#}
+{#        <div class="row-fluid form-horizontal">#}
+{#            <div class="responsive-block">#}
+{#                {{ UI.renderProperty('oro.task.subject.label'|trans, entity.subject) }}#}
+{#                {{ UI.renderSwitchableHtmlProperty('oro.task.description.label'|trans, entity.description) }}#}
+{#                {{ UI.renderProperty('oro.task.due_date.label'|trans, entity.dueDate|oro_format_datetime) }}#}
+{#                {{ UI.renderProperty('oro.task.task_priority.label'|trans, entity.taskPriority) }}#}
+
+{#                {%- set createdByData -%}#}
+{#                    {%- if entity.createdBy -%}#}
+{#                        {{ U.render_user_name(entity.createdBy) }}#}
+{#                    {%- endif -%}#}
+{#                {%- endset -%}#}
+{#                {{ UI.renderHtmlProperty('oro.task.created_by.label'|trans, createdByData) }}#}
+{#            </div>#}
+{#            <div class="responsive-block">#}
+{#                {{ entityConfig.renderDynamicFields(entity) }}#}
+{#            </div>#}
+{#        </div>#}
+{#    {%- endset -%}#}
+
+{#    {% set dataBlocks = [#}
+{#        {#}
+{#            'title': 'General Information'|trans,#}
+{#            'subblocks': [#}
+{#                {'data' : [taskInformation]}#}
+{#            ]#}
+{#        }#}
+{#    ] %}#}
+
+{#    {% set id = 'taskView' %}#}
+{#    {% set data = { 'dataBlocks': dataBlocks } %}#}
+
+{#    {{ parent() }}#}
+{#{% endblock content_data %}#}

@@ -1,4 +1,4 @@
 user_naming_controller:
-  resource: "@TrainingUserNamingBundle/Controller/UserNamingController.php"
+  resource: "@TrainingUserNamingBundle/Controller"
   type: annotation
   prefix: /user/naming

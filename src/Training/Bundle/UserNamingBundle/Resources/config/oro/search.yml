@@ -1,0 +1,13 @@
+search:
+  Training\Bundle\UserNamingBundle\Entity\UserNamingType:
+    alias: user_naming_type
+    search_template: '@TrainingUserNaming/UserNaming/Search/resultRow.html.twig'
+    route:
+      name: user_naming_view
+      parameters:
+        id: id
+    fields:
+      -
+        name: title
+        target_type: text
+        target_fields: [title]

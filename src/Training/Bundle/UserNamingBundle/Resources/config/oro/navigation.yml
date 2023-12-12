@@ -5,6 +5,8 @@ navigation:
         label: 'usernaming.usernamingtype.entity_plural_label'
         route: 'user_naming_index'
         position: 20
+        extras:
+          routes: [ 'user_naming_view' ]
     tree:
       application_menu:
         children:
