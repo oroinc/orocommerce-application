@@ -69,6 +69,7 @@
         "popper.js": "1.16.1",
         "prismjs": "^1.23.0",
         "scriptjs": "2.5.9",
+        "slick-carousel": "1.7.1",
         "timepicker": "1.14.0",
         "tinymce": "6.7.*",
         "underscore": "1.13.*",
