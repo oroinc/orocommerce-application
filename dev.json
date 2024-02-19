@@ -71,7 +71,8 @@
     "oro/commerce-documentation-examples": "5.0.x-dev",
     "oro/crm-documentation-examples": "5.0.x-dev",
     "oro/platform-documentation-examples": "5.0.x-dev",
-    "oro/maker": "5.0.x-dev"
+    "oro/maker": "5.0.x-dev",
+    "oro/theme-migration": "5.0.x-dev"
   },
   "config": {
     "bin-dir": "bin",
