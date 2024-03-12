@@ -57,3 +57,4 @@ bin/*
 /.php-version
 /docker-compose.override.yml
 /.build
+/.user.ini

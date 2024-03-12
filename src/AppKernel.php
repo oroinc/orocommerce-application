@@ -17,6 +17,11 @@ class AppKernel extends OroKernel
             // bundles
         );
 
+        if ($this->isDebug()) {
+            ini_set('memory_limit', -1);
+            ini_set('max_execution_time', 0);
+        }
+
         if ('dev' === $this->getEnvironment()) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
@@ -49,7 +54,7 @@ class AppKernel extends OroKernel
     /**
      * {@inheritdoc}
      */
-    public function getCacheDir()
+    public function getCacheDir(): string
     {
         return dirname(__DIR__).'/var/cache/'.$this->environment;
     }
@@ -57,7 +62,7 @@ class AppKernel extends OroKernel
     /**
      * {@inheritdoc}
      */
-    public function getLogDir()
+    public function getLogDir(): string
     {
         return dirname(__DIR__).'/var/logs';
     }
