@@ -23,7 +23,7 @@ pipeline {
                         retry(5) {
                             checkout([
                                 $class: 'GitSCM',
-                                branches: [[name: 'master']],
+                                branches: [[name: '6.0-fix-public']],
                                 extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: ".build"]],
                                 userRemoteConfigs: [[url: 'https://github.com/oroinc/docker-build.git']]
                             ])
