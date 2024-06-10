@@ -2,6 +2,7 @@ pipeline {
     environment {
         ORO_BASELINE_VERSION = '6.0-latest'
         ORO_BEHAT_OPTIONS = '--skip-isolators --tags=@e2esmokeci'
+        ORO_SAMPLE_DATA = 'y'
     }
     agent {
         node {
