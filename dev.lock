@@ -6048,7 +6048,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "6a0ff76e97e79fdf7932e103f74948ee5fbb87f1"
+                "reference": "662f6e973f7d7426625e95dd04d3367ef92b4c76"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6138,6 +6138,7 @@
                     "Oro\\Bundle\\UPSBundle\\": "src/Oro/Bundle/UPSBundle",
                     "Oro\\Bundle\\ValidationBundle\\": "src/Oro/Bundle/ValidationBundle",
                     "Oro\\Bundle\\VisibilityBundle\\": "src/Oro/Bundle/VisibilityBundle",
+                    "Oro\\Bundle\\WebsiteSearchTermBundle\\": "src/Oro/Bundle/WebsiteSearchTermBundle",
                     "Oro\\Bundle\\WebCatalogBundle\\": "src/Oro/Bundle/WebCatalogBundle",
                     "Oro\\Bundle\\WebsiteSearchBundle\\": "src/Oro/Bundle/WebsiteSearchBundle",
                     "Oro\\Bundle\\WebsiteSearchSuggestionBundle\\": "src/Oro/Bundle/WebsiteSearchSuggestionBundle",
