@@ -32,7 +32,7 @@ pipeline {
                         error message:"ERROR: Cannot perform git checkout!, Reason: '${error}'"
                     }
                     defaultVariables = readProperties(interpolate: true, file: "$WORKSPACE/.build/docker-compose/.env")
-                    readProperties(interpolate: true, defaults: defaultVariables + [ORO_IMAGE_TAG: env.BUILD_TAG], file: "$WORKSPACE/.env-build").each {key, value -> env[key] = value }
+                    readProperties(interpolate: true, defaults: defaultVariables + [ORO_IMAGE_TAG: env.BUILD_TAG.replaceAll("\\%2F", "-").replaceAll('\\.', '').replaceAll('_', '-').toLowerCase()], file: "$WORKSPACE/.env-build").each {key, value -> env[key] = value }
                     dockerLabels = ['--label "org.opencontainers.image.title=OroCommerce Application"', '--label "org.opencontainers.image.description=OroCommerce Application"', '--label "org.opencontainers.image.authors=ORO Inc."', '--label "org.opencontainers.image.vendor=ORO Inc."', "--label \"org.opencontainers.image.revision=${GIT_COMMIT}\"","--label \"org.opencontainers.image.source=${env.GIT_URL}\"", "--label \"org.opencontainers.image.created=${env.BUILD_TIMESTAMP}\"", "--label \"com.oroinc.orocloud.reference=${env.GIT_BRANCH}\"", '--label "com.oroinc.orocloud.composer=composer.json"']
                     if (env.TAG_NAME) { dockerLabels.add("--label \"org.opencontainers.image.version=${env.TAG_NAME}\"") }
 
