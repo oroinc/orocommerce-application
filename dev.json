@@ -38,7 +38,8 @@
     "oro/mailchimp": "6.0.x-dev",
     "oro/cookie-consent": "6.0.x-dev",
     "oro/gridfs-config": "6.0.x-dev",
-    "oro/commerce-demo-checkouts": "6.0.x-dev"
+    "oro/commerce-demo-checkouts": "6.0.x-dev",
+    "oro/gen-ai": "6.0.x-dev"
   },
   "require-dev": {
     "behat/behat": "~3.12.0",
