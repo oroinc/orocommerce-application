@@ -2,3 +2,36 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+
+Disallow: /*/massFrontAction/
+Disallow: /*?grid[*
+Disallow: /actionwidget/
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /api/
+Disallow: /attachment/
+Disallow: /autocomplete/search
+Disallow: /contact-us/create
+Disallow: /cookies-accepted
+Disallow: /customer/
+Disallow: /datagrid/
+Disallow: /dictionary/
+Disallow: /entity-pagination/
+Disallow: /entitytotals/
+Disallow: /export/
+Disallow: /localization/
+Disallow: /oauth2-token
+Disallow: /payment/callback/
+Disallow: /product-unit/
+Disallow: /product-variant/
+Disallow: /product/images-by-id/
+Disallow: /product/names-by-skus
+Disallow: /product/search/autocomplete
+Disallow: /product/search?search=*
+Disallow: /product/set-product-filters-sidebar-state
+Disallow: /productprice/
+Disallow: /promotion/coupon/ajax/
+Disallow: /shoppinglist/matrix-grid-order/
+Disallow: /view-switcher/
+Disallow: /workflow/
+Disallow: /workflowwidget/
