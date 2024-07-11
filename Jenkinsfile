@@ -66,6 +66,7 @@ pipeline {
                             environment {
                                 ORO_LANGUAGE = 'de_DE'
                                 ORO_FORMATTING_CODE = 'de'
+                                ORO_INSTALL_OPTIONS = '--default-currency=EUR'
                             }
                             steps {
                                 sh '''
@@ -83,6 +84,7 @@ pipeline {
                             environment {
                                 ORO_LANGUAGE = 'fr_FR'
                                 ORO_FORMATTING_CODE = 'fr'
+                                ORO_INSTALL_OPTIONS = '--default-currency=EUR'
                             }
                             steps {
                                 sh '''
