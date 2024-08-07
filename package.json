@@ -56,7 +56,7 @@
         "grapesjs-parser-postcss": "1.0.1",
         "grapesjs-plugin-export": "1.0.11",
         "html2canvas": "1.4.1",
-        "jquery": "3.5.*",
+        "jquery": "3.7.*",
         "jquery-form": "4.3.0",
         "jquery-mousewheel": "3.1.13",
         "jquery-numeric": "1.5.0",
@@ -80,7 +80,7 @@
     },
     "devDependencies": {
         "@oroinc/oro-stylelint-config": "5.1.0-dev002",
-        "@oroinc/oro-webpack-config-builder": "6.0.0-dev002",
+        "@oroinc/oro-webpack-config-builder": "6.0.0-lts01",
         "check-engine": "^1.10.1",
         "eslint": "^8.32.0",
         "eslint-config-google": "~0.14.0",
