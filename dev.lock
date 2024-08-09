@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "775747c76bc4386a4e59865809d0f7d4",
+    "content-hash": "e7a64e29a73d219a6407269791cb5735",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6124,20 +6124,20 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218"
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
+                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.4"
+                "php": "8.0 - 8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -6204,9 +6204,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.4"
+                "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
-            "time": "2024-01-17T16:50:36+00:00"
+            "time": "2024-08-07T15:39:19+00:00"
         },
         {
             "name": "openai-php/client",
@@ -6428,14 +6428,13 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "97e60461f614af3e6903dfba0b1e125f94389a73"
+                "reference": "662f6e973f7d7426625e95dd04d3367ef92b4c76"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
                 "ext-xmlwriter": "*",
                 "ext-zlib": "*",
                 "oro/calendar-bundle": "6.1.*",
-                "oro/conversation": "6.1.x-dev",
                 "oro/customer-portal": "6.1.*",
                 "oro/marketing": "6.1.*",
                 "oro/platform": "6.1.*",
@@ -6730,9 +6729,10 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/conversation",
-                "reference": "e70c27b0e341e68223df576ba466a2a15b906aac"
+                "reference": "7e9e86ceacdf146ee718cd2d530a3eba261d86e0"
             },
             "require": {
+                "oro/commerce": "6.1.*",
                 "oro/platform": "6.1.*"
             },
             "type": "symfony-bundle",
@@ -20466,6 +20466,7 @@
         "oro/gridfs-config": 20,
         "oro/commerce-demo-checkouts": 20,
         "oro/gen-ai": 20,
+        "oro/conversation": 20,
         "oro/maker": 20
     },
     "prefer-stable": true,
