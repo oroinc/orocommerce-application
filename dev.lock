@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23b8fbfc57c5ea0c87864f1dba0e545c",
+    "content-hash": "397899448c857c3445b6597d7c05e186",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6072,20 +6072,20 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218"
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
+                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.4"
+                "php": "8.0 - 8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -6152,9 +6152,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.4"
+                "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
-            "time": "2024-01-17T16:50:36+00:00"
+            "time": "2024-08-07T15:39:19+00:00"
         },
         {
             "name": "openai-php/client",
@@ -6678,10 +6678,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/conversation",
-                "reference": "5667308f178d42d5b18cfe929827971d2c985ec6"
+                "reference": "94b749b8d9dbf73f3c11235c7fb2bf79b24f1134"
             },
             "require": {
-                "oro/platform": "6.0.*"
+                "oro/commerce": "~6.0.3",
+                "oro/platform": "~6.0.3"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -20415,6 +20416,7 @@
         "oro/gridfs-config": 20,
         "oro/commerce-demo-checkouts": 20,
         "oro/gen-ai": 20,
+        "oro/conversation": 20,
         "oro/maker": 20
     },
     "prefer-stable": true,
