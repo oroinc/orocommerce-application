@@ -4,13 +4,14 @@
  * @codingStandardsIgnoreFile
  */
 
-use Symfony\Component\Config\Loader\LoaderInterface;
-
 use Oro\Bundle\DistributionBundle\OroKernel;
+
+use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class AppKernel extends OroKernel
 {
+    #[\Override]
     public function registerBundles(): iterable
     {
         $bundles = array(
@@ -41,6 +42,7 @@ class AppKernel extends OroKernel
         return array_merge(parent::registerBundles(), $bundles);
     }
 
+    #[\Override]
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(function (ContainerBuilder $container) {
@@ -51,17 +53,13 @@ class AppKernel extends OroKernel
         $loader->load(__DIR__.'/../config/config_'.$this->getEnvironment().'.yml');
     }
 
-    /**
-     * {@inheritdoc}
-     */
+    #[\Override]
     public function getCacheDir(): string
     {
         return dirname(__DIR__).'/var/cache/'.$this->environment;
     }
 
-    /**
-     * {@inheritdoc}
-     */
+    #[\Override]
     public function getLogDir(): string
     {
         return dirname(__DIR__).'/var/logs';
