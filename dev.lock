@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7a64e29a73d219a6407269791cb5735",
+    "content-hash": "4ea457b1773d57f4b3c44a1434d89256",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -3991,16 +3991,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.31.0",
+            "version": "3.31.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "43404be0e708f5640efb3f7c3badedc061c0aeb9"
+                "reference": "362503da26673f210221c25b99c795da718ad9aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/43404be0e708f5640efb3f7c3badedc061c0aeb9",
-                "reference": "43404be0e708f5640efb3f7c3badedc061c0aeb9",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/362503da26673f210221c25b99c795da718ad9aa",
+                "reference": "362503da26673f210221c25b99c795da718ad9aa",
                 "shasum": ""
             },
             "require": {
@@ -4076,7 +4076,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.31.0"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.31.1"
             },
             "funding": [
                 {
@@ -4084,7 +4084,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-16T09:35:06+00:00"
+            "time": "2024-10-31T18:35:14+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -6381,7 +6381,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "33114576bf8227e729e9ac7ede281742f5af9bf8"
+                "reference": "7136f751f3e987b417934789cd780fe266b4a878"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -6409,7 +6409,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Calendar bundle for OroPlatform-based applications.\nSee https://doc.oroinc.com/user/back-office/activities/calendar-events/ for more information.",
@@ -6430,7 +6430,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "662f6e973f7d7426625e95dd04d3367ef92b4c76"
+                "reference": "d441f7537bf2d40e01471b04815b08d6b7dd6205"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6542,11 +6542,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCommerce - an open-source Business to Business Commerce application. \\nThis package contains bundles and needs to be added as a dependency in an OroCommerce application.",
-            "homepage": "https://github.com/orocommerce/orocommerce",
+            "homepage": "https://github.com/oroinc/orocommerce",
             "transport-options": {
                 "relative": true
             }
@@ -6557,7 +6557,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "bae59c8c52430d97bbb59e3c215804a43dff84a0"
+                "reference": "150b7978f4c1e382988764699b90cfea1c83eee7"
             },
             "require": {
                 "authorizenet/authorizenet": "~2.0.2",
@@ -6584,11 +6584,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCommerce Authorize.Net integration",
-            "homepage": "https://github.com/orocommerce/OroAuthorizeNetBundle.git",
+            "homepage": "https://github.com/oroinc/OroAuthorizeNetBundle.git",
             "transport-options": {
                 "relative": true
             }
@@ -6599,7 +6599,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "2f3fe4e4abf213e6bab13f92c80b61b83525864e"
+                "reference": "0ddf6be0dd112149d0d81702d5465533dfbfca6c"
             },
             "require": {
                 "oro/commerce": "6.1.*",
@@ -6630,11 +6630,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com/"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCRM integration for OroCommerce",
-            "homepage": "https://github.com/orocommerce/orocommerce-orocrm",
+            "homepage": "https://github.com/oroinc/orocommerce-orocrm",
             "transport-options": {
                 "relative": true
             }
@@ -6645,7 +6645,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-demo-checkouts",
-                "reference": "96f2cdaf9d97d22a13fd6d142515d0e8fbe4be4f"
+                "reference": "693a4747a2ac7e047414c06fe4613d419e1ab15f"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -6670,7 +6670,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCommerce checkout customization examples",
@@ -6685,7 +6685,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "13b2da6e7e2a146905400834654cb71cb15246a7"
+                "reference": "6a0527027bf2bef1027e028c9c4d8d2f909d0eb3"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6711,11 +6711,11 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCommerce InfinitePay Integration",
-            "homepage": "https://github.com/orocommerce/OroInfinitePayBundle.git",
+            "homepage": "https://github.com/oroinc/OroInfinitePayBundle.git",
             "keywords": [
                 "InfinitePay",
                 "Integration",
@@ -6731,7 +6731,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/conversation",
-                "reference": "7e9e86ceacdf146ee718cd2d530a3eba261d86e0"
+                "reference": "11156808fb5db671ba63b1849000bbbde715bff5"
             },
             "require": {
                 "oro/commerce": "6.1.*",
@@ -6752,12 +6752,12 @@
                 ]
             },
             "license": [
-                "Commercial"
+                "proprietary"
             ],
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://oroinc.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro Conversation capabilities for Oro Commerce",
@@ -6777,7 +6777,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/cookie-consent",
-                "reference": "fc3f035240b420ac29c3ddb01b9bca680a06e153"
+                "reference": "c181de75db13ec4daf8a27373b4988a362737eb3"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -6802,7 +6802,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.oroinc.com"
+                    "homepage": "https://www.oroinc.com"
                 }
             ],
             "description": "Oro Commerce Cookie Consent",
@@ -6823,7 +6823,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "7b90fcc46c398b11d888b22dad928b2ca3485604"
+                "reference": "14edf702537346bf0da196c1e54351ed02360d1b"
             },
             "require": {
                 "oro/calendar-bundle": "6.1.*",
@@ -6893,7 +6893,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCRM",
@@ -6908,7 +6908,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "084ab6ef4022c96b89f6c7d91ed9d92098e8d27e"
+                "reference": "59123e92389cf1d5ff4e8031875cb429f630d053"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -6933,7 +6933,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro Call Bundle",
@@ -6952,7 +6952,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "4b78c9a18622fd02341b7816279e0bd62badccc0"
+                "reference": "42de1d3a4029153fdc8081fc53fc28005ea2c0e0"
             },
             "require": {
                 "ext-curl": "*",
@@ -6980,7 +6980,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro dotdigital integration",
@@ -6995,7 +6995,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "04be22673fac5c549766b36702fc5a7a98b3b8e4"
+                "reference": "9da44d124ed779fe38e2b857ff60bce13e890229"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -7020,7 +7020,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro Task Bundle",
@@ -7039,7 +7039,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "56758f0521598e28e9c322dba84bcc90c18c8888"
+                "reference": "1eed88e1c8cc896997498f8431222e491eb537ef"
             },
             "require": {
                 "oro/crm": "6.1.*"
@@ -7064,7 +7064,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCRM Zendesk Integration",
@@ -7084,7 +7084,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "defb03982589be222a0300d8c0f574fd4f2efff5"
+                "reference": "cd4b1fc5ac4bb6abc0692c6a2f0637ffff28a9ad"
             },
             "require": {
                 "oro/calendar-bundle": "6.1.*",
@@ -7123,7 +7123,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocommerce.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "homepage": "https://github.com/oroinc/customer-portal",
@@ -7199,7 +7199,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/gen-ai",
-                "reference": "79da56c15a7dc605d010c508e3c2f69a98d4b767"
+                "reference": "4582292a6865f378272bf74fadfc73c5030b0cb0"
             },
             "require": {
                 "google/apiclient": "^2.12.1",
@@ -7226,7 +7226,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com/"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroCommerce AI Generation Integration",
@@ -7245,7 +7245,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-tag-manager",
-                "reference": "b327e457015797e1e3fd4746f2fdf1c252e1546c"
+                "reference": "f5ee7de3850760ae41369ddd43b7765b209f9b8f"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -7270,7 +7270,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.oroinc.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro Google Tag Manager integration",
@@ -7292,7 +7292,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/gridfs-config",
-                "reference": "4fb7c160a4eca6aee714c6bbb4cb619219ff20cb"
+                "reference": "fdd43f1434821c3b267851025fb0d0e5c5008c2e"
             },
             "require": {
                 "knplabs/knp-gaufrette-bundle": "~0.8.0",
@@ -7322,7 +7322,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://oroinc.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "GridFS adapter configuration for Gaufrette",
@@ -7344,7 +7344,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "9fd8f027c3a0f0b8b38bd49c5c40138098666ae4"
+                "reference": "b7f34bd753a13e3a9de14bf5d7228753300b91b0"
             },
             "require": {
                 "drewm/mailchimp-api": "^2.5",
@@ -7374,7 +7374,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.oroinc.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro MailChimp integration",
@@ -7389,7 +7389,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "cfaf323b12dcde0920970415b1e30ba384a17e26"
+                "reference": "9cb97be416b4f5726735e2918bb4b22c1c05a260"
             },
             "require": {
                 "ext-curl": "*",
@@ -7418,7 +7418,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com"
                 }
             ],
             "description": "Oro Marketing Bundles",
@@ -7439,7 +7439,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "aa84e129d429e2672bf6275931dd175380732190"
+                "reference": "26d0ddce255d3b174ba340721c1515003b4b31aa"
             },
             "require": {
                 "ext-sodium": "*",
@@ -7467,7 +7467,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://oroinc.com"
+                    "homepage": "https://oroinc.com"
                 }
             ],
             "description": "Oro OAuth 2.0 authorization and resource server for BAP",
@@ -7487,7 +7487,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "af8c32b2350360f91f5b0c39f4e710e27944ad0c"
+                "reference": "ed2769cde4bc51fd5844f53e909bbec7ac580630"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7806,7 +7806,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Business Application Platform (BAP)",
@@ -7821,7 +7821,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "4c918dbc2cf00e9e5e3a5a9bc4e485cd6fbbe9d0"
+                "reference": "1860365cfb616f5a7e778f0b2e3a540a379655e6"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -7846,7 +7846,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "OroPlatform Serialized Fields",
@@ -17730,7 +17730,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/maker",
-                "reference": "65c0a63d48ad0283e0e25be79e7183158af42113"
+                "reference": "3b86521a1a30a56671a4c56230c87eb8f090a676"
             },
             "require": {
                 "oro/platform": "6.1.*",
@@ -17756,7 +17756,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "https://www.orocommerce.com"
+                    "homepage": "https://oroinc.com"
                 }
             ],
             "description": "Code generation/makers for Oro platform",
@@ -17770,7 +17770,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/twig-inspector",
-                "reference": "6ec311c40e5cc491957e9f59b36d31009e58304a"
+                "reference": "185aed1b4c34aff0676267566f71390707e338cc"
             },
             "require": {
                 "php": ">=7.4",
@@ -17799,7 +17799,7 @@
             "authors": [
                 {
                     "name": "Oro, Inc",
-                    "homepage": "http://www.orocrm.com"
+                    "homepage": "https://oroinc.com/"
                 }
             ],
             "description": "Oro Twig Inspector adds the possibility to find twig templates and blocks used for rendering HTML pages faster during development",
