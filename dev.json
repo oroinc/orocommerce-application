@@ -5,7 +5,7 @@
   "authors": [
     {
       "name": "Oro, Inc",
-      "homepage": "https://www.orocommerce.com"
+      "homepage": "https://oroinc.com/"
     }
   ],
   "autoload": {
@@ -237,7 +237,7 @@
     },
     {
       "type": "composer",
-      "url": "https://packagist.orocrm.com"
+      "url": "https://packagist.oroinc.com"
     }
   ]
 }

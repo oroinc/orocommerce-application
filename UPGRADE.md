@@ -4,6 +4,10 @@ This file includes only the most important items that should be addressed before
 
 Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant changes in the code that may affect the upgrade of some customizations.
 
+### UNRELEASED (6.0.4)
+
+In addition to the existing YAML-based checkout workflows, a service-based implementation has been added. To switch to the new implementation, set the DI parameter `oro_checkout.use_transition_services` to `true` and reload the workflow definitions with the command `oro:workflow:definitions:load`. YAML-based checkouts are still fully functional and can be used. The service-based implementation should be preferred to simplify checkout customizations and maintainability.
+
 ### 5.1.0 RC
 
 Added `.env-app` files support and removed most of the parameters from the config/parameters.yml in favor of environment variables with DSNs. For more details, see [the migration guide](https://doc.oroinc.com/master/backend/setup/dev-environment/env-vars/).
