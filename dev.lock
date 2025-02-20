@@ -2906,16 +2906,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.394.0",
+            "version": "v0.395.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "17fa8210d62c02c398fb4985ed4bc461d18989c1"
+                "reference": "e023429c6dc53e9e6e3b751f3957fd3118ed1568"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/17fa8210d62c02c398fb4985ed4bc461d18989c1",
-                "reference": "17fa8210d62c02c398fb4985ed4bc461d18989c1",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e023429c6dc53e9e6e3b751f3957fd3118ed1568",
+                "reference": "e023429c6dc53e9e6e3b751f3957fd3118ed1568",
                 "shasum": ""
             },
             "require": {
@@ -2944,9 +2944,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.394.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.395.0"
             },
-            "time": "2025-02-10T01:06:23+00:00"
+            "time": "2025-02-17T01:08:24+00:00"
         },
         {
             "name": "google/auth",
@@ -3994,16 +3994,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.32.2",
+            "version": "3.32.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "fa7ab39504c24d76107ba16c00aafa5da3605971"
+                "reference": "033c9beab9eb708509a3d400e9f0ffeb2d440e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/fa7ab39504c24d76107ba16c00aafa5da3605971",
-                "reference": "fa7ab39504c24d76107ba16c00aafa5da3605971",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/033c9beab9eb708509a3d400e9f0ffeb2d440e71",
+                "reference": "033c9beab9eb708509a3d400e9f0ffeb2d440e71",
                 "shasum": ""
             },
             "require": {
@@ -4080,7 +4080,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.32.2"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.32.3"
             },
             "funding": [
                 {
@@ -4088,7 +4088,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-03T22:43:29+00:00"
+            "time": "2025-02-11T23:16:25+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -6251,7 +6251,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/calendar",
-                "reference": "7136f751f3e987b417934789cd780fe266b4a878"
+                "reference": "892e5246f18e8e1c4aea85655fb4b11747845139"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -6270,7 +6270,7 @@
                     "Oro\\Bundle\\CalendarBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6300,7 +6300,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "925b513052f19f2a7e9daf88c0553dbb14b19573"
+                "reference": "cd7fc2704eccc3ae8724e7374ebc1003a511891c"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6402,7 +6402,7 @@
                     "Oro\\Component\\Website\\": "src/Oro/Component/Website"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6426,7 +6426,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/authorizenet",
-                "reference": "150b7978f4c1e382988764699b90cfea1c83eee7"
+                "reference": "57692e7c7a706ff8602d4e2086a35a4173a11193"
             },
             "require": {
                 "authorizenet/authorizenet": "~2.0.2",
@@ -6444,7 +6444,7 @@
                     "Oro\\Bundle\\AuthorizeNetBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6468,7 +6468,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-crm",
-                "reference": "0ddf6be0dd112149d0d81702d5465533dfbfca6c"
+                "reference": "1c9dedccbb8c73ce227e04337e0362f921093de0"
             },
             "require": {
                 "oro/commerce": "6.1.*",
@@ -6490,7 +6490,7 @@
                     "Oro\\Bundle\\DemoDataCommerceCRMBundle\\": "src/Oro/Bundle/DemoDataCommerceCRMBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6514,7 +6514,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce-demo-checkouts",
-                "reference": "693a4747a2ac7e047414c06fe4613d419e1ab15f"
+                "reference": "f1934fa996da2d2e6e54e7447d6fb1dce3ca7ab7"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -6530,7 +6530,7 @@
                     "Oro\\Bundle\\AlternativeCheckoutBundle\\": "src/Oro/Bundle/AlternativeCheckoutBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6554,7 +6554,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/infinitepay",
-                "reference": "6a0527027bf2bef1027e028c9c4d8d2f909d0eb3"
+                "reference": "d684ffc34055dca14193f89993cedcfd591b9a67"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6571,7 +6571,7 @@
                     "Oro\\Bundle\\InfinitePayBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6600,7 +6600,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/conversation",
-                "reference": "11156808fb5db671ba63b1849000bbbde715bff5"
+                "reference": "be0b3222a4ac5e3bf644dbacb5427c63273ac966"
             },
             "require": {
                 "oro/commerce": "6.1.*",
@@ -6617,7 +6617,7 @@
                     "Oro\\Bundle\\ConversationBundle\\": "src/Oro/Bundle/ConversationBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6646,7 +6646,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/cookie-consent",
-                "reference": "c181de75db13ec4daf8a27373b4988a362737eb3"
+                "reference": "46e4c2a6ef2be0f31c1e8c4435996804d3d5b0d9"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -6662,7 +6662,7 @@
                     "Oro\\Bundle\\CookieConsentBundle\\": "src/Oro/Bundle/CookieConsentBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6692,7 +6692,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "14edf702537346bf0da196c1e54351ed02360d1b"
+                "reference": "2827962ac5e734817fc7318f3845b441981a236b"
             },
             "require": {
                 "oro/calendar-bundle": "6.1.*",
@@ -6753,7 +6753,7 @@
                     "Oro\\Bundle\\TestFrameworkCRMBundle\\": "src/Oro/Bundle/TestFrameworkCRMBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6777,7 +6777,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "59123e92389cf1d5ff4e8031875cb429f630d053"
+                "reference": "5454096fdb3e5ffdd60b389218e3f59cfc95a5de"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -6793,7 +6793,7 @@
                     "Oro\\Bundle\\CallBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6821,7 +6821,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "42de1d3a4029153fdc8081fc53fc28005ea2c0e0"
+                "reference": "219f3e92890943674d406e5230055627ba4deb96"
             },
             "require": {
                 "ext-curl": "*",
@@ -6840,7 +6840,7 @@
                     "Oro\\Bundle\\DotmailerBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6864,7 +6864,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "9da44d124ed779fe38e2b857ff60bce13e890229"
+                "reference": "0dff9bb64b7c124fcb92224418067d6da53f534e"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -6880,7 +6880,7 @@
                     "Oro\\Bundle\\TaskBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6908,7 +6908,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "1eed88e1c8cc896997498f8431222e491eb537ef"
+                "reference": "c84b08ba391e9850ba169051ec16febe2367e0aa"
             },
             "require": {
                 "oro/crm": "6.1.*"
@@ -6924,7 +6924,7 @@
                     "Oro\\Bundle\\ZendeskBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -6953,7 +6953,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/customer-portal",
-                "reference": "dafea046babf994df924d10aff51eef8610f552f"
+                "reference": "f96c29b636451d8973710c67d2519473a5bcf133"
             },
             "require": {
                 "oro/calendar-bundle": "6.1.*",
@@ -6984,7 +6984,7 @@
                     "Oro\\Bundle\\AddressValidationBundle\\": "src/Oro/Bundle/AddressValidationBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7069,7 +7069,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/gen-ai",
-                "reference": "5c08dd01c5afeba3aafce33c43a5a54db6ae762c"
+                "reference": "34fc389527254eeba70d7ea484871b15692c31e9"
             },
             "require": {
                 "google/apiclient": "^2.18.2",
@@ -7087,7 +7087,7 @@
                     "Oro\\Bundle\\AiContentGenerationBundle\\": "src/Oro/Bundle/AiContentGenerationBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7115,7 +7115,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-tag-manager",
-                "reference": "f5ee7de3850760ae41369ddd43b7765b209f9b8f"
+                "reference": "71ccd62bdaecfc24cd83696ceeaf4c7e55ce1571"
             },
             "require": {
                 "oro/commerce": "6.1.*"
@@ -7131,7 +7131,7 @@
                     "Oro\\Bundle\\GoogleTagManagerBundle\\": "src/Oro/Bundle/GoogleTagManagerBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7162,7 +7162,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/gridfs-config",
-                "reference": "fdd43f1434821c3b267851025fb0d0e5c5008c2e"
+                "reference": "29536788516b62a684744df5beed0f9a2e048628"
             },
             "require": {
                 "knplabs/knp-gaufrette-bundle": "~0.8.0",
@@ -7183,7 +7183,7 @@
                     "Oro\\Bundle\\GridFSConfigBundle\\": "src/Oro/Bundle/GridFSConfigBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7214,7 +7214,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "b7f34bd753a13e3a9de14bf5d7228753300b91b0"
+                "reference": "f3d0c8cbf01105b45ce7e9a8d40f6f119740d4e6"
             },
             "require": {
                 "drewm/mailchimp-api": "^2.5",
@@ -7235,7 +7235,7 @@
                     "Oro\\Bundle\\MailChimpBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7259,7 +7259,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "9cb97be416b4f5726735e2918bb4b22c1c05a260"
+                "reference": "d610e30da4a3c5f0fbbe0b0686b0f0678a5713e3"
             },
             "require": {
                 "ext-curl": "*",
@@ -7279,7 +7279,7 @@
                     "Oro\\Bundle\\TrackingBundle\\": "src/Oro/Bundle/TrackingBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7309,7 +7309,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "26d0ddce255d3b174ba340721c1515003b4b31aa"
+                "reference": "818f3e6564bdec394260e4c32ad39090e05001f8"
             },
             "require": {
                 "ext-sodium": "*",
@@ -7328,7 +7328,7 @@
                     "Oro\\Bundle\\OAuth2ServerBundle\\": "src/Oro/Bundle/OAuth2ServerBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7357,7 +7357,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "88a3e178986b2488404dd87d2114049e18ad16e4"
+                "reference": "19a515d4326a2f62676b88d8638ee6e237c286f7"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7667,7 +7667,7 @@
                     "Oro\\Component\\TestUtils\\": "src/Oro/Component/TestUtils"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -7691,7 +7691,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "1860365cfb616f5a7e778f0b2e3a540a379655e6"
+                "reference": "8d98313276b475bf46316a68bf561679c09187a4"
             },
             "require": {
                 "oro/platform": "6.1.*"
@@ -7707,7 +7707,7 @@
                     "Oro\\Bundle\\EntitySerializedFieldsBundle\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
@@ -8913,16 +8913,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "c00d78fb6b29658347f9d37ebe104bffadf36299"
+                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/c00d78fb6b29658347f9d37ebe104bffadf36299",
-                "reference": "c00d78fb6b29658347f9d37ebe104bffadf36299",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
+                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
                 "shasum": ""
             },
             "require": {
@@ -8954,9 +8954,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.0.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.1.0"
             },
-            "time": "2024-10-13T11:29:49+00:00"
+            "time": "2025-02-19T13:28:12+00:00"
         },
         {
             "name": "predis/predis",
@@ -17765,7 +17765,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/maker",
-                "reference": "3b86521a1a30a56671a4c56230c87eb8f090a676"
+                "reference": "1fa6a2a9794b38ddf8e0f8b70ed3932d6c7b5b49"
             },
             "require": {
                 "oro/platform": "6.1.*",
@@ -17782,7 +17782,7 @@
                     "Oro\\Bundle\\MakerBundle\\": "src/Oro/Bundle/MakerBundle"
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "**/Tests/"
                 ]
             },
             "license": [
