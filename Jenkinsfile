@@ -136,7 +136,7 @@ pipeline {
                             steps {
                                 dir("$WORKSPACE/../$BUILD_TAG") {
                                     sh """
-                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
+                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION --build-context test=".build/docker" -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
                                     """
                                 }
                             }
