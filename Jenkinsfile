@@ -208,16 +208,11 @@ pipeline {
         }
         stage('Push to CI') {
             environment {
-                KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
-                configuration = 'oro-product-development'
-                credentials = "--configuration ${configuration}"
+                ORO_REGISTRY_CREDS = credentials('ocir.eu-frankfurt-1.oci.oraclecloud.com')
             }
             steps {
                 sh '''
-                    gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
-                    gcloud config configurations activate ${configuration}
-                    gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
-                    gcloud ${credentials} auth configure-docker
+                    echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin ocir.eu-frankfurt-1.oci.oraclecloud.com
                     set -x
                     docker image ls ${ORO_IMAGE}*
                     docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
@@ -234,9 +229,6 @@ pipeline {
                     docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
                     docker image prune -f
                 '''
-            }
-            when {
-                environment name: 'PUSH_TO', value: 'us.gcr.io/oro-product-development'
             }
         }
     }
