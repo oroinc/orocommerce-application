@@ -109,7 +109,7 @@ pipeline {
                             steps {
                                 sh '''
                                     {
-                                        echo ORO_LANGUAGE=en_EN
+                                        echo ORO_LANGUAGE=en_US
                                         echo ORO_FORMATTING_CODE=en
                                     } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
