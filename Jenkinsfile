@@ -23,7 +23,7 @@ pipeline {
                         retry(5) {
                             checkout([
                                 $class: 'GitSCM',
-                                branches: [[name: 'master']],
+                                branches: [[name: '6.1']],
                                 extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: ".build"]],
                                 userRemoteConfigs: [[url: 'https://github.com/oroinc/docker-build.git']]
                             ])
@@ -70,6 +70,10 @@ pipeline {
                             }
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=de_DE
+                                        echo ORO_FORMATTING_CODE=de
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --exit-code-from install --quiet-pull install
                                     rm -rf .build/docker/public_storage
@@ -87,6 +91,10 @@ pipeline {
                             }
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=fr_FR
+                                        echo ORO_FORMATTING_CODE=fr
+                                    } >>.build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --exit-code-from install --quiet-pull install
                                     rm -rf .build/docker/public_storage
