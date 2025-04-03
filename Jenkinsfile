@@ -94,7 +94,7 @@ pipeline {
                                     {
                                         echo ORO_LANGUAGE=fr_FR
                                         echo ORO_FORMATTING_CODE=fr
-                                    } >>.build/docker-compose/.env
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --exit-code-from install --quiet-pull install
                                     rm -rf .build/docker/public_storage
@@ -108,6 +108,10 @@ pipeline {
                         stage('Build:prod:install:en') {
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=en_EN
+                                        echo ORO_FORMATTING_CODE=en
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --quiet-pull --exit-code-from install install
                                     rm -rf .build/docker/public_storage
