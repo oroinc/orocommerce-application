@@ -2,6 +2,7 @@
 **/public/build/**
 **/lib/*
 **/api-doc-bundle/**
+**/commerce-old-themes/**
 **/nelmioapidoc/**
 **/ThemeDefault*Bundle/**
 **/*.min.css
