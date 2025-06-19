@@ -2979,7 +2979,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.398.0",
+            "version": "v0.399.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -3017,7 +3017,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.398.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.399.0"
             },
             "time": "2025-06-04T17:28:44+00:00"
         },
@@ -4781,16 +4781,16 @@
         },
         {
             "name": "laminas/laminas-validator",
-            "version": "2.64.3",
+            "version": "2.64.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-validator.git",
-                "reference": "b3ec5865e7aa60a0fbce211500f4a5c6a6e11a30"
+                "reference": "e2e6631f599a9b0db1e23adb633c09a2f0c68bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/b3ec5865e7aa60a0fbce211500f4a5c6a6e11a30",
-                "reference": "b3ec5865e7aa60a0fbce211500f4a5c6a6e11a30",
+                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/e2e6631f599a9b0db1e23adb633c09a2f0c68bed",
+                "reference": "e2e6631f599a9b0db1e23adb633c09a2f0c68bed",
                 "shasum": ""
             },
             "require": {
@@ -4861,7 +4861,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-06-11T10:23:09+00:00"
+            "time": "2025-06-16T14:38:00+00:00"
         },
         {
             "name": "lcobucci/clock",
@@ -7440,7 +7440,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "16d4b5f037e7543a3e47ac3c5d2e2e633061a3d7"
+                "reference": "47ab2f4781b1256d86327111965fe1c3167eb921"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7610,7 +7610,7 @@
                     "when": "3.7.8",
                     "crypto-js": "4.2.0",
                     "jquery-mousewheel": "3.1.13",
-                    "tinymce": "6.8.5",
+                    "tinymce": "6.8.6",
                     "timepicker": "1.14.0",
                     "datepair.js": "0.4.*",
                     "jquery-ui-multiselect-widget": "2.0.1",
@@ -8932,16 +8932,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.43",
+            "version": "3.0.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "709ec107af3cb2f385b9617be72af8cf62441d02"
+                "reference": "1d0b5e7e1434678411787c5a0535e68907cf82d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/709ec107af3cb2f385b9617be72af8cf62441d02",
-                "reference": "709ec107af3cb2f385b9617be72af8cf62441d02",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/1d0b5e7e1434678411787c5a0535e68907cf82d9",
+                "reference": "1d0b5e7e1434678411787c5a0535e68907cf82d9",
                 "shasum": ""
             },
             "require": {
@@ -9022,7 +9022,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.43"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.44"
             },
             "funding": [
                 {
@@ -9038,7 +9038,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-14T21:12:59+00:00"
+            "time": "2025-06-15T09:59:26+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
