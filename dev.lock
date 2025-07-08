@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50a25233d129426e28d5ac5d7aa54960",
+    "content-hash": "370a9e70653959f22d3258a63da20745",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -7512,6 +7512,45 @@
                 "OAuth2",
                 "ORO"
             ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "oro/oro-pay",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/oro-pay",
+                "reference": "e742c6f060c99ad751c3d247f980ca19137ab64b"
+            },
+            "require": {
+                "oro/commerce": "6.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\OroPayBundle\\": "src/Oro/Bundle/OroPayBundle"
+                },
+                "exclude-from-classmap": [
+                    "**/Tests/"
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://oroinc.com"
+                }
+            ],
+            "description": "OroCommerce OroPay integration",
             "transport-options": {
                 "relative": true
             }
@@ -20650,6 +20689,7 @@
         "oro/gen-ai": 20,
         "oro/conversation": 20,
         "oro/storefront-themes": 20,
+        "oro/oro-pay": 20,
         "oro/maker": 20
     },
     "prefer-stable": true,
