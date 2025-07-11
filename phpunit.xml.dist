@@ -28,7 +28,6 @@
         <exclude>
             <group>crm</group>
             <group>commerce</group>
-            <group>dist</group>
             <group>install</group>
             <group>segfault</group>
             <group>demo-fixtures</group>
