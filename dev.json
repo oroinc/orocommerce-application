@@ -40,7 +40,8 @@
     "oro/cookie-consent": "5.1.x-dev",
     "oro/gridfs-config": "5.1.x-dev",
     "oro/commerce-demo-checkouts": "5.1.x-dev",
-    "oro/gen-ai": "5.1.x-dev"
+    "oro/gen-ai": "5.1.x-dev",
+    "oro/oro-pay": "5.1.x-dev"
   },
   "require-dev": {
     "behat/behat": "~3.12.0",
