@@ -2982,7 +2982,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.405.0",
+            "version": "v0.406.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -3020,7 +3020,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.405.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.406.0"
             },
             "time": "2025-06-04T17:28:44+00:00"
         },
