@@ -56,3 +56,4 @@ bin/*
 /docker-compose.override.yml
 /.build
 /.user.ini
+/npm-package
