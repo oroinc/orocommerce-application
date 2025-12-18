@@ -23,7 +23,7 @@ pipeline {
                         retry(5) {
                             checkout([
                                 $class: 'GitSCM',
-                                branches: [[name: 'master']],
+                                branches: [[name: '6.1']],
                                 extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: ".build"]],
                                 userRemoteConfigs: [[url: 'https://github.com/oroinc/docker-build.git']]
                             ])
@@ -70,6 +70,10 @@ pipeline {
                             }
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=de_DE
+                                        echo ORO_FORMATTING_CODE=de
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --exit-code-from install --quiet-pull install
                                     rm -rf .build/docker/public_storage
@@ -87,6 +91,10 @@ pipeline {
                             }
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=fr_FR
+                                        echo ORO_FORMATTING_CODE=fr
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --exit-code-from install --quiet-pull install
                                     rm -rf .build/docker/public_storage
@@ -100,6 +108,10 @@ pipeline {
                         stage('Build:prod:install:en') {
                             steps {
                                 sh '''
+                                    {
+                                        echo ORO_LANGUAGE=en_US
+                                        echo ORO_FORMATTING_CODE=en
+                                    } >> .build/docker-compose/.env
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose down -v
                                     docker compose -p prod_${EXECUTOR_NUMBER} --project-directory .build/docker-compose up --quiet-pull --exit-code-from install install
                                     rm -rf .build/docker/public_storage
@@ -136,7 +148,7 @@ pipeline {
                             steps {
                                 dir("$WORKSPACE/../$BUILD_TAG") {
                                     sh """
-                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
+                                        docker buildx build --pull --load --rm ${dockerLabels.join(' ')} --label "com.oroinc.orocloud.image_type=test" --build-arg ORO_BASELINE_VERSION --build-context test=".build/docker" -t \${ORO_IMAGE_TEST,,}:$ORO_IMAGE_TAG -f ".build/docker/Dockerfile-test" .
                                     """
                                 }
                             }
@@ -208,16 +220,11 @@ pipeline {
         }
         stage('Push to CI') {
             environment {
-                KEY_FILE = credentials('jenkins_oro-product-development_iam_gserviceaccount_com')
-                configuration = 'oro-product-development'
-                credentials = "--configuration ${configuration}"
+                ORO_REGISTRY_CREDS = credentials('ocir.eu-frankfurt-1.oci.oraclecloud.com')
             }
             steps {
                 sh '''
-                    gcloud config configurations list | grep ^${configuration} -q || gcloud config configurations create ${configuration}
-                    gcloud config configurations activate ${configuration}
-                    gcloud -q ${credentials} auth activate-service-account --key-file "$KEY_FILE" --project ${configuration}
-                    gcloud ${credentials} auth configure-docker
+                    echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin ocir.eu-frankfurt-1.oci.oraclecloud.com
                     set -x
                     docker image ls ${ORO_IMAGE}*
                     docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
@@ -234,9 +241,6 @@ pipeline {
                     docker image rm -f ${ORO_IMAGE_INIT_TEST,,}:$ORO_IMAGE_TAG ||:
                     docker image prune -f
                 '''
-            }
-            when {
-                environment name: 'PUSH_TO', value: 'us.gcr.io/oro-product-development'
             }
         }
     }
