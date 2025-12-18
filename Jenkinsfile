@@ -17,6 +17,9 @@ pipeline {
     }
     stages {
         stage('Init') {
+            environment {
+                ORO_REGISTRY_CREDS = credentials('ocir.eu-frankfurt-1.oci.oraclecloud.com')
+            }
             steps {
                 script {
                     try {
@@ -43,6 +46,7 @@ pipeline {
                         cp -rf $WORKSPACE $WORKSPACE/../$BUILD_TAG
                         docker builder use default
                         docker builder ls
+                        echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin ocir.eu-frankfurt-1.oci.oraclecloud.com
                     '''
                 }
             }
@@ -219,12 +223,8 @@ pipeline {
             }
         }
         stage('Push to CI') {
-            environment {
-                ORO_REGISTRY_CREDS = credentials('ocir.eu-frankfurt-1.oci.oraclecloud.com')
-            }
             steps {
                 sh '''
-                    echo $ORO_REGISTRY_CREDS_PSW | docker login -u $ORO_REGISTRY_CREDS_USR --password-stdin ocir.eu-frankfurt-1.oci.oraclecloud.com
                     set -x
                     docker image ls ${ORO_IMAGE}*
                     docker image push ${ORO_IMAGE,,}:$ORO_IMAGE_TAG
