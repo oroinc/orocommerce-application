@@ -15,6 +15,7 @@ security:
 
         frontend:
             pattern: ^/
+            entry_point: organization_http_basic
             organization-http-basic:
                 realm: "AccountUser REST Area"
             provider: commerce_customer_user
