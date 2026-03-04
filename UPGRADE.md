@@ -4,6 +4,10 @@ This file includes only the most important items that should be addressed before
 
 Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant changes in the code that may affect the upgrade of some customizations.
 
+## 7.0
+
+- **Stripe only:** Before upgrading, all pending Stripe payment transactions must be finalized and verified as successfully charged. The legacy StripeBundle has been removed in 7.0, so any unfinalized transactions will no longer be manageable within the application and can only be handled directly on the Stripe side.
+
 ### 5.1.0 RC
 
 Added `.env-app` files support and removed most of the parameters from the config/parameters.yml in favor of environment variables with DSNs. For more details, see [the migration guide](https://doc.oroinc.com/master/backend/setup/dev-environment/env-vars/).
