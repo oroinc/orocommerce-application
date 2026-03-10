@@ -2888,16 +2888,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.434.0",
+            "version": "v0.435.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "65550d5fd5c468badd75db9ec73c2c187470a00d"
+                "reference": "1edf0f5f2876945c372366107b4d7a387b17a6b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/65550d5fd5c468badd75db9ec73c2c187470a00d",
-                "reference": "65550d5fd5c468badd75db9ec73c2c187470a00d",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/1edf0f5f2876945c372366107b4d7a387b17a6b9",
+                "reference": "1edf0f5f2876945c372366107b4d7a387b17a6b9",
                 "shasum": ""
             },
             "require": {
@@ -2926,9 +2926,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.434.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.435.0"
             },
-            "time": "2026-02-18T01:00:35+00:00"
+            "time": "2026-03-01T01:14:26+00:00"
         },
         {
             "name": "google/auth",
@@ -7700,7 +7700,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/storefront-themes",
-                "reference": "69779e3ead155d2095aabfd0a2665029b85b63c5"
+                "reference": "cf0124a069d8b9b821f532f2ab789297b148928c"
             },
             "require": {
                 "oro/commerce": "7.0.*"
@@ -7713,7 +7713,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Oro\\Bundle\\GoldenCarbonThemeBundle\\": "src/Oro/Bundle/GoldenCarbonThemeBundle"
+                    "Oro\\Bundle\\GoldenCarbonThemeBundle\\": "src/Oro/Bundle/GoldenCarbonThemeBundle",
+                    "Oro\\Bundle\\IntelligentBlueThemeBundle\\": "src/Oro/Bundle/IntelligentBlueThemeBundle"
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
