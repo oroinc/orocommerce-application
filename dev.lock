@@ -4052,16 +4052,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.32.6",
+            "version": "3.32.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "b02a6c00d8335ef68c163bf7c9e39f396dc5853f"
+                "reference": "d725ebd288688bb24f47ee467b1299b0fc6d04f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/b02a6c00d8335ef68c163bf7c9e39f396dc5853f",
-                "reference": "b02a6c00d8335ef68c163bf7c9e39f396dc5853f",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/d725ebd288688bb24f47ee467b1299b0fc6d04f8",
+                "reference": "d725ebd288688bb24f47ee467b1299b0fc6d04f8",
                 "shasum": ""
             },
             "require": {
@@ -4137,7 +4137,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.32.6"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.32.7"
             },
             "funding": [
                 {
@@ -4149,7 +4149,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-28T12:37:32+00:00"
+            "time": "2026-03-11T20:11:17+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -5169,20 +5169,20 @@
         },
         {
             "name": "league/uri",
-            "version": "7.8.0",
+            "version": "7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "4436c6ec8d458e4244448b069cc572d088230b76"
+                "reference": "08cf38e3924d4f56238125547b5720496fac8fd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/4436c6ec8d458e4244448b069cc572d088230b76",
-                "reference": "4436c6ec8d458e4244448b069cc572d088230b76",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/08cf38e3924d4f56238125547b5720496fac8fd4",
+                "reference": "08cf38e3924d4f56238125547b5720496fac8fd4",
                 "shasum": ""
             },
             "require": {
-                "league/uri-interfaces": "^7.8",
+                "league/uri-interfaces": "^7.8.1",
                 "php": "^8.1",
                 "psr/http-factory": "^1"
             },
@@ -5255,7 +5255,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri/tree/7.8.0"
+                "source": "https://github.com/thephpleague/uri/tree/7.8.1"
             },
             "funding": [
                 {
@@ -5263,20 +5263,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-14T17:24:56+00:00"
+            "time": "2026-03-15T20:22:25+00:00"
         },
         {
             "name": "league/uri-interfaces",
-            "version": "7.8.0",
+            "version": "7.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4"
+                "reference": "85d5c77c5d6d3af6c54db4a78246364908f3c928"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
-                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/85d5c77c5d6d3af6c54db4a78246364908f3c928",
+                "reference": "85d5c77c5d6d3af6c54db4a78246364908f3c928",
                 "shasum": ""
             },
             "require": {
@@ -5339,7 +5339,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.0"
+                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.1"
             },
             "funding": [
                 {
@@ -5347,7 +5347,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-15T06:54:53+00:00"
+            "time": "2026-03-08T20:05:35+00:00"
         },
         {
             "name": "liip/imagine-bundle",
@@ -6354,17 +6354,16 @@
         },
         {
             "name": "oro/api-doc-bundle",
-            "version": "2.1.0",
-            "target-dir": "Nelmio/ApiDocBundle",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/NelmioApiDocBundle.git",
-                "reference": "606eb816cfdda907ce94b9c1b9e8ac41aded8740"
+                "reference": "0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/NelmioApiDocBundle/zipball/606eb816cfdda907ce94b9c1b9e8ac41aded8740",
-                "reference": "606eb816cfdda907ce94b9c1b9e8ac41aded8740",
+                "url": "https://api.github.com/repos/oroinc/NelmioApiDocBundle/zipball/0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1",
+                "reference": "0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1",
                 "shasum": ""
             },
             "require": {
@@ -6393,8 +6392,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Nelmio\\ApiDocBundle": ""
+                "psr-4": {
+                    "Nelmio\\ApiDocBundle\\": ""
                 }
             },
             "license": [
@@ -6422,9 +6421,9 @@
                 "rest"
             ],
             "support": {
-                "source": "https://github.com/oroinc/NelmioApiDocBundle/tree/2.1.0"
+                "source": "https://github.com/oroinc/NelmioApiDocBundle/tree/2.1.1"
             },
-            "time": "2023-09-13T11:08:54+00:00"
+            "time": "2026-03-17T13:22:07+00:00"
         },
         {
             "name": "oro/calendar-bundle",
@@ -7577,7 +7576,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "5a9d47cb085267256f4413ed3cc9398720231e60"
+                "reference": "4c8a265d2db842ba06f1d97b8f390375626d7968"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7741,7 +7740,7 @@
             "extra": {
                 "npm": {
                     "colors": "1.4.0",
-                    "moment": "2.29.*",
+                    "moment": "2.30.1",
                     "moment-timezone": "0.5.*",
                     "jstree": "3.3.12",
                     "jquery.cookie": "1.4.1",
@@ -7753,8 +7752,8 @@
                     "timepicker": "1.14.0",
                     "datepair.js": "0.4.*",
                     "jquery-ui-multiselect-widget": "2.0.1",
-                    "autolinker": "4.0.0",
-                    "Base64": "1.1.0",
+                    "autolinker": "4.1.5",
+                    "Base64": "1.3.0",
                     "flotr2": "0.1.0",
                     "bean": "1.0.15",
                     "jquery-validation": "1.21.0",
@@ -7774,16 +7773,16 @@
                     "@oroinc/slick-carousel": "1.7.1-oro3",
                     "xregexp": "^5.1.0",
                     "scriptjs": "2.5.9",
-                    "focus-visible": "5.2.0",
+                    "focus-visible": "5.2.1",
                     "@oroinc/jquery-ajax-queue": "0.0.1",
                     "@oroinc/jsplumb": "1.7.*",
                     "@oroinc/select2": "3.4.1",
                     "@oroinc/autobahnjs": "0.8.0",
                     "@oroinc/backbone.pageable": "1.2.3-oro2",
                     "@oroinc/jquery.nicescroll": "3.6.6",
-                    "@babel/runtime": "^7.27.6",
-                    "core-js": "^3.25.*",
-                    "codemirror6": "npm:codemirror@^6.0.1",
+                    "@babel/runtime": "^7.28.6",
+                    "core-js": "^3.48.0",
+                    "codemirror6": "npm:codemirror@^6.0.2",
                     "@codemirror/view": "6.34.2",
                     "@lezer/generator": "^1.3.0",
                     "@lezer/lezer": "^1.1.2"
@@ -8950,16 +8949,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.6.6",
+            "version": "5.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "5cee1d3dfc2d2aa6599834520911d246f656bcb8"
+                "reference": "31a105931bc8ffa3a123383829772e832fd8d903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/5cee1d3dfc2d2aa6599834520911d246f656bcb8",
-                "reference": "5cee1d3dfc2d2aa6599834520911d246f656bcb8",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/31a105931bc8ffa3a123383829772e832fd8d903",
+                "reference": "31a105931bc8ffa3a123383829772e832fd8d903",
                 "shasum": ""
             },
             "require": {
@@ -9008,9 +9007,9 @@
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
             "support": {
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.6.6"
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.6.7"
             },
-            "time": "2025-12-22T21:13:58+00:00"
+            "time": "2026-03-18T20:47:46+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -9072,16 +9071,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.49",
+            "version": "3.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9"
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/6233a1e12584754e6b5daa69fe1289b47775c1b9",
-                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
                 "shasum": ""
             },
             "require": {
@@ -9162,7 +9161,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.49"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.50"
             },
             "funding": [
                 {
@@ -9178,7 +9177,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-27T09:17:28+00:00"
+            "time": "2026-03-19T02:57:58+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
