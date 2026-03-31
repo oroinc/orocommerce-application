@@ -674,16 +674,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.10",
+            "version": "1.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "961a5e4056dd2e4a2eedcac7576075947c28bf63"
+                "reference": "68ff39175e8e94a4bb1d259407ce51a6a60f09e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/961a5e4056dd2e4a2eedcac7576075947c28bf63",
-                "reference": "961a5e4056dd2e4a2eedcac7576075947c28bf63",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/68ff39175e8e94a4bb1d259407ce51a6a60f09e6",
+                "reference": "68ff39175e8e94a4bb1d259407ce51a6a60f09e6",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.10"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.11"
             },
             "funding": [
                 {
@@ -742,7 +742,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-08T15:06:51+00:00"
+            "time": "2026-03-30T09:16:10+00:00"
         },
         {
             "name": "composer/semver",
@@ -2951,16 +2951,16 @@
         },
         {
             "name": "google/apiclient",
-            "version": "v2.19.0",
+            "version": "v2.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "b18fa8aed7b2b2dd4bcce74e2c7d267e16007ea9"
+                "reference": "5f6a31e9b987e09008bb9ff7882c4c4426a3bea9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/b18fa8aed7b2b2dd4bcce74e2c7d267e16007ea9",
-                "reference": "b18fa8aed7b2b2dd4bcce74e2c7d267e16007ea9",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/5f6a31e9b987e09008bb9ff7882c4c4426a3bea9",
+                "reference": "5f6a31e9b987e09008bb9ff7882c4c4426a3bea9",
                 "shasum": ""
             },
             "require": {
@@ -2971,11 +2971,11 @@
                 "guzzlehttp/psr7": "^2.6",
                 "monolog/monolog": "^2.9||^3.0",
                 "php": "^8.1",
-                "phpseclib/phpseclib": "^3.0.36"
+                "phpseclib/phpseclib": "^3.0.50"
             },
             "require-dev": {
                 "cache/filesystem-adapter": "^1.1",
-                "composer/composer": "^1.10.23",
+                "composer/composer": "^2.9",
                 "phpcompatibility/php-compatibility": "^9.2",
                 "phpspec/prophecy-phpunit": "^2.1",
                 "phpunit/phpunit": "^9.6",
@@ -3014,9 +3014,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client/issues",
-                "source": "https://github.com/googleapis/google-api-php-client/tree/v2.19.0"
+                "source": "https://github.com/googleapis/google-api-php-client/tree/v2.19.1"
             },
-            "time": "2026-01-09T19:59:47+00:00"
+            "time": "2026-03-27T20:48:44+00:00"
         },
         {
             "name": "google/apiclient-services",
@@ -3124,30 +3124,30 @@
         },
         {
             "name": "google/recaptcha",
-            "version": "1.3.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/recaptcha.git",
-                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9"
+                "reference": "8c021a6df19c49f1ddfae3ee0c28ccffe381db25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/recaptcha/zipball/56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
-                "reference": "56522c261d2e8c58ba416c90f81a4cd9f2ed89b9",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/8c021a6df19c49f1ddfae3ee0c28ccffe381db25",
+                "reference": "8c021a6df19c49f1ddfae3ee0c28ccffe381db25",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8"
+                "php": ">=8.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.14",
-                "php-coveralls/php-coveralls": "^2.5",
-                "phpunit/phpunit": "^10"
+                "friendsofphp/php-cs-fixer": "^3.94",
+                "php-coveralls/php-coveralls": "^2.9",
+                "phpunit/phpunit": "^13"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3.x-dev"
+                    "dev-main": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -3172,7 +3172,7 @@
                 "issues": "https://github.com/google/recaptcha/issues",
                 "source": "https://github.com/google/recaptcha"
             },
-            "time": "2025-06-26T22:21:57+00:00"
+            "time": "2026-03-20T13:27:02+00:00"
         },
         {
             "name": "gos/pubsub-router-bundle",
@@ -4190,16 +4190,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.32.6",
+            "version": "3.32.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "b02a6c00d8335ef68c163bf7c9e39f396dc5853f"
+                "reference": "d725ebd288688bb24f47ee467b1299b0fc6d04f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/b02a6c00d8335ef68c163bf7c9e39f396dc5853f",
-                "reference": "b02a6c00d8335ef68c163bf7c9e39f396dc5853f",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/d725ebd288688bb24f47ee467b1299b0fc6d04f8",
+                "reference": "d725ebd288688bb24f47ee467b1299b0fc6d04f8",
                 "shasum": ""
             },
             "require": {
@@ -4275,7 +4275,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.32.6"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.32.7"
             },
             "funding": [
                 {
@@ -4287,7 +4287,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-28T12:37:32+00:00"
+            "time": "2026-03-11T20:11:17+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -6493,17 +6493,16 @@
         },
         {
             "name": "oro/api-doc-bundle",
-            "version": "2.1.0",
-            "target-dir": "Nelmio/ApiDocBundle",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oroinc/NelmioApiDocBundle.git",
-                "reference": "606eb816cfdda907ce94b9c1b9e8ac41aded8740"
+                "reference": "0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oroinc/NelmioApiDocBundle/zipball/606eb816cfdda907ce94b9c1b9e8ac41aded8740",
-                "reference": "606eb816cfdda907ce94b9c1b9e8ac41aded8740",
+                "url": "https://api.github.com/repos/oroinc/NelmioApiDocBundle/zipball/0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1",
+                "reference": "0b0bd97a72d9eb3dec41e71f272fb4a5bb117cd1",
                 "shasum": ""
             },
             "require": {
@@ -6532,8 +6531,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Nelmio\\ApiDocBundle": ""
+                "psr-4": {
+                    "Nelmio\\ApiDocBundle\\": ""
                 }
             },
             "license": [
@@ -6561,9 +6560,9 @@
                 "rest"
             ],
             "support": {
-                "source": "https://github.com/oroinc/NelmioApiDocBundle/tree/2.1.0"
+                "source": "https://github.com/oroinc/NelmioApiDocBundle/tree/2.1.1"
             },
-            "time": "2023-09-13T11:08:54+00:00"
+            "time": "2026-03-17T13:22:07+00:00"
         },
         {
             "name": "oro/calendar-bundle",
@@ -6620,7 +6619,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "33da68bed4f7bace8f1d509dd5085a659c2f7eed"
+                "reference": "cc1d6e1864818ce99ed1f204752b4b5c8e9dd58f"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6661,7 +6660,7 @@
             "type": "library",
             "extra": {
                 "npm": {
-                    "grapesjs": "0.22.12",
+                    "grapesjs": "0.22.14",
                     "grapesjs-parser-postcss": "1.0.3",
                     "grapesjs-plugin-export": "1.0.12",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
@@ -7728,7 +7727,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "b2cb5aaf6d297d48ca59b1844bdfa080b45f9a82"
+                "reference": "04756b3b88e1b526f070dfd1b16138dc495d433b"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7893,7 +7892,7 @@
             "extra": {
                 "npm": {
                     "colors": "1.4.0",
-                    "moment": "2.29.*",
+                    "moment": "2.30.1",
                     "moment-timezone": "0.5.*",
                     "jstree": "3.3.12",
                     "jquery.cookie": "1.4.1",
@@ -7904,8 +7903,8 @@
                     "timepicker": "1.14.0",
                     "datepair.js": "0.4.*",
                     "jquery-ui-multiselect-widget": "2.0.1",
-                    "autolinker": "4.0.0",
-                    "Base64": "1.1.0",
+                    "autolinker": "4.1.5",
+                    "Base64": "1.3.0",
                     "flotr2": "0.1.0",
                     "bean": "1.0.15",
                     "jquery-validation": "1.21.0",
@@ -7925,18 +7924,18 @@
                     "@oroinc/slick-carousel": "1.7.1-oro3",
                     "xregexp": "^5.1.0",
                     "scriptjs": "2.5.9",
-                    "focus-visible": "5.2.0",
+                    "focus-visible": "5.2.1",
                     "@oroinc/jquery-ajax-queue": "0.0.1",
                     "@oroinc/jsplumb": "1.7.*",
                     "@oroinc/select2": "3.4.1",
                     "@oroinc/autobahnjs": "0.8.0",
                     "@oroinc/backbone.pageable": "1.2.3-oro2",
                     "@oroinc/jquery.nicescroll": "3.6.6",
-                    "@babel/runtime": "^7.27.6",
-                    "core-js": "^3.25.*",
+                    "@babel/runtime": "^7.28.6",
+                    "core-js": "^3.48.0",
                     "codemirror6": "npm:codemirror@^6.0.1",
                     "@codemirror/view": "6.34.2",
-                    "@lezer/generator": "^1.3.0",
+                    "@lezer/generator": "1.8.0",
                     "@lezer/lezer": "^1.1.2"
                 },
                 "branch-alias": {
@@ -9096,16 +9095,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.6.6",
+            "version": "5.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "5cee1d3dfc2d2aa6599834520911d246f656bcb8"
+                "reference": "31a105931bc8ffa3a123383829772e832fd8d903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/5cee1d3dfc2d2aa6599834520911d246f656bcb8",
-                "reference": "5cee1d3dfc2d2aa6599834520911d246f656bcb8",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/31a105931bc8ffa3a123383829772e832fd8d903",
+                "reference": "31a105931bc8ffa3a123383829772e832fd8d903",
                 "shasum": ""
             },
             "require": {
@@ -9154,9 +9153,9 @@
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
             "support": {
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.6.6"
+                "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/5.6.7"
             },
-            "time": "2025-12-22T21:13:58+00:00"
+            "time": "2026-03-18T20:47:46+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -9218,16 +9217,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.49",
+            "version": "3.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9"
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/6233a1e12584754e6b5daa69fe1289b47775c1b9",
-                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
+                "reference": "aa6ad8321ed103dc3624fb600a25b66ebf78ec7b",
                 "shasum": ""
             },
             "require": {
@@ -9308,7 +9307,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.49"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.50"
             },
             "funding": [
                 {
@@ -9324,7 +9323,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-27T09:17:28+00:00"
+            "time": "2026-03-19T02:57:58+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
