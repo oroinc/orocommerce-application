@@ -356,12 +356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Ratchet.git",
-                "reference": "9ac6a412a26d8bae6541ee0b65ffaf78e316b1a6"
+                "reference": "379d9c432e5e01c9cdbb9298a768a88a2558136c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/9ac6a412a26d8bae6541ee0b65ffaf78e316b1a6",
-                "reference": "9ac6a412a26d8bae6541ee0b65ffaf78e316b1a6",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/379d9c432e5e01c9cdbb9298a768a88a2558136c",
+                "reference": "379d9c432e5e01c9cdbb9298a768a88a2558136c",
                 "shasum": ""
             },
             "require": {
@@ -374,7 +374,7 @@
                 "symfony/routing": "^2.6|^3.0|^4.0|^5.0|^6.0|^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36"
+                "phpunit/phpunit": "^9.6 || ^8.5 || ^5.7 || ^4.8.36"
             },
             "default-branch": true,
             "type": "library",
@@ -412,7 +412,7 @@
                 "issues": "https://github.com/ratchetphp/Ratchet/issues",
                 "source": "https://github.com/ratchetphp/Ratchet/tree/0.4.x"
             },
-            "time": "2025-10-25T19:55:26+00:00"
+            "time": "2026-05-31T19:31:34+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2891,16 +2891,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.442.0",
+            "version": "v0.443.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "3afe7b5c9d1cebf2a5be018820ce62eeb906b81f"
+                "reference": "102aba0523d5105adaffdcac6c0c74a527f2bbfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/3afe7b5c9d1cebf2a5be018820ce62eeb906b81f",
-                "reference": "3afe7b5c9d1cebf2a5be018820ce62eeb906b81f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/102aba0523d5105adaffdcac6c0c74a527f2bbfc",
+                "reference": "102aba0523d5105adaffdcac6c0c74a527f2bbfc",
                 "shasum": ""
             },
             "require": {
@@ -2929,22 +2929,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.442.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.443.0"
             },
-            "time": "2026-05-25T01:34:24+00:00"
+            "time": "2026-05-29T01:56:23+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.50.1",
+            "version": "v1.50.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "870c17ee3a1d73338d39a9ffa77a700ba77f5a83"
+                "reference": "58788f86d47e59de692c0dae0bb0c006bd0b6018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/870c17ee3a1d73338d39a9ffa77a700ba77f5a83",
-                "reference": "870c17ee3a1d73338d39a9ffa77a700ba77f5a83",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/58788f86d47e59de692c0dae0bb0c006bd0b6018",
+                "reference": "58788f86d47e59de692c0dae0bb0c006bd0b6018",
                 "shasum": ""
             },
             "require": {
@@ -2991,9 +2991,9 @@
             "support": {
                 "docs": "https://cloud.google.com/php/docs/reference/auth/latest",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.50.1"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.50.2"
             },
-            "time": "2026-03-18T20:03:29+00:00"
+            "time": "2026-05-29T19:22:31+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -16665,16 +16665,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.27.0",
+            "version": "v3.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "04ae1bfe9463c816cf72ca0abe7eae2c77a9a9ed"
+                "reference": "ae2071bffb38f04847fc0864d730c94b9cb8ab74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/04ae1bfe9463c816cf72ca0abe7eae2c77a9a9ed",
-                "reference": "04ae1bfe9463c816cf72ca0abe7eae2c77a9a9ed",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae2071bffb38f04847fc0864d730c94b9cb8ab74",
+                "reference": "ae2071bffb38f04847fc0864d730c94b9cb8ab74",
                 "shasum": ""
             },
             "require": {
@@ -16729,7 +16729,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.27.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.27.1"
             },
             "funding": [
                 {
@@ -16741,7 +16741,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-27T13:05:51+00:00"
+            "time": "2026-05-30T17:09:26+00:00"
         },
         {
             "name": "ua-parser/uap-php",
@@ -19189,7 +19189,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-10-26T13:08:54+00:00"
         },
         {
@@ -19245,7 +19244,6 @@
                     "type": "github"
                 }
             ],
-            "abandoned": true,
             "time": "2020-09-28T05:30:19+00:00"
         },
         {
