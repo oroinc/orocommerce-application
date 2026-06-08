@@ -2,7 +2,7 @@
     "description": "THE FILE IS GENERATED PROGRAMMATICALLY, ALL MANUAL CHANGES IN DEPENDENCIES SECTION WILL BE LOST",
     "homepage": "https://doc.oroinc.com/master/frontend/javascript/composer-js-dependencies/",
     "main": "webpack.config.js",
-    "name": "commerce-crm",
+    "name": "commerce-crm-dev",
     "engines": {
         "node": ">=v24.11.0 <25",
         "pnpm": ">=v10.7.0"
