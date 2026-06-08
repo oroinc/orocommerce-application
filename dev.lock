@@ -7238,7 +7238,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/oauth2-server",
-                "reference": "7464ec53b52890bd10aac56a2f65fb7ee47141f8"
+                "reference": "a6e721ba2cf6bdaac130f176ee83b45f15edb93e"
             },
             "require": {
                 "ext-sodium": "*",
@@ -7252,10 +7252,10 @@
                     "dev-master": "7.0-dev"
                 },
                 "oro-post-install-cmd": [
-                    "@oauth-server-generate-keys"
+                    "console oro:oauth-server:generate-keys"
                 ],
                 "oro-post-update-cmd": [
-                    "@oauth-server-generate-keys"
+                    "console oro:oauth-server:generate-keys"
                 ]
             },
             "autoload": {
