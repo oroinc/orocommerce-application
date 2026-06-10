@@ -5,6 +5,7 @@
 /node_modules
 /composer.phar
 composer.lock
+/pnpm-lock.yaml
 /behat.yml
 /var/*
 !var/cache/
@@ -57,3 +58,4 @@ bin/*
 /.build
 /.user.ini
 /npm-package
+/dev/npm-package
