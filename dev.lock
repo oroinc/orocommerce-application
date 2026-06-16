@@ -3025,16 +3025,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.444.0",
+            "version": "v0.445.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "b38b3329e67bf68ef184997c047e6ff5952feca5"
+                "reference": "d76b09227d898db351457010c88f39eedfb815aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b38b3329e67bf68ef184997c047e6ff5952feca5",
-                "reference": "b38b3329e67bf68ef184997c047e6ff5952feca5",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d76b09227d898db351457010c88f39eedfb815aa",
+                "reference": "d76b09227d898db351457010c88f39eedfb815aa",
                 "shasum": ""
             },
             "require": {
@@ -3063,9 +3063,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.444.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.445.0"
             },
-            "time": "2026-06-08T01:52:31+00:00"
+            "time": "2026-06-15T01:58:30+00:00"
         },
         {
             "name": "google/auth",
@@ -3729,7 +3729,7 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.7.1",
+            "version": "2.7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
