@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef15ac88b40850227af063c5bfcbadb4",
+    "content-hash": "62caf22a522b947136d0eb9ea95d0fcf",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6486,7 +6486,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "10719adafb213e14000e556d221ef0204f754427"
+                "reference": "c169af8a3e6b1b9ac7f5d096582c9331e1a5196c"
             },
             "require": {
                 "besimple/soap-client": "^0.2.6",
@@ -6512,7 +6512,7 @@
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.33",
                 "sebastian/phpcpd": "~6.0.3",
-                "squizlabs/php_codesniffer": "~3.10.1",
+                "squizlabs/php_codesniffer": "~3.13.6",
                 "symfony/browser-kit": "~6.4.0",
                 "symfony/css-selector": "~6.4.0",
                 "symfony/debug-bundle": "~6.4.0",
@@ -6879,7 +6879,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "87eb5e027944d701adb1956619dd6a98ff426b2e"
+                "reference": "0da6d74f44a02ce662b926f251b009c5dbf77d5d"
             },
             "require": {
                 "oro/calendar-bundle": "6.0.*",
@@ -6902,7 +6902,7 @@
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.33",
                 "sebastian/phpcpd": "~6.0.3",
-                "squizlabs/php_codesniffer": "~3.10.1",
+                "squizlabs/php_codesniffer": "~3.13.6",
                 "symfony/browser-kit": "~6.4.0",
                 "symfony/css-selector": "~6.4.0",
                 "symfony/debug-bundle": "~6.4.0",
@@ -7582,7 +7582,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "35a440a8cf4068b35c56d653f5c686735bb67506"
+                "reference": "bb180eb214acb5b9d5bce4b4dae300dddaa7a6e9"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7724,7 +7724,7 @@
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.33",
                 "sebastian/phpcpd": "~6.0.3",
-                "squizlabs/php_codesniffer": "~3.10.1",
+                "squizlabs/php_codesniffer": "~3.13.6",
                 "symfony/browser-kit": "~6.4.0",
                 "symfony/css-selector": "~6.4.0",
                 "symfony/debug-bundle": "~6.4.0",
@@ -19835,16 +19835,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.10.3",
+            "version": "3.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "62d32998e820bddc40f99f8251958aed187a5c9c"
+                "reference": "4c378e1a528ea066890fc2397cbdd2f94eb2fc91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/62d32998e820bddc40f99f8251958aed187a5c9c",
-                "reference": "62d32998e820bddc40f99f8251958aed187a5c9c",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/4c378e1a528ea066890fc2397cbdd2f94eb2fc91",
+                "reference": "4c378e1a528ea066890fc2397cbdd2f94eb2fc91",
                 "shasum": ""
             },
             "require": {
@@ -19861,11 +19861,6 @@
                 "bin/phpcs"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -19909,9 +19904,13 @@
                 {
                     "url": "https://opencollective.com/php_codesniffer",
                     "type": "open_collective"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/phpcsstandards",
+                    "type": "thanks_dev"
                 }
             ],
-            "time": "2024-09-18T10:38:58+00:00"
+            "time": "2026-08-06T00:17:32+00:00"
         },
         {
             "name": "symfony/browser-kit",
@@ -20698,36 +20697,36 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "oro/calendar-bundle": 20,
         "oro/commerce": 20,
         "oro/commerce-authorizenet": 20,
-        "oro/platform": 20,
-        "oro/platform-serialised-fields": 20,
-        "oro/oauth2-server": 20,
-        "oro/calendar-bundle": 20,
-        "oro/marketing": 20,
-        "oro/customer-portal": 20,
-        "oro/crm": 20,
-        "oro/crm-task-bundle": 20,
-        "oro/crm-call-bundle": 20,
         "oro/commerce-crm": 20,
-        "oro/crm-dotmailer": 20,
-        "oro/crm-zendesk": 20,
-        "oro/commerce-infinitepay": 20,
-        "oro/google-tag-manager-bundle": 20,
-        "oro/mailchimp": 20,
-        "oro/cookie-consent": 20,
-        "oro/gridfs-config": 20,
         "oro/commerce-demo-checkouts": 20,
-        "oro/gen-ai": 20,
+        "oro/commerce-infinitepay": 20,
         "oro/conversation": 20,
+        "oro/cookie-consent": 20,
+        "oro/crm": 20,
+        "oro/crm-call-bundle": 20,
+        "oro/crm-dotmailer": 20,
+        "oro/crm-task-bundle": 20,
+        "oro/crm-zendesk": 20,
+        "oro/customer-portal": 20,
+        "oro/gen-ai": 20,
+        "oro/google-tag-manager-bundle": 20,
+        "oro/gridfs-config": 20,
+        "oro/mailchimp": 20,
+        "oro/maker": 20,
+        "oro/marketing": 20,
+        "oro/oauth2-server": 20,
         "oro/oro-pay": 20,
-        "oro/maker": 20
+        "oro/platform": 20,
+        "oro/platform-serialised-fields": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "~8.3.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
