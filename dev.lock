@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bbd6967a8297a123069b38682b2e7a7",
+    "content-hash": "48a1f19e36d7f716c7210afa42eb40aa",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -6266,7 +6266,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "e026f24f5278640faabd1b9f1951a1876716012b"
+                "reference": "5775a2c510c87d3e614fe2140e00adb0a6d9cd22"
             },
             "require": {
                 "ext-xmlwriter": "*",
@@ -6290,7 +6290,7 @@
                 "oro/twig-inspector": "1.1.*",
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.34",
-                "squizlabs/php_codesniffer": "~4.0.1",
+                "squizlabs/php_codesniffer": "~4.0.4",
                 "symfony/browser-kit": "~7.4.0",
                 "symfony/css-selector": "~7.4.0",
                 "symfony/debug-bundle": "~7.4.0",
@@ -6656,7 +6656,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "2255d3062546f6bc4dd66119ea3ad17fb1621c1e"
+                "reference": "52c59b7fc977528c3db31e6c56e953edf7c06984"
             },
             "require": {
                 "oro/calendar-bundle": "7.0.*",
@@ -6677,7 +6677,7 @@
                 "oro/twig-inspector": "1.1.*",
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.34",
-                "squizlabs/php_codesniffer": "~4.0.1",
+                "squizlabs/php_codesniffer": "~4.0.4",
                 "symfony/browser-kit": "~7.4.0",
                 "symfony/css-selector": "~7.4.0",
                 "symfony/debug-bundle": "~7.4.0",
@@ -7366,7 +7366,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "f42a08671743a21163535601399fca9d155c4738"
+                "reference": "4eb1fb8b0b28a28bc70c33179fdc9b7db6245270"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7507,7 +7507,7 @@
                 "oro/twig-inspector": "1.1.*",
                 "phpmd/phpmd": "~2.15.0",
                 "phpunit/phpunit": "~9.6.34",
-                "squizlabs/php_codesniffer": "~4.0.1",
+                "squizlabs/php_codesniffer": "~4.0.4",
                 "symfony/browser-kit": "~7.4.0",
                 "symfony/css-selector": "~7.4.0",
                 "symfony/debug-bundle": "~7.4.0",
