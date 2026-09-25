@@ -17,6 +17,8 @@ Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant chan
 - Use the following commands to enable "email.available_in_template" setting:
   - `./bin/console oro:platform:post-upgrade-tasks --task=enable_available_in_template_for_entities_having_templates` — enables the `email.available_in_template` entity config setting for all entities that already have email templates.
   - `./bin/console oro:platform:post-upgrade-tasks --task=enable_available_in_template_for_fields_in_templates` — enables the `email.available_in_template` entity field config setting for all entity fields that are used in email templates.
+- The confirmation token of a user or a customer user and the new email verification code of a customer user are no longer email template variables. The sending code passes them as the template parameters `confirmationToken` and `emailVerificationCode`.
+- An email template render resolves only the records the current user is allowed to view: an attribute of a related record the current user cannot view renders empty.
 
 ### 6.1.8, 6.0.9, 7.0.1
 
