@@ -13,6 +13,11 @@ default: &default
                 debug: false
                 class: AppKernel
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
+            # When true, the Playwright driver replaces the driver of all Mink sessions,
+            # also the oroSelenium2 sessions from an outer behat.yml.
+            # ORO_BEHAT_PLAYWRIGHT replaces this value. Set it for composer install too,
+            # to install the browser. ORO_PLAYWRIGHT_HEADED=1 shows the browser window.
+            playwright_driver: false
             shared_contexts:
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\OroMainContext
                 - Oro\Bundle\TestFrameworkBundle\Tests\Behat\Context\FixturesContext
@@ -32,4 +37,7 @@ default: &default
                 - Oro\Bundle\RedirectBundle\Tests\Behat\Context\SlugPrototypesContext
 
 chromedriver:
+    <<: *default
+
+playwright:
     <<: *default
