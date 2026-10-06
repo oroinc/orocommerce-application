@@ -4,6 +4,22 @@ This file includes only the most important items that should be addressed before
 
 Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant changes in the code that may affect the upgrade of some customizations.
 
+### 7.0.5
+
+#### EmailBundle - Sensitive Fields in Email Templates
+
+- The confirmation token of a user or a customer user and the new email verification code of a customer user are no longer email template variables. A template that reads `entity.confirmationToken` or `entity.newEmailVerificationCode` still renders a working link in the emails the application sends, because the sending code passes the value as the `confirmationToken` or `emailVerificationCode` email template parameter and a listener of `\Oro\Bundle\EmailBundle\Event\EmailTemplateSecurityPolicyViolationEvent` resolves the attribute from it. Anywhere else - a template preview, a compilation, or an email sent by custom code that does not pass the parameter - the attribute renders empty, so custom code that sends a password reset, invitation or email change email must pass these parameters.
+- An email template render resolves only the records the current user is allowed to view: an attribute of a related record the current user cannot view renders empty.
+- Use `./bin/console oro:email:template:security-policy-check` to find the email templates affected by the security policy.
+
+### 7.0.4
+
+#### ShoppingListBundle - Create Order from Shopping List
+
+- The `oro_shoppinglist_createorder` operation no longer uses the product data storage. It now creates an `\Oro\Bundle\OrderBundle\Entity\Order` draft with the `oro_shopping_list.operation.create_order_draft_from_shopping_list` service (`\Oro\Bundle\ShoppingListBundle\Operation\CreateOrderDraftFromShoppingList`) and redirects to the `oro_order_create` route with the `orderDraftSessionUuid` route parameter.
+- The operation no longer calls `oro_shopping_list.service.product_data_storage`, so the product data storage is not populated by this flow anymore and the `storage: true` route parameter of `oro_order_create` is not passed by it. As a consequence, the `\Oro\Bundle\OrderBundle\Form\Extension\OrderDataStorageExtension` form type extension (service `oro_order.form.type.extension.order_data_storage`) is no longer involved in creating an order from a shopping list; it is retained as a BC layer only and has no replacement.
+- Customizations hooked into the product data storage pipeline in order to change the order pre-filled from a shopping list must be reworked onto the order draft session extension points: decorate or replace the draft factories `\Oro\Bundle\ShoppingListBundle\DraftSession\Factory\OrderDraftFromShoppingListFactory` and `\Oro\Bundle\ShoppingListBundle\DraftSession\Factory\OrderLineItemDraftFromShoppingListFactory`, or add listeners of the `\Oro\Component\DraftSession\Event\EntityDraftCreatedEvent` event.
+
 ### 7.0.3
 
 #### EmailBundle - Available in Template Entity Configuration
