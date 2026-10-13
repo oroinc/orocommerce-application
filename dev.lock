@@ -6282,7 +6282,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "e52b296ade0e431c039981978e41fa086d2ef163"
+                "reference": "05043e830817230336fcb3fbbfcacfe7c4c5c6c3"
             },
             "require": {
                 "ext-xmlwriter": "*",
@@ -6290,6 +6290,7 @@
                 "oro/calendar-bundle": "7.1.*",
                 "oro/customer-portal": "7.1.*",
                 "oro/marketing": "7.1.*",
+                "oro/oauth2-server": "7.1.*",
                 "oro/platform": "7.1.*",
                 "oro/platform-serialised-fields": "7.1.*",
                 "oroinc/soap-client": "^0.2.7"
@@ -6366,6 +6367,7 @@
                     "Oro\\Bundle\\SEOBundle\\": "src/Oro/Bundle/SEOBundle",
                     "Oro\\Bundle\\ShippingBundle\\": "src/Oro/Bundle/ShippingBundle",
                     "Oro\\Bundle\\ShoppingListBundle\\": "src/Oro/Bundle/ShoppingListBundle",
+                    "Oro\\Bundle\\StorefrontEmbeddedBundle\\": "src/Oro/Bundle/StorefrontEmbeddedBundle",
                     "Oro\\Bundle\\TaxBundle\\": "src/Oro/Bundle/TaxBundle",
                     "Oro\\Bundle\\UPSBundle\\": "src/Oro/Bundle/UPSBundle",
                     "Oro\\Bundle\\ValidationBundle\\": "src/Oro/Bundle/ValidationBundle",
