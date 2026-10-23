@@ -42,7 +42,8 @@
     "oro/gen-ai": "7.1.x-dev",
     "oro/conversation": "7.1.x-dev",
     "oro/storefront-themes": "7.1.x-dev",
-    "oro/oro-pay": "7.1.x-dev"
+    "oro/oro-pay": "7.1.x-dev",
+    "oro/integration-flow-designer": "7.1.x-dev"
   },
   "require-dev": {
     "composer/composer": "^2.9",
