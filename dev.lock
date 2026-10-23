@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3875ea2f017306e3cdeff8dae8d3f6e",
+    "content-hash": "ebe837c687cb14cec85365f6790d6bd8",
     "packages": [
         {
             "name": "ass/xmlsecurity",
@@ -7176,6 +7176,48 @@
                 "MongoDB",
                 "Oro",
                 "OroPlatform"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "oro/integration-flow-designer",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/integration-flow-designer",
+                "reference": "a30abe80ffcc38f71f4b6d358140d88011b6374b"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Oro\\Bundle\\ActivepiecesIntegrationBundle\\": "src/Oro/Bundle/ActivepiecesIntegrationBundle"
+                },
+                "exclude-from-classmap": [
+                    "**/Tests/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "https://oroinc.com"
+                }
+            ],
+            "description": "Oro Integration Flow Designer Bundle",
+            "homepage": "https://github.com/oroinc/integration-flow-designer",
+            "keywords": [
+                "Activepieces",
+                "Integration",
+                "Oro"
             ],
             "transport-options": {
                 "relative": true
