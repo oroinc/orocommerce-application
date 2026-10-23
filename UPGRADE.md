@@ -26,6 +26,10 @@ Please also refer to [CHANGELOG.md](CHANGELOG.md) for a list of significant chan
 - After the upgrade, users of these roles can open only the export files and the error logs of the import and export jobs they ran. If a role needs access to the results of other users, set the `View` permission on `Import/Export result` to the required level on the role edit page.
 - Access to an export file or an error log also requires the `View` permission, at any access level, on the entity the import or export was run for, if this entity is protected by ACL.
 
+#### CustomerBundle - Cancel email change request on the storefront
+
+- The `oro_customer_frontend_customer_user_cancel_user_view` route now accepts only POST requests with a valid CSRF token in the `_token` request parameter, and a GET request from a link or a bookmark gets a 405 response. The cancel button in the `oro_customer_user_view` storefront layout is now a form, so a customized layout must replace the cancel link with a form that submits the token.
+
 ### 6.1.8, 6.0.9, 7.0.1
 
 Strict deserialization rules were applied to workflow data. Every class referenced in serialized objects, object graphs, or arrays must belong to a trusted namespace prefix or be explicitly allowed. If a disallowed class is detected, the application throws a `RuntimeException` and aborts deserialization by default.
