@@ -24,7 +24,7 @@ Other application distributions:
 What is OroCommerce?
 --------------------
 
-OroCommerce is an open-source Business to Business Commerce application built with flexibility in mind. It can be customized and extended to fit any B2B commerce needs.
+OroCommerce is a leading B2B eCommerce platform for distributors, wholesalers, and manufacturers. It can be customized and extended to fit any B2B commerce needs.
 You can find out more about OroCommerce at [www.orocommerce.com](https://www.orocommerce.com/).
 
 System Requirements
@@ -45,5 +45,5 @@ Resources
 
 License
 -------
- 
-[OSL-3.0](LICENSE) Copyright (c) 2024 Oro Inc.
+
+[OSL-3.0](LICENSE) Copyright (c) 2026 Oro Inc.
