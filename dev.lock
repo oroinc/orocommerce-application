@@ -6281,7 +6281,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/commerce",
-                "reference": "13d42e4c282e7c769ce6ea97ce7e88fc562c84a5"
+                "reference": "992497c3b6e97b2fa137cb04a1b1f571729652e9"
             },
             "require": {
                 "ext-xmlwriter": "*",
@@ -6321,7 +6321,7 @@
             "type": "library",
             "extra": {
                 "npm": {
-                    "grapesjs": "0.22.14",
+                    "grapesjs": "0.22.16",
                     "grapesjs-parser-postcss": "1.0.3",
                     "grapesjs-plugin-export": "1.0.12",
                     "@oroinc/jquery-creditcardvalidator": "1.1",
@@ -7424,7 +7424,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "94c094bc2eae4530fd680b997d54f96fe49e3efb"
+                "reference": "96aef2e39fd89cd8735e9f742ae82661031c60b0"
             },
             "require": {
                 "ass/xmlsecurity": "1.1.1",
@@ -7588,14 +7588,14 @@
             "extra": {
                 "npm": {
                     "colors": "1.4.0",
-                    "moment": "2.30.1",
+                    "moment": "2.31.0",
                     "moment-timezone": "0.5.*",
                     "jstree": "3.3.12",
                     "jquery.cookie": "1.4.1",
                     "when": "3.7.8",
                     "crypto-js": "4.2.0",
                     "jquery-mousewheel": "3.1.13",
-                    "tinymce": "6.8.6",
+                    "hugerte": "1.0.14",
                     "timepicker": "1.14.0",
                     "datepair.js": "0.4.*",
                     "autolinker": "4.1.5",
